@@ -1,0 +1,205 @@
+// out: ../archive.css, compress: false
+
+
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
+
+@import "variables";
+
+.archive-page {
+    .posts-section {
+        margin-bottom: 44px;
+    }
+}
+
+.archive-header {
+    .block100;
+    margin-bottom: 60px;
+}
+
+.title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    .page-title {
+        margin-bottom: 0;
+    }
+}
+
+.posts-count {
+    width: auto;
+    white-space: nowrap;
+    margin-left: 24px;
+    font-size: 22px;
+    color: #8E8E8E;
+    margin-bottom: 7px;
+}
+
+.child-tags {
+    .block;
+    
+    .p {
+        float: left;
+        width: auto;
+        white-space: nowrap;
+        margin-right: 15px;
+        font-size: 14px;
+        color: #8E8E8E;
+        line-height: 24px;
+    }
+    
+    .post-tags {
+        width: auto;
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (min-width: 1001px) {
+    .with-sidebar .posts-fullwidth .post-item,
+    .with-sidebar .posts-grid .post-item {
+        padding: 50px 45px;
+        height: 440px;
+        
+        .post-title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+    
+    .with-sidebar .archive-body {
+        .posts-two-columns,
+        .posts-three-columns {
+            .post-item {
+                width: 290px;
+                
+                &:nth-child(3n) {
+                    margin-right: 20px;
+                }
+                
+                &:nth-child(even) {
+                    margin-right: 0;
+                }
+                
+                &.post-favorites-item {
+                    padding-top: 100px;
+                }
+                
+                .favorites-tag {
+                    width: 46px;
+                    height: 46px;
+                }
+            }
+        }
+    }
+    
+    .with-sidebar .archive-body {
+        .posts-grid {
+            .post-item {
+                width: 290px;
+                height: 370px;
+                padding: 30px;
+                
+                &:first-child {
+                    width: 100%;
+                }
+                
+                &:nth-child(odd) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1230px) {
+    .with-sidebar .archive-body {
+        .posts-two-columns,
+        .posts-three-columns {
+            .post-item {
+                .post-title {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1231px) {
+    .with-sidebar .archive-body {
+        .posts-two-columns,
+        .posts-three-columns,
+        .posts-grid {
+            .post-item {
+                width: 362px;
+            }
+        }
+    }
+    
+    .with-sidebar .archive-body {
+        .posts-grid {
+            .post-item {
+                &:first-child {
+                    width: 100%;
+                }
+                
+                &:nth-child(odd) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .archive-header {
+        margin-bottom: 45px;
+        
+        .wrap-center {
+            max-width: 720px;
+        }
+    }
+    
+    .posts-count {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .archive-page {
+        .posts-section {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .archive-body .page-wrap-sidebar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .title-wrap {
+        display: block;
+    }
+    
+    .posts-count {
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 12px;
+        white-space: normal;
+    }
+    
+    .child-tags .p {
+        margin-bottom: 4px;
+    }
+    
+    .archive-header {
+        margin-bottom: 40px;
+    }
+}
