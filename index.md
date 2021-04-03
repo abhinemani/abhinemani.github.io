@@ -15,7 +15,7 @@ image:
 					<div class="author-image">
 						<img src="img/headshot.jpg" alt="" class="image-cover">
 					</div>
-					<h1 class="page-title">all for good</h1>
+					<h1 class="page-title">public servant.</h1>
                             </div>
                             <div class="post-description">
 								<p>
