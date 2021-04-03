@@ -1,0 +1,185 @@
+I"‹*<div class="page-wrap author-page">
+	<div class="author-header">
+		<div class="wrap wrap-center">
+			<div class="wrap_float">
+				<div class="title-wrap">
+					<div class="author-image">
+						<img src="img/headshot.jpg" alt="" class="image-cover" />
+					</div>
+					<h1 class="page-title">[x] for good</h1>
+                            </div>
+                            <div class="post-description">
+								<p>
+									I connect and support entreprenuers in government, technology, and philanthopy to Connect entrepreneurs to make more responsive social policy, developing new approaches and technologies to implement them, on issues ranging from criminal justice to public health.
+									Over the last 10+ years, I've been help run and manage various governments and startups, with an eye towards technology, and I have written, spoken, and taught about my learnings in the emerging field of public innovation widely.
+								</p>
+								<br />
+								<p>
+									Blogs, lectures, tutorials, and case studies are all available (somewhat organized) here. 
+								</p>
+								<br />
+								<p>
+									Want to get to know me better or get my help on your initiative, strategy, or problem, <a href="/bio">just reach out.</a>
+								</p>
+                            </div>
+                            <div class="socials">
+                                <a class="soc-link">
+                                    <img src="img/facebook-icon.svg" class="img-svg" alt="" />
+                                </a>
+                                <a class="soc-link" href="https://twitter.com/@abhinemani">
+                                    <img src="img/twitter-soc-icon.svg" class="img-svg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>            &lt;h2&gt;Four Column Grid Wide&lt;/h2&gt;
+            &lt;div class="block-columns gallery-columns columns-4 wide-columns lightgallery-on"&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+						                            &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit amet, consectetur.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit amet.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit amet, consectetur.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class="block-column"&gt;
+                    &lt;figure class="block-caption img-caption"&gt;
+                        &lt;button class="zoom-btn"&gt;&lt;/button&gt;
+                        &lt;div class="img-wrap"&gt;
+                            &lt;img src="img/blog-img.jpg" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption class="caption-text"&gt;Lorem ipsum dolor sit amet.&lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="author-body"&gt;
+                &lt;div class="wrap"&gt;
+                    &lt;div class="wrap_float"&gt;
+                        &lt;div class="posts-count"&gt;
+                            &lt;div class="wrap wrap-center"&gt;
+                                246 Posts
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="post-items-list posts-two-columns"&gt;
+                            &lt;a href="single.html" class="post-item"&gt;
+                                &lt;img src="img/post-1-img.jpg" alt="" class="post-bg-img"&gt;
+                                &lt;div class="post-tags"&gt;
+                                    &lt;div class="tag"&gt;Mobile&lt;/div&gt;
+                                    &lt;div class="tag"&gt;APP&lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;h3 class="post-title"&gt;
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi.
+                                &lt;/h3&gt;
+                                &lt;div class="post-info"&gt;
+                                    &lt;div class="post-author post-info-author"&gt;
+                                        &lt;div class="author-image"&gt;
+                                            &lt;img src="img/author.jpg" alt="" class="image-cover"&gt;
+                                        &lt;/div&gt;
+                                        &lt;span&gt;Maya Delia&lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="post-date post-info-date"&gt;
+                                        18 May 2021
+                                    &lt;/div&gt;
+                                    &lt;div class="post-views post-info-views"&gt;
+                                        3457
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a href="single.html" class="post-item"&gt;
+                                &lt;img src="img/post-2-img.jpg" alt="" class="post-bg-img"&gt;
+                                &lt;div class="post-tags"&gt;
+                                    &lt;div class="tag"&gt;Mobile&lt;/div&gt;
+                                    &lt;div class="tag"&gt;APP&lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;h3 class="post-title"&gt;
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
+                                &lt;/h3&gt;
+                                &lt;div class="post-info"&gt;
+                                    &lt;div class="post-author post-info-author"&gt;
+                                        &lt;div class="author-image"&gt;
+                                            &lt;img src="img/author.jpg" alt="" class="image-cover"&gt;
+                                        &lt;/div&gt;
+                                        &lt;span&gt;Maya Delia&lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="post-date post-info-date"&gt;
+                                        18 May 2021
+                                    &lt;/div&gt;
+                                    &lt;div class="post-views post-info-views"&gt;
+                                        3457
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class="show-more"&gt;
+                            &lt;div class="show-more-btn"&gt;
+                                &lt;span&gt;Show more&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="loader"&gt;
+                                &lt;svg class="circular" viewBox="25 25 50 50"&gt;
+                                    &lt;circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /&gt;
+                                &lt;/svg&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+</code></pre></div></div>
+:ET
