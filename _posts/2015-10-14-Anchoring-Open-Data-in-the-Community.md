@@ -7,9 +7,6 @@ category:
 date: 2015-10-14
 img: anchor.jpeg
 ---
-
-  
-
 Where should open data live? This wasn’t a question I had asked myself before. To me, it had seemed obvious. When it comes to government, it’s the government that has the data, it’s the government published the open data, and it’s the government that hosts the open data portal. Simple, right?
 
 Well, recently I had a conversation that challenged that simplistic conclusion and got me thinking. I was talking to a open data supporter, who was working with a government on launching its open data program. He was thinking smartly about the lifecycle of open data — looking beyond the mere publication of raw data sets to its usage, the creation of a community around the data, and the engagement of citizens with the tools and apps developed. Those latter components need a strategy, he reminded me, and a home; a plan to put the data to work, and an owner with the resources to do so. For that, it’s a good question of whether the government is well positioned to execute. This question was further underscored by a civic hacker I met in Chicago. He noted that in a resource scarce environment, you are forced to make tough decisions: what’s the most you can do with the least. His position was that governments should consider what they are **uniquely** able to do, and that’s publish data. Paraphrasing his point, “In most cases, it’s only the government that has the data. If they can only do one thing, they should just get the data out there — and do that one thing really well.”
