@@ -56,9 +56,9 @@ Hi, my name is Abhi Nemani, and I'm a fan of technology, government, and interes
                                 <a href="{{ post.url }}" class="post-item">
 									{% if post.img  %}
 									
-                                    <img src="/post-img/{{post.img}}" alt="" class="post-bg-img">
+                                    <img src="{{ site.url}}/post-img/{{post.img}}" alt="" class="post-bg-img">
 									{% else %}
-                                    <img src="/post-img/placeholder.jpg" alt="" class="post-bg-img">
+                                    <img src="{{ site.url}}/post-img/placeholder.jpg" alt="" class="post-bg-img">
 									
 									{% endif  %}
                                     <div class="post-tags">
