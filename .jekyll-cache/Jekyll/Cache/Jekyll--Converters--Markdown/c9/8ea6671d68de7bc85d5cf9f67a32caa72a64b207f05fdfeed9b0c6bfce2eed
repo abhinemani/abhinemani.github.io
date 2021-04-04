@@ -1,0 +1,251 @@
+I"_;<div class="page-wrap author-page">
+    <div class="breadcrumbs">
+        <div class="wrap wrap-center">
+            <div class="wrap_float">
+                <a href="index.html">Home</a> / <a href="#">Features</a> / <span class="current">About Page</span>
+            </div>
+        </div>
+    </div>
+    <div class="author-header">
+        <div class="wrap wrap-center">
+            <div class="wrap_float">
+                <div class="title-wrap">
+                    <div class="author-image">
+                        <img src="/img/headshot.jpg" alt="" class="image-cover" />
+                    </div>
+                    <h1 class="page-title">Abhi Nemani</h1>
+                </div>
+                <div class="post-description">
+					<p>Abhi Nemani has worked for over a decade at the intersection of public service and technology. Abhi helped build the non-profit Code for America, growing it into a national leader in government tech, and then he was appointed as the first CDO of Los Angeles and CIO of Sacramento. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
+					</p><br />
+					<h2>Background</h2>
+					<p>Abhi Nemani is a writer, speaker, organizer, and technologist.</p>
+					<p>He currently runs a GovTech consultancy called EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. He is also building and teaching a first-of-its-kind Civic Technology course at the University of Chicago.</p>
+					<p>Previously, Mayor Kevin Johnson of Sacramento appointed him as interim Chief Innovation Officer to build out the city's budding startup sector, through venture investments, grants, and partnerships. Before that, he served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA. As CDO, Abhi led Los Angeles to the #1 ranking for US open data cities and mobilized LA's growing developer community through multiple events and challenges to put that data to work. To drive innovation within city hall, Abhi built a nationally-recognized Mayoral Dashboard, led data and analytics trainings for city staff, and piloted data science projects to address key policy issues.
+					</p>
+					<p>Prior to joining LA's Mayors Office, he helped build, launch, and run the national non-profit, Code for America, a technology organization dedicated to reinventing government for the 21st century. Abhi led CfA’s product strategy as its teams tackled local government challenges ranging from transparency and business licensing to food stamps and public safety. He also led the organization's efforts to scale through building multiple new programs: a first-of-its-kind civic startup accelerator, an international volunteer corps, and a collaborative network for hundreds of government innovators. Additionally, Abhi developed the organization’s policy portfolio — working hand-in-hand with area experts and local leaders — to enact over 30 municipal policy reforms on topics including open data, healthcare, and procurement.
+					</p>
+					<p>Abhi has served as a Member of the Board of Directors for the OpenGov Foundation, a member of the Board of Directors of Data4America, and has served as Innovator-in-Residence at GovDelivery. He is also an advisor and investor in multiple govtech startups, including CityGrows and SPIDR Tech.
+					</p>
+					<p>Previously, Abhi worked for Google, the Rose Institute of State and Local Government, and the Center for American Progress. He graduated magna cum laude from Claremont McKenna College with a honors degree in Philosophy, Politics, and Economics (PPE), and studied political philosophy and rhetoric at the University of Oxford.
+					</p>
+					<p>Abhi's work has been featured in the New York Times, Government Technology, Government Executive, and Forbes, and he has been featured as a speaker at SxSW, the World Bank, and various universities and conferences around the world.
+					</p>
+					<hr />
+					<h2>Individual Honors &amp; Acknowledgements</h2>
+					- Blair Award for State and Local Government
+					Truman National Security Project Partner
+					Harrison Fellow, Salvatori Center for the Study of Individual Freedom in the Modern World
+					Edward J. Sexton Fellow for Philosophy, Politics, and Economics
+					Board of Advisors, Twilio.org
+					Member, Future of Urban Development Initiative of the World Economic Forum
+					Recognition &amp; Honors for Code for America
+					Government Technology Magazine: Changemakers
+					2012 MDC Partners &amp; Wired Humanitarian Award
+					MIT Lynch Award for Urban Affairs
+					2012 Oxford Internet and Society Award
+					White House Champions of Change
+					Multiple Knight News Challenge Selections
+                </div>
+                <div class="socials">
+                    <a class="soc-link">
+                        <img src="img/facebook-icon.svg" class="img-svg" alt="" />
+                    </a>
+                    <a class="soc-link">
+                        <img src="img/twitter-soc-icon.svg" class="img-svg" alt="" />
+                    </a>
+                    <a class="soc-link">
+                        <img src="img/behance-icon.svg" class="img-svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="author-body">
+        <div class="wrap">
+            <div class="wrap_float">
+                <div class="posts-count">
+                    <div class="wrap wrap-center">
+                        246 Posts
+                    </div>
+                </div>
+                <div class="post-items-list posts-two-columns">
+                    <a href="single.html" class="post-item">
+                        <img src="img/post-1-img.jpg" alt="" class="post-bg-img" />
+                        <div class="post-tags">
+                            <div class="tag">Mobile</div>
+                            <div class="tag">APP</div>
+                        </div>
+                        <h3 class="post-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi.
+                        </h3>
+                        <div class="post-info">
+                            <div class="post-author post-info-author">
+                                <div class="author-image">
+                                    <img src="img/author.jpg" alt="" class="image-cover" />
+                                </div>
+                                <span>Maya Delia</span>
+                            </div>
+                            <div class="post-date post-info-date">
+                                18 May 2021
+                            </div>
+                            <div class="post-views post-info-views">
+                                3457
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single.html" class="post-item">
+                        <img src="img/post-2-img.jpg" alt="" class="post-bg-img" />
+                        <div class="post-tags">
+                            <div class="tag">Mobile</div>
+                            <div class="tag">APP</div>
+                        </div>
+                        <h3 class="post-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
+                        </h3>
+                        <div class="post-info">
+                            <div class="post-author post-info-author">
+                                <div class="author-image">
+                                    <img src="img/author.jpg" alt="" class="image-cover" />
+                                </div>
+                                <span>Maya Delia</span>
+                            </div>
+                            <div class="post-date post-info-date">
+                                18 May 2021
+                            </div>
+                            <div class="post-views post-info-views">
+                                3457
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single.html" class="post-item">
+                        <img src="img/post-3-img.jpg" alt="" class="post-bg-img" />
+                        <div class="post-tags">
+                            <div class="tag">Mobile</div>
+                            <div class="tag">APP</div>
+                        </div>
+                        <h3 class="post-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, libero, modi.
+                        </h3>
+                        <div class="post-info">
+                            <div class="post-author post-info-author">
+                                <div class="author-image">
+                                    <img src="img/author.jpg" alt="" class="image-cover" />
+                                </div>
+                                <span>Victor Shibut</span>
+                            </div>
+                            <div class="post-date post-info-date">
+                                18 May 2021
+                            </div>
+                            <div class="post-views post-info-views">
+                                3457
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single.html" class="post-item without-bg">
+                        <div class="post-tags">
+                            <div class="tag">Mobile</div>
+                            <div class="tag">APP</div>
+                        </div>
+                        <h3 class="post-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ad, ullam!
+                        </h3>
+                        <div class="post-excerption">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid omnis, tenetur repellat amet voluptate velit eligendi ratione nobis est corrupti.
+                        </div>
+                        <div class="post-info">
+                            <div class="post-author post-info-author">
+                                <div class="author-image">
+                                    <img src="img/author.jpg" alt="" class="image-cover" />
+                                </div>
+                                <span>Maya Delia</span>
+                            </div>
+                            <div class="post-date post-info-date">
+                                18 May 2021
+                            </div>
+                            <div class="post-views post-info-views">
+                                3457
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single.html" class="post-item">
+                        <img src="img/post-4-img.jpg" alt="" class="post-bg-img" />
+                        <div class="post-tags">
+                            <div class="tag">Mobile</div>
+                            <div class="tag">APP</div>
+                        </div>
+                        <h3 class="post-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque!
+                        </h3>
+                        <div class="post-info">
+                            <div class="post-author post-info-author">
+                                <div class="author-image">
+                                    <img src="img/author.jpg" alt="" class="image-cover" />
+                                </div>
+                                <span>Maya Delia</span>
+                            </div>
+                            <div class="post-date post-info-date">
+                                18 May 2021
+                            </div>
+                            <div class="post-views post-info-views">
+                                3457
+                            </div>
+                        </div>
+                    </a>
+                    <a href="single.html" class="post-item">
+                        <img src="img/post-7-img.jpg" alt="" class="post-bg-img" />
+                        <div class="post-tags">
+                            <div class="tag">Mobile</div>
+                            <div class="tag">APP</div>
+                        </div>
+                        <h3 class="post-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ad officia perspiciatis.
+                        </h3>
+                        <div class="post-info">
+                            <div class="post-author post-info-author">
+                                <div class="author-image">
+                                    <img src="img/author.jpg" alt="" class="image-cover" />
+                                </div>
+                                <span>Maya Delia</span>
+                            </div>
+                            <div class="post-date post-info-date">
+                                18 May 2021
+                            </div>
+                            <div class="post-views post-info-views">
+                                3457
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="show-more">
+                    <div class="show-more-btn">
+                        <span>Show more</span>
+                    </div>
+                    <div class="loader">
+                        <svg class="circular" viewBox="25 25 50 50">
+                            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="seo-section">
+    <div class="wrap wrap-center">
+        <div class="wrap_float">
+            <h2 class="title">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea esse ut, animi.
+            </h2>
+            <div class="section-content wp-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sequi ipsum molestiae, animi deserunt? Obcaecati ea dolores cumque maiores quasi quisquam minima, maxime.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, accusantium, reiciendis magni accusamus dicta nulla, ea id quisquam fugit explicabo.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+:ET
