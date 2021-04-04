@@ -1,0 +1,108 @@
+---
+layout: home
+permalink: /blog.html
+title: Blog
+tagline: When I speak aloud, publicly
+tags: [about, Abhi Nemani, Code for America, pandas]
+---
+<div class="page-wrap author-page">
+	<div class="author-header">
+		<div class="wrap wrap-center">
+			<div class="wrap_float">
+				<div class="title-wrap">
+					<div class="author-image">
+						<img src="/img/headshot.jpg" alt="" class="image-cover">
+					</div>
+					<h1 class="page-title">Blog: An Unusual Public Servant's Observations</h1>
+                            </div>
+                            <div class="post-description">
+								<p>
+Hi, my name is Abhi Nemani, and I'm a fan of technology, government, and interesting ideas. So I've been thinking about things, ranging from political philosophy and cities to data-driven policy and civic tech, and I have gotten the opportunity to travel around the world to see first-hand how public life everywhere is changing — which makes me excited about what's ahead.</p>
+                            </div>
+                            <div class="socials">
+                                <a class="soc-link">
+                                    <img src="/img/facebook-icon.svg" class="img-svg" alt="">
+                                </a>
+                                <a class="soc-link" href="https://twitter.com/@abhinemani">
+                                    <img src="/img/twitter-soc-icon.svg" class="img-svg" alt="">
+                                </a>
+                            </div>
+                        </div>						
+                    </div>
+					
+                </div>
+                <div class="author-body">
+                    <div class="wrap">
+                        <div class="wrap_float">
+			                <div class="author-body">
+			                    <div class="wrap">
+			                        <div class="wrap_float">
+								
+										
+			                            <div class="wp-content">
+													
+			                                <div class="wrap wrap-center">
+												<hr />
+			                                    <h3>Posts</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="post-items-list posts-three-columns">
+								
+							    {% for post in site.posts %}
+								
+                                <a href="{{ post.url }}" class="post-item">
+									{% if post.img  %}
+									
+                                    <img src="/post-img/{{post.img}}" alt="" class="post-bg-img">
+									{% else %}
+                                    <img src="/post-img/placeholder.jpg" alt="" class="post-bg-img">
+									
+									{% endif  %}
+                                    <div class="post-tags">
+									  {% if post %}
+									    {% assign tags = post.tags %}
+									  {% else %}
+									    {% assign tags = page.tags %}
+									  {% endif %}
+									  {% for tag in tags %}
+									  <div class="tag">{{ tag }}</div>
+									  {% unless forloop.last %}&nbsp;{% endunless %}
+									  {% endfor %}
+                                    </div>
+                                    <h3 class="post-title">
+                                       {{ post.title }}
+                                    </h3>
+                                    <div class="post-info">
+                                        <div class="post-author post-info-author">
+                                            <div class="author-image">
+                                                <img src="/img/author.jpg" alt="" class="image-cover">
+                                            </div>
+                                            <span>Maya Delia</span>
+                                        </div>
+                                        <div class="post-date post-info-date">
+                                            18 May 2021
+                                        </div>
+                                        <div class="post-views post-info-views">
+                                            3457
+                                        </div>
+                                    </div>
+                                </a>
+								{% endfor %}
+                            </div>
+                            <!--<div class="show-more">
+                                <div class="show-more-btn">
+                                    <a href="/blog.html"><span>Show more</span></a>
+                                </div>
+                                <div class="loader">
+                                    <svg class="circular" viewBox="25 25 50 50">
+                                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                                    </svg>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>

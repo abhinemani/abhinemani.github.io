@@ -1,0 +1,18 @@
+                                    <a href="#" class="post-preview-item">
+                                        <div class="post-preview-item-cover">
+                                            <img src="/img/post-preview.jpg" alt="">
+                                        </div>
+                                        <div class="tag">Read more</div>
+                                        <div class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                        <div class="post-info">
+                                            <div class="post-author post-info-author">
+                                                <div class="author-image">
+                                                    <img src="/img/author.jpg" alt="" class="image-cover">
+                                                </div>
+                                                <span>Victor Shibut</span>
+                                            </div>
+                                            <div class="post-date post-info-date">
+                                                18 May 2021
+                                            </div>
+                                        </div>
+                                    </a>

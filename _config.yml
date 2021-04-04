@@ -57,7 +57,7 @@ highlighter:    rouge
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /:year/:title/
 
 kramdown:
   auto_ids: true
@@ -70,6 +70,8 @@ kramdown:
   tab_width: 4
   bold_every: 10
   css: class
+  
+tag_permalink_style: pretty 
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
