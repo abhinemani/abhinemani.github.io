@@ -60,13 +60,13 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                 </div>
                 <div class="socials">
                     <a class="soc-link">
-                        <img src="img/facebook-icon.svg" class="img-svg" alt="">
+                        <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
                     </a>
                     <a class="soc-link">
-                        <img src="img/twitter-soc-icon.svg" class="img-svg" alt="">
+                        <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
                     </a>
                     <a class="soc-link">
-                        <img src="img/behance-icon.svg" class="img-svg" alt="">
+                        <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="">
                     </a>
                 </div>
             </div>

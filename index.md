@@ -13,7 +13,7 @@ image:
 			<div class="wrap_float">
 				<div class="title-wrap">
 					<div class="author-image">
-						<img src="img/headshot.jpg" alt="" class="image-cover">
+						<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
 					</div>
 					<h1 class="page-title">public servant.</h1>
                             </div>
@@ -29,10 +29,10 @@ image:
                             </div>
                             <div class="socials">
                                 <a class="soc-link">
-                                    <img src="img/facebook-icon.svg" class="img-svg" alt="">
+                                    <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
                                 </a>
                                 <a class="soc-link" href="https://twitter.com/@abhinemani">
-                                    <img src="img/twitter-soc-icon.svg" class="img-svg" alt="">
+                                    <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="/bio"><img src="img/blog-img.jpg" alt=""></a>
+                                                    <a href="/bio"><img src="{{site.url}}/img/blog-img.jpg" alt=""></a>
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
@@ -58,7 +58,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="img/blog-img.jpg" alt="">
+                                                    <img src="{{site.url}}/img/blog-img.jpg" alt="">
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit amet.</figcaption>
                                             </figure>
@@ -67,7 +67,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="img/blog-img.jpg" alt="">
+                                                    <img src="{{site.url}}/img/blog-img.jpg" alt="">
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit.</figcaption>
                                             </figure>
@@ -76,7 +76,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="img/blog-img.jpg" alt="">
+                                                    <img src="{{site.url}}/img/blog-img.jpg" alt="">
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>

@@ -17,22 +17,22 @@
                                 <div class="socials">
                                     <a class="soc-link" data-title="Facebook">
                                         <span class="soc-icon">
-                                            <img src="/img/facebook-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
                                         </span>
                                     </a>
                                     <a class="soc-link" data-title="Twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title}} {{site.url}}{{page.url}} @abhinemani">
                                         <span class="soc-icon">
-                                            <img src="/img/twitter-soc-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
                                         </span>
                                     </a>
                                     <a class="soc-link" data-title="Pinterest">
                                         <span class="soc-icon">
-                                            <img src="/img/pinterest-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/pinterest-icon.svg" class="img-svg" alt="">
                                         </span>
                                     </a>
                                     <a class="soc-link" data-title="Behance">
                                         <span class="soc-icon">
-                                            <img src="/img/behance-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="">
                                         </span>
                                     </a>
                                     <div class="soc-link show-more-socials" style="display: none;"></div>
@@ -78,7 +78,7 @@
 									
 									{% if page.img  %}
                                     <div class="post-image-large wide">
-                                        <img src="/post-img/{{ page.img }}" alt="">
+                                        <img src="{{site.url}}/post-img/{{ page.img }}" alt="">
                                         <span class="caption-text"> {{ page.img-caption}}</span>
                                     </div>
 								  {% endif %}
