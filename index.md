@@ -39,41 +39,51 @@ image:
                             <div class="wp-content">
                                 <div class="wrap wrap-center">
                                     <h2>Public Innovation Resources</h2>
-                                    <div class="block-columns gallery-columns columns-4 wide-columns lightgallery-off">
+                                    <div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/bio.html"><img src="{{site.url}}/post-img/home-1.jpg" alt=""></a>
+                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/post-img/home/1.jpg" alt=""></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="{{site.url}}/post-img/home-2.jpg" alt="">
+                                                    <a href="https://abhinemani.medium.com"><img src="{{site.url}}/post-img/home/2.jpg" alt=""></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit amet.</figcaption>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
+                                                    <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt=""></a>
+                                                </div>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
+                                                    <a href="https://govgeek.io/background"><img src="{{site.url}}/post-img/home/4.jpg" alt=""></a>
+                                                </div>
                                             </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="{{site.url}}/post-img/home-3.jpg" alt="">
+                                                    <a href="https://abhinemani.medium.com/21st-century-cities-a-primer-8d88b0c481e0"><img src="{{site.url}}/post-img/home/5.jpg" alt=""></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit.</figcaption>
                                             </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="{{site.url}}/post-img/home-4.jpg" alt="">
+                                                    <a href="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/view"><img src="{{site.url}}/post-img/home/6.jpg" alt=""></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
                                         </div>
                                     </div>
@@ -139,15 +149,58 @@ image:
                                         </div>
                                     </div>
                                 </a>
+                                <a href="single.html" class="post-item">
+                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
+                                    <div class="post-tags">
+                                        <div class="tag">Mobile</div>
+                                        <div class="tag">APP</div>
+                                    </div>
+                                    <h3 class="post-title">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
+                                    </h3>
+                                    <div class="post-info">
+                                        <div class="post-author post-info-author">
+                                            <div class="author-image">
+                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                            </div>
+                                            <span>Maya Delia</span>
+                                        </div>
+                                        <div class="post-date post-info-date">
+                                            18 May 2021
+                                        </div>
+                                        <div class="post-views post-info-views">
+                                            3457
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="single.html" class="post-item">
+                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
+                                    <div class="post-tags">
+                                        <div class="tag">Mobile</div>
+                                        <div class="tag">APP</div>
+                                    </div>
+                                    <h3 class="post-title">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
+                                    </h3>
+                                    <div class="post-info">
+                                        <div class="post-author post-info-author">
+                                            <div class="author-image">
+                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                            </div>
+                                            <span>Maya Delia</span>
+                                        </div>
+                                        <div class="post-date post-info-date">
+                                            18 May 2021
+                                        </div>
+                                        <div class="post-views post-info-views">
+                                            3457
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="show-more">
                                 <div class="show-more-btn">
-                                    <a href="/blog"><span>Show more</span></a>
-                                </div>
-                                <div class="loader">
-                                    <svg class="circular" viewBox="25 25 50 50">
-                                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-                                    </svg>
+                                    <a href="http://abhinemani.com/blog.html"><span>Show more</span></a>
                                 </div>
                             </div>
                         </div>
