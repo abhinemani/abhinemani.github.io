@@ -88,7 +88,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/blog.index"><img src="{{site.url}}/post-img/home/2.jpg" alt="Essays"></a>
+                                                    <a href="{{site.url}}/blog.html"><img src="{{site.url}}/post-img/home/2.jpg" alt="Essays"></a>
                                                 </div>
 	                                         </figure>
                                         </div>
