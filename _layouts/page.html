@@ -56,10 +56,21 @@
 										  {% unless forloop.last %}&nbsp;{% endunless %}
 										  {% endfor %}
                                     </div>
-                                    <h1 class="page-title">
-                                       {{ page.title }}
-                                    </h1>
-                                    <div class="post-description">
+
+					                 
+										<h1 class="page-title"> {{ page.title }}</h1>
+	                                    <div class="post-info">
+	                                        <a href="#" class="post-author post-info-author">
+	                                            <div class="author-image">
+	                                                <img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
+	                                            </div>
+	                                            <span>{{ site.owner.name }}</span>
+	                                        </a>
+	                                        <div class="post-date post-info-date">
+												{{ page.pubdate }}
+	                                        </div>
+	                                    </div>
+										<div class="post-description">
                                         <p>
                                             {{ page.subhead }}
                                         </p>

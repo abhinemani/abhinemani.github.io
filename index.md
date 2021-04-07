@@ -56,7 +56,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/post-img/home/1.jpg" alt=""></a>
+                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/post-img/home/1.jpg" alt="Lectures"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -64,7 +64,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com"><img src="{{site.url}}/post-img/home/2.jpg" alt=""></a>
+                                                    <a href="{{site.url}}/blog.index"><img src="{{site.url}}/post-img/home/2.jpg" alt="Essays"></a>
                                                 </div>
 	                                         </figure>
                                         </div>
@@ -72,7 +72,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt=""></a>
+                                                    <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt="GovGeek Community"></a>
                                                 </div>
 	                                         </figure>	
                                         </div>
@@ -80,7 +80,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/post-img/home/4.jpg" alt=""></a>
+                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/post-img/home/4.jpg" alt="List of Resources"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -88,7 +88,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com/21st-century-cities-a-primer-8d88b0c481e0"><img src="{{site.url}}/post-img/home/5.jpg" alt=""></a>
+                                                    <a href="{{site.url}}/academy/primer.html"><img src="{{site.url}}/post-img/home/5.jpg" alt="Public Innnovation Primer"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -96,7 +96,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/view"><img src="{{site.url}}/post-img/home/6.jpg" alt=""></a>
+                                                    <a href="{{site.url}}/academy/ecosystem.html"><img src="{{site.url}}/post-img/home/6.jpg" alt="Ecosystem"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -150,9 +150,9 @@ image:
                                 </a>
 								{% endfor %}
                             </div>
-                            <div class="show-more">
+                            <div>
                                 <div class="show-more-btn">
-                                    <a href="{{site.url}}/blog.html"><span>Read on...</span></a>
+                                    <a href="{{site.url}}/blog.html"><span>Read more...</span></a>
                                 </div>
                             </div>
                         </div>

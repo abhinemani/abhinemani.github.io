@@ -4,6 +4,7 @@ permalink: /academy/resources.html
 title: Public Innovation Resources
 subhead: Find opportunities to learn more, as well as jobs, funding, mentorship, and much, much more
 categories: Academy
+pubdate: Updated, 2021
 ---
 
 ## Book Recommendations

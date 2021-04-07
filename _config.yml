@@ -1,7 +1,7 @@
 title:            Abhi Nemani
 tagline:          technological optimist and political philosophy nerd.
 description:      Abhi Nemani has been a leader in government and civic technology through open data and user-centric software for over a decade.
-url: https://abhinemani.com/
+#url: https://abhinemani.com/
 
 # Owner/author information
 owner:
@@ -74,6 +74,7 @@ kramdown:
   css: class
   
 tag_permalink_style: pretty 
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]

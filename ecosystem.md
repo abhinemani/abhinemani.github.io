@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /academy/ecosystem.html
-title: Civic Tech Ecosystem
-subhead: What does a 21st century city look like
+title: The Public Innovation Ecosystem
+subhead: Getting started with empathy and the ecosystem
 categories: Academy
+pubdate: 2021
 ---
-That’s a question I’m asked fairly often.
+## What's Working, Where
 
-Indeed, I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.
+{% pdf "/decks/Ecosystem.pdf" %}
 
-<iframe width="100%" class="resp-iframe" src="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/preview"></iframe>
+If you're interested in learning more about these examples, <a href="mailto:abhi.nemani@gmail.com">don't hesitate to get in touch</a>
