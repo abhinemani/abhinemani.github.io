@@ -1,19 +1,10 @@
----
-layout: home
-permalink: /index.html
-title: Home
-tagline: When I speak aloud, publicly
-tags: [about, Abhi Nemani, Code for America, pandas]
-image:
-  feature: budget.png
----
-<div class="page-wrap author-page">
+I"•2<div class="page-wrap author-page">
 	<div class="author-header">
 		<div class="wrap wrap-center">
 			<div class="wrap_float">
 				<div class="title-wrap">
 					<div class="author-image">
-						<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
+						<img src="/img/headshot.jpg" alt="" class="image-cover" />
 					</div>
 					<h1 class="page-title">public servant.</h1>
                             </div>
@@ -24,10 +15,10 @@ image:
                             </div>
                             <div class="socials">
                                 <a class="soc-link">
-                                    <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
+                                    <img src="/img/facebook-icon.svg" class="img-svg" alt="" />
                                 </a>
                                 <a class="soc-link" href="https://twitter.com/@abhinemani">
-                                    <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
+                                    <img src="/img/twitter-soc-icon.svg" class="img-svg" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -44,7 +35,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/post-img/home/1.jpg" alt=""></a>
+                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="/post-img/home/1.jpg" alt="" /></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -52,7 +43,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com"><img src="{{site.url}}/post-img/home/2.jpg" alt=""></a>
+                                                    <a href="https://abhinemani.medium.com"><img src="/post-img/home/2.jpg" alt="" /></a>
                                                 </div>
 	                                         </figure>
                                         </div>
@@ -60,7 +51,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt=""></a>
+                                                    <a href="https://govgeek.club"><img src="/post-img/home/3.jpg" alt="" /></a>
                                                 </div>
 	                                         </figure>	
                                         </div>
@@ -68,7 +59,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/post-img/home/4.jpg" alt=""></a>
+                                                    <a href="/academy/resources.html"><img src="/post-img/home/4.jpg" alt="" /></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -76,7 +67,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com/21st-century-cities-a-primer-8d88b0c481e0"><img src="{{site.url}}/post-img/home/5.jpg" alt=""></a>
+                                                    <a href="https://abhinemani.medium.com/21st-century-cities-a-primer-8d88b0c481e0"><img src="/post-img/home/5.jpg" alt="" /></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -84,7 +75,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/view"><img src="{{site.url}}/post-img/home/6.jpg" alt=""></a>
+                                                    <a href="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/view"><img src="/post-img/home/6.jpg" alt="" /></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -104,7 +95,7 @@ image:
 							</div>
                             <div class="post-items-list posts-two-columns">
                                 <a href="single.html" class="post-item">
-                                    <img src="img/post-1-img.jpg" alt="" class="post-bg-img">
+                                    <img src="img/post-1-img.jpg" alt="" class="post-bg-img" />
                                     <div class="post-tags">
                                         <div class="tag">Mobile</div>
                                         <div class="tag">APP</div>
@@ -115,7 +106,7 @@ image:
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
                                             <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                                <img src="img/author.jpg" alt="" class="image-cover" />
                                             </div>
                                             <span>Maya Delia</span>
                                         </div>
@@ -128,7 +119,7 @@ image:
                                     </div>
                                 </a>
                                 <a href="single.html" class="post-item">
-                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
+                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img" />
                                     <div class="post-tags">
                                         <div class="tag">Mobile</div>
                                         <div class="tag">APP</div>
@@ -139,7 +130,7 @@ image:
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
                                             <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                                <img src="img/author.jpg" alt="" class="image-cover" />
                                             </div>
                                             <span>Maya Delia</span>
                                         </div>
@@ -152,7 +143,7 @@ image:
                                     </div>
                                 </a>
                                 <a href="single.html" class="post-item">
-                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
+                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img" />
                                     <div class="post-tags">
                                         <div class="tag">Mobile</div>
                                         <div class="tag">APP</div>
@@ -163,7 +154,7 @@ image:
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
                                             <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                                <img src="img/author.jpg" alt="" class="image-cover" />
                                             </div>
                                             <span>Maya Delia</span>
                                         </div>
@@ -176,7 +167,7 @@ image:
                                     </div>
                                 </a>
                                 <a href="single.html" class="post-item">
-                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
+                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img" />
                                     <div class="post-tags">
                                         <div class="tag">Mobile</div>
                                         <div class="tag">APP</div>
@@ -187,7 +178,7 @@ image:
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
                                             <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                                <img src="img/author.jpg" alt="" class="image-cover" />
                                             </div>
                                             <span>Maya Delia</span>
                                         </div>
@@ -209,3 +200,4 @@ image:
                     </div>
                 </div>
             </div>
+:ET
