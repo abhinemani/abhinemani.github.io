@@ -10,6 +10,6 @@ pubdate: Updated 2021
 ---
 ## What's Working, Where
 
-{% pdf "/decks/Ecosystem.pdf" %}
+<embed src="https://abhinemani.com/decks/Ecosystem.pdf" type="application/pdf" />
 
 If you're interested in learning more about these examples, <a href="mailto:abhi.nemani@gmail.com">don't hesitate to get in touch</a>
