@@ -1,4 +1,4 @@
-I"h1<div class="page-wrap author-page">
+I"2<div class="page-wrap author-page">
 	<div class="author-header">
 		<div class="wrap wrap-center">
 			<div class="wrap_float">
@@ -107,7 +107,7 @@
 							</div>
                             <div class="post-items-list posts-two-columns">
 									
-                                <a href="/alpha{post.url}}" class="post-item">	
+                                <a href="/essays/2020/08/28/Data-Driven-Policy-San-Francisco-just-showed-us-how-it-should-work/" class="post-item">	
 									
                                     <img src="/post-img/1__MIf1qJfPOaS8KHm9P94eDg.png" alt="" class="post-bg-img" />
 									
@@ -131,7 +131,7 @@
                                     </div>
                                 </a>
 									
-                                <a href="/alpha{post.url}}" class="post-item">	
+                                <a href="/blog/essays/2020/08/28/Open-Data-Civic-Engagement-and-Delivery/" class="post-item">	
 									
                                     <img src="/post-img/1__pZ3ZnGHoby1jjy3Kc5kZTQ.jpeg" alt="" class="post-bg-img" />
 									
@@ -155,7 +155,7 @@
                                     </div>
                                 </a>
 									
-                                <a href="/alpha{post.url}}" class="post-item">	
+                                <a href="/blog/essays/2020/08/28/Small-City-Pieces-Loosely-Joined/" class="post-item">	
 									
                                     <img src="/post-img/legos.jpeg" alt="" class="post-bg-img" />
 									
@@ -179,7 +179,7 @@
                                     </div>
                                 </a>
 									
-                                <a href="/alpha{post.url}}" class="post-item">	
+                                <a href="/blog/essays/2020/08/28/Ubers-as-Ambulances/" class="post-item">	
 									
                                     <img src="/post-img/uber.jpeg" alt="" class="post-bg-img" />
 									
