@@ -1,4 +1,4 @@
-I"Ï<div class="page-wrap author-page">
+I"C<div class="page-wrap author-page">
     <div class="breadcrumbs">
         <div class="wrap wrap-center">
             <div class="wrap_float">
@@ -11,7 +11,7 @@
             <div class="wrap_float">
                 <div class="title-wrap">
                     <div class="author-image">
-                        <img src="/img/headshot.jpg" alt="" class="image-cover" />
+                        <img src="https://abhinemani.com/alpha//img/headshot.jpg" alt="" class="image-cover" />
                     </div>
                     <h1 class="page-title">Abhi Nemani</h1>
                 </div>
@@ -53,13 +53,13 @@
                 </div>
                 <div class="socials">
                     <a class="soc-link">
-                        <img src="/img/facebook-icon.svg" class="img-svg" alt="" />
+                        <img src="https://abhinemani.com/alpha//img/facebook-icon.svg" class="img-svg" alt="" />
                     </a>
                     <a class="soc-link">
-                        <img src="/img/twitter-soc-icon.svg" class="img-svg" alt="" />
+                        <img src="https://abhinemani.com/alpha//img/twitter-soc-icon.svg" class="img-svg" alt="" />
                     </a>
                     <a class="soc-link">
-                        <img src="/img/behance-icon.svg" class="img-svg" alt="" />
+                        <img src="https://abhinemani.com/alpha//img/behance-icon.svg" class="img-svg" alt="" />
                     </a>
                 </div>
             </div>
