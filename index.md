@@ -44,7 +44,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="/bio"><img src="{{site.url}}/img/blog-img.jpg" alt=""></a>
+                                                    <a href="{{site.url}}/bio.html"><img src="{{site.url}}/post-img/home-1.jpg" alt=""></a>
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
@@ -53,7 +53,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="{{site.url}}/img/blog-img.jpg" alt="">
+                                                    <img src="{{site.url}}/post-img/home-2.jpg" alt="">
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit amet.</figcaption>
                                             </figure>
@@ -62,7 +62,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="{{site.url}}/img/blog-img.jpg" alt="">
+                                                    <img src="{{site.url}}/post-img/home-3.jpg" alt="">
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit.</figcaption>
                                             </figure>
@@ -71,7 +71,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="{{site.url}}/img/blog-img.jpg" alt="">
+                                                    <img src="{{site.url}}/post-img/home-4.jpg" alt="">
                                                 </div>
                                                 <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
