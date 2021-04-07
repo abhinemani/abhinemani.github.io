@@ -116,7 +116,7 @@ image:
 							</div>
                             <div class="post-items-list posts-two-columns">
 								{% for post in site.posts limit:4 %}	
-                                <a href="{{ site.blogurl }}{post.url}}" class="post-item">	
+                                <a href="{post.url}}" class="post-item">	
 									{% if post.img  %}
                                     <img src="{{ site.url}}/post-img/{{post.img}}" alt="" class="post-bg-img">
 									{% else %}
