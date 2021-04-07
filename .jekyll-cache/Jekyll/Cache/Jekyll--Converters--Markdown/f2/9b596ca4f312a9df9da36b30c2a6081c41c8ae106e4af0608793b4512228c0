@@ -1,4 +1,4 @@
-I"2<div class="page-wrap author-page">
+I"í1<div class="page-wrap author-page">
 	<div class="author-header">
 		<div class="wrap wrap-center">
 			<div class="wrap_float">
@@ -47,7 +47,7 @@
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="/post-img/home/1.jpg" alt="" /></a>
+                                                    <a href="/academy/resources.html"><img src="/post-img/home/4.jpg" alt="List of Resources" /></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -55,7 +55,23 @@
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com"><img src="/post-img/home/2.jpg" alt="" /></a>
+                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="/post-img/home/1.jpg" alt="Lectures" /></a>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
+                                                    <a href="/academy/primer.html"><img src="/post-img/home/5.jpg" alt="Public Innnovation Primer" /></a>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
+                                                    <a href="/blog.index"><img src="/post-img/home/2.jpg" alt="Essays" /></a>
                                                 </div>
 	                                         </figure>
                                         </div>
@@ -63,7 +79,7 @@
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://govgeek.club"><img src="/post-img/home/3.jpg" alt="" /></a>
+                                                    <a href="https://govgeek.club"><img src="/post-img/home/3.jpg" alt="GovGeek Community" /></a>
                                                 </div>
 	                                         </figure>	
                                         </div>
@@ -71,23 +87,7 @@
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="/academy/resources.html"><img src="/post-img/home/4.jpg" alt="" /></a>
-                                                </div>
-                                            </figure>
-                                        </div>
-                                        <div class="block-column">
-                                            <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
-                                                <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com/21st-century-cities-a-primer-8d88b0c481e0"><img src="/post-img/home/5.jpg" alt="" /></a>
-                                                </div>
-                                            </figure>
-                                        </div>
-                                        <div class="block-column">
-                                            <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
-                                                <div class="img-wrap">
-                                                    <a href="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/view"><img src="/post-img/home/6.jpg" alt="" /></a>
+                                                    <a href="/academy/ecosystem.html"><img src="/post-img/home/6.jpg" alt="Ecosystem" /></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -204,9 +204,9 @@
                                 </a>
 								
                             </div>
-                            <div class="show-more">
-                                <div class="">
-                                    <a href="/blog.html"><span>Read on...</span></a>
+                            <div>
+                                <div class="show-more-btn">
+                                    <a href="/blog.html"><span>Read more...</span></a>
                                 </div>
                             </div>
                         </div>

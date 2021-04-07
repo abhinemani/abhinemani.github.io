@@ -4,6 +4,8 @@ permalink: /academy/primer.html
 title: 21st Century Cities Primer
 subhead: What does a 21st century city look like
 categories: Academy
+img: pia-header.png
+pubdate: Updated 2021
 ---
 That’s a question I’m asked fairly often.
 

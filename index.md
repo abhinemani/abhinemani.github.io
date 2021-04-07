@@ -56,6 +56,30 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
+                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/post-img/home/4.jpg" alt="List of Resources"></a>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
+                                                    <a href="{{site.url}}/academy/ecosystem.html"><img src="{{site.url}}/post-img/home/6.jpg" alt="Ecosystem"></a>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
+                                                    <a href="{{site.url}}/academy/primer.html"><img src="{{site.url}}/post-img/home/5.jpg" alt="Public Innnovation Primer"></a>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="block-column">
+                                            <figure class="block-caption img-caption">
+                                                <button class="zoom-btn"></button>
+                                                <div class="img-wrap">
                                                     <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/post-img/home/1.jpg" alt="Lectures"></a>
                                                 </div>
                                             </figure>
@@ -75,30 +99,6 @@ image:
                                                     <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt="GovGeek Community"></a>
                                                 </div>
 	                                         </figure>	
-                                        </div>
-                                        <div class="block-column">
-                                            <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
-                                                <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/post-img/home/4.jpg" alt="List of Resources"></a>
-                                                </div>
-                                            </figure>
-                                        </div>
-                                        <div class="block-column">
-                                            <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
-                                                <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/primer.html"><img src="{{site.url}}/post-img/home/5.jpg" alt="Public Innnovation Primer"></a>
-                                                </div>
-                                            </figure>
-                                        </div>
-                                        <div class="block-column">
-                                            <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
-                                                <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/ecosystem.html"><img src="{{site.url}}/post-img/home/6.jpg" alt="Ecosystem"></a>
-                                                </div>
-                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -151,9 +151,11 @@ image:
 								{% endfor %}
                             </div>
                             <div>
+								<a href="{{site.url}}/blog.html">
                                 <div class="show-more-btn">
-                                    <a href="{{site.url}}/blog.html"><span>Read more...</span></a>
+                                    <span>Read more...</span>
                                 </div>
+								</a>
                             </div>
                         </div>
                     </div>
