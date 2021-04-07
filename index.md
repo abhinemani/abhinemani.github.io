@@ -19,12 +19,7 @@ image:
                             </div>
                             <div class="post-description">
 								<p>
-									I connect and support entreprenuers in government, technology, and philanthopy to make more responsive social policy, developing new approaches and technologies to implement them, on issues ranging from criminal justice to public health. Over the last 10+ years, I've been help run and manage various governments and startups, with an eye towards technology, and I have written, spoken, and taught about my learnings in the emerging field of public innovation widely.
-								</p>
-								<br />
-								<p>
-									Blogs, lectures, tutorials, and case studies are all available (somewhat organized) here.
-									Want to get to know me better or get my help on your initiative, strategy, or problem, <a href="/bio">just reach out.</a>
+									Over the last 10+ years, I've been help run and manage various transformational organizations, non-profits, governments, and startups, with an eye towards technology that helps people. I have written, spoken, and taught about my learnings in this emerging, exciting, and fun field of public innovation widely, and try my best here to share what I am seeing.
 								</p>
                             </div>
                             <div class="socials">
