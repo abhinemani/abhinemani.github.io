@@ -9,7 +9,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
     <div class="breadcrumbs">
         <div class="wrap wrap-center">
             <div class="wrap_float">
-                <a href="index.html">Home</a> / <a href="#">Features</a> / <span class="current">About Page</span>
+                <a href="index.html">Home</a> / <span class="current">About</span>
             </div>
         </div>
     </div>

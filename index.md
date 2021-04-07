@@ -29,6 +29,18 @@ image:
                                 <a class="soc-link" href="https://twitter.com/@abhinemani">
                                     <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
                                 </a>
+                                <a class="soc-link" href="https://linkedin.com/in/abhinemani">
+                                    <img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
+                                </a>
+                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
+                                    <img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
+                                </a>
+                                <a class="soc-link" href="https://github.com/abhinemani">
+                                    <img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
+                                </a>
+                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
+                                    <img src="{{site.url}}/img/youtube-icon.svg" class="img-svg" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -103,106 +115,44 @@ image:
 								</div>
 							</div>
                             <div class="post-items-list posts-two-columns">
-                                <a href="single.html" class="post-item">
-                                    <img src="img/post-1-img.jpg" alt="" class="post-bg-img">
+								{% for post in site.posts limit:4 %}	
+                                <a href="{{post.url}}" class="post-item">	
+									{% if post.img  %}
+                                    <img src="{{ site.url}}/post-img/{{post.img}}" alt="" class="post-bg-img">
+									{% else %}
+                                    <img src="{{ site.url}}/post-img/placeholder.jpg" alt="" class="post-bg-img">
+									{% endif  %}
                                     <div class="post-tags">
-                                        <div class="tag">Mobile</div>
-                                        <div class="tag">APP</div>
+									  {% if post %}
+									    {% assign tags = post.tags %}
+									  {% else %}
+									    {% assign tags = page.tags %}
+									  {% endif %}
+									  {% for tag in tags %}
+									  <div class="tag">{{ tag }}</div>
+									  {% unless forloop.last %}&nbsp;{% endunless %}
+									  {% endfor %}
                                     </div>
                                     <h3 class="post-title">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi.
+                                        {{ post.title }}
                                     </h3>
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
                                             <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
+                                                <img src="{{site.url}}/img/headshot.png" alt="" class="image-cover">
                                             </div>
-                                            <span>Maya Delia</span>
+                                            <span>Abhi Nemani</span>
                                         </div>
                                         <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                        <div class="post-views post-info-views">
-                                            3457
+                                            {{ post.pubdate }}
                                         </div>
                                     </div>
                                 </a>
-                                <a href="single.html" class="post-item">
-                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
-                                    <div class="post-tags">
-                                        <div class="tag">Mobile</div>
-                                        <div class="tag">APP</div>
-                                    </div>
-                                    <h3 class="post-title">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
-                                    </h3>
-                                    <div class="post-info">
-                                        <div class="post-author post-info-author">
-                                            <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
-                                            </div>
-                                            <span>Maya Delia</span>
-                                        </div>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                        <div class="post-views post-info-views">
-                                            3457
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="single.html" class="post-item">
-                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
-                                    <div class="post-tags">
-                                        <div class="tag">Mobile</div>
-                                        <div class="tag">APP</div>
-                                    </div>
-                                    <h3 class="post-title">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
-                                    </h3>
-                                    <div class="post-info">
-                                        <div class="post-author post-info-author">
-                                            <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
-                                            </div>
-                                            <span>Maya Delia</span>
-                                        </div>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                        <div class="post-views post-info-views">
-                                            3457
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="single.html" class="post-item">
-                                    <img src="img/post-2-img.jpg" alt="" class="post-bg-img">
-                                    <div class="post-tags">
-                                        <div class="tag">Mobile</div>
-                                        <div class="tag">APP</div>
-                                    </div>
-                                    <h3 class="post-title">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore fugit asperiores, voluptates expedita. Officia, libero!
-                                    </h3>
-                                    <div class="post-info">
-                                        <div class="post-author post-info-author">
-                                            <div class="author-image">
-                                                <img src="img/author.jpg" alt="" class="image-cover">
-                                            </div>
-                                            <span>Maya Delia</span>
-                                        </div>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                        <div class="post-views post-info-views">
-                                            3457
-                                        </div>
-                                    </div>
-                                </a>
+								{% endfor %}
                             </div>
                             <div class="show-more">
                                 <div class="show-more-btn">
-                                    <a href="http://abhinemani.com/blog.html"><span>Show more</span></a>
+                                    <a href="{{site.url}}/blog.html"><span>Read on...</span></a>
                                 </div>
                             </div>
                         </div>

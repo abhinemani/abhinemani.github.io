@@ -8,98 +8,31 @@
                         </div>
                         <div class="section-content">
                             <div class="other-posts-slider" id="js-other-posts-slider">
-                                <a href="#" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/other-post.jpg" alt="" class="post-bg-img">
+								{% for partner in site.portfolio %}
+								{% if partner.img  %}
+                                <a href="{{ partner.url }}" class="other-posts-slider-item">
+                                    <img src="{{site.url}}/post-img/{{ partner.img }}" alt="" class="post-bg-img">
+								{% else %}
+                                <a href="{{ partner.url }}" class="other-posts-slider-item without-bg">
+								{% endif  %}
                                     <div class="other-post-info">
                                         <div class="post-tags">
-                                            <div class="tag">Mobile</div>
-                                            <div class="tag">APP</div>
+	  									  {% if partner %}
+	  									    {% assign tags = partner.tags %}
+	  									  {% else %}
+	  									    {% assign tags = partner.tags %}
+	  									  {% endif %}
+	  									  {% for tag in tags %}
+	  									  <div class="tag">{{ tag }}</div>
+	  									  {% unless forloop.last %}&nbsp;{% endunless %}
+	  									  {% endfor %}
                                         </div>
                                         <h3 class="post-title">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores deleniti non neque quasi quas assumenda dolor?
+                                            <strong>{{partner.title}}</strong>: {{partner.subhead}}
                                         </h3>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
                                     </div>
                                 </a>
-                                <a href="#" class="other-posts-slider-item without-bg">
-                                    <div class="other-post-info">
-                                        <div class="post-tags">
-                                            <div class="tag">Mobile</div>
-                                            <div class="tag">APP</div>
-                                        </div>
-                                        <h3 class="post-title">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis blanditiis ipsam tenetur nesciunt atque!
-                                        </h3>
-                                        <div class="post-excerption">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ab eveniet molestias neque, quis architecto molestiae, tempore nihil illo earum odit voluptate.
-                                        </div>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/other-post-2.jpg" alt="" class="post-bg-img">
-                                    <div class="other-post-info">
-                                        <div class="post-tags">
-                                            <div class="tag">Mobile</div>
-                                            <div class="tag">APP</div>
-                                        </div>
-                                        <h3 class="post-title">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, officiis quos?
-                                        </h3>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/other-post-3.jpg" alt="" class="post-bg-img">
-                                    <div class="other-post-info">
-                                        <div class="post-tags">
-                                            <div class="tag">Mobile</div>
-                                            <div class="tag">APP</div>
-                                        </div>
-                                        <h3 class="post-title">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio amet eligendi, doloremque dignissimos voluptatum sit.
-                                        </h3>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/other-post-4.jpg" alt="" class="post-bg-img">
-                                    <div class="other-post-info">
-                                        <div class="post-tags">
-                                            <div class="tag">Mobile</div>
-                                            <div class="tag">APP</div>
-                                        </div>
-                                        <h3 class="post-title">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, impedit officia quibusdam.
-                                        </h3>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/other-post-5.jpg" alt="" class="post-bg-img">
-                                    <div class="other-post-info">
-                                        <div class="post-tags">
-                                            <div class="tag">Mobile</div>
-                                            <div class="tag">APP</div>
-                                        </div>
-                                        <h3 class="post-title">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, incidunt.
-                                        </h3>
-                                        <div class="post-date post-info-date">
-                                            18 May 2021
-                                        </div>
-                                    </div>
-                                </a>
+								{% endfor %}
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ category:
 - Blog
 - Essays
 subhead: Did We Go the Wrong Way?
-date: 2015-10-28
+date: 2020-08-28
 pubdate: October 28, 2015
 img: 1__pZ3ZnGHoby1jjy3Kc5kZTQ.jpeg
 ---

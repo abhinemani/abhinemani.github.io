@@ -5,7 +5,7 @@ category:
 - Blog
 - Essays
 subhead: And other ideas to make consumer apps more civic
-date: 2014-06-03
+date: 2020-08-28
 pubdate: June 3, 2014
 img: uber.jpeg
 ---

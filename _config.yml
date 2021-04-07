@@ -2,7 +2,7 @@ title:            Abhi Nemani
 tagline:          technological optimist and political philosophy nerd.
 description:      Abhi Nemani has been a leader in government and civic technology through open data and user-centric software for over a decade.
 #Comment out url when working locally to resolve base urls correctly
-url: https://abhinemani.com/alpha
+#url: https://abhinemani.com/alpha
 
 
 # Owner/author information
@@ -26,8 +26,11 @@ owner:
 google_analytics:   UA-2506770-3
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:     
 
+collections:
+  portfolio:
+    output: true
 # Links to include in top navigation
 # For external links add external: true
 links:
@@ -58,7 +61,7 @@ highlighter:    rouge
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:year/:title/
+permalink: pretty
 
 kramdown:
   auto_ids: true
