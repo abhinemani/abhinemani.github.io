@@ -54,6 +54,7 @@ image:
                                                 <div class="img-wrap">
                                                     <a href="https://abhinemani.medium.com"><img src="{{site.url}}/post-img/home/2.jpg" alt=""></a>
                                                 </div>
+	                                         </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
@@ -61,6 +62,7 @@ image:
                                                 <div class="img-wrap">
                                                     <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt=""></a>
                                                 </div>
+	                                         </figure>	
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">

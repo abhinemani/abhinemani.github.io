@@ -1,4 +1,4 @@
-I"x3<div class="page-wrap author-page">
+I"›2<div class="page-wrap author-page">
 	<div class="author-header">
 		<div class="wrap wrap-center">
 			<div class="wrap_float">
@@ -45,44 +45,43 @@
                                                 <div class="img-wrap">
                                                     <a href="https://abhinemani.medium.com"><img src="/post-img/home/2.jpg" alt="" /></a>
                                                 </div>
-                                        &lt;/div&gt;
+	                                         </figure>
+                                        </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.medium.com"><img src="/post-img/home/3.jpg" alt="" /></a>
+                                                    <a href="https://govgeek.club"><img src="/post-img/home/3.jpg" alt="" /></a>
                                                 </div>
-                                        &lt;/div&gt;
+	                                         </figure>	
+                                        </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="/post-img/home/4.jpg" alt="" />
+                                                    <a href="https://govgeek.io/background"><img src="/post-img/home/4.jpg" alt="" /></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="/post-img/home/5.jpg" alt="" />
+                                                    <a href="https://abhinemani.medium.com/21st-century-cities-a-primer-8d88b0c481e0"><img src="/post-img/home/5.jpg" alt="" /></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <img src="/post-img/home/6.jpg" alt="" />
+                                                    <a href="https://drive.google.com/file/d/1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL/view"><img src="/post-img/home/6.jpg" alt="" /></a>
                                                 </div>
-                                                <figcaption class="caption-text">Lorem ipsum dolor sit amet, consectetur.</figcaption>
                                             </figure>
                                         </div>
-                                    &lt;/div&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
+                                    </div>
+                                </div>
+                            </div>
 			                <div class="author-body">
 			                    <div class="wrap">
 			                        <div class="wrap_float">
@@ -197,9 +196,8 @@
                                     <a href="http://abhinemani.com/blog.html"><span>Show more</span></a>
                                 </div>
                             </div>
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-</figure></div></figure></div></div></div></div></div></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 :ET
