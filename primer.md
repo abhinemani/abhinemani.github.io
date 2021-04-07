@@ -11,7 +11,8 @@ That’s a question I’m asked fairly often.
 
 Indeed, I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.
 
-{% pdf "/decks/21stCitiesPrimer.pdf" %}
+<object data="/decks/21stCitiesPrimer.pdf" type="application/pdf" width="100%" style="min-height: 400px;"></object>
+
 
 Since the definition of a “21st Century City” seems elusive, or controversial, I did what I do: tell some stories.
 
