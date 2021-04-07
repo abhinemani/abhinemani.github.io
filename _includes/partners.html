@@ -10,10 +10,10 @@
                             <div class="other-posts-slider" id="js-other-posts-slider">
 								{% for partner in site.portfolio %}
 								{% if partner.img  %}
-                                <a href="{{ partner.url }}" class="other-posts-slider-item">
+                                <a href="{{ site.baseurl }}{{ partner.url }}" class="other-posts-slider-item">
                                     <img src="{{site.url}}/post-img/{{ partner.img }}" alt="" class="post-bg-img">
 								{% else %}
-                                <a href="{{ partner.url }}" class="other-posts-slider-item without-bg">
+                                <a href="{{ site.baseurl }}{{ partner.url }}" class="other-posts-slider-item without-bg">
 								{% endif  %}
                                     <div class="other-post-info">
                                         <div class="post-tags">

@@ -1,4 +1,4 @@
-I""1<div class="page-wrap author-page">
+I"h1<div class="page-wrap author-page">
 	<div class="author-header">
 		<div class="wrap wrap-center">
 			<div class="wrap_float">
@@ -22,6 +22,9 @@
                                 </a>
                                 <a class="soc-link" href="https://linkedin.com/in/abhinemani">
                                     <img src="/img/linkedin-icon.png" class="img-svg" alt="" />
+                                </a>
+                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
+                                    <img src="/img/email-icon.png" class="img-svg" alt="" />
                                 </a>
                                 <a class="soc-link" href="https://github.com/abhinemani">
                                     <img src="/img/github-icon.png" class="img-svg" alt="" />
@@ -104,7 +107,7 @@
 							</div>
                             <div class="post-items-list posts-two-columns">
 									
-                                <a href="/essays/2020/08/28/Data-Driven-Policy-San-Francisco-just-showed-us-how-it-should-work/" class="post-item">	
+                                <a href="/alpha{post.url}}" class="post-item">	
 									
                                     <img src="/post-img/1__MIf1qJfPOaS8KHm9P94eDg.png" alt="" class="post-bg-img" />
 									
@@ -128,7 +131,7 @@
                                     </div>
                                 </a>
 									
-                                <a href="/blog/essays/2020/08/28/Open-Data-Civic-Engagement-and-Delivery/" class="post-item">	
+                                <a href="/alpha{post.url}}" class="post-item">	
 									
                                     <img src="/post-img/1__pZ3ZnGHoby1jjy3Kc5kZTQ.jpeg" alt="" class="post-bg-img" />
 									
@@ -152,7 +155,7 @@
                                     </div>
                                 </a>
 									
-                                <a href="/blog/essays/2020/08/28/Small-City-Pieces-Loosely-Joined/" class="post-item">	
+                                <a href="/alpha{post.url}}" class="post-item">	
 									
                                     <img src="/post-img/legos.jpeg" alt="" class="post-bg-img" />
 									
@@ -176,7 +179,7 @@
                                     </div>
                                 </a>
 									
-                                <a href="/blog/essays/2020/08/28/Ubers-as-Ambulances/" class="post-item">	
+                                <a href="/alpha{post.url}}" class="post-item">	
 									
                                     <img src="/post-img/uber.jpeg" alt="" class="post-bg-img" />
 									
