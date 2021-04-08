@@ -12,11 +12,11 @@ Back in 2012, while at Code for America and we were thinking about how to build 
 
 I believe industries are born not out of market dynamics, or industrial changes, even though I was an economics major, but maybe a bad one. I think they are born out of people, people wanting to change things, and make things different, but those people need to be able to have support connections, and as our friend said, a family. That was the genesis of this [**Midwest GovTech Meetup.**](https://meetup.com/Midwest-GovTech-Meetup/) A chance for entrepreneurs, who are working in the government or civic technology space, to come together and talk.
 
-![](/post-img/1__zsAs0TQcu9HE__gUWgNY90A.png)
+![](/img/1__zsAs0TQcu9HE__gUWgNY90A.png)
 
 What’s working? What’s not? What can we do? What should we do next? These are questions that most people, and I know this myself, personally, we ask ourselves every day, but it’s much better if we can ask them amongst friends. That’s what the GovTech meetup was all about. A few months ago, my new friends at [**Marketplace.city**](http://Marketplace.city), Chris Foreman and Andrew Watkins, and I (through my company, [EthosLabs.us](http://EthosLabs.us)), decided, “Let’s give this a go.” A monthly, or bimonthly meetup, where people would come together and just talk. People would share what they’re working on and then talk to each other.([Marketplace.city](http://Marketplace.city) was not only a fun but a natural partner, as their important work is to catalog government innovations and connect governments with them.)
 
-![](/post-img/1__046kgtrNBUWuGtWfqCIKQw.jpeg)
+![](/img/1__046kgtrNBUWuGtWfqCIKQw.jpeg)
 
 The first one happened a couple of months ago, back in October. Over 140 people registered, in Chicago, Illinois, and dozens showed up. The format was decidedly not that of a traditional lecture or conference; and also was not designed like a hackathon around building apps — it was instead about building a community. And specifically a community of _startups_, distinguishing it from big trade conferences or local government gatherings. Thus, we opted to invite 1–2 select speakers for brief presentations on the state of the field, and the 2–3 companies to demo their applications, with a decided focus on lessons learned.
 

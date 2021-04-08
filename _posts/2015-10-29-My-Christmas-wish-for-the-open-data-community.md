@@ -26,7 +26,7 @@ Being the poor man’s hacker that I was I couldn’t rely on tradition JavaScri
 
 ​Fortunately enough there was. I found and easy way to pull in an API feed from Twitter right into Google docs. It’s a simple getData call where all I had to do was copy and paste the feed URL, and Google Sheets did the rest. It grabbed and cached the tweets in a recurring basis in a simple worksheet. (I think it worked about every few minutes — fast enough for our meager efforts.) The platform was easy enough that I could share it with anyone in the office for screening and clever enough to dynamically geocode the tweets onto an interactive map.
 
-![](/post-img/1__t1hDrpAtWIjrmF8tIoZigg.jpeg)
+![](/img/1__t1hDrpAtWIjrmF8tIoZigg.jpeg)
 undefined
 
 In about thirty minutes I was able to go from a twitter feed to an interactive map which I could embed on a Wordpress page.

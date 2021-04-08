@@ -75,7 +75,7 @@ That’s the front side of the counter. That’s the citizen experience. I think
 > We simply don’t go back there.  
 > We don’t see the piles of papers stacked up on their desks. We don’t see the software probably built decades ago that they’re forced to work with.**
 
-![](/post-img/1__J0M5j8m8T16MDczfN86L6A.png)
+![](/img/1__J0M5j8m8T16MDczfN86L6A.png)
 
 But we don’t see what these people do. We don’t see how service line government works, how they handle this deluge of inbound. We simply don’t go back there. We don’t see the piles of papers stacked up on their desks. We don’t see the software probably built decades ago that they’re forced to work with. Worse still, we do not give them the benefit of the doubt that it’s the system, not the people within it, that’s cause those frustrating delays and headaches (Certainly, we owe them that.)
 

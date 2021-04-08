@@ -18,7 +18,7 @@ Well, when the **City of Sacramento** and **Mayor Kevin Johnson** began thinking
 
 That’s why we’ve built this program called [**RAILS**](http://www.cityofsacramento.org/rails/)**:** [**Rapid Acceleration Innovation and Leadership in Sacramento**](http://www.cityofsacramento.org/rails/), a first-of-its-kind city grant program of up to $1.5M designed to support the broad startup _pipeline_ within the city.
 
-![](/post-img/1__WzGpuffDp1NCiD8Y2MGGLQ.jpeg)
+![](/img/1__WzGpuffDp1NCiD8Y2MGGLQ.jpeg)
 
 That is to say it’s designed to make Sacramento the ideal place to come if you want to get your startup off the ground running and thriving to be in.
 
@@ -28,7 +28,7 @@ What does that mean and how does it work? Through RAILS we plan to make grants t
 
 This comes down to a pipeline model.
 
-![](/post-img/1__kYAQeG6DNzhv7m5ENer9Yg.png)
+![](/img/1__kYAQeG6DNzhv7m5ENer9Yg.png)
 undefined
 
 The pipeline being, “How do you help, say, a potential entrepreneur named Sally, go from just having an idea for a great company to actually knowing how to start one to actually starting one to actually having it thrive?”
@@ -39,7 +39,7 @@ Let’s talk about that.
 
 Having just graduated from undergrad — say Sac State or UC Davis — Sally has an interesting idea around food tech innovation. But Sally didn’t major in business or computer science: she majored in agriculture. Naturally.
 
-![](/post-img/1__jJ08yPIJHduUyB__p2lpqLA.jpeg)
+![](/img/1__jJ08yPIJHduUyB__p2lpqLA.jpeg)
 undefined
 
 How do we help her out? The first is a series of **leadership training programs**. They can range from business training to technical education. Fantastic programs exist and have proven to be successful at this first stage of entrepreneurship: Girls Who Code, Railsbridge, etc. Our goal is to bring more of those programs here to Sacramento, and just as importantly help people like Sally know about them and excited about participating.
@@ -48,7 +48,7 @@ How do we help her out? The first is a series of **leadership training programs*
 
 Now that she’s got trained up, Sally has this really fun food tech company and wants to start getting it off the ground. What’s she going to need?
 
-![](/post-img/1__XOuiwXS0M5UTXzaxtF3Ojg.jpeg)
+![](/img/1__XOuiwXS0M5UTXzaxtF3Ojg.jpeg)
 undefined
 
 She’s going to need a **team;** that’s the second prong of the RAILS program comes in: **innovation**. She’s going to need to find ways to connect with and work with other potential co-founders or staff members to help take the idea into a real product. That’s where we plan to invest in things like co-working spaces, hackathons, app contests, different ways in which people can come together and take to their ideas to the next level.
@@ -57,7 +57,7 @@ She’s going to need a **team;** that’s the second prong of the RAILS program
 
 Then finally once Sally’s gotten the idea off the ground, got a team, got things working on, what’s next? Getting users, financing, and help.
 
-![](/post-img/1__AASjgqoC__B8l5Ndxab7O__A.jpeg)
+![](/img/1__AASjgqoC__B8l5Ndxab7O__A.jpeg)
 undefined
 
 Fortunately, the tech ecosystem has born out a compelling model for exactly this stage: startup **accelerators**. We want to support existing local accelerators and incubators or attract other national ones to Sacramento help startups thrive. Throughout my conversations with Sacramento entrepreneurs around barriers to scale locally, a common theme emerged: money, or more specifically early stage venture financing. And that’s a big part of what accelerators can help with through their networks of investors, demo days, and connections to other exit avenues. (By the way there’s more planned on the VC front — stay tuned.) Beyond financing support, these programs should help people like Sally gain a network of like-minded people with common goals, a support system to help when things get tough. (I remember when we first launched the Code for America Accelerator in 2012 one of the entrepreneurs, when asked why he was happy to be there, he said, “It feels good to know that I’m not alone.”) You need to be able to find your tribe.

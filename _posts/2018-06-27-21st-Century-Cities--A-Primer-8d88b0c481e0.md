@@ -9,7 +9,7 @@ date: '2018-06-27T17:52:41.700Z'
 slug: 21st-century-cities-a-primer-8d88b0c481e0
 ---
 
-![](/post-img/1__9xdptnb4YnxLme2CxeqOqA__2x.jpeg)
+![](/img/1__9xdptnb4YnxLme2CxeqOqA__2x.jpeg)
 undefined
 
 What does a 21st century city look like?

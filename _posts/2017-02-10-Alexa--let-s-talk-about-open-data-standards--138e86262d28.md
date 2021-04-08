@@ -50,7 +50,7 @@ These devices do more than simply articulate answers to web searches; they talk 
 
 That’s why I was excited to see a city government develop its own offering for Amazon’s Alexa — as hopefully the start of more to come.
 
-![](/post-img/1__eW__kU65y3bkfPNVoO9gTeQ.gif)
+![](/img/1__eW__kU65y3bkfPNVoO9gTeQ.gif)
 
 Recently the [City of Los Angeles launched an Alexa skill](http://venturebeat.com/2017/01/16/why-los-angeles-made-an-alexa-skill-and-what-the-city-wants-to-do-with-it/) that can answer questions about “City Council, Council Committee, and featured events occurring within the City.”
 

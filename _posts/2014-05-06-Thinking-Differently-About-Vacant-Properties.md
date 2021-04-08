@@ -15,7 +15,7 @@ But this day was a bit different. Right before our parking garage, there was a b
 
 An energetic young man noticed our interest and invited us in. This urban outlier was called “[Freespace](http://freespace.io/),” a project borne out of the [National Day of Civic Hacking](http://hackforchange.org/).
 
-![](/post-img/1__29TuKUE0deRzn9UkjyijfA.jpeg)
+![](/img/1__29TuKUE0deRzn9UkjyijfA.jpeg)
 
 What most had taken to be a one day or weekend event, these organizers had blown out into a month-long affair, resurrecting this building in central SOMA into an maker/hacker/co-working space. So the lore goes, the building owner was willing to rent the space out, so the lead organizer was able to get his hands on the real estate for all of $1 for the month (no joke), and with that, plus what _had_ to be massive amounts of insanely creative human capital, they transformed what had been a dilapidated oversight into a thriving civic hub. Floor one was hackers, laptops ups clicking away at civic apps; floor two was dinner time, big crock pots, fresh vegetables, and hot places racing around —maybe too fast — with enough to feed everyone and anyone in the building— and the third floor was the art gallery, probably the only quiet spot in the otherwise electric place, where art with an urban twist was on the display — typically “recycled” from old street signs and the like.
 
@@ -31,7 +31,7 @@ Still, this story forces us, I think, to explore what could be done with our urb
 
 The Freespace example is just one such distinct model of how to use a urban space differently. The civic possibilities are endless. The City of Boston ran a fascinating program last year called, “City Hall to Go,” where they took a food truck, and drove it around the city to both boost awareness of city services, but also deliver whatever simple services to citizens that they could remotely, right where citizens are.
 
-![](/post-img/1__yOCBYsY9Gjtr7jP3EfptGA.jpeg)
+![](/img/1__yOCBYsY9Gjtr7jP3EfptGA.jpeg)
 
 Now with mobile technology and the mobile web, there’s less need to be in City Hall for many civic functions, you can set up shop anywhere. Think about that for a moment. Currently, citizens have to line up at a finite number of centralized government offices. That doesn’t make sense in the 21st century. Just as Boston’s City Hall to Go took city services to the street, you could envision setting up tech powered, demand-driven, remote service delivery centers throughout the city. Put another way: **What if you could turn any revitalized vacant building into a pop-up City Hall?**
 

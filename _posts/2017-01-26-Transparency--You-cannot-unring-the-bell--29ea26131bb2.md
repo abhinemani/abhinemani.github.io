@@ -13,7 +13,7 @@ slug: transparency-you-cannot-unring-the-bell-29ea26131bb2
 
 A strange thing happened today. For a while, I have drawn a fairly bright line between my social networks: facebook was for college friends; twitter business friends. On twitter, I’d end up seeing all the news I needed — and then some — about open government, civic technology, and the like, but on facebook very little of the same. That changed today.
 
-![](/post-img/1__KdxL4UxSsio7NdpQwEtq0w.png)
+![](/img/1__KdxL4UxSsio7NdpQwEtq0w.png)
 
 Today I saw on facebook multiple posts regarding the [“We The People” petitions platform](http://petitions.whitehouse.gov) that the Obama White House deployed to encourage citizen engagement in the policy making process. The idea was simple enough: anyone could post a petition and if it gained enough support (i.e. 100K+ endorsements) the administration would be required to issue a formal response. Effectively it democratized the press pool, enabling anyone with a popular enough question to get an answer.
 

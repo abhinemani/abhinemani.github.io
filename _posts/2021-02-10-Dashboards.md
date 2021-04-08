@@ -100,10 +100,10 @@ That’s where data can, should, and must come in.
 
 <hr>
 
-## More on Data & Performance Management
+## More: Lecture on How Governments Use Data
 
 <blockquote>
 <div class="container-iframe">
-  <iframe class="responsive-iframe" src="/decks/lectures/6.pdf"></iframe>
-</div>
+<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+</div><a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open Lecture in Browser</a>
 </blockquote>

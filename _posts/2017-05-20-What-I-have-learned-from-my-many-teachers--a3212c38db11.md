@@ -13,7 +13,7 @@ slug: what-i-have-learned-from-my-many-teachers-a3212c38db11
 
 I was recently asked to speak at my alma mater (Claremont McKenna College) about my career and how CMC helped shape and empower it. Being just about 6 years out of college, I didn’t really feel well suited to provide any of my own insight — I’m still really just getting started. Instead, I opted to share some key thoughts or pieces of advice I have received over my (brief) career and how they’ve shaped my thinking (even more than my career).
 
-![](/post-img/1__a32VhVCgSdHMMR729fJ9__g.jpeg)
+![](/img/1__a32VhVCgSdHMMR729fJ9__g.jpeg)
 undefined
 
 #### Someone broke you

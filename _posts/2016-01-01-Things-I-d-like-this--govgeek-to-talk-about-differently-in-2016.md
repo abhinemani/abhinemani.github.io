@@ -9,7 +9,7 @@ pubdate: January 1, 2016
 img: 1__YUZyk5Q46lOd5OS97imW9g.png
 ---
 
-![](/post-img/1__YUZyk5Q46lOd5OS97imW9g.png)
+![](/img/1__YUZyk5Q46lOd5OS97imW9g.png)
 undefined
 
 Moving into the new year, I wanted to take a (short) minute to write down a few of the things I learned in 2015. And I wanted to write these down as personal reminders about how I talk / write about these things moving forward. It’s easy to slip back into what’s comfortable or what’s vogue — and to forget the [on-the-ground truths](https://medium.coma-year-in-la-8f4aa3a63ba7#.r1x64a9yj) you witnessed firsthand.

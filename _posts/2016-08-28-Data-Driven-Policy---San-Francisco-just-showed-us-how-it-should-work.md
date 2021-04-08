@@ -17,7 +17,7 @@ As urban life becomes the dominant modality, this is a problem that needs to be 
 
 The city government, in good fashion, made a commitment to do something about. But in better fashion, they decided to do so in a data-driven way. And they tasked the Department of Public Health in collaboration with the Department of Transportation to develop policy. What’s impressive is that instead of some blanket policy or mandate, they opted to study the problem, take a nuanced approach, and put data first.
 
-![](/post-img/1__mWOfWpvuLdqRd1ZhJMWSIg.png)
+![](/img/1__mWOfWpvuLdqRd1ZhJMWSIg.png)
 
 The SF team ran a series of data-driven analytics to determine the causes of these collisions. They developed [TransBase](http://www.transbasesf.org/) to continuously map and visualize traffic incidents throughout the city. Using this platform, then, they developed the “[high injury network](http://sfgov.maps.arcgis.com/apps/webappviewer/index.html?id=fa37f1274b4446f1bdddd7bdf9e708ff)” — the key places where most problems happen; or as they put it, “to identify where the most investments in engineering, education and enforcement should be focused to have the biggest impact in reducing fatalities and severe injuries.” Turns out that, just 12 percent of intersections result in 70% of major injuries. This is using data to make what might seem like an intractable problem, tractable.
 

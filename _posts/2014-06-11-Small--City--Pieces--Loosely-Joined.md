@@ -68,7 +68,7 @@ So let’s try it out.
 
 Consider the city of Chicago’s slate of digital services (well, some of them):
 
-![](/post-img/1__iTo7lEyEh21LFS5EzlrFfw.jpeg)
+![](/img/1__iTo7lEyEh21LFS5EzlrFfw.jpeg)
 undefined
 
 These tools come from a host of different sources: some, like PurpleBinder, a social services finder, or the open data catalog, are from civic startups or other traditional IT vendors; others, such as the crime map and Look at Cook, are open source tools built by local groups of developers. You can see here the mix of components that’s possible when you look to the ecosystem. But they are spread across the board—just look at the URLs—making it difficult for citizens to find each service when needed, and more relevantly, without a picture of how these fit together (and ideally instructions on how to replicate it), it’d be tough for another city to follow suit. Where would they start and how?
@@ -79,13 +79,13 @@ Well, what if you could?
 
 Meet [**DigitalServicesCenter.com**](http://digitalservicescenter.com/). This is very much a **_prototype._** (And I am very much earning the title, “poor man’s hacker” with the codebase.) It’s a quick attempt to link together various digital services in an area and present them in a streamlined, common, mobile friendly format, city-to-city. The homepage features a list of all the cities, indications of how they are doing, and links to city-specific pages (e.g. [Chicago](http://digitalservicescenter.com/cities.html#Chicago), [Oakland](http://digitalservicescenter.com/cities.html#Oakland), or [Palo Alto](http://digitalservicescenter.com/cities.html#Palo%20Alto)).
 
-![](/post-img/1__T0CB7j0__tPVkTHXXghiabQ.png)
+![](/img/1__T0CB7j0__tPVkTHXXghiabQ.png)
 
 #### Focus on what matters
 
 My operating principle was to **focus on what matters** (at least in my view). Instead of a litany of services and links, can we identify the top 3-4 pieces of information and the top 3-4 services cities offer that citizens want?
 
-![](/post-img/1__a__yTVIGyG__AuxCVINbOfBQ.png)
+![](/img/1__a__yTVIGyG__AuxCVINbOfBQ.png)
 
 For the information options, I relied on Mark Headd’s “3 **_B’s of Open Data_**” — his recommendation for the three pieces of open data every city should publish: **bullets (**crime data), **budgets (**city expenditure), and **buses (**transit). Since legislative information seems to be an area of growing heat, I appended a fourth: **bills.** On the services side, the bias was towards simple, common functions (e.g. reporting an issue) where digital tools exist and ideally standards linking them together do as well: **211 (**social services), 3**11 (**issue reporting), **411 (**inquiries), and then **open data** writ large for all else (e.g. the city’s open data portal). But there’s no reason this couldn’t be iterative; if over time, we see that a particular component listed isn’t finding traction in our cities, it could be replaced.
 
@@ -108,7 +108,7 @@ _(Note: Poplus using a_ [_strict definition_](http://poplus.org/components/) _fo
 
 The other guiding principle was to minimize the burden on the city. What’s the least they could do? In this case, city only has to build a scaffolding. It’s just simple HTML, Javascript, and css that bring together the various _other_ sites (e.g. a 311 app) into a simple experience. (Truly simple: at the core, it just a set of links.) Just by adding links to its existing digital services to a spreadsheet, the city is added to the site, and gets a city-specific mobile-optimized Digital Services Center (like [this one for Oakland](http://digitalservicescenter.com/cities.html#Oakland)).
 
-![](/post-img/1__xdvb92EfH1JBrbe8Gq5a2g.png)
+![](/img/1__xdvb92EfH1JBrbe8Gq5a2g.png)
 
 It’s worth pointing out that this site relied on a robust CSS framework called [Foundation](http://foundation.zurb.com/). Out of the box, it comes with clean styles and importantly a mobile responsive layout, which makes creating new pages or even new apps in the same style rather easy. To test that hypothesis, I created a simple [Social Services Finder](http://abhinemani.com/city-services-finder) app, relying on [Derek Eder’s template](http://datamade.us/civic-apps/searchable-map-template/), and the Foundation CSS. It took me **under about an hour** to get the app up and running with data I scraped on St. Louis’s social services.
 
@@ -120,7 +120,7 @@ In a certain way, this aligns, I think, with the reason we go to City Hall: to g
 
 With those two pieces in place—a list of the core digital services and a simple way to present them on a per-city basis—I decided to start comparing city-to-city:
 
-![](/post-img/1__OaUm7LrUNsXJV8HnbwI8Zg.png)
+![](/img/1__OaUm7LrUNsXJV8HnbwI8Zg.png)
 
 For both cities and citizens, I suspect this may be helpful to see how an individual city stacks up. More interesting, I think, are the opportunities to use a common framework like this to identify gaps and trends in the ecosystem. We can start to see whether, say, 311 is missing in many cities, or conversely that, say, a specific vendor holds much of the market. Consider having quarterly discussions around these core areas: what’s working, what’s not, where are there gaps, and what should we be spreading one city to the next to fill them.
 
@@ -132,11 +132,11 @@ Admittedly, this was a very loose way to join the various pieces. Smarter, deepe
 
 When you start to see these services put next to each other, you start to think about the connections between them. The notion of an “upsell” is commonplace in retail, online and off. You’ll see it on Amazon after you’ve added something to your cart: consider what other books a customer bought, or think about pairing that new device with a accessory or support package. This same thinking could be applied to the civic space. If we think of cities less as various departments, but one institution with various offerings, then we can create “civic upsells” from one service to another.
 
-![](/post-img/1__7qPn1m5GvXFjAALW7aKFLQ.png)
+![](/img/1__7qPn1m5GvXFjAALW7aKFLQ.png)
 
 **_Discovery_**: Consider the example using the Social Services Finder from above. Often, social service providers in a city have to refer citizens (typically called “clients”) to another provider. If we were to make it easy for those providers to, say, print out referral information, pointing them back to the mobile site, you open up the possibility that they could find another service or opportunity within the city. It thus becomes both a resource for the service provider and the client.
 
-![](/post-img/1__qjQQDxJ6VQ2YGVfcl3__ghw.png)
+![](/img/1__qjQQDxJ6VQ2YGVfcl3__ghw.png)
 
 **_Being more civic_**: Getting a user’s attention online is always a challenge, and once a city has it, we should take full advantage of it. With the services centralized in one place—and maybe even some, like this St. Louis example—hosted by the city government, you can start to connect the dots between services. After you submit an issue or question, you could be prompted to register to vote or attend a community event; after you submit a 311 request, you could be encouraged to organize your neighbors to address it; or simply enough, after you look up a social service, you could be given public transportation options for getting there.
 
@@ -156,8 +156,8 @@ Seeing the prototype Digital Services Center, you may think that there’s only 
 
 Compare these two screenshots from the Social Services Finder:
 
-![](/post-img/1__kOjpS1UwST4i59rS5DWWwA.png)
-![](/post-img/1__XH6B50QbKT7PphRaLv8SiA.png)
+![](/img/1__kOjpS1UwST4i59rS5DWWwA.png)
+![](/img/1__XH6B50QbKT7PphRaLv8SiA.png)
 
 The second (just a mockup) features calls-to-action for the citizen that indeed could link to different pieces of technology. The city may use a simple mapping tool to showcase the various options, but then use, say, [Benefits Data Trust](http://www.bdtrust.org/) to check eligibility, [Aunt Bertha](http://auntbertha.com/) for availability, and then a **new** startup specializing in referring clients from one location to another. And this thinking applied to nearly every service. Simply put, each of those buttons is an opportunity for a civic startup. The upshot being that instead of those tools sitting aside the city’s website or another offering, they are positioned together ensuring that citizens can get to the right tool for their needs. [As I’ve written before](https://medium.com/lessons-to-work-by/looking-at-things-in-many-different-ways-ef2b3987ff81), I _do not believe_ that we could ever build a single app suite to solve all the civic problems for everyone; no, the world is too complex and user needs vary place-by-place, day-by-day. Diversity is a virtue—as is _understanding_. By putting together the applications in this kind of funnel, government IT managers and purchasing officers can start to see how the pieces fit together, making the sales process for a startup hopefully a little easier.
 

@@ -12,7 +12,7 @@ pubdate: June 13, 2014
 ---
 If you were walking around the sunny coastal town of Santa Cruz, California, in the middle of 2012, you might have seen a rather strange sight. Crouched over what appeared to be an massive green electrical box, a young woman, wearing a white lab coat and work goggles, wielding a can of paint. What was she doing? Trying to help you understand the city a little bit better.
 
-![](/post-img/1__KgScNrv__8UKegbKb7ceKTQ.jpeg)
+![](/img/1__KgScNrv__8UKegbKb7ceKTQ.jpeg)
 
 Those green boxes were in fact bike storage units — lovingly put in place by the city government — but presented as more eyesore and than useful city service. The woman was a Code for America fellow named Tamara, who joined with some local friends to change that, hand painting clear and bold bike symbols on the storage units.
 
