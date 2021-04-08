@@ -14,7 +14,7 @@ Indeed, I’m often tasked with giving an introduction on local government innov
 <div class="container-iframe">
 <iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F21stCitiesPrimer.pdf" title="webviewer" frameborder="0" class="responsive-iframe"></iframe>
 </div>
-<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F21stCitiesPrimer">Open PDF in Browser</a>
+<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F21stCitiesPrimer.pdf">Open PDF in Browser</a>
 
 Since the definition of a “21st Century City” seems elusive, or controversial, I did what I do: tell some stories.
 
