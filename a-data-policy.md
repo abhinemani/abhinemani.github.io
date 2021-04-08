@@ -17,4 +17,15 @@ For all the talk of "data-driven policy" and "data-driven government," the detai
 </div>
 <a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F2021-data-policy-2slides.pdf">Open PDF in Browser</a>
 
+### Deep Dive: How Civic Data Works
+
+The following presentation from the [University of Chicago Civic Technology course](https://abhinemani.com/civictechcourse/) goes in depth into how civic data works in a community — where it comes from and how governments can use it. 
+
+<div class="container-iframe">
+<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+</div>
+<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open PDF in Browser</a>
+
+> **Featured Essay:**<br />[Three Kinds of Data](https://abhinemani.com/essays/2021/02/10/Dashboards/): *Dashboards, Performance Management, and the Trouble with Different Kinds of Data*
+
 If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
