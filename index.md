@@ -19,7 +19,7 @@ image:
                             </div>
                             <div class="post-description">
 								<p>
-									Over the last 10+ years, I've been help run and manage various transformational organizations, non-profits, governments, and startups, with an eye towards technology that helps people. I have written, spoken, and taught about my learnings in this emerging, exciting, and fun field of public innovation widely, and try my best here to share what I am seeing.
+									Over the last 10+ years, I've been a part of various transformational organizations, non-profits, governments, and startups, with an eye towards technology that helps people. I have written, spoken, and taught about my learnings in this emerging, exciting, and fun field of public innovation widely, and try my best here to share what I am seeing.
 								</p>
                             </div>
                             <div class="socials">
@@ -56,7 +56,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/post-img/home/4.jpg" alt="List of Resources"></a>
+                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/img/home/4.jpg" alt="List of Resources"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -64,7 +64,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/ecosystem.html"><img src="{{site.url}}/post-img/home/6.jpg" alt="Ecosystem"></a>
+                                                    <a href="{{site.url}}/academy/ecosystem.html"><img src="{{site.url}}/img/home/6.jpg" alt="Ecosystem"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -72,7 +72,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/primer.html"><img src="{{site.url}}/post-img/home/5.jpg" alt="Public Innnovation Primer"></a>
+                                                    <a href="{{site.url}}/academy/primer.html"><img src="{{site.url}}/img/home/5.jpg" alt="Public Innnovation Primer"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -80,7 +80,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/post-img/home/1.jpg" alt="Lectures"></a>
+                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/img/home/1.jpg" alt="Lectures"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -88,7 +88,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/blog.html"><img src="{{site.url}}/post-img/home/2.jpg" alt="Essays"></a>
+                                                    <a href="{{site.url}}/blog.html"><img src="{{site.url}}/img/home/2.jpg" alt="Essays"></a>
                                                 </div>
 	                                         </figure>
                                         </div>
@@ -96,7 +96,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://govgeek.club"><img src="{{site.url}}/post-img/home/3.jpg" alt="GovGeek Community"></a>
+                                                    <a href="https://govgeek.club"><img src="{{site.url}}/img/home/3.jpg" alt="GovGeek Community"></a>
                                                 </div>
 	                                         </figure>	
                                         </div>
@@ -118,9 +118,9 @@ image:
 								{% for post in site.posts limit:4 %}	
                                 <a href="{{post.url}}" class="post-item">	
 									{% if post.img  %}
-                                    <img src="{{ site.url}}/post-img/{{post.img}}" alt="" class="post-bg-img">
+                                    <img src="{{ site.url}}/img/{{post.img}}" alt="" class="post-bg-img">
 									{% else %}
-                                    <img src="{{ site.url}}/post-img/placeholder.jpg" alt="" class="post-bg-img">
+                                    <img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
 									{% endif  %}
                                     <div class="post-tags">
 									  {% if post %}
