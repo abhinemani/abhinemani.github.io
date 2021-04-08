@@ -1,116 +1,67 @@
 ---
 layout: home
 permalink: /academy.html
-title: Blog
-tagline: When I speak aloud, publicly
+title: Public Innovation Academy
+tagline: lessons and trainigns on using technology for government
 tags: [about, Abhi Nemani, Code for America, pandas]
 ---
 <div class="page-wrap author-page">
 	<div class="author-header">
 		<div class="wrap wrap-center">
 			<div class="wrap_float">
-				<div class="title-wrap">
-					<div class="author-image">
-						<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
-					</div>
-					<h1 class="page-title">Public Innovation Academy</h1>
+				<div class="post-image-large wide">
+					<img src="https://abhinemani.com/img/pia-header.png" alt="">
+				</div>
+			<div class="post-description">
+				<p>
+					The Public Innovation Academy includes outcomes-driven online trainings on for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.
+				</p>
+			</div>
+		</div>
+	</div>
+    <div class="author-body">
+        <div class="wrap">
+            <div class="wrap_float">
+                <div class="wp-content">
+                    <div class="wrap wrap-center">
+                        <h2>Public Innovation Academy Lessons</h2>
+                        <div class="block-columns gallery-columns columns-4 wide-columns lightgallery-off">
+							{% for lesson in site.lessons %}
+                            <div class="block-column">
+								<a href="{{ lesson.url }}">
+                               	<figure class="block-caption img-caption">
+                                    <div class="img-wrap">
+                                        <img src="{{site.url}}/img/academy/{{ lesson.number }}.png" alt="{{ lesson.title }}">
+                                    </div>
+                                    <figcaption class="caption-text">{{ lesson.subhead }}</figcaption>
+                                </figure>
+								</a>
                             </div>
-                            <div class="post-description">
-								<p>
-									The Public Innovation Academy includes outcomes-driven online trainings on for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.
-								</p>
-                            </div>
-                            <div class="socials">
-                                <a class="soc-link">
-                                    <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://twitter.com/@abhinemani">
-                                    <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://linkedin.com/in/abhinemani">
-                                    <img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://github.com/abhinemani">
-                                    <img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
-                                    <img src="{{site.url}}/img/youtube-icon.svg" class="img-svg" alt="">
-                                </a>
-                            
-                            </div>
-                        </div>						
-                    </div>
+							
+							{% endfor %}
+						</div>
 					
-                </div>
-                <div class="author-body">
-                    <div class="wrap">
-                        <div class="wrap_float">
-			                <div class="author-body">
-			                    <div class="wrap">
-			                        <div class="wrap_float">
-								
-										
-			                            <div class="wp-content">
-													
-			                                <div class="wrap wrap-center">
-									
-			                                    <h3>Posts</h2>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-                            <div class="post-items-list posts-three-columns">
-								
-							    {% for training in site.lessons %}
-								
-                                <a href="{{ training.url }}" class="post-item">
-									{% if training.img  %}
-									
-                                    <img src="{{ site.url }}/img/{{post.img}}" alt="" class="post-bg-img">
-									{% else %}
-                                    <img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
-									
-									{% endif  %}
-                                    <div class="post-tags">
-									  {% if post %}
-									    {% assign tags = training.tags %}
-									  {% else %}
-									    {% assign tags = training.tags %}
-									  {% endif %}
-									  {% for tag in tags %}
-									  <div class="tag">{{ tag }}</div>
-									  {% unless forloop.last %}&nbsp;{% endunless %}
-									  {% endfor %}
-                                    </div>
-                                    <h3 class="post-title">
-                                       {{ training.title }}
-                                    </h3>
-                                    <div class="post-info">
-                                        <div class="post-author post-info-author">
-                                            <div class="author-image">
-                                                <img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
-                                            </div>
-                                            <span>Abhi Nemani</span>
-                                        </div>
-                                        <div class="post-date post-info-date">
-                                           {{ training.pubdate }}
-                                        </div>
-                                    </div>
-                                </a>
-								{% endfor %}
-                            </div>
-                            <!--<div class="show-more">
-                                <div class="show-more-btn">
-                                    <a href="/blog.html"><span>Show more</span></a>
-                                </div>
-                                <div class="loader">
-                                    <svg class="circular" viewBox="25 25 50 50">
-                                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-                                    </svg>
-                                </div>
-                            </div>-->
-                        </div>
                     </div>
                 </div>
-            </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="seo-section">
+	<div class="wrap wrap-center">
+		<div class="wrap_float">
+			<h2 class="title">
+				This is just a start...
+			</h2>
+			<div class="section-content wp-content">
+				<p>
+					Many current or prospective public servants — government employees, civic leaders, NGOs, tech startups, etc — are seeking training in how to get the job done in increasingly digital work environments, but lack the necessary resources. The Academy will include practical, collaborative certification programs on the essential skills and tools for modern governance.
+				</p>
+				<blockquote>
+					<strong>More coming:</strong> For now, <em><a href="https://abhinemani.com/civictechcourse/lectures">additional lectures from the University of Chicago are available</a></em> and will be transferred into the Academy over time.
+					<br />
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>
