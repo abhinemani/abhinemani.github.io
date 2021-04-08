@@ -56,7 +56,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/resources.html"><img src="{{site.url}}/img/home/4.jpg" alt="List of Resources"></a>
+                                                    <a href="{{site.url}}/lessons/4-resources/"><img src="{{site.url}}/img/home/4.jpg" alt="List of Resources"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -64,7 +64,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/ecosystem.html"><img src="{{site.url}}/img/home/6.jpg" alt="Ecosystem"></a>
+                                                    <a href="{{site.url}}/lessons/2-ecosystem/"><img src="{{site.url}}/img/home/6.jpg" alt="Ecosystem"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -72,7 +72,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/primer.html"><img src="{{site.url}}/img/home/5.jpg" alt="Public Innnovation Primer"></a>
+                                                    <a href="{{site.url}}/lessons/1-primer.html"><img src="{{site.url}}/img/home/5.jpg" alt="Public Innnovation Primer"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -80,7 +80,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="https://abhinemani.com/civictechcourse/lectures"><img src="{{site.url}}/img/home/1.jpg" alt="Lectures"></a>
+                                                    <a href="https://abhinemani.com/academy.html"><img src="{{site.url}}/img/home/1.jpg" alt="Lectures"></a>
                                                 </div>
                                             </figure>
                                         </div>
