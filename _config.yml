@@ -1,7 +1,7 @@
 title:            Abhi Nemani
 tagline:          technological optimist and political philosophy nerd.
 description:      Abhi Nemani has been a leader in government and civic technology through open data and user-centric software for over a decade.
-url: https://abhinemani.com/
+#url:              https://abhinemani.com
 
 # Owner/author information
 owner:
@@ -15,42 +15,10 @@ owner:
   github:         abhinemani
   linkedin:       abhinemani
   instagram:      abhinemani
-  lastfm:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2506770-3
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:     
 
 collections:
   portfolio:
     output: true
-# Links to include in top navigation
-# For external links add external: true
-links:
-#  - title: Home
-#    url: /  
-  - title: Bio
-    url: /bio
-  - title: Blog
-    url: https://medium.com/@abhinemani
-    external: true
-  - title: Lectures
-    url: http://abhinemani.com/civictechcourse/lectures
-    external: true
-  - title: Press
-    url: /press
-  - title: Talks
-    url: /talks
-  - title: CV
-    url: /cv
-#  - title: Made Mistakes
-#    url: http://mademistakes.com
-#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/San_Francisco
