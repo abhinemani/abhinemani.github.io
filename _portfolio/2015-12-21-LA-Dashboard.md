@@ -5,6 +5,7 @@ subhead: How building a showpiece unveiled the real challenges of PerformanceSta
 tags: [government, data, COMPStat]
 img: new-dashboard.png
 categories: Partners
+pubdate: 2015
 ---
 In 2015, I built the LA Mayoral Dashboard, which is used regularly by the Mayor and Senior Staff to increase performance and accountability; the dashboard has saved the city over $180K, and has been freely reused by other cities.
 
