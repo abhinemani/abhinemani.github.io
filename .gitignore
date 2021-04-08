@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+Pages/
+post-img/
+index2.html
+Gemfile.lock
