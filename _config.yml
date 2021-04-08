@@ -43,6 +43,8 @@ kramdown:
   
 tag_permalink_style: pretty 
 
-
+exclude:
+  - .jekyll-cache
+  
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
