@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /blog.html
+permalink: /academy.html
 title: Blog
 tagline: When I speak aloud, publicly
 tags: [about, Abhi Nemani, Code for America, pandas]
@@ -13,11 +13,11 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					<div class="author-image">
 						<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
 					</div>
-					<h1 class="page-title">My (Candid) Point of View on Public Innovation</h1>
+					<h1 class="page-title">Public Innovation Academy</h1>
                             </div>
                             <div class="post-description">
 								<p>
-									I'm a fan of technology, government, and interesting ideas. So I've been thinking about things, ranging from political philosophy and cities to data-driven policy and civic tech, and I have gotten the opportunity to travel around the world to see first-hand how public life everywhere is changing — which makes me excited about what's ahead.
+									The Public Innovation Academy includes outcomes-driven online trainings on for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.
 								</p>
                             </div>
                             <div class="socials">
@@ -62,10 +62,10 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 							</div>
                             <div class="post-items-list posts-three-columns">
 								
-							    {% for post in site.posts %}
+							    {% for training in site.lessons %}
 								
-                                <a href="{{ post.url }}" class="post-item">
-									{% if post.img  %}
+                                <a href="{{ training.url }}" class="post-item">
+									{% if training.img  %}
 									
                                     <img src="{{ site.url }}/img/{{post.img}}" alt="" class="post-bg-img">
 									{% else %}
@@ -74,9 +74,9 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 									{% endif  %}
                                     <div class="post-tags">
 									  {% if post %}
-									    {% assign tags = post.tags %}
+									    {% assign tags = training.tags %}
 									  {% else %}
-									    {% assign tags = post.tags %}
+									    {% assign tags = training.tags %}
 									  {% endif %}
 									  {% for tag in tags %}
 									  <div class="tag">{{ tag }}</div>
@@ -84,7 +84,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 									  {% endfor %}
                                     </div>
                                     <h3 class="post-title">
-                                       {{ post.title }}
+                                       {{ training.title }}
                                     </h3>
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
@@ -94,7 +94,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                                             <span>Abhi Nemani</span>
                                         </div>
                                         <div class="post-date post-info-date">
-                                           {{ post.pubdate }}
+                                           {{ training.pubdate }}
                                         </div>
                                     </div>
                                 </a>
