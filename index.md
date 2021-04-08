@@ -72,7 +72,7 @@ image:
                                             <figure class="block-caption img-caption">
                                                 <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/lessons/1-primer.html"><img src="{{site.url}}/img/home/5.jpg" alt="Public Innnovation Primer"></a>
+                                                    <a href="{{site.url}}/lessons/1-primer/"><img src="{{site.url}}/img/home/5.jpg" alt="Public Innnovation Primer"></a>
                                                 </div>
                                             </figure>
                                         </div>
