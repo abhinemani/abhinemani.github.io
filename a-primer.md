@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /academy/primer.html
-title: 21st Century Cities Primer
-subhead: What does a 21st century city look like
+title: The Primer
+subhead: What does a 21st century city look like&#x3f;
 categories: Academy
 img: pia-header.png
 pubdate: Updated 2021
@@ -11,8 +11,9 @@ That’s a question I’m asked fairly often.
 
 Indeed, I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.
 
-<object data="/decks/21stCitiesPrimer.pdf" type="application/pdf" width="100%" style="min-height: 400px;"></object>
-
+<div class="container-iframe">
+  <iframe class="responsive-iframe" src="/decks/21stCitiesPrimer.pdf"></iframe>
+</div>
 
 Since the definition of a “21st Century City” seems elusive, or controversial, I did what I do: tell some stories.
 

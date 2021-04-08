@@ -1,10 +1,10 @@
-I"�<p>That’s a question I’m asked fairly often.</p>
+I"u<p>That’s a question I’m asked fairly often.</p>
 
 <p>Indeed, I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.</p>
 
-<style>.pdf-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 20px; border-style: solid; } .pdf-link { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container iframe, .pdf-embed-container object, .pdf-embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-<div class="pdf-link"><a href="/decks/21stCitiesPrimer.pdf" target="_blank">View PDF</a></div>
-<div class="pdf-embed-container"><iframe title="PDF file" width="640" height="390" src="/decks/21stCitiesPrimer.pdf" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="container-iframe">
+  <iframe class="responsive-iframe" src="/decks/21stCitiesPrimer.pdf"></iframe>
+</div>
 
 <p>Since the definition of a “21st Century City” seems elusive, or controversial, I did what I do: tell some stories.</p>
 
