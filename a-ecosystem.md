@@ -2,7 +2,7 @@
 layout: page
 permalink: /academy/ecosystem.html
 title: The Ecosystem
-subhead: Getting started with empathy and the ecosystem
+subhead: Getting started with empathy and the ecosystem 
 categories: Academy
 pubdate: 2021
 img: pia-header.png
