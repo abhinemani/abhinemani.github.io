@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Helping Start Startups in Sacramento
-subhead: Building the Mayor's Office of Innovation and Entreprenuership in Sacramento to grow the region's econony
+subhead: Building the Mayor's Office of Innovation and Entrepreneurship in Sacramento to grow the region's economy
 tags: [government, economic development, innovation]
 img: sac-img1.jpeg
 categories: Partners
@@ -11,11 +11,11 @@ The City of Sacramento is committed to become a hub of innovation, technology, a
 
 ## Hightlights: Impact
 * Created largest innovation fund for mid-sized city in the country ($10M)
-* Built, launched, and completed entreprenuership grant program (RAILS) in under 4 months
+* Built, launched, and completed entrepreneurship grant program (RAILS) in under 4 months
 * Developed broad-based community and stakeholder engagement program through events, tech council, etc
 * Set up Innovation & Entrepreneurship Office with sustainable revenues and partnerships
 * 
-## Hightlight: Press
+## Highlight: Press
 * **BizJournal**:  [Mayor’s framework for Innovation & Entrepreneurship has come together](http://www.bizjournals.com/sacramento/news/2016/06/10/how-city-council-would-spend-8-2-million-fund.html) 
 * **KCRA** [VIDEO]:  [Mayor: Tech Startups next generation for Sacramento](http://www.kcra.com/news/mayor-tech-startups-next-generation-for-sacramento/40175930) 
 * **TechWire**:  [Sacramento’s Innovation Fund will invest in local startup community](http://www.techwire.net/innovation/sacramentos-innovation-growth-fund-will-invest-in-local-companies-mayor-says.html) 
@@ -38,7 +38,7 @@ These three IGF strategic programs were designed to be sustainable over time, fa
 [This $10M plan — which makes it the largest innovation fund of its kind — was presented to the Council in May 2016, and it was approved unanimously (9-0).](http://sacramento.granicus.com/MetaViewer.php?view_id=21&event_id=2826&meta_id=471926) 
 Following this vote, the Economic Development Department, the Information Technology Department, and the Mayor’s Office collaborated to identify concrete recommendations for appropriations for Council to fulfill the IGF’s goals and objectives.
 
-## Pipeline for Startusp
+## Pipeline for Startups
 
 **RAILS: RAPID ACCELERATION, INNOVATION, AND LEADERSHIP IN SACRAMENTO**
 

@@ -2,7 +2,7 @@
 layout: page
 title: Letting governments build their own workflows on CityGrows
 subhead: Accessible and affordable workflow automation for local governments to replace paper forms and pdfs in minutes
-tags: [startup, worflow, SaaS]
+tags: [startup, workflow, SaaS]
 img: citygrows.svg
 categories: Partners
 pubdate: 2015
@@ -15,9 +15,6 @@ CityGrows is a values-driven company with a mission to transform and improve gov
 ## What They Do
 
 CityGrows is workflow automation software for local governments. Governments digitize and automate their workflows from start to finish, and improve operational efficiency, transparency, and compliance. The CityGrows platform allows any government employee – regardless of technical skill – to structure and improve their workflows by collecting information from the public, automating constituent communications, processing online payments, and managing everything through our smart dashboard. CityGrows believes in transparency in software pricing for government and developed our subscription/ payment processing revenue model in collaboration with our government clients and our investors. 
-
-
-
 
 ‍![LAPD Center]({{site.url}}/img/citygrows.gif)
 
