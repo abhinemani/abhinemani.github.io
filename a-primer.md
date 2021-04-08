@@ -12,8 +12,9 @@ That’s a question I’m asked fairly often.
 Indeed, I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.
 
 <div class="container-iframe">
-  <iframe class="responsive-iframe" src="/decks/21stCitiesPrimer.pdf"></iframe>
+<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F21stCitiesPrimer.pdf" title="webviewer" frameborder="0" class="responsive-iframe"></iframe>
 </div>
+<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F21stCitiesPrimer">Open PDF in Browser</a>
 
 Since the definition of a “21st Century City” seems elusive, or controversial, I did what I do: tell some stories.
 
