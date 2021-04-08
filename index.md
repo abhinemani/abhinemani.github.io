@@ -50,7 +50,7 @@ image:
                         <div class="wrap_float">
                             <div class="wp-content">
                                 <div class="wrap wrap-center">
-                                    <h2>Public Innovation Resources</h2>
+                                    <h2>Public Innovation Academy (alpha)</h2>
                                     <div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
