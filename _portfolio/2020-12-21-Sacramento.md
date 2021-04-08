@@ -2,7 +2,7 @@
 layout: page
 title: Helping Start Startups in Sacramento
 subhead: Building the Mayor's Office of Innovation and Entreprenuership in Sacramento to grow the region's econony
-tags: [startup, for-profit]
+tags: [government, economic development, innovation]
 img: sac-img1.jpeg
 categories: Partners
 pubdate: 2016

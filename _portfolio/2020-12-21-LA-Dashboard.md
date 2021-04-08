@@ -2,7 +2,7 @@
 layout: page
 title: Enabling Data-Driven Decisions in LA
 subhead: How building a showpiece unveiled the real challenges of PerformanceStat
-tags: [startup, for-profit]
+tags: [government, data, COMPStat]
 img: new-dashboard.png
 categories: Partners
 ---
