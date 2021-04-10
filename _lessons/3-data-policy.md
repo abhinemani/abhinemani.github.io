@@ -8,7 +8,7 @@ img: pia-header.png
 pubdate: Updated 2021
 number: 3
 ---
-## An Introduction to Data-Driven Decision-Making and Policy Making
+## An Introduction
 
 For all the talk of "data-driven policy" and "data-driven government," the details can get lost in the hype. In this simple breakdown, we explore the way people **"think"** data-driven decision-making works, and then describe in detail how it **"really works."**
 
