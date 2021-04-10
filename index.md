@@ -139,7 +139,7 @@ image:
                                     <div class="post-info">
                                         <div class="post-author post-info-author">
                                             <div class="author-image">
-                                                <img src="{{site.url}}/img/headshot.png" alt="" class="image-cover">
+                                                <img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
                                             </div>
                                             <span>Abhi Nemani</span>
                                         </div>
