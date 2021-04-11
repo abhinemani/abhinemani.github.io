@@ -20,7 +20,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                     <div class="author-image">
                         <img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
                     </div>
-                    <h1 class="page-title">Abhi Nemani</h1>
+                    <h1 class="page-title">About me.</h1>
                 </div>
                 <div class="section-content wp-content">
 					<img src="{{site.url}}/img/Summit-shot.jpeg">
