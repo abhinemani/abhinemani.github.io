@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /about.html
+permalink: /about/index.html
 title: About
 tagline: About me
 tags: [about, Abhi Nemani, Code for America, pandas]
@@ -61,8 +61,8 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 						<li>White House Champions of Change</li>
 						<li>Multiple Knight News Challenge Selections</li>
 					</ul>
-					<p><a name="#headshot"></a><em>If necessary, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>.</em></p>
 					<h2>Headshot</h2>
+					<p><a name="headshot"></a><em>If necessary, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>.</em></p>
                 </div>
                 <div class="socials">
                     <a class="soc-link">
