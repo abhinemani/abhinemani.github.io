@@ -23,7 +23,8 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                     <h1 class="page-title">Abhi Nemani</h1>
                 </div>
                 <div class="section-content wp-content">
-					<p><img src="{{site.url}}/img/Summit-shot.jpeg" class="alignright" style="max-width: 50%;">Abhi Nemani has worked for over a decade at the intersection of public service and technology. Abhi helped build the non-profit Code for America, growing it into a national leader in government tech, and then he was appointed as the first CDO of Los Angeles and CIO of Sacramento. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
+					<img src="{{site.url}}/img/Summit-shot.jpeg">
+					<p>Abhi Nemani has worked for over a decade at the intersection of public service and technology. Abhi helped build the non-profit Code for America, growing it into a national leader in government tech, and then he was appointed as the first CDO of Los Angeles and CIO of Sacramento. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
 					</p>
 					<h2>Background</h2>
 					<img src="{{site.url}}/img/GD-shot.jpg">
