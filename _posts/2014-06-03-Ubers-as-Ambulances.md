@@ -2,7 +2,6 @@
 layout: single
 title: Ubers as Ambulances?
 category: 
-- Blog
 - Essays
 subhead: And other ideas to make consumer apps more civic
 date: 2020-08-28
