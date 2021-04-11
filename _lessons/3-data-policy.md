@@ -26,6 +26,6 @@ The following presentation from the [University of Chicago Civic Technology cour
 </div>
 <a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open PDF in Browser</a>
 
-> **Featured Essay:**<br />[Three Kinds of Data](https://abhinemani.com/essays/2021/02/10/Dashboards/): *Dashboards, Performance Management, and the Trouble with Different Kinds of Data*
+<blockquote class="blue-bg"><strong>Featured Essay</strong> | <a href="https://abhinemani.com/essays/2021/02/10/Dashboards/">Three Kinds of Data</a>:<br /> <em>Dashboards, Performance Management, and the Trouble with Different Kinds of Data</em></blockquote>
 
 If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
