@@ -54,7 +54,6 @@ image:
                                     <div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
                                                     <a href="{{site.url}}/academy/"><img src="{{site.url}}/img/home/2.jpg" alt="Lessons"></a>
                                                 </div>
@@ -62,7 +61,6 @@ image:
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
                                                     <a href="{{site.url}}/lessons/1-primer/"><img src="{{site.url}}/img/home/1.jpg" alt="Primer"></a>
                                                 </div>
@@ -70,7 +68,6 @@ image:
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
                                                     <a href="{{site.url}}/lessons/2-ecosystem/"><img src="{{site.url}}/img/home/3.jpg" alt="Ecosystem"></a>
                                                 </div>
@@ -78,7 +75,6 @@ image:
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
                                                     <a href="https://govgeek.club"><img src="{{site.url}}/img/home/4.jpg" alt="Community"></a>
                                                 </div>
@@ -86,7 +82,6 @@ image:
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
                                                     <a href="{{site.url}}/blog.html"><img src="{{site.url}}/img/home/5.jpg" alt="Essays"></a>
                                                 </div>
@@ -94,7 +89,6 @@ image:
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
-                                                <button class="zoom-btn"></button>
                                                 <div class="img-wrap">
                                                     <a href="{{site.url}}/lessons/4-resources/"><img src="{{site.url}}/img/home/6.jpg" alt="Resources"></a>
                                                 </div>

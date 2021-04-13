@@ -69,11 +69,11 @@ https://hellodigi.ru/
 }
 .top-panel .wrap_float .mode-check {
   position: absolute;
-  left: 0;
+  right: 0;
 }
 .top-panel .wrap_float .search-button {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
 }
 .top-panel .wrap-center {
@@ -153,14 +153,14 @@ https://hellodigi.ru/
   cursor: pointer;
 }
 .search-button:before {
-  width: 18px;
-  height: 18px;
-  background: url(../img/search.svg) center center no-repeat;
+  width: 56px;
+  height: 24px;
+  background: url(../img/glasses-black.png) center center no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
   top: 50%;
-  margin-top: -9px;
+  margin-top: -11px;
   content: '';
 }
 .logo {
@@ -409,7 +409,7 @@ https://hellodigi.ru/
   background: #0D84FB;
 }
 .dark .search-button:before {
-  background-image: url(../img/search-white.svg);
+  background-image: url(../img/glasses-white.png);
 }
 .dark .top-panel {
   background: #1d1d1d;
@@ -704,10 +704,8 @@ https://hellodigi.ru/
     width: 25px;
   }
   .search-button:before {
-    width: 25px;
-    height: 26px;
-    right: 0;
-    left: auto;
+    left: 0;
+    right: auto;
     margin-top: -13px;
   }
   .top-panel .wrap_float .search-button {
