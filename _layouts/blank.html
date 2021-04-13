@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+{% include nav.html %}
+            <div class="page-wrap">
+                <div class="page-wrap-content">
+                    <div class="post-single-wrap sticky-parent">
+                        <div class="share-block">
+                            <div class="share-block-main js-share-block-main">
+                                <div class="socials">
+                                    <a class="soc-link" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" data-title="Facebook">
+                                        <span class="soc-icon">
+                                            <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
+                                        </span>
+                                    </a>
+                                    <a class="soc-link" data-title="Twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title}} by @abhinemani {{site.url}}{{page.url}}" >
+                                        <span class="soc-icon">
+                                            <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
+                                        </span>
+                                    </a>
+                                    <a class="soc-link" data-title="Pinterest">
+                                        <span class="soc-icon">
+                                            <img src="{{site.url}}/img/pinterest-icon.svg" class="img-svg" alt="">
+                                        </span>
+                                    </a>
+                                    <div class="soc-link show-more-socials" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="share-block-item mobile-item js-mobile-share-show mobile-share-show-btn">
+                                <div class="show-mobile-icon"></div>
+                            </div>
+                        </div>
+                        <div class="single-content wp-content">
+                            <div class="wrap wrap-center">
+                                <div class="wrap_float">
+                                    {{ content }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+{% include partners.html %}
+{% include footer.html %}
+</html>
