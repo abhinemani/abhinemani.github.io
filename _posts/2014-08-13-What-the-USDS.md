@@ -1,7 +1,7 @@
 ---
 layout: single
 title: What the US Digital Service should learn from Apple for Government as a Platform
-category: Essays
+categories: Essays
 subhead: Lessons for the new USDS from real consumer platforms
 date: 2014-08-13
 pubdate: August 13, 2014

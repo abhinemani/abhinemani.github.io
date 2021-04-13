@@ -1,7 +1,8 @@
 ---
 layout: single
 title: Stop making things seem simple
-category: Essays
+categories: 
+- Essays
 subhead: SaaS in a regulated market can be tricky
 date: 2020-06-24
 pubdate: June 24, 2010

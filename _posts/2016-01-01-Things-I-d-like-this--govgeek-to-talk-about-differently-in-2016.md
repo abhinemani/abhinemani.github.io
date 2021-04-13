@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Things I’d like this GovGeek to talk about differently in 2016
-category: 
+categories: 
 - Blog
 - Reflections
 date: 2016-01-01

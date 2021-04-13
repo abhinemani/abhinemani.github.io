@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 7 Tactics for 21st Century Cities
-category: 
+categories: 
 - Blog
 - Essays
 - Principles

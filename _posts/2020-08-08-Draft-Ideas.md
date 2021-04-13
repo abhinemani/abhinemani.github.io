@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Draft Ideas for “#PublicInnovation Academy” Courses
-category:
+categories:
 - Blog
 - Reflections
 subhead: Here’s a initial “off-the-top of my head” breakdown of potential courses/topics — in no particular order.

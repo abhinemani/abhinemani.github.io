@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Two Kinds of Empathy & the Gap in Public Sector Innovation
-category: Essays
+categories: Essays
 subhead: Building for both sides of the government counter
 date: 2014-08-13
 pubdate: August 13, 2014

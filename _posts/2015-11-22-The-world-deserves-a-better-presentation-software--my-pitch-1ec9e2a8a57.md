@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 'The world deserves a better presentation software: my pitch'
-category: 
+categories: 
 - Blog
 - Reflections
 date: 2015-11-22

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Let’s build some infrastructure to make things matter even more.
-category:
+categories:
 - Blog
 - Essays
 subhead: Increasing the go-to-market velocity for civic tech.

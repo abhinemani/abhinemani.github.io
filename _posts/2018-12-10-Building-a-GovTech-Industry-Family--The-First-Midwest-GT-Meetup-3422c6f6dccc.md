@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Building a GovTech Industry Family — The First Midwest GT Meetup
-category: Essays
+categories: Essays
 date: 2018-12-10
 pubdate: December 10, 2018
 img: 1__G0dbpEiF8yBeWTReccYjWg.jpeg

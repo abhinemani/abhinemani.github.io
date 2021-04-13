@@ -1,7 +1,7 @@
 ---
 layout: single
 title: You Wouldn’t Understand Because You’re Not Actually a Public Servant!
-category: Essays
+categories: Essays
 subhead: Why we need to expand the definition of public servant
 date: 2016-09-13
 pubdate: September 13, 2016

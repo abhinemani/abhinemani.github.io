@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Data in the City of Angels
-category: 
+categories: 
 - Blog
 - Announcements
 - Reflections

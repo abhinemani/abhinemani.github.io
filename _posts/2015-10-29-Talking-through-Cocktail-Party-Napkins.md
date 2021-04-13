@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Talking through Cocktail Party Napkins
-category: 
+categories: 
 - Talks
 - Reflections
 subhead: 

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Thoughts on what’s next for government innovation
-category: 
+categories: 
 - Blog
 - Reflections
 - Talks

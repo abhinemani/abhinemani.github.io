@@ -2,9 +2,7 @@
 layout: single
 title: Is the App Store the Right Metaphor for Civic Tech
 subhead: Do we *want* for an GovTech App Store?
-categories: 
-- Blog
-- Essays
+categories: [Blog, Essays]
 tags: 
 - Government
 - Skills

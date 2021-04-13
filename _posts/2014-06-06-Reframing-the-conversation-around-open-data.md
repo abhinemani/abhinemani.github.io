@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Reframing the conversation around open data
-category: 
+categories: 
 - Blog
 - Reflections
 subhead: Building a culture of transparency

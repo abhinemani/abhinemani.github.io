@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Alexa — let’s talk about open data standards
-category: Essays
+categories: Essays
 date: 2017-02-10
 pubdate: February 10, 2017
 img: 1__y__ilUwgSSetjcoXgU48OPQ.jpeg

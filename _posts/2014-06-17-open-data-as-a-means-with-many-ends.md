@@ -2,7 +2,7 @@
 layout: single
 title: open data as a means with many ends
 subhead: open is not simple
-category: Essays
+categories: Essays
 date: 2014-06-17
 pubdate: June 17, 2014
 img: opendata.jpeg

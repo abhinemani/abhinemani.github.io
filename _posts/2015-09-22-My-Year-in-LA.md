@@ -1,7 +1,7 @@
 ---
 layout: single
 title: My Year in LA
-category: Essays
+categories: Essays
 subhead: Some reflections on my time in public service in Los Angeles
 date: 2015-10-01
 pubdate: October 1, 2015

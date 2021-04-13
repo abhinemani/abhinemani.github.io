@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Five trends to watch in #civictech in 2020
-category: Essays
+categories: Essays
 subhead: There’s never been a more important time to be good at what we do
 date: 2020-06-02
 pubdate: June 2, 2020

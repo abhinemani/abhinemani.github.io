@@ -1,7 +1,7 @@
 ---
 layout: single
 title: The Trumpet Summons Us Again
-category: Essays
+categories: Essays
 subhead: On JFK’s Inaugural Address
 date: 2016-01-08
 pubdate: January 8, 2016

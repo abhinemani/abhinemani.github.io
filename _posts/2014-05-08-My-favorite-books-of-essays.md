@@ -1,7 +1,7 @@
 ---
 layout: single
 title: My favorite books of essays
-category: 
+categories: 
 - Blog
 - Reflections
 tags: 

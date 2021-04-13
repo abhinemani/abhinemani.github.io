@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Public Sentiments Toward Public Service?
-category: 
+categories: 
 - Blog
 - Reflecetions
 date: 2017-01-17

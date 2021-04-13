@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Why We Do the Work.
-category: Essays
+categories: Essays
 date: 2017-01-08
 pubdate: January 8, 2017
 img: 1__FOGeiat5f8EYNtI1zg6FZQ.png

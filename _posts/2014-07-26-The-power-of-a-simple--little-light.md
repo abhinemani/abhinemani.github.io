@@ -1,7 +1,7 @@
 ---
 layout: single
 title: The power of a simple, little light
-category: Essays
+categories: Essays
 subject: How I got my parents to finally understand what I do.
 date: 2014-07-26
 pubdate: July 26, 2014

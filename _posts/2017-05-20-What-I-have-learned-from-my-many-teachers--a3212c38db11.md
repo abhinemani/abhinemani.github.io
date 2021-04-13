@@ -1,7 +1,7 @@
 ---
 layout: single
 title: What I have learned from my many teachers…
-category: Essays
+categories: Essays
 subhead: >-
   I was recently asked to speak at my alma mater (Claremont McKenna College)
   about my career and how CMC helped shape and empower it. Being…

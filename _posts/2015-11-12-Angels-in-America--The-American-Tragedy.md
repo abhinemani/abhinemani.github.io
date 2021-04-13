@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Angels in America - The American Tragedy
-category: 
+categories: 
 - Blog
 - Essays
 - Papers

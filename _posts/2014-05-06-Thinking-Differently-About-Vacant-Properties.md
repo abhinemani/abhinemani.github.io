@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Thinking Differently About Vacant Properties
-category: 
+categories: 
 - Blog
 - Essays
 Subhead: Tech can transform the means and ends of revitalization

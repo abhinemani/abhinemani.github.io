@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 311 Inquiry, Machine Learning, and Automated Citizen Support
-category: Essays
+categories: Essays
 pubdate: June 15, 2018
 date: 2018-06-15
 ---

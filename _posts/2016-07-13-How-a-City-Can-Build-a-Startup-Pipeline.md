@@ -1,7 +1,7 @@
 ---
 layout: single
 title: How a City Can Build a Startup Pipeline
-category: 
+categories: 
 - Essays
 - Case Studies
 date: 2016-07-13

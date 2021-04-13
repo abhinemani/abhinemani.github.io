@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Open Data, Civic Engagement, and Delivery
-category: 
+categories: 
 - Blog
 - Essays
 subhead: Did We Go the Wrong Way?

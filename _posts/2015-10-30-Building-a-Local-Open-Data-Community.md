@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Building a Local Open Data Community
-category: 
+categories: 
 - Blog
 date: 2015-10-30
 img: 1__4PLJdFzJNO8zAKdQrtj9Ew.jpeg

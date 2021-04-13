@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Data-Driven Policy” - San Francisco just showed us how it should work.
-category: Essays
+title: Data-Driven Policy - San Francisco just showed us how it should work.
+categories: Essays
 subhead: A simple, powerful, and human centered approach to data-driven decision-making
 date: 2020-08-28
 pubdate: August 28, 2016

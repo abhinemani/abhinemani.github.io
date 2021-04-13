@@ -1,7 +1,7 @@
 ---
 layout: single
 title: How John Dewey Played a Big Role in the 2008 Election
-category: Essays
+categories: Essays
 subhead: Technology, social capital, and the campaign
 date: 2014-06-18
 pubdate: June 18, 2014

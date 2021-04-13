@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Connecting the dots - data & delivery
-category: 
+categories: 
 - Blog
 - Essays
 subhead: How digital services, data, and citizen engagement relate

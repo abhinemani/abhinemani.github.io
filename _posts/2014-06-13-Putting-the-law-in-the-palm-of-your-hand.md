@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Putting the law in the palm of your hand
-category: 
+categories: 
 - Blog
 - Essays
 - Announcements

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Anchoring Open Data in the Community
-category: 
+categories: 
 - Blog
 - Essays
 date: 2015-10-14

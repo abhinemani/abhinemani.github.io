@@ -1,7 +1,7 @@
 ---
 layout: single
 title: In one picture — Why governments need CMOs…
-category: 
+categories: 
 - Blog
 - Reflections
 date: 2017-01-26

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Engines of Civic Entrepreneurship
-category: Essays
+categories: Essays
 subhead: Clever ways cities are turning civic enthusiasm into meaningful civic action and entrepreneurship
 date: 2016-02-04
 pubdate: February 2, 2016

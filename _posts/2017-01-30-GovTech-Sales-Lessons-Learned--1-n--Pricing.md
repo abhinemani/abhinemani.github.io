@@ -1,7 +1,7 @@
 ---
 layout: single
 title: GovTech Sales Lessons Learned, 1/n — Pricing
-category: Essays
+categories: Essays
 date: 2017-01-30
 pubdate: January 30, 2017
 ---

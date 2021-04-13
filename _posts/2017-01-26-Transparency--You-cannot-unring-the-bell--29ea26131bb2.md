@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 'Transparency: You cannot unring the bell.'
-category: Essays
+categories: Essays
 subhead: >-
   A strange thing happened today. For a while, I have drawn a fairly bright line
   between my social networks: facebook was for college…

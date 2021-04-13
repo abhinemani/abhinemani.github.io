@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Push vs. Pull & the Opportunity for Automation in GovTech
-category:
+categories:
 - Blog
 - Essays
 subhead: >-

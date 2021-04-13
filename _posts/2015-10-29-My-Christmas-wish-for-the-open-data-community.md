@@ -1,7 +1,7 @@
 ---
 layout: single
 title: My Christmas wish for the open data community
-category: Essays
+categories: Essays
 subhead: Open data publication for the rest of us
 date: 2015-10-29
 pubdate: October 29, 2015

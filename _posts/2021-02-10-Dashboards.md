@@ -3,8 +3,7 @@ layout: single
 title: What I've learned&#x3a; Three Different Kinds of Civic Data
 subhead: Dashboards, Performance Management, and the Trouble with Different Kinds of Data
 img: data-venn-diagram2.jpg
-category:
-- Essays
+categories: Essays
 pubdate: December 2015
 ---
 _Note: This was written in the Winter 2015, shortly after my time as Chief Data Offier in Los Angeles when I began consulting with other agenices. A version of this essay has been printed in the University of Missouri Kansas City (UMKC) Law Review._
@@ -27,7 +26,7 @@ I stepped back. I asked, “What does data mean to the different people in the o
 
 ![LAPD Center](/img/lapd-center.png)
 
-In some cases it meant this (see above); this is a picture of the amazing systems that I’ve been at ATSAC, the real-time traffic system organization in LA, which has all the 24-style tools and tech that you’d expect: big screens and moving charts, real-time maps. This is how some people in the city look at data, very few, but some because it’s their job to track situational or domain awareness in the city and respond appropriately with public service delivery, emergency services delivery, etc. That’s one category of user.
+In some cases it meant this (see above); this is a picture of the amazing systems that I’ve been at ATSAC, the real-time traffic system organization in LA, which has all the 24-style tools and tech that you’d expect: big screens and moving charts, real-time maps. This is how some people in the city look at data, very few, but some because it’s their job to track situational or domain awareness in the city and respond appropriately with public service delivery, emergency services delivery, etc. That’s one categories: of user.
 
 Then there’s another whose experience with data was literally plugging in their daily hours into a time card. That’s the most use of data they tend to have on a given basis.
 

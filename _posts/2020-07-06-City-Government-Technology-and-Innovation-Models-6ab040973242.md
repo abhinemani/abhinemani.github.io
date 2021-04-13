@@ -1,7 +1,7 @@
 ---
 layout: single
 title: City Government Technology and Innovation Models
-category: Essays
+categories: Essays
 subhead: Summary notes for discussion purposes
 date: 2020-07-06
 pubdate: June 6, 2020

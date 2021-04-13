@@ -1,9 +1,7 @@
 ---
 layout: single
 title: On Boston, Politics, and the Arc of Civic Innovation
-category: 
-- Blog
-- Essays
+categories: [Blog, Essays]
 subhead: Thinking about tenure and transition in government
 date: 2014-04-17
 pubdate: April 17, 2014

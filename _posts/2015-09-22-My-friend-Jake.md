@@ -1,7 +1,7 @@
 ---
 layout: single
 title: My friend Jake
-category: 
+categories: 
 - Blog
 date: 2015-09-22
 img: jake.jpeg
