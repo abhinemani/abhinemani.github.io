@@ -145,7 +145,7 @@ image:
 								{% endfor %}
                             </div>
                             <div>
-								<a href="{{site.url}}/blog.html">
+								<a href="{{site.url}}/blog/">
                                 <div class="show-more-btn">
                                     <span>Read more...</span>
                                 </div>
