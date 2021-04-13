@@ -83,7 +83,7 @@ image:
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/blog.html"><img src="{{site.url}}/img/home/5.jpg" alt="Essays"></a>
+                                                    <a href="{{site.url}}/blog/"><img src="{{site.url}}/img/home/5.jpg" alt="Essays"></a>
                                                 </div>
 	                                         </figure>
                                         </div>
