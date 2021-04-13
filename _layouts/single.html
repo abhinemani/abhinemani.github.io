@@ -42,12 +42,12 @@
                                 <div class="wrap_float">
                                     <div class="post-tags"> <!-- tags -->
 										  {% if post %}
-										    {% assign tags = post.tags %}
+										    {% assign tags = page.tags %}
 										  {% else %}
 										    {% assign tags = page.tags %}
 										  {% endif %}
 										  {% for tag in tags %}
-										  <a href="/categories/#{{category|slugize}}" class="tag">{{ tag }}</a>
+										  <a href="#" class="tag">{{ tag }}</a>
 										  {% unless forloop.last %}&nbsp;{% endunless %}
 										  {% endfor %}
                                     </div>

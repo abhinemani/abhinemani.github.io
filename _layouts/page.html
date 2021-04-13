@@ -52,7 +52,7 @@
 										    {% assign tags = page.tags %}
 										  {% endif %}
 										  {% for tag in tags %}
-										  <a href="/categories/#{{category|slugize}}" class="tag">{{ tag }}</a>
+										  <a href="#" class="tag">{{ tag }}</a>
 										  {% unless forloop.last %}&nbsp;{% endunless %}
 										  {% endfor %}
                                     </div>
