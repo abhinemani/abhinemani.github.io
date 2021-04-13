@@ -5,6 +5,10 @@ subhead: Dashboards, Performance Management, and the Trouble with Different Kind
 img: data-venn-diagram2.jpg
 categories: Essays
 pubdate: December 2015
+tags: 
+- Los Angeles
+- Dashboards
+- Data-Driven Poliymaking
 ---
 _Note: This was written in the Winter 2015, shortly after my time as Chief Data Offier in Los Angeles when I began consulting with other agenices. A version of this essay has been printed in the University of Missouri Kansas City (UMKC) Law Review._
 
