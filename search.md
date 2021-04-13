@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /search.html
+permalink: /search/index.html
 title: Search
 tagline: Search site
 tags: [about, Abhi Nemani, Code for America, pandas]
