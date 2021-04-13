@@ -435,6 +435,7 @@ https://hellodigi.ru/
   }
   .wp-content blockquote {
     padding: 33px 30px;
+	background: none;
   }
   .wp-content table td,
   .wp-content table th {

@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                             <div class="share-block-item mobile-item js-mobile-share-show mobile-share-show-btn">
-                                <div class="show-mobile-icon"></div>
+								<div class="show-mobile-icon"></div>
                             </div>
                         </div>
                         <div class="single-header">
@@ -42,7 +42,7 @@
                                 <div class="wrap_float">
                                     <div class="post-tags"> <!-- tags -->
 										  {% if post %}
-										    {% assign tags = post.tags %}
+										    {% assign tags = page.tags %}
 										  {% else %}
 										    {% assign tags = page.tags %}
 										  {% endif %}
@@ -70,11 +70,10 @@
                                             {{ page.subhead }}
                                         </p>
                                     </div>
-									
 									{% if page.img  %}
                                     <div class="post-image-large wide">
                                         <img src="{{site.url}}/img/{{ page.img }}" alt="">
-                                        <span class="caption-text"> {{ page.img-caption}}</span>
+                                        <span class="caption-text"> {{ page.img-caption }}</span>
                                     </div>
 								  {% endif %}
                                 </div>

@@ -8,6 +8,9 @@ subhead: Here’s a initial “off-the-top of my head” breakdown of potential 
 date: 2020-08-08
 pubdate: Auguts, 8, 2020
 img: academy.jpg
+tags:
+- Academy Ideas
+- Innovation
 ---
 In theory each sub-bullet would a class with 5–6, hour-long lectures/modules with quizzes attached to each module. This should lead to about 30+ courses students can mix and match, with faculty approval, for their certification in a bespoke \*program\* — eg data architect, digital services designer, etc — or they can just individual courses credits and are welcome to pick and choose.
 
