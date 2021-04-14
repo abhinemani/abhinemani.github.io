@@ -1,5 +1,5 @@
 ---
-published: false
+layout: single
 title: Responsive Public Safety Through Data Science
 subhead: How the ecosystem is evolving in law enforcement
 img: responsiveness.png
