@@ -1,5 +1,15 @@
 ---
 published: false
+title: Responsive Public Safety Through Data Science
+subhead: How the ecosystem is evolving in law enforcement
+img: responsiveness.png
+layout: single
+pubdate: 'April 14, 2021'
+Category: Blog
+tags:
+  - Academy
+  - Data Science
+  - Law Enformcement
 ---
 ## Technology to restore trust in Public safety agencies.
 
