@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Responsive Public Safety Through Better Data Collection and Analysis
+title: Restoring Trust in Law Enforcement Through Better Data
 subhead: Using sophisticated sentimental analysis tools and a creative set of approaches, these companies are changing the way many law enforcement agencies work — through better data
 img: responsiveness.png
 layout: single
