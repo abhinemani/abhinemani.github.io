@@ -20,5 +20,11 @@ Stepping back, however, we can see how these have come together as distinct but 
 
 More to the point, as govtech startups  go deeper into a public sector vertical (e.g., law enforcement) opportunties to use more general horizontal government or private sector approaches will emerge. These opportunties should be product or strategy decisions for exisitng players and a guidestar for new entreprenuers. 
 
+Over the next few week, I will be exploring the approaches from each of these innovative companies. Stay tuned. For now, more resources below:
+
 ## Read more
 [Learn about the relationship between data and operations/policy.](httsp://abhinemani.com/lessons/03-data-policy.html)
+
+[Learn about how SPIDRTech helps police departments engage.](https://abhinemani.com/blog/essays/2018/08/14/Push-vs-Pull-the-Opportunity-for-Automation-in-GovTech-1509cfb159ce/)
+
+[Learn about how ZenCity is putting AI to work for cities.](https://abhinemani.com/portfolio/2014-12-21-ZenCity/)
