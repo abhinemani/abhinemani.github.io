@@ -1,17 +1,13 @@
 ---
 layout: single
-title: What I have learned from my many teachers…
+title: What I have learned from my many teachers
 categories: Essays
-subhead: >-
-  I was recently asked to speak at my alma mater (Claremont McKenna College)
-  about my career and how CMC helped shape and empower it. Being…
+subhead: I was recently asked to speak at my alma mater (Claremont McKenna College) about my career and how CMC helped shape and empower it. Being…
 date: '2017-05-20T01:47:22.276Z'
-
-
-slug: what-i-have-learned-from-my-many-teachers-a3212c38db11
+pubdate: May 2017
 ---
 
-I was recently asked to speak at my alma mater (Claremont McKenna College) about my career and how CMC helped shape and empower it. Being just about 6 years out of college, I didn’t really feel well suited to provide any of my own insight — I’m still really just getting started. Instead, I opted to share some key thoughts or pieces of advice I have received over my (brief) career and how they’ve shaped my thinking (even more than my career).
+Being just about 6 years out of college, I didn’t really feel well suited to provide any of my own insight — I’m still really just getting started. Instead, I opted to share some key thoughts or pieces of advice I have received over my (brief) career and how they’ve shaped my thinking (even more than my career).
 
 ![](/img/1__a32VhVCgSdHMMR729fJ9__g.jpeg)
 undefined
