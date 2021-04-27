@@ -23,7 +23,7 @@ More to the point, as govtech startups  go deeper into a public sector vertical 
 Over the next few week, I will be exploring the approaches from each of these innovative companies. Stay tuned. For now, more resources below:
 
 ## Learn more:
-[Learn about the relationship between data and operations/policy.](httsp://abhinemani.com/lessons/03-data-policy.html)
+[Learn about the relationship between data and operations/policy.](https://abhinemani.com/lessons/03-data-policy.html)
 
 [Learn about how SPIDRTech helps police departments engage.](https://abhinemani.com/blog/essays/2018/08/14/Push-vs-Pull-the-Opportunity-for-Automation-in-GovTech-1509cfb159ce/)
 
