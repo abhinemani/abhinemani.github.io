@@ -7,6 +7,7 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 5
+permalink: /lessons/toolkit/
 ---
 ## A GovGeek's Toolkit
 

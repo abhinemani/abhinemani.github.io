@@ -6,6 +6,7 @@ categories: Academy
 img: pia-header.png
 pubdate: Updated 2021
 number: 1
+permalink: /lessons/primer/
 ---
 That’s a question I’m asked fairly often.
 

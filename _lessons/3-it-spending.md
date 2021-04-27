@@ -1,0 +1,28 @@
+---
+layout: page
+title: Government IT Spending
+subhead: Breakdown of where the money goes (alpha)
+categories: Academy
+pubdate: 2021
+img: pia-header.png
+pubdate: Updated 2021
+number: 3
+permalink: /lessons/it-spending/
+---
+
+Everything we do now uses technology — same goes for government. It just uses bad and old technology and spends too much money on it. Companies provide technology to execute policy such as business permitting apps for economic development or social services text-message systems for the safety net. Understandably, the market for government technology is massive: **nearly $200B annually**. 
+
+## Massive market opportunity: ~$200B
+Overall [Federal IT Spend](https://itdashboard.gov/drupal/summary/000) seems huge: $90.9B (and it is). 
+![2021 US Government IT Spending Overview](/img/it-spend-1.png)
+But sans DOD, that Federal Spend of $53.2B is actually lower than State ($60.6B) OR Local ($58.1B).
+
+## Pulling out DOD, federal, state, and local spending are similar (~$53-60B)
+![2021 US Government IT Spending Overview - Without DOD](/img/it-spend-2.png)
+
+So much attention goes to the feds/DC, but market opportunity is larger is state + local ($118.7B) than federal, and that number should only grow with post-COVID investments. 
+
+### ...and it's growing
+In President Biden’s 2021 stimulus plan: additional $9 Billion for technology — specifically $200M for staffing up federal technologists. (More to come.)
+
+If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>

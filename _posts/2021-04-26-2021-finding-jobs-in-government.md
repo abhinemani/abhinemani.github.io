@@ -5,7 +5,7 @@ subhead: Ways to affect policy/service delivery outside government for the gradu
 img: govgeek-jobs.jpg
 layout: single
 pubdate: 'April 26, 2021'
-Category: Blog
+categories: Blog
 tags:
   - Academy
   - Jobs

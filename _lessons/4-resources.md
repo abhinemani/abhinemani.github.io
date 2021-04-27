@@ -6,6 +6,7 @@ categories: Academy
 pubdate: Updated, 2021
 img: pia-header.png
 number: 4
+permalink: /resources/
 ---
 
 <div class="container-iframe">

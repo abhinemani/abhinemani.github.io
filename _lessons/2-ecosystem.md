@@ -10,6 +10,7 @@ number: 2
 tags: 
 - Ecosystem
 - SaaS
+permalink: /lessons/ecosystem/
 ---
 ## What's Working, Where
 
