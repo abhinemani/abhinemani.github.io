@@ -2,10 +2,9 @@
 layout: home
 permalink: /index.html
 title: Home
-tagline: When I speak aloud, publicly
+subhead: public servant. Fmr Chief Data Officer, Los Angeles, Chief Innovation Officer, Sacramento, Code for America.
 tags: [about, Abhi Nemani, Code for America, pandas]
-image:
-  feature: budget.png
+img: placeholder.jpg
 ---
 <div class="page-wrap author-page">
 	<div class="author-header">
