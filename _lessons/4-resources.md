@@ -8,6 +8,12 @@ img: pia-header.png
 number: 4
 ---
 
+<div class="container-iframe">
+<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+</div>
+<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf">Open PDF in Browser</a>
+
+
 ## Book Recommendations
 [Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation-ebook/dp/B004J4XGN6/ref=sr_1_3?ie=UTF8&qid=1541132378&sr=8-3&keywords=lean+startup) .  [Democracy in America](https://en.wikipedia.org/wiki/Democracy_in_America) .  [Thinking with Type](http://thinkingwithtype.com/) .  [Cognitive Surplus](https://en.m.wikipedia.org/wiki/Cognitive_Surplus) .  [The Information](https://en.m.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood) .  [Civc Technologist’s Practice Guide](https://cydharrell.com/book/) .  [We the Possibility](https://www.wethepossibility.com/) .
 
