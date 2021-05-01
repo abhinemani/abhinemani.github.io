@@ -76,6 +76,15 @@ https://hellodigi.ru/
             margin-top: -4px;
             .transition;
         }
+        
+        &.flex {
+            display: flex;
+            justify-content: space-between;
+            
+            .time {
+                margin-left: 30px;
+            }
+        }
     }
     
     &-content {
@@ -93,6 +102,36 @@ https://hellodigi.ru/
             
             &:last-child {
                 margin-bottom: 0;
+            }
+        }
+        
+        ul, ol {
+            
+            &.checklist-ul {
+                li {
+                    &:before {
+                        top: 2px;
+                    }
+                }
+            }
+            li {
+                font-size: 14px;
+                line-height: 22px;
+                
+                &:before {
+                    width: 6px;
+                    height: 6px;
+                    left: 7px;
+                    top: 9px;
+                }
+            }
+        }
+        
+        ol {
+            padding-left: 23px;
+            
+            li::marker {
+                font-size: 15px;
             }
         }
     }
@@ -118,6 +157,16 @@ https://hellodigi.ru/
 @media screen and (max-width: 760px) {
     .accordion-block {
         margin: 15px 0;
+    }
+    
+    .accordion-item-title.flex {
+        flex-direction: column;
+    }
+    
+    .accordion-item-title.flex .time {
+        margin-left: 0;
+        color: #8E8E8E;
+        font-size: 17px;
     }
 }
 

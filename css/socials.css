@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -94,9 +98,21 @@ https://hellodigi.ru/
 .dark .socials .soc-link * {
   fill: #DBDDE1;
 }
+.mobile .socials .soc-link:hover,
+.tablet .socials .soc-link:hover {
+  background: #ebebeb;
+}
 .mobile .socials .soc-link:hover *,
 .tablet .socials .soc-link:hover * {
   fill: #747B88;
+}
+.mobile .dark .socials .soc-link:hover,
+.tablet .dark .socials .soc-link:hover {
+  background: rgba(255, 255, 255, 0.17);
+}
+.mobile .dark .socials .soc-link:hover *,
+.tablet .dark .socials .soc-link:hover * {
+  fill: #DBDDE1;
 }
 @media screen and (max-width: 1024px) {
   .socials .soc-link {
@@ -108,8 +124,5 @@ https://hellodigi.ru/
   }
   .socials .soc-link:hover {
     background: #dbdde1;
-  }
-  .socials .soc-link:hover * {
-    fill: #747B88;
   }
 }

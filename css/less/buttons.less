@@ -115,6 +115,10 @@ button {
 }
 
 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
     height: 57px;
     background: @theme-color;
     border-radius: 8px;
@@ -161,6 +165,22 @@ button {
             display: block;
         }
     }
+    
+    &.border-btn {
+        background: none;
+    }
+}
+
+.buttons {
+    .block;
+    
+    .btn {
+        margin-right: 20px;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 .show-more {
@@ -194,5 +214,48 @@ button {
             background: @light-child;
             color: @dark-parent;
         }
+    }
+}
+
+.mobile,
+.table {
+    .show-more-btn {
+        &:hover {
+            background: @light-child;
+        }
+    }
+    
+    .btn {
+        &:hover {
+            background: @theme-color;
+            color: #fff;
+        }
+    }
+    
+    .dark {
+        .show-more-btn {
+            
+            &:hover {
+                background: #434343;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buttons {
+        display: flex;
+        
+        .btn {
+            padding: 0 15px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .buttons .btn {
+        margin-right: 12px;
     }
 }

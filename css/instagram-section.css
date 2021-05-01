@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -55,31 +59,19 @@ https://hellodigi.ru/
 .instagram-section .wrap_float {
   position: relative;
 }
-.instagram-section .instagram-post-item:nth-child(-n+7) {
+.instagram-section .instagram-post-item {
+  display: none;
+}
+.instagram-section .instagram-post-item:nth-child(-n+10) {
   display: block;
 }
-.instagram-section .instagram-post-item:nth-child(1),
-.instagram-section .instagram-post-item:nth-child(5) {
-  margin-right: 503px;
-}
-.instagram-section .instagram-post-item:nth-child(2) {
-  width: 463px;
-  height: 470px;
-  position: absolute;
-  left: 245px;
-}
-.instagram-section .instagram-post-item:nth-child(4),
-.instagram-section .instagram-post-item:nth-child(7) {
-  margin-right: 0;
-}
 .instagram-post-item {
-  width: 225px;
-  height: 225px;
+  width: 224px;
+  height: 224px;
   border-radius: 13px;
   overflow: hidden;
   margin: 0 20px 20px 0;
   position: relative;
-  display: none;
   float: left;
   background-position: center center;
   background-repeat: no-repeat;
@@ -90,6 +82,9 @@ https://hellodigi.ru/
 }
 .instagram-post-item:hover * {
   cursor: pointer;
+}
+.instagram-post-item:nth-child(5n) {
+  margin-right: 0;
 }
 .instagram-post-item:before {
   width: 100%;
@@ -135,66 +130,115 @@ https://hellodigi.ru/
   position: relative;
   float: left;
 }
+.instagram-posts-list.grid .instagram-post-item {
+  display: none;
+}
+.instagram-posts-list.grid .instagram-post-item:nth-child(-n+7) {
+  display: block;
+}
+.instagram-posts-list.grid .instagram-post-item:nth-child(1),
+.instagram-posts-list.grid .instagram-post-item:nth-child(5) {
+  margin-right: 508px;
+}
+.instagram-posts-list.grid .instagram-post-item:nth-child(2) {
+  width: 463px;
+  height: 470px;
+  position: absolute;
+  left: 247px;
+}
+.instagram-posts-list.grid .instagram-post-item:nth-child(4),
+.instagram-posts-list.grid .instagram-post-item:nth-child(7) {
+  margin-right: 0;
+}
+.mobile .instagram-post-item:hover:before,
+.tablet .instagram-post-item:hover:before,
+.mobile .instagram-post-item:hover:after,
+.tablet .instagram-post-item:hover:after {
+  display: none;
+}
 @media screen and (max-width: 1230px) {
   .instagram-post-item {
     width: 175px;
     height: 175px;
   }
-  .instagram-section .instagram-post-item:nth-child(2) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(2) {
     width: 370px;
     height: 370px;
     left: 198px;
   }
-  .instagram-section .instagram-post-item:nth-child(1),
-  .instagram-section .instagram-post-item:nth-child(5) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(1),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(5) {
     margin-right: 415px;
   }
 }
 @media screen and (max-width: 1000px) {
-  .instagram-section .instagram-post-item:nth-child(2) {
+  .instagram-section .instagram-post-item:nth-child(10) {
+    display: none;
+  }
+  .instagram-post-item:nth-child(5n) {
+    margin-right: 20px;
+  }
+  .instagram-post-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  .instagram-posts-list.grid .instagram-post-item:nth-child(2) {
     left: auto;
     right: 0;
     width: 476px;
-    height: 468px;
+    height: 472px;
     margin-right: 0;
   }
-  .instagram-section .instagram-post-item:nth-child(4),
-  .instagram-section .instagram-post-item:nth-child(7) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(4),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(6),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(7) {
     margin-right: 20px;
   }
   .instagram-post-item {
-    width: 224px;
-    height: 224px;
+    width: 226px;
+    height: 226px;
   }
-  .instagram-section .instagram-post-item:nth-child(4) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(4) {
     clear: both;
   }
-  .instagram-section .instagram-post-item:nth-child(5),
-  .instagram-section .instagram-post-item:nth-child(7) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(5),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(7) {
     margin-right: 0;
   }
-  .instagram-section .instagram-post-item:nth-child(4),
-  .instagram-section .instagram-post-item:nth-child(5),
-  .instagram-section .instagram-post-item:nth-child(6),
-  .instagram-section .instagram-post-item:nth-child(7) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(4),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(5),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(6),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(7) {
     width: 350px;
     height: 350px;
   }
 }
 @media screen and (max-width: 760px) {
   .instagram-post-item {
+    width: 28.6vw;
+    height: 28vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+  }
+  .instagram-post-item:nth-child(5n) {
+    margin-right: 3vw;
+  }
+  .instagram-posts-list.grid .instagram-post-item,
+  .instagram-feed .instagram-post-item {
     width: 44vw;
     height: 44vw;
     margin-right: 4vw;
     margin-bottom: 4vw;
   }
-  .instagram-post-item:nth-child(1),
-  .instagram-post-item:nth-child(3) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(1),
+  .instagram-feed .instagram-post-item:nth-child(1),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(3),
+  .instagram-feed .instagram-post-item:nth-child(3) {
     width: 29vw;
     height: 27vw;
     margin-right: 67vw;
   }
-  .instagram-post-item:nth-child(2) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(2),
+  .instagram-feed .instagram-post-item:nth-child(2) {
     width: 59vw;
     height: 58vw;
     left: 33vw;
@@ -203,17 +247,18 @@ https://hellodigi.ru/
     right: 0;
     top: 0;
   }
-  .instagram-section .instagram-post-item:nth-child(4) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(4),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(6) {
     margin-right: 4vw;
   }
-  .instagram-section .instagram-post-item:nth-child(4),
-  .instagram-section .instagram-post-item:nth-child(5),
-  .instagram-section .instagram-post-item:nth-child(6),
-  .instagram-section .instagram-post-item:nth-child(7) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(4),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(5),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(6),
+  .instagram-posts-list.grid .instagram-post-item:nth-child(7) {
     width: 44vw;
     height: 44vw;
   }
-  .instagram-section .instagram-post-item:nth-child(2) {
+  .instagram-posts-list.grid .instagram-post-item:nth-child(2) {
     width: 59vw;
     height: 58vw;
   }
@@ -266,7 +311,7 @@ https://hellodigi.ru/
 }
 @media screen and (min-width: 761px) and (max-width: 1000px) {
   .instagram-feed .instagram-post-item:first-child {
-    width: 476px;
+    width: 474px;
     height: 468px;
   }
   .instagram-feed .instagram-post-item:nth-child(4),

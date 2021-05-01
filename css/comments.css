@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -95,7 +99,7 @@ https://hellodigi.ru/
   margin-top: 24px;
 }
 .comments-section {
-  padding: 65px 0 50px;
+  padding-bottom: 50px;
 }
 .comments-section .show-more-btn {
   margin-top: 0;
@@ -186,6 +190,23 @@ https://hellodigi.ru/
 .comment-item.reply .comment-item-date {
   margin-right: 15px;
 }
+.comment-item-user-ratings {
+  display: block;
+  float: left;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 8px;
+}
+.comment-item-user-ratings .user-rating-result {
+  width: auto;
+  margin-right: 17px;
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.comment-item-user-ratings .user-rating-result .val {
+  color: #0D84FB;
+}
 .closed-comments-text {
   background: #FFEAEA;
   border-radius: 4px;
@@ -224,6 +245,14 @@ https://hellodigi.ru/
 @media screen and (max-width: 1230px) {
   .comments-form .input-wrap {
     width: 317px;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1230px) {
+  .with-sidebar .comments-form .input-wrap {
+    width: 292px;
+  }
+  .with-sidebar .comments-form .input-wrap.textarea-wrap {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1000px) {

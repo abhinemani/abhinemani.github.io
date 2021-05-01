@@ -67,7 +67,8 @@ li,
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-audio:focus {
+audio:focus,
+select:focus {
   outline: 0;
 }
 * {
@@ -145,10 +146,16 @@ body.pop-up-open {
   float: none;
   margin: 0 auto;
 }
+.wrap-wide {
+  max-width: 1650px;
+}
 .wrap_float {
   display: block;
   float: left;
   width: 100%;
+}
+.relative {
+  position: relative;
 }
 .section-content {
   display: block;
@@ -227,6 +234,14 @@ body.pop-up-open {
 .container-wrap.relative {
   position: relative;
   height: 100vh;
+}
+.no-padding .container-wrap {
+  padding-top: 0;
+}
+.no-padding .container.page--move .slider-section {
+  border-radius: 13px 13px 0 0;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 .page {
   position: relative;
@@ -322,6 +337,10 @@ body.pop-up-open {
   transform: translateX(-50%);
 }
 .text {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0;
   color: #8E8E8E;
   font-size: 15px;
   line-height: 1.5;
@@ -408,6 +427,12 @@ body.pop-up-open {
 .favorites-page .page-title {
   margin-bottom: 0;
 }
+.center-title-section .title {
+  text-align: center;
+}
+.center-title-section .subtitle {
+  text-align: center;
+}
 .dark {
   background: #1d1d1d;
   color: #fff;
@@ -445,6 +470,14 @@ body.pop-up-open {
 @media screen and (min-width: 1001px) {
   .overlay {
     display: none !important;
+  }
+  .br-mob {
+    display: none;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .wrap-wide {
+    max-width: 1200px;
   }
 }
 @media screen and (max-width: 1230px) {
@@ -533,15 +566,26 @@ body.pop-up-open {
   .container.page--move .container-wrap {
     transform: translateY(342px);
   }
-  .bottom-message {
+  .bottom-message.visible {
     right: 4vw;
   }
 }
 @media screen and (max-width: 590px) {
-  .bottom-message.visible {
+  .bottom-message {
     bottom: 20px;
   }
   .section {
     padding: 30px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title {
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    margin-bottom: 16px;
+  }
+  .section-content {
+    margin-top: 10px;
   }
 }

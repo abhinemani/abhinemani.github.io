@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -55,6 +59,17 @@ https://hellodigi.ru/
 .pagination .extend {
   pointer-events: none;
 }
+.pagination.centered {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.pagination-links {
+  display: block;
+  float: left;
+  width: auto;
+}
 .pag-link {
   width: 38px;
   height: 38px;
@@ -77,9 +92,12 @@ https://hellodigi.ru/
   background: #0D84FB;
   pointer-events: none;
 }
-.pag-link:hover {
-  background: #DBDDE1;
-}
 .dark .pag-link.current {
   background: #2b2b2b;
+}
+.desktop .pag-link:hover {
+  background: #DBDDE1;
+}
+.desktop .dark .pag-link:hover {
+  color: #1D1D1D;
 }

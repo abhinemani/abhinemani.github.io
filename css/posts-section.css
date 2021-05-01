@@ -95,6 +95,9 @@ https://hellodigi.ru/
 .post-item .post-bg-img {
   position: absolute;
 }
+.post-item .video-bg {
+  z-index: -1;
+}
 .post-item .post-bg-img {
   z-index: 1;
 }
@@ -517,6 +520,9 @@ https://hellodigi.ru/
   float: left;
   width: 100%;
 }
+.news-section {
+  padding-top: 100px;
+}
 .mobile .post-item:hover .post-bg-img,
 .tablet .post-item:hover .post-bg-img {
   transform: none;
@@ -728,6 +734,9 @@ https://hellodigi.ru/
     top: 20px;
     right: 20px;
   }
+  .news-section {
+    padding-top: 60px;
+  }
 }
 @media screen and (max-width: 480px) {
   .post-info {
@@ -777,5 +786,45 @@ https://hellodigi.ru/
   .container .sticky-posts-list .post-item .post-title {
     font-size: 26px;
     line-height: 32px;
+  }
+}
+.posts-carousel-section {
+  display: block;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100px;
+}
+.posts-carousel-slider .slick-slide {
+  display: -ms-flexbox;
+  display: flex;
+}
+.posts-carousel-slider .slick-list {
+  overflow: visible;
+}
+@media screen and (max-width: 1000px) {
+  .posts-carousel-slider .post-item {
+    width: 380px;
+    opacity: 1;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 590px) {
+  .posts-carousel-slider .post-item {
+    width: 350px;
+  }
+  .posts-carousel-section {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .posts-carousel-slider .post-item {
+    margin-right: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .posts-carousel-slider .post-item {
+    width: 88vw;
   }
 }

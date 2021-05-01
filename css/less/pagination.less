@@ -16,6 +16,16 @@ https://hellodigi.ru/
     .extend {
         pointer-events: none;
     }
+    
+    &.centered {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.pagination-links {
+    .block;
+    width: auto;
 }
 
 .pag-link {
@@ -41,13 +51,25 @@ https://hellodigi.ru/
         pointer-events: none;
     }
     
-    &:hover {
-        background: #DBDDE1;
-    }
+    
 }
 
 .dark {
     .pag-link.current {
         background: @dark-child;
+    }
+}
+
+.desktop {
+    .pag-link {
+        &:hover {
+            background: #DBDDE1;
+        }
+    }
+    
+    .dark {
+        .pag-link:hover {
+            color: #1D1D1D;
+        }
     }
 }

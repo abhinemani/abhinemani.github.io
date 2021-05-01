@@ -66,8 +66,22 @@ https://hellodigi.ru/
 .tablet {
     .socials .soc-link {
         &:hover {
+            background: @light-child;
+            
             * {
                 fill: #747B88;
+            }
+        }
+    }
+    
+    .dark {
+        .socials .soc-link {
+            &:hover {
+                background: rgba(255, 255, 255, .17);
+                
+                * {
+                    fill: #DBDDE1;
+                }
             }
         }
     }
@@ -84,10 +98,6 @@ https://hellodigi.ru/
         
         &:hover {
             background: #dbdde1;
-            
-            * {
-                fill: #747B88;
-            }
         }
     }
 }

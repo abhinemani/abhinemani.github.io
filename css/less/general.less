@@ -26,7 +26,8 @@ li, a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-audio {
+audio,
+select {
     &:focus {
         outline: 0;
     }
@@ -103,8 +104,16 @@ body {
     margin: 0 auto;
 }
 
+.wrap-wide {
+    max-width: 1650px;
+}
+
 .wrap_float {
     .block100;
+}
+
+.relative {
+    position: relative;
 }
 
 .section-content {
@@ -128,7 +137,6 @@ body {
     background: @dark-parent;
     
     &.page--move {
-        
         
         .container-wrap {
             transform: translateY(470px) scale(.95);
@@ -198,6 +206,22 @@ body {
     &.relative {
         position: relative;
         height: 100vh;
+    }
+}
+
+.no-padding {
+    .container-wrap {
+        padding-top: 0;
+    }
+    
+    .container {
+        &.page--move {
+            .slider-section {
+                border-radius: 13px 13px 0 0;
+                overflow: hidden;
+                -webkit-mask-image: -webkit-radial-gradient(white, black);
+            }
+        }
     }
 }
 
@@ -300,6 +324,8 @@ body {
 }
 
 .text {
+    .block100;
+    margin: 0;
     color: #8E8E8E;
     font-size: 15px;
     line-height: 1.5;
@@ -402,6 +428,16 @@ body {
     }
 }
 
+.center-title-section {
+    .title {
+        text-align: center;
+    }
+    
+    .subtitle {
+        text-align: center;
+    }
+}
+
 
 
 .dark {
@@ -453,6 +489,16 @@ body {
 @media screen and (min-width: 1001px) {
     .overlay {
         display: none !important;
+    }
+    
+    .br-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .wrap-wide {
+        max-width: 1200px;
     }
 }
 
@@ -547,18 +593,32 @@ body {
     }
     
     .bottom-message {
-        right: 4vw;
+        &.visible {
+            right: 4vw;
+        }
     }
 }
 
 @media screen and (max-width: 590px) {
     .bottom-message {
-        &.visible {
-            bottom: 20px;
-        }
+        bottom: 20px;
     }
     
     .section {
         padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        margin-bottom: 10px;
+    }
+    
+    .subtitle {
+        margin-bottom: 16px;
+    }
+    
+    .section-content {
+        margin-top: 10px;
     }
 }

@@ -132,6 +132,8 @@ https://hellodigi.ru/
     }
 }
 
+
+
 @media screen and (min-width: 591px) {
     .gallery-columns {
         .block-column {
@@ -169,6 +171,79 @@ https://hellodigi.ru/
         .block-column {
             margin-top: 30px;
         }
+        
+        &.grid {
+            display: flow-root;
+
+            .block-column {
+                width: 362px;
+                margin: 0;
+                margin-top: 20px;
+                
+                &:nth-child(-n+2) {
+                    margin-top: 0;
+                }
+
+                .caption-text {
+                    display: none;
+                }
+
+                .img-wrap {
+                    background: #000;
+                    border-radius: 13px;
+                    margin: 0;
+
+                }
+
+                &:nth-child(7n+1) {
+                    margin-right: 20px;
+
+                    .img-wrap {
+                        height: 352px;
+                    }
+                }
+
+                &:nth-child(7n+2) {
+                    .img-wrap {
+                        height: 352px;
+                    }
+                }
+
+                &:nth-child(7n+3),
+                &:nth-child(7n+7) {
+                    width: 100%;
+
+                    .img-wrap {
+                        height: 376px;
+
+                    }
+                }
+
+                &:nth-child(7n+4) {
+                    margin-right: 20px;
+
+                    .img-wrap {
+                        height: 520px;
+                    }
+                }
+
+                &:nth-child(7n+5) {
+
+
+                    .img-wrap {
+                        height: 250px;
+                    }
+                }
+
+                &:nth-child(7n+6) {
+                    margin-top: 20px;
+
+                    .img-wrap {
+                        height: 250px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -180,6 +255,159 @@ https://hellodigi.ru/
     
     .slider-block.wide-slider .slider-block-item {
         height: 580px;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .gallery-columns {
+        &.grid.wide-columns {
+            .block-column {
+                margin-top: 20px;
+
+                &:nth-child(-n+2) {
+                    margin-top: 0;
+                }
+
+                &:nth-child(7n+2) {
+                    width: 818px;
+                }
+
+                &:nth-child(7n+3) {
+                    width: 793px;
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                    clear: both;
+                }
+
+                &:nth-child(7n+4) {
+                    margin-right: 0;
+                    margin-top: 20px;
+                    width: 386px;
+
+                    .img-wrap {
+                        height: 376px;
+                    }
+                }
+
+                &:nth-child(7n+5),
+                &:nth-child(7n+6),
+                &:nth-child(7n+7) {
+                    width: 386px;
+
+                    .img-wrap {
+                        height: 370px;
+                    }
+                }
+
+                &:nth-child(7n+5) {
+                    clear: both;
+                    margin-right: 20px;
+                }
+
+                &:nth-child(7n+6) {
+                    margin-right: 20px;
+                }
+
+                &:nth-child(7n+7) {
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1230px) {
+    .gallery-columns.grid.wide-columns .block-column:nth-child(7n+2) {
+        width: 625px;
+    }
+    
+    .gallery-columns.grid.wide-columns .block-column:nth-child(7n+4) {
+        width: 306px;
+    }
+    
+    .gallery-columns.grid.wide-columns .block-column:nth-child(7n+3) {
+        width: 633px;
+    }
+    
+    .gallery-columns.grid.wide-columns .block-column:nth-child(7n+5), .gallery-columns.grid.wide-columns .block-column:nth-child(7n+6), .gallery-columns.grid.wide-columns .block-column:nth-child(7n+7) {
+        width: 306px;
+    }
+    
+    .with-sidebar .gallery-columns.grid .block-column {
+        width: 290px;
+        
+        &:nth-child(7n+3),
+        &:nth-child(7n+7) {
+            width: 100%;
+        }
+    }
+    
+    .with-sidebar {
+        .gallery-columns.grid.wide-columns {
+            .block-column {
+                &:nth-child(7n+2) {
+                    width: 290px;
+                }
+                
+                &:nth-child(7n+4) {
+                    width: 290px;
+                    margin-right: 20px;
+                    
+                    .img-wrap {
+                        height: 520px;
+                    }
+                }
+                
+                &:nth-child(7n+5),
+                &:nth-child(7n+6) {
+                    width: 290px;
+                    margin-right: 0;
+                    clear: none;
+                    
+                    .img-wrap {
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1231px) {
+    .with-sidebar {
+        .gallery-columns.grid.wide-columns {
+            .block-column {
+                &:nth-child(7n+2) {
+                    width: 362px;
+                }
+                
+                &:nth-child(7n+4) {
+                    width: 362px;
+                    margin-right: 20px;
+                    
+                    .img-wrap {
+                        height: 520px;
+                    }
+                }
+                
+                &:nth-child(7n+3),
+                &:nth-child(7n+7) {
+                    width: 100%;
+                }
+                
+                &:nth-child(7n+5),
+                &:nth-child(7n+6) {
+                    width: 362px;
+                    
+                    margin-right: 0;
+                    clear: none;
+                    
+                    .img-wrap {
+                        height: 250px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -208,6 +436,13 @@ https://hellodigi.ru/
     .gallery-columns.columns-4 .img-wrap {
         height: 146px;
     }
+    
+    
+    .gallery-columns.grid .block-column {
+        width: 315px;
+    }
+    
+    
 }
 
 @media screen and (max-width: 1000px) {
@@ -222,6 +457,11 @@ https://hellodigi.ru/
     
     .gallery-columns.columns-4.wide-columns .img-wrap {
         height: 160px;
+    }
+    
+    
+    .gallery-columns.grid .block-column {
+        width: 350px;
     }
 }
 
@@ -242,6 +482,26 @@ https://hellodigi.ru/
     .gallery-columns.columns-4.wide-columns .img-wrap,
     .gallery-columns.columns-4 .img-wrap {
         height: 24vw;
+    }
+    
+    .gallery-columns.grid .block-column {
+        width: 49%;
+        margin-right: 2%;
+        margin-left: 0;
+        margin-top: 2%;
+        margin-bottom: 0;
+        
+        &:nth-child(-n+2) {
+            margin-top: 0;
+        }
+        
+        &:nth-child(even) {
+            margin-right: 0;
+        }
+        
+        .img-wrap {
+            height: 40vw;
+        }
     }
 }
 
@@ -275,5 +535,11 @@ https://hellodigi.ru/
         &:nth-child(-n+2) {
             margin-top: 0;
         }
+    }
+    
+    .gallery-columns.grid .block-column {
+        width: 48%;
+        margin-right: 4%;
+        margin-top: 4%;
     }
 }

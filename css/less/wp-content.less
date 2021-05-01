@@ -267,9 +267,38 @@ https://hellodigi.ru/
     margin-right: 25px;
 }
 
-alignright {
+.alignright {
     float: right;
     margin-left: 25px;
+}
+
+.map-block {
+    display: block;
+    position: relative;
+    height: 460px;
+    border-radius: 13px;
+    margin: 30px 0;
+    
+    iframe {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        border-radius: 13px;
+        border: 0;
+    }
+}
+
+.dark {
+    .wp-content table.large-table.with-thead tr td:before,
+    .wp-content table.large-table tr td:last-child {
+        border-color: #3c3c3c;
+    }
+    
+    .wp-content table.large-table.with-thead tr td:before {
+        color: #fff;
+    }
 }
 
 
@@ -339,8 +368,15 @@ alignright {
         float: left;
     }
     
+    .map-block {
+        float: left;
+        margin: 15px 0;
+    }
+    
     .wp-content img,
-    .wp-content picture {
+    .wp-content picture,
+    .wp-content blockquote,
+    .wp-content code {
         float: left;
         margin: 15px 0;
     }
@@ -425,6 +461,11 @@ alignright {
     
     .fb_iframe_widget {
         margin: 15px 0;
+    }
+    
+    .wp-content li {
+        font-size: 18px;
+        line-height: 32px;
     }
 }
 
@@ -547,6 +588,10 @@ alignright {
     
     .wp-content table.large-table.with-thead tr td {
         padding-left: 120px;
+    }
+    
+    .map-block {
+        height: 385px;
     }
 }
 

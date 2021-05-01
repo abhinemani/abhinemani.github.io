@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -141,6 +145,13 @@ button:hover {
   transition: all 0.2s linear;
 }
 .btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  float: left;
   height: 57px;
   background: #0D84FB;
   border-radius: 8px;
@@ -181,6 +192,19 @@ button:hover {
 .btn.load:after {
   display: block;
 }
+.btn.border-btn {
+  background: none;
+}
+.buttons {
+  display: block;
+  float: left;
+}
+.buttons .btn {
+  margin-right: 20px;
+}
+.buttons .btn:last-child {
+  margin-right: 0;
+}
 .show-more {
   display: block;
   float: left;
@@ -217,4 +241,33 @@ button:hover {
 .dark .show-more-btn:hover {
   background: #ebebeb;
   color: #1d1d1d;
+}
+.mobile .show-more-btn:hover,
+.table .show-more-btn:hover {
+  background: #ebebeb;
+}
+.mobile .btn:hover,
+.table .btn:hover {
+  background: #0D84FB;
+  color: #fff;
+}
+.mobile .dark .show-more-btn:hover,
+.table .dark .show-more-btn:hover {
+  background: #434343;
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .buttons {
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .buttons .btn {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .buttons .btn {
+    margin-right: 12px;
+  }
 }

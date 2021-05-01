@@ -60,7 +60,8 @@ https://hellodigi.ru/
 }
 
 .comments-section {
-    padding: 65px 0 50px;
+    //padding: 65px 0 50px;
+    padding-bottom: 50px;
     
     .show-more-btn {
         margin-top: 0;
@@ -147,6 +148,25 @@ https://hellodigi.ru/
             margin-right: 15px;
         }
     }
+    
+    &-user-ratings {
+        .block;
+        font-size: 14px;
+        margin-top: 9px;
+        margin-bottom: 8px;
+        
+        .user-rating-result {
+            width: auto;
+            margin-right: 17px;
+            display: inline-block;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            
+            .val {
+                color: @theme-color;
+            }
+        }
+    }
 }
 
 .closed-comments-text {
@@ -195,6 +215,16 @@ https://hellodigi.ru/
 @media screen and (max-width: 1230px) {
     .comments-form .input-wrap {
         width: 317px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1230px) {
+    .with-sidebar .comments-form .input-wrap {
+        width: 292px;
+        
+        &.textarea-wrap {
+            width: 100%;
+        }
     }
 }
 

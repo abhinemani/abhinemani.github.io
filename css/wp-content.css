@@ -271,6 +271,29 @@ https://hellodigi.ru/
   float: right;
   margin-left: 25px;
 }
+.map-block {
+  display: block;
+  position: relative;
+  height: 460px;
+  border-radius: 13px;
+  margin: 30px 0;
+}
+.map-block iframe {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 13px;
+  border: 0;
+}
+.dark .wp-content table.large-table.with-thead tr td:before,
+.dark .wp-content table.large-table tr td:last-child {
+  border-color: #3c3c3c;
+}
+.dark .wp-content table.large-table.with-thead tr td:before {
+  color: #fff;
+}
 @media screen and (min-width: 761px) {
   .wp-content .post-preview-item,
   .wp-content table {
@@ -317,8 +340,14 @@ https://hellodigi.ru/
     margin: 15px 0;
     float: left;
   }
+  .map-block {
+    float: left;
+    margin: 15px 0;
+  }
   .wp-content img,
-  .wp-content picture {
+  .wp-content picture,
+  .wp-content blockquote,
+  .wp-content code {
     float: left;
     margin: 15px 0;
   }
@@ -400,6 +429,10 @@ https://hellodigi.ru/
   .fb_iframe_widget {
     margin: 15px 0;
   }
+  .wp-content li {
+    font-size: 18px;
+    line-height: 32px;
+  }
 }
 @media screen and (max-width: 590px) {
   .wp-content p {
@@ -435,7 +468,6 @@ https://hellodigi.ru/
   }
   .wp-content blockquote {
     padding: 33px 30px;
-	background: none;
   }
   .wp-content table td,
   .wp-content table th {
@@ -498,5 +530,8 @@ https://hellodigi.ru/
   }
   .wp-content table.large-table.with-thead tr td {
     padding-left: 120px;
+  }
+  .map-block {
+    height: 385px;
   }
 }

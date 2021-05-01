@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -70,6 +74,7 @@ https://hellodigi.ru/
 .with-sidebar .page-wrap-sidebar {
   width: 386px;
   float: right;
+  position: relative;
 }
 .with-sidebar .post-image-large {
   width: 100%;
@@ -807,6 +812,50 @@ https://hellodigi.ru/
   background: #0D84FB;
   color: #fff;
 }
+.widget_tour {
+  text-align: center;
+  background: #EBEBEB;
+  border-radius: 13px;
+  padding: 38px 46px 46px;
+}
+.widget_tour ._title {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.widget_tour .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+.widget_tour .btn.transparent-btn {
+  background: none;
+  border: 1px solid #747B88;
+  color: #1d1d1d;
+}
+.widget_tour .get-in-touch {
+  display: block;
+  float: left;
+  margin-top: 45px;
+}
+.widget_tour .get-in-touch .text {
+  color: #1d1d1d;
+}
+.widget_tour .order-form {
+  display: block;
+  float: left;
+}
+.widget_tour .input-wrap {
+  margin-bottom: 18px;
+}
+.widget_tour .input-wrap:last-child {
+  margin-bottom: 0;
+}
+.widget_tour .form-fields {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 33px;
+}
 .dark .widget_categories ul li .count,
 .dark .widget_archive ul li a .count {
   background: #1d1d1d;
@@ -853,7 +902,8 @@ https://hellodigi.ru/
 .dark .widget_pages > ul > li > a,
 .dark .textwidget,
 .dark .widget_instagram .inst-block,
-.dark .widget_social_links .social-links-item {
+.dark .widget_social_links .social-links-item,
+.dark .widget_tour {
   background: #2b2b2b;
 }
 .dark .widget_social_links .social-links-item:hover {
@@ -862,7 +912,9 @@ https://hellodigi.ru/
 .dark .inst-block-head-userpic {
   background: #9a9797;
 }
-.dark .twitter-block-posts-item .twitter-content {
+.dark .twitter-block-posts-item .twitter-content,
+.dark .widget_tour .get-in-touch .text,
+.dark .widget_tour .btn.transparent-btn {
   color: #fff;
 }
 .dark .postform {
@@ -1087,6 +1139,12 @@ https://hellodigi.ru/
   .widget_archive {
     padding: 30px 15px;
   }
+  .widget_tour {
+    padding: 30px 26px;
+  }
+  .widget_tour .get-in-touch {
+    margin-top: 30px;
+  }
 }
 @media screen and (min-width: 1001px) and (max-width: 1230px) {
   .with-sidebar .gallery-columns.columns-2 .img-wrap {
@@ -1302,6 +1360,9 @@ https://hellodigi.ru/
   .widget_archive {
     padding: 23px 5px;
   }
+  .widget_tour {
+    padding: 30px 20px;
+  }
 }
 @media screen and (max-width: 590px) {
   .widget_social_links .social-links-item {
@@ -1400,6 +1461,9 @@ https://hellodigi.ru/
   }
   .widget_instagram .inst-block {
     padding: 20px 16px;
+  }
+  .widget_tour {
+    padding: 30px 16px;
   }
 }
 @media screen and (max-width: 350px) {

@@ -125,6 +125,20 @@ https://hellodigi.ru/
       -webkit-box-shadow: 0 0 0px 1000px #fff inset;
       transition: background-color 5000s ease-in-out 0s;
     }
+    
+    &.modal_order {
+        width: 744px;
+        
+        .input-wrap {
+            width: 48%;
+        }
+        
+        .modal-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
 }
 
 .success-icon {
@@ -233,6 +247,16 @@ https://hellodigi.ru/
     .modal_close {
         top: 0;
         right: -43px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .modal.modal_order {
+        width: 100%;
+    }
+    
+    .modal.modal_order .input-wrap {
+        width: 100%;
     }
 }
 

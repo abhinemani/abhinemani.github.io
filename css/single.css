@@ -3,6 +3,10 @@
 Developed by helloDigi
 https://hellodigi.ru/
 */
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
 .Regular {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -159,6 +163,60 @@ https://hellodigi.ru/
 .single-header.header_version_3 .bg-img {
   opacity: 0.58;
 }
+.single-header.image-header {
+  position: relative;
+}
+.single-header.image-header:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  z-index: 4;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+}
+.single-header.image-header .breadcrumbs {
+  top: 90px;
+  color: #fff;
+}
+.single-header.image-header .breadcrumbs .current {
+  color: #fff;
+}
+.single-header.image-header .wrap {
+  position: relative;
+  z-index: 4;
+}
+.single-header.image-header .image-wrap {
+  height: 727px;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.single-header.image-header .image-wrap:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 290px;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+}
+.single-header.image-header .wrap_float {
+  height: 622px;
+  min-height: inherit;
+}
 .single-header .post-author:hover span {
   text-decoration: underline;
 }
@@ -182,6 +240,9 @@ https://hellodigi.ru/
 .breadcrumbs a.home-link {
   color: #8E8E8E;
 }
+.breadcrumbs.white-color {
+  color: #fff;
+}
 .page-title {
   display: block;
   float: left;
@@ -191,6 +252,10 @@ https://hellodigi.ru/
   font-weight: 700;
   line-height: 56px;
   margin-bottom: 27px;
+}
+.page-title.large-title {
+  font-size: 82px;
+  line-height: 82px;
 }
 .post-description {
   display: block;
@@ -318,12 +383,16 @@ https://hellodigi.ru/
 .single-content .wrap_float > *:first-child {
   margin-top: 0;
 }
+.single-content .wrap_float > *:last-child {
+  margin-bottom: 0;
+}
 .articles-controls {
   display: block;
   float: left;
   width: 100%;
   border-top: 1px solid #DCDEE1;
   border-bottom: 1px solid #DCDEE1;
+  margin-bottom: 50px;
 }
 .articles-controls .post-title {
   font-size: 15px;
@@ -492,6 +561,62 @@ https://hellodigi.ru/
   background: url(../img/play-btn.svg) center right 10px no-repeat;
   background-size: 10px 12px;
 }
+.features {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+}
+.features-item {
+  border: 1px solid #DCDEE1;
+  border-radius: 8px;
+  width: 234px;
+  height: 136px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  text-align: center;
+}
+.features-item:nth-child(3n) {
+  margin-right: 0;
+}
+.features-item:nth-child(3n+1) {
+  clear: both;
+}
+.features-item-icon {
+  height: 26px;
+  width: auto;
+}
+.features-item-icon img,
+.features-item-icon svg,
+.features-item-icon picture {
+  height: 100%;
+  width: auto;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+.features-item-title {
+  font-size: 16px;
+  margin-top: 9px;
+}
+.features-item-subtitle {
+  font-size: 12px;
+  color: #8E8E8E;
+  margin-top: 9px;
+}
+.container.page--move .single-header.image-header {
+  border-radius: 13px 13px 0 0;
+  overflow: hidden;
+}
 .dark .post-preview-item {
   background: #2b2b2b;
 }
@@ -533,6 +658,18 @@ https://hellodigi.ru/
 .dark .breadcrumbs a:hover {
   color: #fff;
 }
+.dark .single-header.image-header .image-wrap:after {
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #1d1d1d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#1d1d1d', GradientType=0);
+}
+@media screen and (max-width: 1230px) and (min-width: 1001px) {
+  .with-sidebar .features-item {
+    width: 186px;
+  }
+}
 @media screen and (min-height: 1220px) {
   .single-header.header_version_2 .wrap_float,
   .single-header.header_version_3 .wrap_float {
@@ -562,6 +699,14 @@ https://hellodigi.ru/
     min-height: 665px;
     padding-bottom: 65px;
   }
+  .single-header.image-header .wrap_float {
+    height: 590px;
+    min-height: inherit;
+  }
+  .page-title.large-title {
+    font-size: 66px;
+    line-height: 68px;
+  }
 }
 @media screen and (max-width: 1400px) {
   .single-header.header-wide .wrap_float {
@@ -570,6 +715,13 @@ https://hellodigi.ru/
   .single-header.header_version_2 .wrap_float,
   .single-header.header_version_3 .wrap_float {
     height: auto;
+  }
+  .single-header.image-header .wrap_float {
+    height: 520px;
+    min-height: 520px;
+  }
+  .single-header.image-header .image-wrap {
+    height: 612px;
   }
 }
 @media screen and (max-width: 1230px) {
@@ -638,6 +790,13 @@ https://hellodigi.ru/
   .see-also-items.odd-count .post-item:nth-child(4) {
     display: block;
   }
+  .single-header.image-header .breadcrumbs {
+    top: 80px;
+    padding-top: 0;
+  }
+  .features-item {
+    width: 226px;
+  }
 }
 @media screen and (max-width: 760px) {
   .post-image-large img {
@@ -705,9 +864,27 @@ https://hellodigi.ru/
     display: -ms-flexbox;
     display: flex;
   }
+  .page-title.large-title {
+    font-size: 50px;
+    line-height: 54px;
+  }
+  .single-header.image-header .wrap_float {
+    height: 400px;
+    min-height: 400px;
+  }
+  .single-header.image-header .image-wrap {
+    height: 500px;
+  }
+  .single-header.image-header .image-wrap:after {
+    height: 180px;
+  }
+  .features-item {
+    width: 167px;
+  }
 }
 @media screen and (max-width: 590px) {
-  .page-title {
+  .page-title,
+  .page-title.large-title {
     font-size: 34px;
     line-height: 40px;
   }
@@ -756,6 +933,14 @@ https://hellodigi.ru/
   }
   .seo-section {
     margin-top: 60px;
+  }
+  .features-item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+  .features-item:last-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 480px) {
@@ -811,9 +996,20 @@ https://hellodigi.ru/
     font-size: 30px;
     line-height: 38px;
   }
+  .features-item {
+    height: auto;
+    padding: 22px 0;
+  }
 }
 @media screen and (max-width: 400px) {
   .post-excerption {
     line-height: 19px;
+  }
+  .single-header.image-header .image-wrap {
+    height: 400px;
+  }
+  .single-header.header-wide .wrap_float {
+    min-height: 340px;
+    height: 340px;
   }
 }

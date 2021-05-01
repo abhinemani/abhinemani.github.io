@@ -33,6 +33,7 @@ https://hellodigi.ru/
     .page-wrap-sidebar {
         width: 386px;
         float: right;
+        position: relative;
     }
     
     
@@ -881,6 +882,64 @@ https://hellodigi.ru/
     }
 }
 
+.widget_tour {
+    text-align: center;
+    background: #EBEBEB;
+    border-radius: 13px;
+    padding: 38px 46px 46px;
+    
+    ._title {
+        font-size: 25px;
+        .Bold;
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-top: 20px;
+        
+        &.transparent-btn {
+            background: none;
+            border: 1px solid #747B88;
+            color: @dark-parent;
+        }
+    }
+    
+    .get-in-touch {
+        .block;
+        margin-top: 45px;
+        
+        .text {
+            color: @dark-parent;
+        }
+    }
+    
+    .order-form {
+        .block;
+    }
+    
+    .input-wrap {
+        margin-bottom: 18px;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    .form-fields {
+        flex-wrap: wrap;
+        margin-top: 33px;
+    }
+}
+
+//input[type="date"]::-webkit-inner-spin-button,
+//input[type="date"]::-webkit-calendar-picker-indicator {
+//    display: none;
+//    -webkit-appearance: none;
+//}
+//
+
+
 .dark {
     
     .widget_categories ul li .count,
@@ -939,7 +998,8 @@ https://hellodigi.ru/
     .widget_meta>ul>li>a, .widget_pages>ul>li>a,
     .textwidget,
     .widget_instagram .inst-block,
-    .widget_social_links .social-links-item {
+    .widget_social_links .social-links-item,
+    .widget_tour {
         background: @dark-child;
     }
     
@@ -953,7 +1013,9 @@ https://hellodigi.ru/
         background: #9a9797;
     }
     
-    .twitter-block-posts-item .twitter-content {
+    .twitter-block-posts-item .twitter-content,
+    .widget_tour .get-in-touch .text,
+    .widget_tour .btn.transparent-btn {
         color: #fff;
     }
     
@@ -1277,6 +1339,14 @@ https://hellodigi.ru/
     .widget_archive {
         padding: 30px 15px;
     }
+    
+    .widget_tour {
+        padding: 30px 26px;
+    }
+    
+    .widget_tour .get-in-touch {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1230px) {
@@ -1550,6 +1620,10 @@ https://hellodigi.ru/
     .widget_archive {
         padding: 23px 5px;
     }
+    
+    .widget_tour {
+        padding: 30px 20px;
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -1672,6 +1746,10 @@ https://hellodigi.ru/
     
     .widget_instagram .inst-block {
         padding: 20px 16px;
+    }
+    
+    .widget_tour {
+        padding: 30px 16px;
     }
 }
 
