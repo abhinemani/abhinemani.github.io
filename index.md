@@ -1,58 +1,50 @@
 ---
-layout: home
+layout: home2
 permalink: /index.html
 title: Home
 subhead: public servant. Fmr Chief Data Officer, Los Angeles, Chief Innovation Officer, Sacramento, Code for America.
 tags: [about, Abhi Nemani, Code for America, pandas]
 img: placeholder.jpg
 ---
-<div class="page-wrap author-page">
-	<div class="author-header">
-		<div class="wrap wrap-center">
-			<div class="wrap_float">
-				<div class="title-wrap">
-					<div class="author-image">
-						<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
-					</div>
-					<h1 class="page-title">public servant.</h1>
-                            </div>
-                            <div class="post-description">
-								<p>
-									Over the last 10+ years, I've been a part of various transformational organizations, non-profits, governments, and startups, with an eye towards technology that helps people. I have written, spoken, and taught about my learnings in this emerging, exciting, and fun field of public innovation widely, and try my best here to share what I am seeing.
-								</p>
-                            </div>
-                            <div class="socials">
-                                <a class="soc-link">
-                                    <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://twitter.com/@abhinemani">
-                                    <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://linkedin.com/in/abhinemani">
-                                    <img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
-                                    <img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://github.com/abhinemani">
-                                    <img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
-                                    <img src="{{site.url}}/img/youtube-icon.svg" class="img-svg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="author-body">
-                    <div class="wrap">
-                        <div class="wrap_float">
-                            <div class="wp-content">
-                                <div class="wrap wrap-center">
-                                    <h2>Public Innovation Academy</h2>
-                                    <div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
-                                        <div class="block-column">
-                                            <figure class="block-caption img-caption">
+<section class="banner-section" style="background-image: url(../img/talks.jpeg);">
+	<div class="wrap wrap-center ">
+		<div class="wrap_float">
+			<div class="section-content">
+				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Exec. Dir., Code for America</div>
+				<h2 class="page-title">
+					10+ Years of Showing — and Sharing — What's Possible in Public Innovation
+				 </h2>
+                     <div class="socials">
+                         <a class="soc-link" href="https://twitter.com/@abhinemani">
+                             <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
+                         </a>
+                         <a class="soc-link" href="https://linkedin.com/in/abhinemani">
+                             <img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
+                         </a>
+                         <a class="soc-link" href="mailto:abhi.nemani@gmail.com">
+                             <img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
+                         </a>
+                         <a class="soc-link" href="https://github.com/abhinemani">
+                             <img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
+                         </a>
+                     </div>
+					 <div class="buttons">
+					 <a href="/academy" class="btn"><span>Start Learning</span></a>
+					 <a href="/about" class="btn border-btn"><span>About Me</span></a>
+				 </div>
+			 </div>
+		 </div>
+	</div>
+</section>
+<div class="author-body">
+	<div class="wrap">
+		<div class="wrap_float">
+			<div class="wp-content">
+				<div class="wrap wrap-center">
+					<h2>Public Innovation Academy</h2>
+					<div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
+						<div class="block-column">
+							<figure class="block-caption img-caption">
                                                 <div class="img-wrap">
                                                     <a href="{{site.url}}/academy/"><img src="{{site.url}}/img/home/2.jpg" alt="Lessons"></a>
                                                 </div>
@@ -143,7 +135,7 @@ img: placeholder.jpg
                                 </a>
 								{% endfor %}
                             </div>
-                            <div>
+<div>
 								<a href="{{site.url}}/blog/">
                                 <div class="show-more-btn">
                                     <span>Read more...</span>
@@ -153,4 +145,3 @@ img: placeholder.jpg
                         </div>
                     </div>
                 </div>
-            </div>

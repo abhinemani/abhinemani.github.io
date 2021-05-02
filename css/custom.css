@@ -1,0 +1,59 @@
+.search-button:before {
+  width: 40px;
+  height: 20px;
+  background: url(../img/glasses-black.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+  content: '';
+}
+
+.banner-section .page-title {
+	text-shadow: 1px 1px #000000;
+	margin-bottom: 15px;
+}
+
+.dark .search-button:before {
+  background-image: url(../img/glasses-white.png);
+}
+
+.container-iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-section .socials {
+	margin-bottom: 25px;
+}
+
+@media screen and (min-width: 1001px) {
+	.top-panel.fixed.white-color.scrolled .search-button:before{
+	    background-image: url(../img/glasses-black.png);
+	}
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile-panel.white-color:not(.scrolled) .search-button:before {
+      background-image: url(../img/glasses-white.png);
+    }
+}
+
+@media screen and (min-width: 1001px) {
+	.top-panel.white-color .search-button:before {
+		background-image: url(../img/glasses-white.png);
+	}
+}
