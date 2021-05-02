@@ -67,7 +67,7 @@ img: GD-shot.jpg
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <div class="img-wrap">
-                                                    <a href="https://govgeek.club"><img src="{{site.url}}/img/home/4.jpg" alt="Community"></a>
+                                                    <a href="{{site.url}}/community"><img src="{{site.url}}/img/home/4.jpg" alt="Community"></a>
                                                 </div>
                                             </figure>
                                         </div>
