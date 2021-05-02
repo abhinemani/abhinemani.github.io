@@ -6,13 +6,13 @@ subhead: public servant. Fmr Chief Data Officer, Los Angeles, Chief Innovation O
 tags: [about, Abhi Nemani, Code for America, pandas]
 img: placeholder.jpg
 ---
-<section class="banner-section" style="background-image: url(../img/talks.jpeg);">
+<section class="banner-section" style="background-image: url(../img/GD-shot.jpg);">
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Exec. Dir., Code for America</div>
+				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Prof., UChicago; ED, Code for America</div>
 				<h2 class="page-title">
-					Showing — and Sharing — What's Possible through Public Innovation
+					Showing, Sharing & Shaping What's Possible through Public Innovation
 				 </h2>
                      <div class="socials">
                          <a class="soc-link" href="https://twitter.com/@abhinemani">
@@ -29,8 +29,8 @@ img: placeholder.jpg
                          </a>
                      </div>
 					 <div class="buttons">
-					 <a href="/about" class="btn"><span>About Me</span></a>
-					 <a href="https://govgeek.club" class="btn border-btn"><span>Join the Community</span></a>
+					 <a href="/about" class="btn"><span>Latest Stories</span></a>
+					 <a href="https://govgeek.club" class="btn border-btn"><span>About me</span></a>
 				 </div>
 			 </div>
 		 </div>
@@ -53,14 +53,14 @@ img: placeholder.jpg
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/lessons/1-primer/"><img src="{{site.url}}/img/home/1.jpg" alt="Primer"></a>
+                                                    <a href="{{site.url}}/lessons/primer/"><img src="{{site.url}}/img/home/1.jpg" alt="Primer"></a>
                                                 </div>
                                             </figure>
                                         </div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/lessons/2-ecosystem/"><img src="{{site.url}}/img/home/3.jpg" alt="Ecosystem"></a>
+                                                    <a href="{{site.url}}/lessons/ecosystem/"><img src="{{site.url}}/img/home/3.jpg" alt="Ecosystem"></a>
                                                 </div>
                                             </figure>
                                         </div>
@@ -81,7 +81,7 @@ img: placeholder.jpg
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <div class="img-wrap">
-                                                    <a href="{{site.url}}/lessons/4-resources/"><img src="{{site.url}}/img/home/6.jpg" alt="Resources"></a>
+                                                    <a href="{{site.url}}/resources/"><img src="{{site.url}}/img/home/6.jpg" alt="Resources"></a>
                                                 </div>
 	                                         </figure>	
                                         </div>
