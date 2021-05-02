@@ -43,7 +43,6 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					</p>
 					<p>Abhi's work has been featured in the New York Times, Government Technology, Government Executive, and Forbes, and he has been featured as a speaker at SxSW, the World Bank, and various universities and conferences around the world.
 					</p>
-					<hr />
 					<h2>Individual Honors & Acknowledgements</h2>
 					<ul>
 						<li>Blair Award for State and Local Government</li>
