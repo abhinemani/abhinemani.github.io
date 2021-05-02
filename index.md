@@ -12,7 +12,7 @@ img: placeholder.jpg
 			<div class="section-content">
 				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Exec. Dir., Code for America</div>
 				<h2 class="page-title">
-					Showing — and Sharing — What's Possible in Public Innovation
+					Showing — and Sharing — What's Possible through Public Innovation
 				 </h2>
                      <div class="socials">
                          <a class="soc-link" href="https://twitter.com/@abhinemani">
@@ -29,8 +29,8 @@ img: placeholder.jpg
                          </a>
                      </div>
 					 <div class="buttons">
-					 <a href="/academy" class="btn"><span>Start Learning</span></a>
-					 <a href="/about" class="btn border-btn"><span>About Me</span></a>
+					 <a href="/academy" class="btn"><span>About Me</span></a>
+					 <a href="/about" class="btn border-btn"><span>Join the Community</span></a>
 				 </div>
 			 </div>
 		 </div>
@@ -41,7 +41,7 @@ img: placeholder.jpg
 		<div class="wrap_float">
 			<div class="wp-content">
 				<div class="wrap wrap-center">
-					<h2><img src="{{site.url}}/img/PIA-logo.png" style="margin: auto; max-width: 300px;"></h2>
+					<h2><img src="{{site.url}}/img/PIA-logo.png" style="margin: 10px auto 0px auto; max-width: 300px;"></h2>
 					<div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">
