@@ -10,7 +10,7 @@ img: placeholder.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Prof., UChicago; ED, Code for America</div>
+				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Prof., UChicago; Code for America</div>
 				<h2 class="page-title">
 					Showing, Sharing & Shaping What's Possible through Public Innovation
 				 </h2>
@@ -29,8 +29,8 @@ img: placeholder.jpg
                          </a>
                      </div>
 					 <div class="buttons">
-					 <a href="/about" class="btn"><span>Latest Stories</span></a>
-					 <a href="https://govgeek.club" class="btn border-btn"><span>About me</span></a>
+					 <a href="/blog" class="btn"><span>Latest Stories</span></a>
+					 <a href="/about" class="btn border-btn"><span>About me</span></a>
 				 </div>
 			 </div>
 		 </div>
