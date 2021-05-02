@@ -10,7 +10,7 @@ img: GD-shot.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">EthosLabs.us. Ex: CDO, LA; CIO, Sacramento; Prof., UChicago; Code for America</div>
+				<div class="location">public servant. fmr #localgov CDO/CIO; #civictech @UChicago; @codeforamerica</div>
 				<h2 class="page-title">
 					Showing, Sharing & Shaping What's Possible through Public Innovation
 				 </h2>

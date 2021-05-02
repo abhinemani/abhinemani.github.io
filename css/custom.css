@@ -53,6 +53,9 @@
 	background: #d6b681;
 	color: white;
 }
+.location:before { 
+	background: url(../img/tour-icon.svg) center center no-repeat;
+}
 
 @media screen and (min-width: 1001px) {
 	.top-panel.fixed.white-color.scrolled .search-button:before{
