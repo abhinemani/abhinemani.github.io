@@ -29,8 +29,8 @@ img: placeholder.jpg
                          </a>
                      </div>
 					 <div class="buttons">
-					 <a href="/academy" class="btn"><span>About Me</span></a>
-					 <a href="/about" class="btn border-btn"><span>Join the Community</span></a>
+					 <a href="/about" class="btn"><span>About Me</span></a>
+					 <a href="https://govgeek.club" class="btn border-btn"><span>Join the Community</span></a>
 				 </div>
 			 </div>
 		 </div>
