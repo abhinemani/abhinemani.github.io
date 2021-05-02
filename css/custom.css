@@ -44,6 +44,16 @@
 	background: #0b73ab;
 }
 
+.btn:hover {
+	background: #d6b681;
+	color: white;
+}
+
+.mobile .btn:hover {
+	background: #d6b681;
+	color: white;
+}
+
 @media screen and (min-width: 1001px) {
 	.top-panel.fixed.white-color.scrolled .search-button:before{
 	    background-image: url(../img/glasses-black.png);
