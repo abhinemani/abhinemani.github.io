@@ -12,7 +12,7 @@ img: GD-shot.jpg
 			<div class="section-content">
 				<div class="location">public servant. fmr #localgov CDO/CIO; #civictech @UChicago; @codeforamerica</div>
 				<h2 class="page-title">
-					Showing & Celebrating What's Possible Through Public Innovation
+					Showing & Sharing What's Possible Through Public Innovation
 				 </h2>
                      <div class="socials">
                          <a class="soc-link" href="https://twitter.com/@abhinemani">
