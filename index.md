@@ -4,7 +4,7 @@ permalink: /index.html
 title: Home
 subhead: public servant. Fmr Chief Data Officer, Los Angeles, Chief Innovation Officer, Sacramento, Code for America.
 tags: [about, Abhi Nemani, Code for America, pandas]
-img: placeholder.jpg
+img: GD-shot.jpg
 ---
 <section class="banner-section" style="background-image: url(../img/GD-shot.jpg);">
 	<div class="wrap wrap-center ">
