@@ -41,7 +41,7 @@ img: placeholder.jpg
 		<div class="wrap_float">
 			<div class="wp-content">
 				<div class="wrap wrap-center">
-					<h2><img src="{{site.url}}/img/PIA-logo.png" style="margin: 10px auto 0px auto; max-width: 300px;"></h2>
+					<h2><a href="/academy"><img src="{{site.url}}/img/PIA-logo.png" style="margin: 10px auto 0px auto; max-width: 300px;"></a></h2>
 					<div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">
