@@ -128,7 +128,7 @@ https://hellodigi.ru/
 }
 @media screen and (max-width: 590px) {
   .banner-section .wrap_float {
-    min-height: 575px;
+    min-height: 600px;
     padding: 60px 0;
   }
   .banner-section .subtitle {
