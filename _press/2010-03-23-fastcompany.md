@@ -1,11 +1,12 @@
 ---
-layout: page
-title: How an Army of Techies is Taking on City Hall
+layout: press
+title: Fast Company - How an Army of Techies is Taking on City Hall
 categories:
 - Press
 tags:
 - magazine
 - featured
+img: fastco.png
 image:
   thumb: fastco.png
 link: http://www.fastcompany.com/1702210/how-army-techies-taking-city-hall

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: press
 title: Government Cloud Computing May Sustain Public Records
 categories:
 - Press

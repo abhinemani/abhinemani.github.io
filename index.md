@@ -152,13 +152,13 @@ img: GD-shot.jpg
 	                            <div class="wp-content">
 	                                <div class="wrap wrap-center">
 										<h2>In the News</h2>
-										<div class="block-columns gallery-columns columns-4 lightgallery-on lightgallery">
+										<div class="block-columns gallery-columns columns-4">
 											{% for press in site.press limit:8 %}  
-											<div class="block-column" href="{{site.url}}/img/{{ press.img.thumb }}">
+											<div class="block-column">
 												<figure class="block-caption img-caption">
 													<button class="zoom-btn"></button>
 													<div class="img-wrap">
-														<img src="{{site.url}}/img/{{ press.image.thumb }}" alt="">
+														<a href="{{ press.url }}"><img src="{{site.url}}/img/{{ press.image.thumb }}" alt=""></a>
 													</div>
 													<figcaption class="caption-text">{{ press.title }}</figcaption>
 												</figure>
