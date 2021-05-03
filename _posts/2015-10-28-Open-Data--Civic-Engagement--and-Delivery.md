@@ -21,7 +21,7 @@ Near the time of this President’s inaugural, a host of organizations were gain
 
 Crucially, though, this era was marked technologically by _manual_ open data publication. Yes, that sounds contradictory. But it isn’t. (In fact it’s not too distant from where we are today — more on that later). That is to say, data published tended to come from either difficult exports from _legacy systems_ — where quality and timeliness were questioned — or from transcriptions from what had been _paper based_ systems. (Indeed, this too happens now more often than one cares to admit.) More broadly, the ecosystem of players both inside and outside of government understanding the definition of and value in open data was so limited that much of the focus was on politics — elections, ethics, etc — and not government — buses, bills, and budgets.
 
-> So for good reason, our first house of open data infrastructure was build more out of papier-mâché than concrete or steel.
+**So for good reason, our first house of open data infrastructure was build more out of papier-mâché than concrete or steel.**
 
 #### The Hackathon Era
 
@@ -40,7 +40,7 @@ If I were, however, to push back, a bit, on this optimism, I’d note that more 
 
 _This is a long way of saying that the data we need is often not the data we have_ — at least not what we have on our data portals. Why? I return to the data systems problem scene in the Sunlight era: departments — particularly those in cash strapped agencies — are burdened with legacy systems and overtasked IT professionals, who have to make the difficult decision of keeping the wifi or radio systems working (true story) or writing an ETL script from their years old Oracle database. Add to that the political pressures they come under to meet the demands from electeds or appointed pushing hard for this open data, even in the light of such urgent demands, these dedicated public servants are, simply put, between a rock and a hard place. Thus, I lay no blame on the still mostly manual process for open data publication — that’s simply the administrative and political environment we live in.
 
-> Yet this means that as we ask these passionate volunteers in the community to go to war for us and their communities with their rare skills, we are arming them with pencils and poster boards, not APIs or streaming feeds — let alone serious technology, data, and problem sets to make a difference.
+**Yet this means that as we ask these passionate volunteers in the community to go to war for us and their communities with their rare skills, we are arming them with pencils and poster boards, not APIs or streaming feeds — let alone serious technology, data, and problem sets to make a difference.**
 
 #### Digital Services
 
@@ -58,7 +58,7 @@ Once we remove our governmental transactions from on-paper, through snail-mail, 
 
 To give a bit of color, consider a few of the civic companies currently being used or considered by governments for digital services: with [ScreenDoor](http://www.dobt.co/screendoor/) agencies can take any application process, run it online, and post immediately to common open data portals such as Socrata and CKAN; with [SeeClickFix](http://seeclickfix.com), 311 reports don’t need to be pulled from a legacy CRM, instead their open API enables direct export in real-time; and with [OpenCounter](http://OpenCounter.us), instead of permitting records coming from multiple departments systems (as they do now) the app can offer a direct feed into open data. Looking ahead, as more internet of things systems are rolled out through cities, such as TAP cards for public transit or real-time, location-based parking systems, rich, high-volume, and interesting data feeds should be at the ready. And ready not just for civic hackers usage, but also — and crucially — for agencies themselves to use for smarter, faster analytics and management.
 
-> Digital services provide the solid foundation a government’s data program demands.
+**Digital services provide the solid foundation a government’s data program demands.**
 
 This is the harmony of _digital_ government and _open_ government. I am increasingly convinced that we will not be able to have one without the other, and indeed, the opportunity for innovation, once we align these sister imperatives, is remarkable.
 
