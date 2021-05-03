@@ -17,6 +17,8 @@ owner:
   instagram:      abhinemani
 
 collections: 
+  press:
+    output: true
   portfolio:
     output: true
   lessons:

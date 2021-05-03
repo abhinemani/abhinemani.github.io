@@ -1,9 +1,10 @@
 ---
 layout: page
-permalink: /about/talks.html
+permalink: /talks/
 title: Talks
 subhead: I have spoken internationally about government, technology, and innovation, ranging from conferences such as SXSW and the US Conference of Mayors to universities and institutions such as the World Bank and Stanford.
 categories: About
+pubdate: Updated 2020
 ---
 <div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

@@ -45,11 +45,13 @@ img: GD-shot.jpg
 					<div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">
-                                                <div class="img-wrap">
-                                                    <a href="{{site.url}}/academy/"><img src="{{site.url}}/img/home/2.jpg" alt="Lessons"></a>
-                                                </div>
-                                            </figure>
-                                        </div>
+								<div class="img-wrap">
+									<a href="{{site.url}}/academy/">
+										<img src="{{site.url}}/img/home/2.jpg" alt="Lessons">
+									</a>
+								</div>
+							</figure>
+						</div>
                                         <div class="block-column">
                                             <figure class="block-caption img-caption">
                                                 <div class="img-wrap">
@@ -144,4 +146,28 @@ img: GD-shot.jpg
                             </div>
                         </div>
                     </div>
+	                <div class="author-body">
+	                    <div class="wrap">
+	                        <div class="wrap_float">
+	                            <div class="wp-content">
+	                                <div class="wrap wrap-center">
+										<h2>In the News</h2>
+										<div class="block-columns gallery-columns columns-4 lightgallery-on lightgallery">
+											{% for press in site.press limit:8 %}  
+											<div class="block-column" href="{{site.url}}/img/{{ press.img.thumb }}">
+												<figure class="block-caption img-caption">
+													<button class="zoom-btn"></button>
+													<div class="img-wrap">
+														<img src="{{site.url}}/img/{{ press.image.thumb }}" alt="">
+													</div>
+													<figcaption class="caption-text">{{ press.title }}</figcaption>
+												</figure>
+											</div>
+											{% endfor %}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
                 </div>

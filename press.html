@@ -1,0 +1,27 @@
+---
+layout: page
+permalink: /press/
+title: Press
+tags: 
+ - biography
+ - civictech
+ - govtech
+categories: About
+subhead: If you are looking for insight on the issues of government technology, innovation, or civic engagement, you're welcome to drop me a line.
+image:
+  feature: map.png
+pubdate: Updated 2020
+---
+<div class="block-columns gallery-columns columns-4 lightgallery-on lightgallery">
+	{% for press in site.press  %}  
+	<div class="block-column" href="{{site.url}}/img/{{ press.img.thumb }}">
+		<figure class="block-caption img-caption">
+			<button class="zoom-btn"></button>
+			<div class="img-wrap">
+				<img src="{{site.url}}/img/{{ press.image.thumb }}" alt="">
+			</div>
+			<figcaption class="caption-text">{{ press.title }}</figcaption>
+		</figure>
+	</div>
+	{% endfor %}
+</div>
