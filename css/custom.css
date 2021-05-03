@@ -57,6 +57,10 @@
 	background: url(../img/tour-icon.svg) center center no-repeat;
 }
 
+.wp-content p a {
+	color: #0b73ab;
+}
+
 .seo-section {
 	margin-top: 0px;
 }

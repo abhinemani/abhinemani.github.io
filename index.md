@@ -140,7 +140,7 @@ img: GD-shot.jpg
 <div>
 								<a href="{{site.url}}/blog/">
                                 <div class="show-more-btn">
-                                    <span>Read more...</span>
+                                    <span>More Essays & News</span>
                                 </div>
 								</a>
                             </div>
@@ -156,7 +156,6 @@ img: GD-shot.jpg
 											{% for press in site.press limit:8 %}  
 											<div class="block-column">
 												<figure class="block-caption img-caption">
-													<button class="zoom-btn"></button>
 													<div class="img-wrap">
 														<a href="{{ press.url }}"><img src="{{site.url}}/img/{{ press.image.thumb }}" alt=""></a>
 													</div>
