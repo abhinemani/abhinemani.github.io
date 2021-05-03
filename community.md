@@ -31,7 +31,6 @@ img: GD-shot.jpg
 			 </div>
 		 </div>
 	 </div>
- </div>
 </section>
 <div class="page-wrap author-page">
     <div class="author-body">
