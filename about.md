@@ -23,10 +23,20 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                     <h1 class="page-title">About me.</h1>
                 </div>
                 <div class="section-content wp-content">
-					<img src="{{site.url}}/img/Summit-shot.jpeg">
 					<p>Abhi Nemani has worked for over a decade at the intersection of public service and technology. Abhi helped build the non-profit Code for America, growing it into a national leader in government tech, and then he was appointed as the first CDO of Los Angeles and CIO of Sacramento. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
 					</p>
-					<h2>Background</h2>
+					<h3>More Information</h3>
+					<ul>
+						<li class="plus-li"><strong>Email:</strong> abhi.nemani@gmail.com
+						</li>
+						<li class="plus-li"><strong><a href="{{site.url}}/cv">CV</a></strong>
+						</li>
+						<li class="plus-li"><a href="{{site.url}}/about/talks"><strong>Talks</strong> (Videos & Speaking Information)</a>
+						</li>
+						<li class="plus-li"><strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong>: For media purposes, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>
+						</li>
+					</ul>
+					<h2>Full Biography</h2>
 					<img src="{{site.url}}/img/GD-shot.jpg">
 					<p>Abhi Nemani is a writer, speaker, organizer, and technologist.</p>
 					<p>He currently runs a GovTech consultancy called EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. He is also building and teaching a first-of-its-kind Civic Technology course at the University of Chicago.</p>
@@ -61,8 +71,6 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 						<li>White House Champions of Change</li>
 						<li>Multiple Knight News Challenge Selections</li>
 					</ul>
-					<h2>Headshot</h2>
-					<p><a name="headshot"></a><em>If necessary, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>.</em></p>
                 </div>
                 <div class="socials">
                     <a class="soc-link">
