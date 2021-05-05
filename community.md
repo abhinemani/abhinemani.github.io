@@ -17,7 +17,7 @@ img: GD-shot.jpg
 					 Weekly, curated list of jobs, links, and commentary
 				 </p>
 				 <div class="form">
-					 <form id="wrapped" method="POST" action="https://gmail.us4.list-manage.com/subscribe/post?u=8b0a6fcff3240da989198b6d9&amp;id=e2d6d289a5" >
+					 <form id="wrapped" method="POST" action="https://club.us4.list-manage.com/subscribe/post?u=8b0a6fcff3240da989198b6d9&amp;id=e2d6d289a5" >
 					 <div class="form-fields">
 						 <div class="input-wrap">
 							 <input type="email" class="input" name="EMAIL" id="mce-EMAIL" placeholder="Email*">
