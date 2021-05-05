@@ -2,9 +2,9 @@
 layout: home2
 permalink: /community/
 title: GovGeek.Club Newsletter
-subhead: public servant. Fmr Chief Data Officer, Los Angeles, Chief Innovation Officer, Sacramento, Code for America.
+subhead: Join the community of public servants of all stripes, public or private, using technology to serve the public good.
 tags: [about, Abhi Nemani, Code for America, pandas]
-img: GD-shot.jpg
+img: placeholder.jpg
 ---
 <section class="banner-section" style="background-image: url(../img/gg-club.jpg);">
 	<div class="wrap wrap-center ">
