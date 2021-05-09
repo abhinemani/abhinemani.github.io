@@ -20,7 +20,7 @@ But sans DOD, that Federal Spend of $53.2B is actually lower than State ($60.6B)
 ## Pulling out DOD, federal, state, and local spending are similar (~$53-60B)
 ![2021 US Government IT Spending Overview - Without DOD](/img/it-spend-2.png)
 
-So much attention goes to the feds/DC, but market opportunity is larger is state + local ($118.7B) than federal, and that number should only grow with post-COVID investments. 
+So much attention goes to the feds/DC, but market opportunity is larger in [State + Local Government](https://www.govtech.com/navigator/data/2019-state-and-local-annual-it-spending.html) ($118.7B) than Federal Government, and that number should only grow with post-COVID investments... 
 
 ### ...and it's growing
 In President Biden’s 2021 stimulus plan: additional $9 Billion for technology — specifically $200M for staffing up federal technologists. (More to come.)

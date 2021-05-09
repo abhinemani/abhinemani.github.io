@@ -6,7 +6,6 @@ categories:
 tags:
 - magazine
 - featured
-img: fastco.png
 image:
   thumb: fastco.png
 link: http://www.fastcompany.com/1702210/how-army-techies-taking-city-hall
