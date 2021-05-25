@@ -1,6 +1,6 @@
 ---
 layout: press
-title: Fast Company - How an Army of Techies is Taking on City Hall
+title: How an Army of Techies is Taking on City Hall
 categories:
 - Press
 tags:
