@@ -1,8 +1,8 @@
 ---
 published: true
 layout: single
-title: 'What Smart Cities Mean for *Every* Startup - Wednesday, June 9'
-subhead: Every company is a smart city company now.
+title: 'What Smart Cities Mean for *Every* Startup - Webinar - June 9'
+subhead: Whether you sell to government or not, your startup is going to be bound up in the public sector wherever you are and whatever you do.
 categories:
   - Blog
 tags:
