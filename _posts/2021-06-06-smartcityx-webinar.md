@@ -9,7 +9,6 @@ tags:
   - Startups
   - Cities
   - Regulation
-img: placeholder.png
 pubdate: 'June 06, 2021'
 date: 2021-06-06
 author: Abhi Nemani
