@@ -11,7 +11,7 @@ tags:
   - Regulation
 img: placeholder.png
 pubdate: 'June 06, 2021'
-date: {}
+date: 2021-06-06
 author: Abhi Nemani
 ---
 This Wednesday, June 9, I'll be hosting a webinar with SmartCityX by Scrum Ventures on the the undeniable relationship between governments (nations, states, and cities) and *any* startups. Whether you sell to government or not, your startup is going to be bound up in the public sector wherever you are and whatever you do. The question you have is to take advantage of it or not. That's what 21st Century "public affairs" or "government relations" or whatever you want to call it: Being Smart About Working with Cities.
