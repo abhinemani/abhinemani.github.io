@@ -18,6 +18,7 @@ This Wednesday, June 9, I'll be hosting a webinar with [SmartCityX by Scrum Vent
 
 ## [Being Smart About Working with Cities](https://us02web.zoom.us/j/2750555628)
 Join us on [June 9th @ 10am PT](https://us02web.zoom.us/j/2750555628): [https://us02web.zoom.us/j/2750555628](https://us02web.zoom.us/j/2750555628)
+*(There's no registration, just use that link at the start time.)*
 
 Whether you sell to government or not, your startup is going to be bound up in the public sector wherever you are and whatever you do. The question you have is to take advantage of it or not. That's what 21st Century "public affairs" or "government relations" or whatever you want to call it: Being Smart About Working with Cities.
 
