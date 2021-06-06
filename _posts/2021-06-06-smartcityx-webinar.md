@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: 'What Smart Cities Mean for *Every* Startup - Webinar - June 9'
+title: Webinar&#x3a; What Smart Cities Mean for Every Startup
 subhead: Whether you sell to government or not, your startup is going to be bound up in the public sector wherever you are and whatever you do.
 categories:
   - Blog
