@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: Webinar for All Entrepreneurs&#x3a; Being Smart About Working With Cities
+title: Webinar for All Entrepreneurs&#x3a; Working Smarter With Cities
 subhead: Whether you sell to government or not, your startup is going to be bound up in the public sector wherever you are and whatever you do.
 categories:
   - Blog
@@ -16,7 +16,7 @@ img: working-with-cities.jpg
 ---
 This Wednesday, June 9, I'll be hosting a webinar with [SmartCityX by Scrum Ventures](https://en.smartcity-x.com/) on the the undeniable relationship between governments (nations, states, and cities) and *any* startups. It has been a priviledge to be part of the Leadership Circle for this new program and will be sharing my insights for their SmartCityX and **any one else interested in this free webinar.**
 
-## [Being Smart About Working with Cities](https://us02web.zoom.us/j/2750555628)
+## [Working Smarter with Cities](https://us02web.zoom.us/j/2750555628)
 Join us on [June 9th @ 10am PT](https://us02web.zoom.us/j/2750555628): [https://us02web.zoom.us/j/2750555628](https://us02web.zoom.us/j/2750555628)
 *(There's no registration, just use that link at the start time.)*
 
