@@ -29,9 +29,9 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					<ul>
 						<li class="plus-li"><strong>Email:</strong> abhi.nemani@gmail.com
 						</li>
-						<li class="plus-li"><a href="{{site.url}}/about/press"><strong>Press Mentions</strong></a>
+						<li class="plus-li"><a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>
 						</li>
-						<li class="plus-li"><a href="{{site.url}}/about/talks"><strong>Talks</strong> (Videos & Speaking Information)</a>
+						<li class="plus-li"><a href="{{site.url}}/talks/"><strong>Talks</strong> (Videos & Speaking Information)</a>
 						</li>
 						<li class="plus-li"><strong><a href="{{site.url}}/cv">CV</a></strong>
 						</li>
