@@ -8,6 +8,7 @@ subhead: >-
   Over the last ten years, I have seen firsthand the leaps and strides
   governments have taken to catch up to the private sector’s pace of…
 date: '2018-08-14T20:01:34.055Z'
+img: 1__t0N4Gq54Q4BzGibi8CeeLQ.jpeg
 ---
 
 Over the last ten years, I have [seen firsthand](https://medium.comopen-data-civic-engagement-and-delivery-28b990f321ce?source=user_profile---------42----------------) the leaps and strides governments have taken to catch up to the private sector’s pace of innovation. It started with digital engagement: websites and social media. Then we moved forward to providing greater digital access through open data and digital services. (I would be remiss not to applaud the tremendous work that has been done on the latter in the past few years, in particular.)
@@ -24,13 +25,10 @@ Fortunately, you’re seeing things start to change. Instead of new apps, you ar
 
 Fortunately, enough, this has been one evolution government technology has not been as slow to pick up. Cities ranging from [small](https://sunlightfoundation.com/2017/07/13/word-gets-around-chattanooga-adopts-facebook-chatbot-for-open-data/) to [big](https://medium.comalexa-lets-talk-about-open-data-standards-138e86262d28?source=user_profile---------4----------------) are developing their own personalized communication systems to answer basic questions or access open data. But this is I’m sure just the start. Indeed, that’s part of what we’re working on at [SPIDR Tech](http://spidrtech.com).
 
-![](/img/1__t0N4Gq54Q4BzGibi8CeeLQ.jpeg)
-undefined
 
 At SPIDR, this notion of push communications is central to what we do. “No more apps” is a working mantra. That’s because we work with law enforcement agencies that need to provide crucial information to victims of crimes or 911 callers, who do not have time to download another app. And nor do the agencies have the bandwidth for more calls. Instead automated, personalized, and relevant communication makes lives easier for officials and residents.
 
 ![](/img/1__6m7xZ1GMjf0G3aRJdYNOvg.jpeg)
-undefined
 
 These aren’t like the more traditional push messages you may be used to from law enforcement (emergency notifications), instead there are _personalized for the resident for the specific problem they have_. And just as importantly from a governmental perspective, there’s no need for new systems or process change. In fact, using the _existing_ processes / systems, SPIDR is able to provide a **1/1 communication** that’d be impossible at scale for an agency.
 
