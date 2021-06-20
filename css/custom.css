@@ -70,6 +70,11 @@
 	font-weight: bold;
 }
 
+.modal-form .input-wrap.active .input {
+	color: black;
+	font-weight: bold;
+}
+
 @media screen and (min-width: 1001px) {
 	.top-panel.fixed.white-color.scrolled .search-button:before{
 	    background-image: url(../img/glasses-black.png);

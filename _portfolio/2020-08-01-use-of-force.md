@@ -3,6 +3,7 @@ layout: page
 title: Boosting transparency around police use of force
 subhead: Data collection problems can stifle reform efforts that rely on data, such as the New Jersey effort to create an "early warning" system for abuse
 tags: [foundation, police, procurement]
+heading: Pilots
 categories: Partners
 pubdate: 2019
 ---

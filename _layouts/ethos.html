@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% if page.url == "/index.html" %}
+     <title>{{ site.title }}</title>
+	{% endif %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+	<meta property="og:description" content="{{ page.subhead }}" />
+	<meta property="og:image" content="{{ site.url }}/img/{{ page.img }}" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@abhinemani">
+	<meta name="twitter:creator" content="@abhinemani">
+	<meta name="twitter:title" content="{{ page.title }}">
+	<meta name="twitter:description" content="{{ page.subhead }} ">
+	<meta name="twitter:image" content="{{ site.url }}/img/{{ page.img }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url}}/css/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url}}/img/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url}}/img/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url}}/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url}}/img/favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url}}/img/favicons/favicon.png">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2506770-3"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-2506770-3');
+	</script> 
+</head>
+<body class="transition-none no-padding">
+    <div class="search-section">
+        <div class="wrap">
+            <div class="wrap_float">
+                <div class="search-form" id="search">
+                    <input type="text" class="search-input search" id="search-input" placeholder="Search…">
+                    <button class="search-submit"></button>
+					<ul id="results-container" style="color: white; padding-left: 20px; line-height: 1.2em;"></ul>
+                </div>
+                <div class="search-close" id="search-close"></div>
+				</div>
+				<script src="{{site.url}}/js/search-script.js" type="text/javascript"></script>
+				<script>
+				SimpleJekyllSearch({
+				  searchInput: document.getElementById('search-input'),
+				  resultsContainer: document.getElementById('results-container'),
+				  json: '{{site.url}}/search.json'
+				})
+				</script>				
+            </div>
+        </div>
+    </div>
+    <div class="container page">
+        <div class="container-wrap">
+            <div class="mobile-panel">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="search-button"></div>
+						
+                      
+                        <a class="logo" href="/">
+                            {{ site.title }}
+                        </a>
+                        <div class="mobile-btn" id="js-menu-open">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-wrap--dummy"></div>
+            <div class="top-panel top-panel-wide white-color fixed" id="js-panel">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="mode-check">
+                            <input type="checkbox" id="mode-checkbox" class="mode-checkbox-input">
+                            <label for="mode-checkbox" class="mode-checkbox-label" data-dark-title="Dark Mode" data-light-title="Light Mode"></label>
+                        </div>
+                        <div class="wrap-center">
+                            <a href="/" class="logo">
+                                {{ site.title }}
+							</a>
+{% include nav.html %}
+{{ content }}
+{% include footer.html %}
+</html>

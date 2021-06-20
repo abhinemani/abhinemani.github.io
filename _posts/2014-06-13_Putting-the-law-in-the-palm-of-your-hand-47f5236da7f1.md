@@ -1,8 +1,19 @@
+---
+layout: single
+title:LPutting the law in the palm of your hand
+subhead: The need for diversity in the civic technology ecosystem
+date: 2015-04-14
+categories:
+- Essays
+tags:
+- Civic Tech
+- Open Data
+- Code for America
+img: camera.jpg
+---
 # Putting the law in the palm of your hand
 
 Joining the OpenGov Foundation Board of Directors
-
-  
 
 If you were walking around the sunny coastal town of Santa Cruz, California, in the middle of 2012, you might have seen a rather strange sight. Crouched over what appeared to be an massive green electrical box, a young woman, wearing a white lab coat and work goggles, wielding a can of paint. What was she doing? Trying to help you understand the city a little bit better.
 

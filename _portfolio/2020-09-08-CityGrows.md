@@ -4,6 +4,7 @@ title: Letting governments build their own workflows on CityGrows
 subhead: Accessible and affordable workflow automation for local governments to replace paper forms and pdfs in minutes
 tags: [startup, workflow, SaaS]
 img: citygrows.svg
+heading: Investing
 categories: Partners
 pubdate: 2015
 ---
