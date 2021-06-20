@@ -1,4 +1,14 @@
-# A Poor Man’s Hacker’s Guide to Data-Driven Presentations
+---
+layout: single
+title: Making Presentations from Spreadsheets
+categories: 
+- Blog
+- Essays
+subhead: Really it is better. Collaborate on the content in a structured, open way.
+date: 2016-11-08
+pubdate: November 8, 2016
+img: slide1.png
+---
 
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of…
 
@@ -39,36 +49,16 @@ So here’s what we did:
 *   Inserted a dummy div in my main html file and pointed the tabletop script at it
 *   Turned on gh-pages, and _voila_: I had a “data-driven presentation, fully mobile responsive, printable, and shareable
 
-![](https://cdn-images-1.medium.com/max/1200/1*iItWSxH_fX3LucTlfcI93g.png)
-
-[See for yourself](https://sacmoie.github.io/RAILS/2016/index.html#/): [https://sacmoie.github.io/RAILS/2016/index.html#/](https://sacmoie.github.io/RAILS/2016/index.html#/)
+[See for yourself](https://abhinemani.com/RAILS/2016/#/): [https://abhinemani.com/RAILS/2016/#/](https://abhinemani.com/RAILS/2016/#//)
 
 Of course, the real benefit came from being able to share that Google Spreadsheet with all 15 organizations recommended for the grants, and the city staff I was collaborating with. Instead of having dozens and dozens of emails filling my inbox with “can you swap this pic for that?” or “our style guide doesn’t recommend use of the ampersand,” I simply shared everyone on the Google docs and let them have at it. I crowdsourced slide “creation” in an open, version-controlled way.
 
 To boot, we now also had a shiny public-facing website for launch, already built, and generally agreed upon copy in an API-accessible format. (Read: this “presentation” basically teed up mostly of everything we might need for ongoing marketing and outreach.)
 
-You can have a look at the code here: [https://github.com/SacMOIE/RAILS/tree/gh-pages/2016](https://github.com/SacMOIE/RAILS/tree/gh-pages/2016)
+You can have a look at the code here: [https://github.com/abhinemani/RAILS/tree/gh-pages/2016](https://github.com/abhinemani/RAILS/tree/gh-pages/2016)
 
 Sharing this story isn’t a vanity exercise — this really isn’t terribly clever or good code. No, I’m doing this for that next poor-man’s hacker asked to generate 30 consistent slides with 50 editors.
 
 Have faith, you don’t need to take that baseball bat to your laptop.
 
 At least not until the conference is over :)
-
-[![](https://cdn-images-1.medium.com/max/400/1*0hqOaABQ7XGPT-OYNgiUBg.png)](http://bit.ly/HackernoonFB)
-undefined[![](https://cdn-images-1.medium.com/max/400/1*Vgw1jkA6hgnvwzTsfMlnpg.png)](https://goo.gl/k7XYbx)
-undefined[![](https://cdn-images-1.medium.com/max/400/1*gKBpq1ruUi0FVK2UM_I4tQ.png)](https://goo.gl/4ofytp)
-undefined
-
-> [Hacker Noon](http://bit.ly/Hackernoon) is how hackers start their afternoons. We’re a part of the [@AMI](http://bit.ly/atAMIatAMI) family. We are now [accepting submissions](http://bit.ly/hackernoonsubmission) and happy to [discuss advertising & sponsorship](mailto:partners@amipublications.com) opportunities.
-
-> If you enjoyed this story, we recommend reading our [latest tech stories](http://bit.ly/hackernoonlatestt) and [trending tech stories](https://hackernoon.com/trending). Until next time, don’t take the realities of the world for granted!
-
-[![](https://cdn-images-1.medium.com/max/2560/1*35tCjoPcvq6LbB3I6Wegqw.jpeg)](https://goo.gl/Ahtev1)
-undefined
-
-By [abhi nemani](https://medium.com/@abhinemani) on [November 8, 2016](https://medium.com/p/b97a16caadf4).
-
-[Canonical link](https://medium.com/@abhinemani/data-driven-presentations-b97a16caadf4)
-
-Exported from [Medium](https://medium.com) on April 4, 2021.
