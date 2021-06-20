@@ -9,7 +9,7 @@ pubdate: Updated 2020
 <div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I tend to talk about how governments are changing, and using technology to do more with less in the 21st century — and how entreprenuers can take advantage of that. If you are looking for insight on government technology, innovation, or civic engagement at your next event or conference, don't hesitate to <a href="mailto:abhi.nemani@gmail.com">get in touch</a>.
-
+					<img src="{{site.url}}/img/BigKC-shot-small.jpg">
 ## Selected Presentations
 * RiseConf2015, **CDO as a Poor Man’s Hacker**  [[deck]](http://www.slideshare.net/anemani10/the-chief-data-officer-as-a-poor-mans-hacker)   [[press]](http://technical.ly/2015/12/11/care-future-city-10-ideas-steal-civic-tech-leaders/) 
 * NAGW: Keynote, **Data, Delivery, and Design**  [[video]](https://medium.com/@abhinemani/rethinking-data-portals-30b66f00585d#.hqqnf6jnw)   [[deck]](http://www.slideshare.net/anemani10/nagw-2015-keynote-data-design-and-delivery) 
