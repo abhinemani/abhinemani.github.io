@@ -14,7 +14,7 @@ img: placeholder.jpg
 					GovGeek.Club Newsletter
 				 </h2>
 				 <p class="subtitle">
-					 Weekly, curated list of jobs, links, and commentary
+					 Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.
 				 </p>
 				 <div class="form">
 					 <form id="wrapped" method="POST" action="https://club.us4.list-manage.com/subscribe/post?u=8b0a6fcff3240da989198b6d9&amp;id=e2d6d289a5" >
