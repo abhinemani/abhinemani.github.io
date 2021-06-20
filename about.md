@@ -24,7 +24,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                 </div>
                 <div class="section-content wp-content">
 					<p>Abhi Nemani has worked for over a decade at the intersection of public service and technology. Abhi helped build the non-profit Code for America, growing it into a national leader in government tech, and then he was appointed as the first CDO of Los Angeles and CIO of Sacramento. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
-					</p>
+					</p>					
 					<h3>More Information</h3>
 					<ul>
 						<li class="plus-li"><strong>Email:</strong> abhi.nemani@gmail.com
@@ -38,6 +38,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 						<li class="plus-li"><strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong>: For media purposes, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>
 						</li>
 					</ul>
+					<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149984557"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 					<h2>Full Biography</h2>
 					<img src="{{site.url}}/img/GD-shot.jpg">
 					<p>Abhi Nemani is a writer, speaker, organizer, and technologist.</p>
