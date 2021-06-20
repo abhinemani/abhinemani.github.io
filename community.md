@@ -4,7 +4,7 @@ permalink: /community/
 title: GovGeek.Club Newsletter
 subhead: Join the community of public servants of all stripes, public or private, using technology to serve the public good.
 tags: [about, Abhi Nemani, Code for America, pandas]
-img: placeholder.jpg
+img: gg-social.jpg
 ---
 <section class="banner-section" style="background-image: url(../img/gg-club.jpg);">
 	<div class="wrap wrap-center ">
