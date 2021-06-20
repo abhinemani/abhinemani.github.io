@@ -1,16 +1,23 @@
-# Changing the frame: from social innovation to civic startups
-
-Keynote Address from Making a Difference 2013 Hong Kong
-
-![](https://cdn-images-1.medium.com/max/1200/1*nRPoSYcf1SxcDQi0wJeGUg.png)
-undefined
+---
+layout: single
+title: Keynote&#x3a; From Social Innovation to Civic Startups
+subhead: Notes and Video from Making a Difference (MAD) 2013 Hong Kong
+categories: [Essays, Talks]
+tags: 
+- Government
+- Skills
+- Training
+img: longing.png
+pubdate: July 11, 2020
+date: 2020-07-11
+author: Abhi Nemani
+---
 
 _These are edited notes from my speech at Making a Difference 2013 Hong Kong on civic startups. I had initially prepared a different talk, but upon arriving in Hong Kong, talking with locals and other guests, I realized that while the technology sector there is thriving, it was sorely lacking the civic or social focus that exists in the American ecosystem. Thus, I reoriented my speech to discuss the need for and needs of a civic tech ecosystem. Video is available below._
 
 I want to tell you a story about a city in Massachusetts called Monson. It’s a small town. It’s about eight thousand people so you’ve probably never heard of it. It’s pretty average for a northeastern town in America. If you had heard of it it would have been because of this. In 2011 it was leveled by an F3 tornado. If you know anything about America hearing about a tornado in Massachusetts is like hearing about a hurricane in Germany. It never happens. They weren’t prepared for it. This is what happened to that city. It was demolished. Houses were broken. People lost their jobs. People lost their lives.
 
 ![](https://cdn-images-1.medium.com/max/800/1*mOTot1u6FhfKMOyUWSYW2A.png)
-undefined
 
 In a crisis like that there’s this one very special women I’ve met, she stepped up, she did what I bet the people in this audience would do. She stepped up and said, “How can I help? How can I solve this problem?” She started corralling all the volunteer that she could, and started getting them together to start solving the problem. People were shipping in resources. Volunteers were stepping up and people were saying, “Give me help.” She was running all of this effort, thousands of people, thousands of resources from her iPhone. It’s funny, if you talk to her about it she says the biggest problem she had was that she had too may resources and not the tools to manage them. In fact, some of the resources were wasted. Some of the help that could’ve been given wasn’t provided.
 
@@ -19,7 +26,6 @@ She did, also what I bet a lot of you would do, she built an app for that. She b
 This is what happened in Forney Texas six months after the app launched. Another F3 tornado leveling a town. Here’s what was different, Forney was able to use that piece of technology to respond to the crisis on the ground. They were able to stand up Forney Recovers and be able to take a list of everything people had, everything that people would be willing to do and match that up with needs. Thousands and thousands of needs were submitted. She’s proud and that company is proud to say that every single one was able to be met because of this piece of technology.
 
 ![](https://cdn-images-1.medium.com/max/800/1*arYLtxDnSkHppoAUEuYHCg.png)
-undefined
 
 That’s the power of technology in a crisis. That’s the power of technology in a community, that when it’s needed and when people need tools to respond to a situation they have it. This is now their company. It’s Recovers. The story doesn’t end in Forney or Monson. They decided that this shouldn’t just be a one-off situation. This idea, that there should be community powered response, that the citizen who want to help, that the citizens who want to give back should have the tools, in any city that they’re in, should be commonplace. They’ve done the hard work of going city to city in the United States and contracting with the city government to deploy their piece of technology, because you know what? The best time to be ready for an emergency is before it happens.
 
@@ -40,11 +46,10 @@ They built an application. It’s called Adopt-a-Hydrant. It’s really simple. 
 It’s not all about the apps. When we’re in the cities the fellows do some other fun stuff too. This is what looks like a utility box in Santa Cruz California. If I’d asked you guys what this was I doubt that many of you would know what this is. I don’t know what it is when I first saw it. Turns out it’s a bike shelter. Santa Cruz is near the water. It rains a lot and there’s waves and they wanted to put bikes inside these shelters so they don’t get ruined. No one knew that. That looks like a utility box. Our fellows were like, “That’s bad. That’s not using the resource.” They went there and drew a bike on the side of all the shelters. They painted that on. The reason I want to bring that up is it shows that cities can have more character. They can be more playful. They can be more accessible to citizens if they’re willing to try something new.
 
 ![](https://cdn-images-1.medium.com/max/800/1*plWDA5sleX64gcZT2C0TKw.jpeg)
-undefined
 
 That’s our fellowship. What say at the fellowship is that it shows what is possible, because you guys, and whoever was thinking this, that it’s going to be hard to work with government. You’re right. It really is sometimes. What we’re learning is that if you can get inside city hall, if you can start working with the government, and this shows something interesting. Show them Adopt a Hydrant. Show them that bike rack. They’re able to see something new. They able and willing to try something new. That’s what we’re trying to accomplish. We have a bunch of applications that we’ve built. That was fro the first year. We built twenty-one applications in three cities, the second year, 2012, fifty-two applications, lots of projects.
 
-Our strategy, this is what I want to impress on all of you, is that that’s just the beginning. That’s opening the door to innovation. That’s the start. There’s a lot more that needs to be done. There’s this quote I love. It’s,
+Our strategy, this is what I want to impress on all of you, is that that’s just the beginning. That’s opening the door to innovation. That’s the start. There’s a lot more that needs to be done. There’s this quote I love:
 
 > “If you want to build a ship don’t drum up people to collect wood, and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.”
 
@@ -53,7 +58,6 @@ Instead of building every single thing a government wants get the government to 
 This is our strategy. We’re hoping that governments will see this offer of building with the fellowship and then crave it, demand it. If that’s the case you then have to have a set of startups, new vendors, new technology companies that are going to address those needs. That’s why last year I was proud to build a startup accelerator for Code for America. For those of you who don’t know, an accelerator basically brings together the most exciting, promising startups, gets them resources, training and a network to help those companies to become more successful. We were positioned well in this market because we had a network of cities that we were working with. We wanted to help tee up those cities for new, interesting startups to make it just a little bit easier. Our first year we had a four week application window. Two hundred and thirty-five companies applied for the seven slots. It’s very competitive. I’m proud of the seven companies we picked.
 
 ![](https://cdn-images-1.medium.com/max/800/1*gcG7H6PaMLR7I-gEFgk2ew.png)
-undefined
 
 I’m going to tell you about one of them. This is Aunt Bertha. Not my Aunt Bertha, but an Aunt Bertha. This is the Aunt of one of the founders of one of our startups. He’s from Texas. I’ve heard that this is an increasing problem here, is that as populations age they require more social services and providing those services is a challenge. A similar challenge is making visible those services to citizens. Aunt Bertha wants a social service. She wants to get her Medicare, or go get healthcare. How does she know where to go? Right now she has this awful, complicated system of twenty different forms, three different websites that are terrible and she’s not able to find the services that are her right, that are made for her.
 
@@ -64,7 +68,6 @@ These are the examples of the kinds of things you can do if you’re willing to 
 That’s our accelerator. I wanted to tell you about these companies not just to showcase them, not just to show you wants possible, but as a call to action as well because we’re really just at the beginning. We call these civic startups. This is an emerging market. There’s not very many players in it. Even though we had all those applications, very few of them were viable companies. We need people like you, people like your friends, people who are passionate about making their communities better to step up. To build an industry, it’s not just about having companies. You’ve got to have a community of people willing to support those companies and help them get better. You’ve got to have customers, clients who are willing to work with that technology and buy it. Finally, you’ve got to have capital. You’ve got to have investment firms that are willing to put money into these companies to help them grow.
 
 ![](https://cdn-images-1.medium.com/max/800/1*qvzZXigB152ojjcWMttiyw.png)
-undefined
 
 On that last point, that’s only going to happen when there’s a lot of companies getting into this market and there’s a lot of brave, brave young people like yourselves willing to say, “You know what? It may be hard to work with the city. It may be hard to work with the government, but I care and I’m going to do something about it.” This is what I ask of you. The reason why is this quote from my friend Tim O’Reilly. He says,
 
@@ -86,11 +89,4 @@ Think about that. It changes the way the community works. It changes the social 
 
 In closing I just wanted to say that when you build civic tools you can build civic trust. That’s what they did with BlightStatus. That’s what they’re doing with Recovers, with Aunt Bertha. That’s what I hope that all of you considered doing. You can sit around and complain about how the city works, you can complain about how your government works, or you can commit to being a change-maker. You can commit to making a difference, and you can get involved. Thank you.
 
-undefined
-undefined
-
-By [abhi nemani](https://medium.com/@abhinemani) on [December 27, 2015](https://medium.com/p/e8ee09c05a91).
-
-[Canonical link](https://medium.com/@abhinemani/changing-the-frame-from-social-innovation-to-civic-startups-e8ee09c05a91)
-
-Exported from [Medium](https://medium.com) on April 4, 2021.
+<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/150119192"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

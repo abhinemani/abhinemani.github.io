@@ -1,8 +1,22 @@
-# The Hack of the Century: Cities.
-
-N.B. A few months ago I was asked to speak at TedXSacramentoSalon in September. Below is the video and text from the talk from September —…
+---
+layout: single
+title: TEDx&#x3a; The Hack of the Century&#x3a; Cities
+subhead: A few months ago I was asked to speak at TedXSacramentoSalon in September. Below is the video and text from the talk from September
+date: 2017-01-14
+pubdate: January 2017
+categories:
+- Blog
+- Reflections
+tags:
+- Civic Tech
+- Open Data
+- Code for America
+img: future-urban.jpeg
+---
 
 _N.B. A few months ago I was asked to speak at TedXSacramentoSalon in September. Below is the video and text from the talk from September — month before this year’s elections. Since then, I thought it’s worth clarifying that I have since then voted and participate actively in my personal capacity. I implore the reader to see the intro more as a hyperbolic hook, and less as an argument against voting._ **_I firmly believe voting is an essential right and a particular, wonderful, and universal privilege: indeed, we all must vote._**
+
+<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I’m going to tell you guys a secret. Can you guys keep a secret?
 
@@ -15,7 +29,6 @@ This isn’t apathy or malice. There’s some reasonable thinking, I hope, behin
 Why? Because think about what the federal government has done in the last 8 years… it’s limited. The last major piece of legislation that the federal government has passed was the ObamaCare Act. That was 6 years ago. Everything else since then… Immigration reform held up in the courts, new justices on Bench held up…
 
 ![](https://cdn-images-1.medium.com/max/600/1*eIHU-5cIX6Fw7ZnPc1Kgyw.jpeg)
-undefined
 
 And naturally, this government inaction leads to citizen distrust. A Pew recently researched the level of trust in federal government. 23 percent of people trusted federal government, 23 percent. That’s just under one in four. On the flip side, local government had 73 percent. Put another way, when you look around this room, you’re going to find a lot more people trusting their public servants here in Sacramento than those in D.C.
 
@@ -28,12 +41,10 @@ It’s easy to think that because of Katrina, blight is just a New Orleans probl
 Cities **_have_** to figure out how to deal with it.
 
 ![](https://cdn-images-1.medium.com/max/600/1*0sZDLpFtoX6dRK9QMs3wxg.jpeg)
-undefined
 
 What was fascinating when we were in New Orleans is there’s this woman. She’s wonderful. Her name is Miss Rita. She cared about her community. She’s older, retired, didn’t have anything else to do with her time so she wanted to focus on figuring out what’s going on with the community. She would literally with paper maps track what’s going on with vacant housing in her community. If you walk into her house you would see these big pieces of paper, which apparently are called Tom’s guides that I’m too young to know what those really mean, all around her house that she’s tracking manually what’s going on.
 
 ![](https://cdn-images-1.medium.com/max/600/1*LhlIM2Gf3hDej5eHOK6TJw.jpeg)
-undefined
 
 Here’s what’s fascinating. The mayor had the same problem. The mayor was asked by citizens all the time, “Hey, Mr. Mayor, what’s going on with vacant housing in this place? What’s happening in that specific area?” He didn’t have an answer because he didn’t have the information or the data to answer that question. He asked his chief information officer, “Can you build an application to solve that problem? Can you build an application on my iPad that you can tell me what’s going on?” He said, “Yeah, sure. It’s going to cost me **$3 million and take 3 years**,” because that’s usually how government does business.
 
@@ -44,7 +55,6 @@ That itself is interesting, but the story doesn’t end with just a dashboard.
 Guess who was the main user of the app? It was Habitat for Humanity. This community based organization needed basically a realtime CRM on blighted houses, and the city just handed them one for free.
 
 ![](https://cdn-images-1.medium.com/max/800/1*NCw0bCQ1pHzjYOwSoDwEww.jpeg)
-undefined
 
 That I think is what’s most exciting about building new technology for cities, is that you can empower people who aren’t technological to do things that help their city better, which is why I think the future of cities is technology.
 
@@ -62,12 +72,10 @@ Plus, sometimes they do some cool stuff too. This is a picture of the “wicked 
 It’s hard not to trust a city when they’re that cool. But I think most importantly, this is a quote from the Mayor in Minneapolis:
 
 ![](https://cdn-images-1.medium.com/max/800/1*vMr7xEBxczXafmUTSD5gTA.jpeg)
-undefined
 
 That’s an important perspective on local government, is that it’s not about traditional partisan politics. It’s about getting — sorry for my language — getting shit done. That’s what we care about and that’s what we do. .
 
 ![](https://cdn-images-1.medium.com/max/600/1*QnoTrQx7OxSVGGwjjkih2g.jpeg)
-undefined
 
 That’s government. Government is moving in this area that they focus on technology more. But technology is also really focusing on urban. Imagine, how many of you guys took Uber to get here? Or Lyft? Or used a Zipcar? Or some other app/service I’ve never heard of? It’s impossible to deny that getting around a city has radically changed in the past few years. Because cities are dense, tightly woven, and there are people there… people with smartphone that tell you where they are and can request a car that’s only 2 minutes away. But this kind of immensely convenient (arguably disruptive) technology only works in cities, in an _urban environment_. You couldn’t have Uber if people didn’t live in urban environments. There wouldn’t be enough people around. You couldn’t have Airbnb without urban environments; there wouldn’t be enough apartment units or Uber to get you from the suburb back to downtown. Ways and Google Maps and everything else that we use on a daily basis only work because we all live in cities — they continue to get terabytes and terabytes of traffic data and behavior because we continue to use them day after day to get around.
 
@@ -85,24 +93,13 @@ Turn’s out, there’s an app for that. A company called PulsePoint launched a 
 Effectively, the app asks **_you_**, standing right there next to someone in cardiac arrest to step up and use your training to help, reducing that patient’s response time, and increase their chance of survival. Literally, if you keep the application open in the background, it may someday send you a simple notification: “Hey, someone’s dying near you. Can you help them out?”
 
 ![](https://cdn-images-1.medium.com/max/800/1*JaUdyM1Jm8HixqChNA8DcQ.jpeg)
-undefined
 
-**_That’s what’s possible with technology. That’s what’s possible with cities._**
+**That’s what’s possible with technology. That’s what’s possible with cities.**
 
 I guess in closing what I’ll say is this, and you can’t give a talk about cities without quoting Jane Jacobs, so I have to do this:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*aiOhnApZbdfyDvn7TUDa9g.jpeg)
-undefined
 
 BlightStatus wouldn’t work if people weren’t stepping up to build houses with Habitat for Humanity. The PulsePoint app wouldn’t work if people weren’t stepping up to stop heart attacks with PulsePoint.
 
 And this is truly just the beginning. Once we start to see the fundamental realignment between our prevailing technology (networked and mobile) and our prevailing organizational unit (cities), every day is a chance to reinvent your city, to not just hack together another app, but to mold the way you, your family and friends get to strengthen, celebrate, and enjoy beautiful cities, just like this one here in Sacramento.
-
-undefined
-undefined
-
-By [abhi nemani](https://medium.com/@abhinemani) on [November 10, 2016](https://medium.com/p/d82a0a6d5a79).
-
-[Canonical link](https://medium.com/@abhinemani/the-hack-of-the-century-cities-d82a0a6d5a79)
-
-Exported from [Medium](https://medium.com) on April 4, 2021.

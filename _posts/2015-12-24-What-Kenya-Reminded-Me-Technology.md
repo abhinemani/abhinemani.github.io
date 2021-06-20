@@ -1,8 +1,22 @@
-# What Kenya Reminded Me about Technology, Society & the Liberal Arts
-
-![](https://cdn-images-1.medium.com/max/2560/1*MaLXRq_Q1dypYJKvElca8g.png)
+---
+layout: single
+title: What Kenya Reminded Me about Technology and the Liberal Arts
+subhead: What Ought Technology Do
+date: 2014-02-01
+pubdate: 2014
+categories:
+- Blog
+- Reflections
+tags:
+- Civic Tech
+- Open Data
+- Los Angeles
+img: clickads.png
+---
 
 _These are abbreviated notes from my address to Claremont McKenna College (my alma mater) at the 2013 Forum for the Future event. Video and slides from the talk are available below._
+
+<div class="container-iframe"><iframe title="vimeo-player" src="https://player.vimeo.com/video/149980231" class="responsive-iframe" frameborder="0" allowfullscreen></iframe></div>
 
 Good morning. My name is Abhi Nemani, and I’m a CMC grad of 2010. I want to start by apologizing to Darren, who helped organize this. I was supposed to get him slides by Monday. I’d prepped a deck, was going to send it. Then I looked at all the other talks on the agenda and realized mine was entirely out of place. Last night I scrambled and tried to write something different about the liberal arts and technology because I felt like that was a theme for this set of talks and also for this weekend, so I’m going to try to connect the dots, if I can, between technology and the liberal arts, but it’s going to take me a minute, so bear with me. Okay?
 
@@ -21,13 +35,13 @@ You see people exchanging currency with their cell phones. You get out of a cab,
 Initially that’s just interesting, right? You think, “Wow, they leap-frogged modern currency, right?” You don’t have to use as much paper. You don’t have to use credit cards. You can just use your phone. iPhone users would love that, and I don’t have to carry around my wallet (and even here in the U.S., I’m a huge fan of Venmo, which does basically this), but the real interesting thing was the impact on that society.
 
 ![](https://cdn-images-1.medium.com/max/600/1*k5z4A-9RLOydNnqV8aGcmQ.png)
-undefined
+
 
 Beforehand, you were fearful of public and financial institutions, which were historically corrupt and inaccessible. And so, you keep your money, literally, close to your chest. You would keep your money under your mattress. You stay regionally within your home. You couldn’t move into the city, but M-Pesa changed that. It let you take your money out from the mattress. It created a modern economy, and here’s what’s great about it: It got people back into the cities, and created trust in civil society. Now you see vibrant urban corridors, bustling with street life and economic activity, and humming with the sounds of busses and cars shuttling residents back and forth from their rural homes and their urban jobs. Not at all unlike what you see in westernized countries, but instead of payment by plastic cards, it’s by SIM card.
 
 I bring up the story of M-Pesa to show you an example of how profound technology can be, how big of an impact it can make on a society and on a people in a positive way, but we all know that it’s not always the case. Sometimes technology can be used for identity theft. Sometimes technology can be used for privacy violations, and most recently we all know about PRISM and its effect on our country here.
 
-> Technology can be a double-edged sword.
+**Technology can be a double-edged sword.**
 
 I tell these two stories, these two examples juxtaposed to pose a question, _what ought technology do_? What role do we role do we _want_ technology playing in our society? You may not think this is an important question, but let me tell you why I think this might be one of the most fundamental questions we have to address.
 
@@ -35,10 +49,11 @@ Let me share a a quote from Marc Andreessen, a venture capitalist in Silicon Val
 
 > “Software is eating the world.”
 
-What did he mean by that? He’s looking at the way software has disrupted core industries in our society. The post office is gone, publishing is gone, media, and let’s return to financial institutions. We all probably don’t remember this but back in the day, you’d have to get to the bank before 4:00 on a Friday. If you didn’t, you wouldn’t have any cash on the weekend to go out. I can’t tell you the last time I’ve gone to a bank because this industry has been so profoundly disrupted by technology. You can take a picture of your check and deposit it in your account. You can pay people with Square using your mobile phone. The financial system in this country has been revolutionized with technology. _Software is eating the world._
+What did he mean by that? He’s looking at the way software has disrupted core industries in our society. The post office is gone, publishing is gone, media, and let’s return to financial institutions. We all probably don’t remember this but back in the day, you’d have to get to the bank before 4:00 on a Friday. If you didn’t, you wouldn’t have any cash on the weekend to go out. I can’t tell you the last time I’ve gone to a bank because this industry has been so profoundly disrupted by technology. You can take a picture of your check and deposit it in your account. You can pay people with Square using your mobile phone. The financial system in this country has been revolutionized with technology. 
+
+**Software is eating the world.**
 
 ![](https://cdn-images-1.medium.com/max/1200/1*RdEuhy6FH3uNS7T0EJ1XHg.jpeg)
-undefined
 
 Then, bringing those two themes together, I think we’re asked another question. How will technology reshape our society? Now for a lot of the folks in this room, you’re probably thinking, “Well, that’s not a question that I can grapple with. I’m not a technologist. I don’t know how to code, and you know, the apps on my phone work just fine. Whatever.” Let me tell you something. This is something we all here have to answer, and I’ll tell you in a minute why I think we’re best equipped to do that.
 
@@ -73,7 +88,6 @@ Here’s another example of a project from this year. When you have food stamps,
 ![](https://cdn-images-1.medium.com/max/1200/1*20-hiJTuEtFhT1hs5oxTIg.png)
 
 ![](https://cdn-images-1.medium.com/max/600/1*2TCH67aIE9tRrepKxZ0ojg.png)
-undefined
 
 It’s because they didn’t fill out this form (above), and what happens when you don’t fill out the form? They send you a letter what looks just like this, that oftentimes you can’t understand and oftentimes too hard for you to read, and so you get kicked off .That means for that month you may not have food, or at least you’ve spent three days in line in the bureaucracy trying to solve that problem.
 
@@ -82,20 +96,9 @@ Well, our fellows said, “That doesn’t make sense. That’s not right,” so 
 Finally, this is an example from New Orleans two years ago. New Orleans, like a of American cities, has a big problem around blight, vacant housing. Vacant housing can be hotbeds of crime, drugs, murder, and so people like this woman named Aunt Rita, get really concerned about vacant houses in their neighborhoods because they want to keep their neighborhood safe. The City wasn’t telling her the status of those vacant houses. She didn’t know what was going on, so her and her friends walked around each day for hours and mapped out the houses. Is that house safe or not? Is something being done or not? She had to do that herself because the City wasn’t doing anything. Well, we built an app for that. We built a simple app, blightSTATUS, that found all the data from the City, created a visualization, and let her see the status of it.
 
 ![](https://cdn-images-1.medium.com/max/800/1*eV7KnOQ8JliSUwRHHkMq7g.png)
-undefined
 
 Again, the technology here isn’t what’s important. What’s important is this. After we launched that app, Miss Rita ran up to the fellow and gave him a hug, and along with her neighbors, she said, “_You changed the conversation.”_ Beforehand there was a frustrated conversation. The City was on one hand saying, “I don’t know what to tell you, citizen,” and on the other hand, the citizen was saying, “City, you’re not telling us what you’re doing.” The conversation wasn’t collaborative, it was paralyzing. The application gave them a means to communicate, and it changed the conversation. When you think about a democracy and the way that we should be communicating with each other and with our government, this is how technology can be so core.
 
-> “You changed the conversation”
+**“You changed the conversation”**
 
 I’m getting over time now, so I just want to say that what I’ve learned over the last couple of years is that **your values are infused in what you build**. What you know, what you believe is reflected in the things that you create, and I think the liberal arts education and the values we learn through it are so critical to bring into technology because the technology we’re building now will reshape society. Thank you.
-
-undefined
-undefinedundefined
-undefined
-
-By [abhi nemani](https://medium.com/@abhinemani) on [December 24, 2015](https://medium.com/p/31bdc93fb86).
-
-[Canonical link](https://medium.com/@abhinemani/technology-civics-the-liberal-arts-31bdc93fb86)
-
-Exported from [Medium](https://medium.com) on April 4, 2021.

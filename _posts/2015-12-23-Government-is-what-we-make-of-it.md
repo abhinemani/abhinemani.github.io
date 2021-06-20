@@ -1,16 +1,26 @@
-# Government is what we make of it
+---
+layout: single
+title: Keynote&#x3a; Government is What *We* Make of It
+subhead: Building a civic architecture of participation
+categories: [Essays]
+tags: 
+- Government
+- Skills
+- Training
+img: gov-make-of-it.png
+pubdate: July 11, 2020
+date: 2020-07-11
+author: Abhi Nemani
+---
+<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149826020"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-Building a civic architecture of participation
+_These are my (slightly edited) notes from my keynote presentation at the GovDelivery Federal Communications Summit 2014 that aims to trace the evolution of the web and apply its lessons to government — the move from Gov 1.0 to Gov 2.0, from passive democracy to an active one, in the digital age._
 
-![](https://cdn-images-1.medium.com/max/1200/1*2QgFwwNCv72v_H6XO6ix0g.png)
-undefined
+***
 
-_These are my (slightly edited) notes from my keynote presentation at the GovDelivery Federal Communications Summit 2014 that aims to trace the evolution of the web and apply its lessons to government — the move from Gov 1.0 to Gov 2.0, from passive democracy to an active one, in the digital age. Video of the speech is embedded at the end._
+Today, I’d like to talk to you all about advertising. Actually just [one piece of advertising](https://www.youtube.com/watch?v=zhPklt9nYas&ab_channel=THEADFACTORY):
 
-Today, I’d like to talk to you all about advertising. Actually just [one piece of advertising](https://www.youtube.com/watch?v=R4vkVHijdQk):
-
-undefined
-undefined
+<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/zhPklt9nYas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I wanted to share that with you because I thought that ad is fascinating. It’s touching and moving and funny too, but I think it’s fascinating in that it’s an ad for Google Chrome, but you don’t hear the word “Chrome” at all in the ad. You don’t hear them pitching about how fast it is, how it’s open source, how it’s secure. _You don’t at any time hear anything about the browser itself._ All you see are things that _you can do_ with the browser. And you see one closing line of text:
 
@@ -24,7 +34,7 @@ That’s what I wanted to talk to you today, was try to understand why that is, 
 
 I’m going to walk you through a little bit of history.
 
-#### A (brief) history of the web
+### A (brief) history of the web
 
 You all probably remember this. Remember this?
 
