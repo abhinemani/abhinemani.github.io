@@ -1,4 +1,4 @@
-# A Poor Man’s Hacker’s Guide to “Data-Driven” Presentations
+# A Poor Man’s Hacker’s Guide to Data-Driven Presentations
 
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of…
 
