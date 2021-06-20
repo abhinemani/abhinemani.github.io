@@ -1,21 +1,30 @@
-# Let’s Move Beyond Open Data Portals
+---
+layout: single
+title: Let us Move Beyond Open Data Portals
+subhead: What could be subtitled, biting the hand that feed me
+date: 2021-02-01
+pubdate: January 8, 2017
+categories:
+- Blog
+- Reflections
+tags:
+- Civic Tech
+- Open Data
+- Los Angeles
+img: dataportals.png
+---
 
-What could be subtitled: biting the hand that “fed” me
-
-![](https://cdn-images-1.medium.com/max/800/1*731txhS0_I3RR3ErZRuE_g.png)
-undefined
-
-> open data has been my life
+Open data has been my life.
 
 For a good number of years, open data has been my life: first at Code for America, where number of datasets opened and data portals launched annually were two of core metrics, and later at the City of Los Angeles, where managing, growing, and evangelizing open data was my stated top priority. Indeed, some of my most visible accomplishments have been [publishing a book on open data](http://beyondtransparency.org), redesigning [Los Angeles’ open data portal](http://data.lacity.org), and taking that city to [#1 on the Open Data Census](http://abhinemani.com/press/techwire/). I say all this in part just to emphasize that open data and open data portals, specifically, have been central to my career for some time.
 
 You may then think this will all be about open data portals, what they are, why we need them, and how to make them better. In fact, that’s not at all what I’m about to do.
 
-> I actually think it’s time we abandon data portals altogether.
+I actually think it’s time we abandon data portals altogether.
 
 Why? Because I think there’s a couple of key trends, certain profound shifts happening in the tech industry in general and in government technology in particular that force us to rethink the way we approach data, and that’s what I want to talk to you about today.
 
-#### **Trend one. We’re moving from data to delivery.**
+### Trend one. We’re moving from data to delivery.
 
 Let’s step back to about 2008. Many good government organizations were working on opening up data: lot’s of [FOIA](https://en.wikipedia.org/wiki/Freedom_of_Information_Act_%28United_States%29) requests (which now I’ve had to deal with…), data scraping, etc. The premise: more _data_ and more _transparency,_ and so better _accountability_ and better _governance_.
 
@@ -31,7 +40,7 @@ That’s not the right way to handle data — open or otherwise. Instead, a 
 
 That’s trend one, is _this movement from_ [_data to services_](https://medium.com/@abhinemani/open-data-civic-engagement-and-delivery-28b990f321ce#.h1446cvnr)_._
 
-#### **Trend two is from one app to many apps**.
+### Trend two is from one app to many apps
 
 ![](https://cdn-images-1.medium.com/max/600/1*tUf6EBUQR9DByDNnms19ig.png)
 undefined
@@ -44,13 +53,13 @@ A good example of this is Foursquare. Beforehand you’d do everything in one ap
 
 That’s trend two.
 
-#### **Trend three is this notion of an architecture participation.**
+## Trend three is this notion of an architecture participation.
 
 What I like about this idea is that when you create web applications and create user experiences, you build the opportunity to get people to do more. You can up-sell them. We all know this. You see it every day when you go to Amazon or in a grocery store. Either when you’re checking out online or offline, you’re asked to pick up some else: a related book or a little bit of candy or a magazine (that you probably don’t need). They’re _up-selling_ you. They’re asking you to do more.
 
 There’s no reason we couldn’t apply this same strategy to government engagement and services. [Indeed it’s already happening](https://medium.com/civic-technology/government-is-what-you-make-of-it-d836a6a9353d). What this requires, though, is thinking less about a specific, sole engagement with an user, but instead about a string of related, though distinct interactions, architected to maximize participation. [_It’s about erecting architectures of participation_](https://medium.com/civic-technology/government-is-what-you-make-of-it-d836a6a9353d)_._
 
-### Bringing it together
+## Bringing it together
 
 1.  You’re seeing a movement from _data to delivery_.
 2.  You’re seeing the _web start to splinter_ towards single-purpose apps.
@@ -58,7 +67,7 @@ There’s no reason we couldn’t apply this same strategy to government engagem
 
 Now you’re thinking, “Abhi, weren’t you going to be tell me that we should abandon data portals? Services, splintering apps, architectures…? What gives?”
 
-> At the core of all three trends is one basic notion: the web is moving away from building for one-size-fits-all towards designing for to-each-his/her-own — towards user-centric design. And we must do so for open data.
+At the core of all three trends is one basic notion: the web is moving away from building for one-size-fits-all towards designing for to-each-his/her-own — towards user-centric design. And we must do so for open data.
 
 That’s the core notion here: a shift away from building _portals_ towards designing for _people_, away from _unified_ _platforms_ and more towards _user-centric design_.
 
@@ -72,7 +81,7 @@ The city, as we all know, has information about street closures, public events�
 
 **Now we actually give that directly to Waze,** so they can reroute people dynamically. Indeed, this is a good open data story — taking the data to where people are —but there’s something more interesting: it’s a two-way street.
 
-> Not only does Waze now share pothole and road condition data it collects regularly through its app, they went one step further. They began to proactively collect and share data in the interest public safety.
+Not only does Waze now share pothole and road condition data it collects regularly through its app, they went one step further. They began to proactively collect and share data in the interest public safety.
 
 Waze is giving the city data in return. Any time there’s a kidnapping or a hit and run, Waze will tell the users, saying, “This just happened. Do you have any intel/info?” Any time that there’s a kidnapping on Wilshire, Waze will actually ping you and say, “Hey, do you know what’s going on? Have you seen anybody? Do you know what’s happening?” Users can, in-app, report sightings directly, and immediately that data is sent to the LAPD. The news reported it as, “A Gift for Law Enforcement.”
 
@@ -120,13 +129,8 @@ Bringing this all back then to data and open data portals: We too often think ab
 
 We should do lots of different, small things — not just build one, big thing — and instead think about crafting the ideal experiences for the wonderfully diverse users you have: be it the mayor, city staff, or even your boss; be it the researcher, the entrepreneur, or the regular citizen; be it the person you hadn’t thought of until you meet them randomly at the library. Be it anyone.
 
-_This essay is based on an edited transcript from my keynote address at the 2015 National Association of Government Webmasters 2015 (NAGW); video is below._
 
-undefined
-undefined
+<div class="container-iframe"><iframe title="vimeo-player" src="https://player.vimeo.com/video/150116199" class="responsive-iframe" frameborder="0" allowfullscreen></iframe></div>
 
-By [abhi nemani](https://medium.com/@abhinemani) on [January 1, 2016](https://medium.com/p/30b66f00585d).
+<em>This essay is based on an edited transcript from my keynote address at the 2015 National Association of Government Webmasters 2015 (NAGW); video is below.</em>
 
-[Canonical link](https://medium.com/@abhinemani/rethinking-data-portals-30b66f00585d)
-
-Exported from [Medium](https://medium.com) on April 4, 2021.

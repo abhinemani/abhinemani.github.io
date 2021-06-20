@@ -2,7 +2,7 @@
 layout: single
 title: What I have learned from my many teachers
 categories: Essays
-subhead: I was recently asked to speak at my alma mater (Claremont McKenna College) about my career and how CMC helped shape and empower it. Being…
+subhead: I was recently asked to speak at my alma mater (Claremont McKenna College) about my career and how CMC helped shape and empower it...
 date: '2017-05-20T01:47:22.276Z'
 pubdate: May 2017
 img: 1__a32VhVCgSdHMMR729fJ9__g.jpeg
@@ -10,10 +10,7 @@ img: 1__a32VhVCgSdHMMR729fJ9__g.jpeg
 
 Being just about 6 years out of college, I didn’t really feel well suited to provide any of my own insight — I’m still really just getting started. Instead, I opted to share some key thoughts or pieces of advice I have received over my (brief) career and how they’ve shaped my thinking (even more than my career).
 
-![](/img/1__a32VhVCgSdHMMR729fJ9__g.jpeg)
-undefined
-
-#### Someone broke you
+### "Someone broke you"
 
 I somewhat foolishly decided to start with a math major in college. I was always the “math” kid in the family; my sister taught my basic functions (addition, multiplication, etc) years before they came up in school. And I suppose as the only son in an Indian family, math and science were “destined” to be my arena.
 
@@ -35,7 +32,7 @@ But her optimism in saying that you _can_ and you _should_ resonated.
 
 I think that’s what’s motivated me to work in a sector where most people think it’s broken and can’t be fixed: the government. To me, it’s something that can, should, and must work. And we must merely forget whatever ghost in our past told us otherwise. We must learn that all of us can, should, and must make government work, and work for all of us.
 
-#### What do you mean by that?
+### "What do you mean by that?"
 
 I entered college like most “entitled, arrogant millennial” I suppose. I thought I knew everything — or at least I could talk and act like I could.
 
@@ -63,7 +60,7 @@ That distinction between talking and thinking has stuck with me ever since. **I 
 
 It’s why I usually pause before answering any question. It’s why I respond in structured ways — usually a list of 3 things ;) — and why I value so much clear, reasoned, and direct language. Because it’s probably the best reflection of how we think. Which I believe should be clear, reasoned, and direct.
 
-#### Tell me a story
+### "Tell me a story"
 
 While I hammered on through my maths, I also advanced a different (or seemingly different) major: Philosophy, Politics, and Economics. (And let me tell you, that when I told people I was a Philosophy, Politics, and Economics and Math major, the response usually was impress, but confusion — for good reason.) The PPE major as it’s known isn’t three different programs, but one special one: an integrated curriculum, modeled off of its Oxford great godparents, to broadly touch on these three elements of public life, and show the crucial connections.
 
@@ -73,7 +70,7 @@ But this would seem like a big undertaking, bigger still when you learned that t
 
 So how to handle that, along with all your other classes and extracurriculars (academic and recreational)?
 
-> My philosophy professor’s answer was simple: Stories.
+**My philosophy professor’s answer was simple: Stories.**
 
 He explained it like this: you aren’t really trying to understand every argument, data point, or example from the books you’re reading. You’re trying to understand their story. This felt odd, given that we were reading nonfiction such as Rawls’ Theory of Justice or Sen’s Development as Freedom. These weren’t fairy tales; they were Noble Prize winning scholarly works. But he pushed further. He said that at the end of the day all these writers are basically trying to tell you a story, a narrative you could follow (and love), and your job was to — at best — find a competing narrative, a story that was more compelling.
 
@@ -111,4 +108,4 @@ But, not always. In a democracy, it’s our role of citizens to push as well. An
 
 So I suppose to pull together these rambling thoughts:
 
-> Governing is about realizing that even if something seems broken, you can, should, and must push hard as hell until you fix it.
+**Governing is about realizing that even if something seems broken, you can, should, and must push hard as hell until you fix it.**
