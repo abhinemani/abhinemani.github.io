@@ -29,8 +29,8 @@ img: main-social.jpg
                          </a>
                      </div>
 					 <div class="buttons">
-					 <a href="/blog" class="btn"><span>Latest Stories</span></a>
-					 <a href="/about" class="btn border-btn"><span>About me</span></a>
+					 <a href="/about/" class="btn"><span>About me</span></a>
+					 <a href="/consulting/" class="btn border-btn"><span>Join the Community</span></a>
 				 </div>
 			 </div>
 		 </div>
