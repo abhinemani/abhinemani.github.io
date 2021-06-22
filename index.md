@@ -10,7 +10,7 @@ img: main-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">public servant. fmr #localgov CDO/CIO; #civictech @UChicago; @codeforamerica</div>
+				<div class="location">public servant. fmr #localgov CDO/CIO. GovTech operator, investor, and advisor.</div>
 				<h2 class="page-title">
 					Showing What's Possible in Government through Technology
 				 </h2>
