@@ -8,7 +8,7 @@ tags:
 - Skills
 - Training
 img: gov-make-of-it.png
-pubdate: July 11, 2020
+pubdate: September 2014
 date: 2020-07-11
 author: Abhi Nemani
 ---
