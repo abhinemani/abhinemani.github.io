@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Let’s build some infrastructure to make things matter even more.
+title: The need for infrastructure to make things that matter, matter even more.
 categories:
 - Blog
 - Essays
