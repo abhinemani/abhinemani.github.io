@@ -39,33 +39,33 @@ I’m going to walk you through a little bit of history.
 You all probably remember this. Remember this?
 
 ![](https://cdn-images-1.medium.com/max/800/1*dvRPDkVebxmBnZbZq3esKQ.png)
-undefined
+
 
 Actually, I’m young enough where, for me, it wasn’t the floppy disks, it was the [CD-ROM drives that you get at Walmart](http://www.wired.com/wp-content/uploads/2015/05/AHE3H8.jpg). Remember those? They were free. (I used to use them as frisbees.) That was the initial web that we all experienced: the dial tones.
 
 Then there was Yahoo, which was like this:
 
 ![](https://cdn-images-1.medium.com/max/800/1*1OGcZEVhfUhL1ZEVFSKyeQ.png)
-undefined
+
 
 If you remember — and this is important — it was just a set of links. It was curated by people at Yahoo. They would find different links throughout the web, put them into directories manually, and let you search them that way, which was a great experience at the time, but now we know a very different one, which we’ll get to in a second. Then this, this is my favorite. This is [Britannica.com](http://britannica.com):
 
 ![](https://cdn-images-1.medium.com/max/800/1*dMv-uzGu4VeLh_D-q1uWBQ.png)
-undefined
+
 
 Actually, [this hasn’t changed much since 1994](http://www.britannica.com/). If you go to the current site, it’s not too much different. Again, this was the resource for information on the internet. You would search basically a digitized version of the Britannica encyclopedia. That’s all you would have access to is that print document, now online.
 
 This is the White House website from 1995:
 
 ![](https://cdn-images-1.medium.com/max/800/1*BC-g25oO_iVI_67MSJ__Yw.png)
-undefined
+
 
 _(Yeah… not sure exactly to say about that.)_
 
 What’s shocking about that era is that government websites like this were considered state-of-the-art. In fact, in even in 2003 according to Time, 3 of the best websites were government websites.
 
 ![](https://cdn-images-1.medium.com/max/800/1*Nwy8hmW5Z7JKZTaz-MH1-Q.png)
-undefined
+
 
 [Look at it again today](http://time.com/3054279/50-best-websites-2014/), you’re not going to see that.
 
@@ -76,7 +76,7 @@ Why? Not just because other sites began to start using prettier typography or CS
 Around 2003, 2004, 2005, things changed on the web in a really profound and important way, typified I think by this:
 
 ![](https://cdn-images-1.medium.com/max/800/1*2XrZMdGSpvN0spm3yScHWw.png)
-undefined
+
 
 You think I’m kidding, but I’m actually not. This, I think, was one of the biggest changes to the web is that Ben Huh and the [ICanHasCheezburger](http://icanhas.cheezburger.com/) team started making their own images like this, but importantly, you could make them yourselves. Think about that shift. Before hand, it was just the publishers themselves pushing you content. Now, you’re in a world where you can create content, they can create content, your friends can create content, and you all can share that together. The explosion of this site, for better or worse, is an example of how the web changed dramatically. It went from a push only experience to a _push_\-_pull_, to a _read_\-_write_ experience. That was just the start.
 
@@ -89,7 +89,6 @@ The design is much better today, thankfully. Then [Facebook](http://facebook.com
 Consider this:
 
 ![](https://cdn-images-1.medium.com/max/800/1*d5_KhSPqBVlKVgET_u5Cpg.png)
-undefined
 
 Look at this comparison. In 2003, the top websites — Yahoo, AOL, MSN — these are all just content publishers, publishers. In 2013, they’re all platforms. Google with Gmail, with Maps, with all the apps that they have, Facebook, social networking, YouTube you can upload things. Yahoo now has more of a user generated aspect. Amazon, with its marketplace that Steve was talking to you about a second ago. Think about that shift. All of the top 10 sites in the US right now have a platform element to them. All of them have an user-generated aspect. In 2003, almost none of them did.
 
@@ -129,7 +128,7 @@ By studying them, I’ve distilled these 4 key lessons.
 I’m going to give you probably, I think, the best example of an open data community in the country: **Chicago**. I’m from Illinois, I’m a little bit biased, but in general I think this is probably the best example. This is a picture of the Chicago OpenGov Hack Hight.
 
 ![](https://cdn-images-1.medium.com/max/1200/1*-S8hc59CfO62TOnME52-dw.png)
-undefined
+
 
 This started as just 4 people coming together to say, “Let’s use this open data coming from the city.” Then, the city’s CTO, John Tolva, would show up, and add a word of encouragement — and maybe a bit of beer and pizza. (Note: Pizza in Chicago is _really_ good.)
 
@@ -138,7 +137,6 @@ These folks decided that, instead of just doing these random events every now an
 Just take a second and think about that. Every week, you have 50, 60, 70, 100 people showing up to use open data to make their city better. **That’s a community**, and it’s a community that gets stuff done.
 
 ![](https://cdn-images-1.medium.com/max/1200/1*CYBk9OUi4SccG9cv4uXKMA.jpeg)
-undefined
 
 Here’s an example of an application they built, it’s called [Clear Streets](http://clearstreets.org/) using open data. In Chicago, as you can imagine, it snows a lot, which I know it does here as well. (It doesn’t snow a lot in L.A., so this isn’t a problem for me.) In Chicago, it snows a lot, and they have street plows going through and clearing out the snow, and people are wondering, are they going to clear my street? Are they going to plow out my street? They took open data about the location of all those streets, of those plows, and lets you track in real time where they are and when they’re going to come to your street. Hugely popular in this city, for a good reason.
 
@@ -161,7 +159,7 @@ This is a harder challenge than it seems. Some dense cities can say, “Code for
 This is something that’s top of mind for me in Los Angeles, because it’s such a big city: it’s **460 square miles,** and **4,700 square miles** if you consider LA County. (That’s bigger than some states.) It’s a _little_ harder because you can’t have everyone in the same place at the same time.
 
 ![](https://cdn-images-1.medium.com/max/600/1*BqXX6vnsp-k7vRHK43r6Ug.png)
-undefined
+
 
 I think this is where creating a **brand** and an **identity** around your data program is really important. OpenTreasury, for instance. Figure out what that brand is, and do the simple things, like say, create a beautiful logo — which by the way is a great opportunity to engage the community — and slap that on everything. Everything: laptops, desks in City Hall, track jackets. Get people to understand that they are part of something bigger than themselves, a community. So even though they may not see everyone all the time, when they see that common identity, they’ll know they are part of the same tribe.
 
@@ -184,7 +182,7 @@ In Colorado, [they had a app challenge](http://engagingcities.com/article/new-ap
 And even if you don’t, you can get creative. The national education fundraising nonprofit, [DonorsChoose](http://donorschoose.org) hosted a major hackathon, “[Hacking Education](http://www.donorschoose.org/hacking-education).” Instead of a cash prize, or even a contract, the winner got something much more interesting: they got to go onstage live on “**The Stephen Colbert Show**.” This ended up being one of the most heavily attended hack events actually ever, and for good reason. (That photo will surely be hanging very prominently in the winning team’s coworking space.)
 
 ![](https://cdn-images-1.medium.com/max/800/1*-OA9IbvpDft-Ysft6BQDug.png)
-undefined
+
 
 As government, we have access to phenomenal resources. If we email someone like Stephen Colbert or a different celebrity and say, “Hey, I’m with the Department of \[X\], we’re doing something really meaningful, can you help us out?” I bet you 9 times out of 10, you’re going to get an email back that’s pretty positive. We should be comfortable with being creative. Be clever, and reach out and see what happens, because these kinds of things are way more meaningful than a $500 prize.
 
@@ -207,7 +205,7 @@ But here’s the rub: most people don’t use those apps we build.
 A story along these lines recently ran in [TechCrunch](http://techcrunch.com/2014/07/21/the-majority-of-todays-app-businesses-are-not-sustainable/), and it said basically, “The app economy is a winner takes all game.” Most people use a couple of apps a lot, and then don’t use any of the other ones.
 
 ![](https://cdn-images-1.medium.com/max/600/1*VxPRRN3-wF4RBy_rUEM5hg.png)
-undefined
+
 
 When we’re thinking about building digital experiences for citizens, we have to keep this front and center. The app economy is a winner takes all game, and I think it’s really hard to compete with Netflix. I think it’s really hard to compete with Facebook. With Google. With Yelp. So let’s not.
 
@@ -232,14 +230,14 @@ A final piece of an architecture of participation is the **upsell**. That is, ho
 You give into this every day. Here’s an example.
 
 ![](https://cdn-images-1.medium.com/max/800/1*ntcL_x1epsgjsISksAcupw.jpeg)
-undefined
+
 
 Alexis de Tocqueville is my favorite author. I love Democracy in America. Anybody else here? No? Okay. Thank you. If you go onto [Amazon and try to buy this book](http://www.amazon.com/Democracy-America-Harper-Perennial-Classics/dp/0061127922), right after you buy it, you’re going to see this. Customers also bought, because Amazon wants to _upsell_ you. They want you to buy something else. They don’t want you just to buy one book, they want you to buy two, or three, or even four.
 
 It’s not just Amazon that does that. If you go to a shopping mall or supermarket, you see this:
 
 ![](https://cdn-images-1.medium.com/max/800/1*IyQFkaXLb14706uZQWJiVQ.png)
-undefined
+
 
 You’ve shopped in the aisles in the back, and when you’re checking out, you see all of this stuff that you can just quickly grab and add to your cart. That’s an upsell. Grocery stores think deeply — there are [books](http://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X) about this — deeply about how to architect those and set those up to make sure the stuff that you’re willing to buy, the stuff that you want to buy, is right there. They think about the upsell. They think about how to get you to do more.
 
@@ -248,12 +246,12 @@ You’ve shopped in the aisles in the back, and when you’re checking out, you 
 How could we create civic upsells? How could we create those same experiences for citizens using our services from a government? This has happened in the UK. The UK has this great branch called the [Government Digital Service](https://gds.blog.gov.uk/), which is helping think through these things and building great websites for the government. They have a bunch of digital services now, where you can go online and pay your taxes, for instance. They call it a tax disc for some reason (because they’re British). After you do that, they typically just showed you a thank you page, but then they added, if you need an organ transplant, if so, please help others.
 
 ![](https://cdn-images-1.medium.com/max/800/1*ysqiq8QD-vdR5wXDsChkYw.jpeg)
-undefined
+
 
 They added an upsell. What was really interesting about it, they actually tested the hell out of it. They did A/B testing on all the different variations of it, so sometimes they had a picture, sometimes they didn’t, sometimes they had a logo, sometimes they didn’t.
 
 ![](https://cdn-images-1.medium.com/max/800/1*YEFq0jPkvZOF2-Prk_GI1g.png)
-undefined
+
 
 Here’s what’s amazing. One link, that little link they added, [added 350,000 more organ donors](https://gds.blog.gov.uk/2014/03/18/organ-donor-register/). Think how powerful that is. They are literally saving lives by just adding a little link.
 
@@ -278,7 +276,7 @@ We have to think now _digitally_ about how to create that kind of engagement.
 This is the first thing I ever made for Code for America when I started working there 5 years ago:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*UVsiG80fz6G9BLQmtPp6bA.png)
-undefined
+
 
 It’s binary code, and even if you can’t read binary, I bet you can guess what this is: this is the Preamble to the Constitution, changed into ones and zeros. “We the people, in order to form a more perfect union...”
 
@@ -292,8 +290,8 @@ We the people in this room, and “We the People” who aren’t but need to be 
 
 Because, at the end of the day, yes, the web is what you make of it, but more importantly, _government is what we make of it_.
 
-undefined
-undefined
+
+
 
 _(Many thanks to my former colleagues Tim O’Reilly, Jennifer Pahlka, John Lilly, Scott Burns, and others for their thoughts and inspiration leading to this talk.)_
 
