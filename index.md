@@ -2,7 +2,7 @@
 layout: home2
 permalink: /index.html
 title: Abhi Nemani
-subhead: public servant. Fmr Chief Data Officer, Los Angeles, Chief Innovation Officer, Sacramento, Code for America.
+subhead: Abhi Nemani runs the GovTech consultancy called EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. The Public Innovation Academy and GovGeek Club openly shares the knowledge from government technology leaders for everyone to access.
 tags: [about, Abhi Nemani, Code for America, pandas]
 img: main-social.jpg
 ---
