@@ -42,7 +42,7 @@ img: main-social.jpg
 			<div class="section-left">
 				<h2 class="title">Hi, my name is Abhi.</h2>
 				<div class="subtitle">
-					I care about how technology and governments can work together  &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. From nonprofits and colleges to startups and investors, I do what I can to help. I do that as an <b>educator</b>, <b>connector</b>, and <b>consultant</b>. 
+					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. From nonprofits and colleges to startups and investors, I do what I can to help. I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
 				</div>
 			</div>
 			<div class="section-right">
@@ -55,7 +55,7 @@ img: main-social.jpg
 						</div>
 						<div class="accordion-item-content">
 							<p> Based on 10+ years of experience in the field and teaching at major academies, the Public Innovation Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.<br><br>
-								<a class="btn" href="/academy/"><span>Public Innovcation Academy</span>
+								<a class="btn" href="/academy/"><span>Public Innovation Academy</span>
 							</a><br><br></p>
 						</div> 
 					</div>
@@ -89,7 +89,7 @@ img: main-social.jpg
 		</div>
 	</div>
 </section>	
-<section class="banner-section" style="background-image: url(/img/gg-club.jpg);">
+<section class="banner-section" style="background-image: url(/img/ethos-back.jpg);">
 	<div class="wrap wrap-center">
 		<div class="wrap_float" style="min-height: 400px">
 			<div class="section-content">
