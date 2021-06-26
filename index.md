@@ -42,7 +42,7 @@ img: main-social.jpg
 			<div class="section-left">
 				<h2 class="title">Hi, my name is Abhi.</h2>
 				<div class="subtitle">
-					I'm a GovTech operator/investor, political philosophy nerd,  product marketer / event organizer, occasional professor, and longtime civic hacker. I care about how technology and governments can work together  &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. I do that as an <b>educator</b>, <b>connector</b>, and <b>consultant</b>. 
+					I care about how technology and governments can work together  &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. From nonprofits and colleges to startups and investors, I do what I can to help. I do that as an <b>educator</b>, <b>connector</b>, and <b>consultant</b>. 
 				</div>
 			</div>
 			<div class="section-right">
