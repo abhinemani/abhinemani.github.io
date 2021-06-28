@@ -63,12 +63,41 @@ img: pia-header.png
 	<div class="wrap wrap-center">
 		<div class="wrap_float">
 			<h2 class="title">
-				This is just a start...
+				University of Chicago Civic Technology Course
 			</h2>
 			<div class="section-content wp-content">
-				<p>
-					Many current or prospective public servants — government employees, civic leaders, NGOs, tech startups, etc — are seeking training in how to get the job done in increasingly digital work environments, but lack the necessary resources. The Academy will include practical, collaborative trainings programs on the essential skills and tools for modern governance, based off of my <a href="https://abhinemani.com/civictechcourse/">University of Chicago Civic Technology course I built and taught</a>.
+				
+				<p>Part theory, and part technical, with a focus on the characteristics unique to public interest tech. There were 16 lectures total delivered between April and June 2019. Slides from each class are posted here for viewing, sharing, or downloading, per a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Free Culture license</a>. 
 				</p>
+
+				<ul>
+					{% for lecture in site.data.lectures %}
+					<li>
+						<a href="#{{ lecture.name }}" >
+							<strong>Lecture {{ lecture.name }}:</strong> 	{{ lecture.description }}
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+
+				<p style="text-align: center">
+				 ***	
+	
+				</p>
+
+				{% for lecture in site.data.lectures %}
+				<h3>
+				    <a name="{{ lecture.name }}" id="{{ lecture.name }}" href="https://drive.google.com/uc?id={{ lecture.id }}&export=download" >
+				        <strong>Lecture {{ lecture.name }}:</strong> 	{{ lecture.description }} (pdf)
+				    </a>
+				</h3>
+				
+				
+				<div class="container-iframe">
+				<iframe id="pdf-js-viewer" src="https://drive.google.com/file/d/{{ lecture.id }}/preview" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+				</div>
+			
+				{% endfor %}
 			</div>
 		</div>
 	</div>

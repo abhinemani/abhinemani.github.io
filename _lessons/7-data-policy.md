@@ -13,19 +13,15 @@ permalink: /lessons/data-policy/
 
 For all the talk of "data-driven policy" and "data-driven government," the details can get lost in the hype. In this simple breakdown, we explore the way people **"think"** data-driven decision-making works, and then describe in detail how it **"really works."**
 
-<div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021-data-policy-2slides.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
-</div>
-<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021-data-policy-2slides.pdf">Open PDF in Browser</a>
+<img src="{{ site.url}}/img/policy-1.png">
 
-### Deep Dive: How Civic Data Works
+### The Myth: Data & Policy are Different Pieces
 
-The following presentation from the [University of Chicago Civic Technology course](https://abhinemani.com/civictechcourse/) goes in depth into how civic data works in a community — where it comes from and how governments can use it. 
+<img src="{{ site.url}}/img/policy-2.png">
 
-<div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
-</div>
-<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open PDF in Browser</a>
+### How Data & Policy Actually Work: A Cycle
+
+<img src="{{ site.url}}/img/policy-3.png">
 
 <strong>Featured Essay</strong>
 
