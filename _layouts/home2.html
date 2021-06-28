@@ -11,7 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
 	<meta property="og:description" content="{{ page.subhead }}" />
+	{% if page contains img %}
 	<meta property="og:image" content="{{ site.url }}/img/{{ page.img }}" />
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/img/placeholder.jpg" />
+	{% endif %}
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@abhinemani">
 	<meta name="twitter:creator" content="@abhinemani">
