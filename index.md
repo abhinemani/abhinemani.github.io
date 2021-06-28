@@ -40,9 +40,9 @@ img: main-social.jpg
 	<div class="wrap">
 		<div class="wrap_float">
 			<div class="section-left">
-				<h2 class="title">Hi, my name is Abhi.</h2>
+				<h2 class="title">Hi, my name is Abhi. Here's how I help.</h2>
 				<div class="subtitle">
-					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. From nonprofits and colleges to startups and investors, I do what I can to help. I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
+					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. From nonprofits and colleges to startups and investors, I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
 				</div>
 			</div>
 			<div class="section-right">
@@ -50,7 +50,7 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Educator: Public Innovation Academy - How to Get Into GovTech
+								Educator: Public Innovation Academy - Getting Into GovTech
 							</span>
 						</div>
 						<div class="accordion-item-content">
@@ -67,7 +67,7 @@ img: main-social.jpg
 						</div>
 						<div class="accordion-item-content">
 							<p>
-								Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
+								Over 500 government technology leaders get there news here. Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
 								<a class="btn" href="/community/"><span>GovGeek.Club</span>
 							</a><br><br></p>
 						</div>
@@ -75,11 +75,12 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Consultant: EthosLabs - Company/Investor Advising
+								Consultant: EthosLabs - Marketing, Growth & M/A Advising
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>Large or small companies need help understanding the market and — more importantly — the players in it to grow either through sales or investment. Moreover, most tech companies overlook the way they can work with government. That's what we offer at EthosLabs: concrete strategy and implementation on go-to-market, product, and growth.<br><br>
+							<p>EAs both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
+<br><br>
 								<a class="btn" href="/consulting/"><span>EthosLabs</span>
 							</a><br><br></p>
 						</div>
