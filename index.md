@@ -40,7 +40,7 @@ img: main-social.jpg
 	<div class="wrap">
 		<div class="wrap_float">
 			<div class="section-left">
-				<h2 class="title">Hi, my name is Abhi. Here's how I help.</h2>
+				<h2 class="title">My name is Abhi, and here's what I do...</h2>
 				<div class="subtitle">
 					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. I help with that. From nonprofits and colleges to startups and investors, I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
 				</div>
