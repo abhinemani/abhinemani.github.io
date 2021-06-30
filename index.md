@@ -42,7 +42,7 @@ img: main-social.jpg
 			<div class="section-left">
 				<h2 class="title">My name is Abhi Nemani.</h2>
 				<div class="subtitle">
-					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. <a href="/about/">I help with that.</a> From nonprofits and colleges to startups and investors, I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
+					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. <a href="/about/">I help with that.</a> From startups and investors to nonprofits and universities, I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
 				</div>
 			</div>
 			<div class="section-right">
