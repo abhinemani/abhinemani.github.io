@@ -79,7 +79,7 @@ img: main-social.jpg
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>EAs both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
+							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
 <br><br>
 								<a class="btn" href="/consulting/"><span>EthosLabs</span>
 							</a><br><br></p>
