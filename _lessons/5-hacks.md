@@ -11,7 +11,7 @@ permalink: /lessons/toolkit/
 ---
 ## A GovGeek's Toolkit
 
-You may feel hamstrung in your agency by the software tools and systems your agency has procured: very sophisticated and customized software -- that may sometimes feel more like a cage than a toolkit. Fortunately, hundreds to thousands of simple online tools have emerged to make your life easier: from a 5 minute solution to make a permitting form to a range of ready-to-go templates for your next program or initiative. This list is constantly changing, and can be found here: **[https://abhinemani.com/hacks](abhinemani.com/hacks)**
+You may feel hamstrung in your agency by the software tools and systems your agency has procured: very sophisticated and customized software -- that may sometimes feel more like a cage than a toolkit. Fortunately, hundreds to thousands of simple online tools have emerged to make your life easier: from a 5 minute solution to make a permitting form to a range of ready-to-go templates for your next program or initiative. This list is constantly changing, and can be found here: **[https://abhinemani.com/hacks](https://abhinemani.com/hacks)**
 
 [![Poor Man's Hacks]({{site.url}}/img/hacks-example.jpg)](https://abhinemani.com/hacks/)
 
