@@ -42,7 +42,7 @@ img: main-social.jpg
 			<div class="section-left">
 				<h2 class="title">My name is Abhi Nemani.</h2>
 				<div class="subtitle">
-					I care about how technology and governments can work together &#8212; better said, I care about how the people that make up those institutions can collaborate to do more together. Because that's how things change. <a href="/about/">I help with that.</a> From startups and investors to nonprofits and universities, I do that as an <b><a href="/academy">educator</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b>. 
+					<a href="/about/">Having had the privilege to help build the GovTech industry over the last decade,</a>  I only see more opportunity for the next chapter. So let's write it. Better. Together. <br><br>I help as a <b><a href="/academy">teacher</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b> &#8212; because I believe we are better together.
 				</div>
 			</div>
 			<div class="section-right">
@@ -50,19 +50,20 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Educator: Public Innovation Academy - Getting Into GovTech
+								Consultant: Marketing, Strategy & M/A
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p> Based on 10+ years of experience in the field and teaching at major academies, the Public Innovation Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.<br><br>
-								<a class="btn" href="/academy/"><span>Public Innovation Academy</span>
-							</a><br><br></p>
-						</div> 
+							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
+<br><br>
+								<a class="btn" href="/consulting/"><span>EthosLabs.us</span></a>
+							</p>
+						</div>
 					</div>
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Connector: GovGeek.Club - Sharing what is working, where
+								Connector: Growing Community of Innovators
 							</span>
 						</div>
 						<div class="accordion-item-content">
@@ -75,15 +76,14 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Consultant: EthosLabs - Marketing, Growth & M/A Advising
+								Educator: Public Innovation Academy
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
-<br><br>
-								<a class="btn" href="/consulting/"><span>EthosLabs</span>
+							<p>The Public Innovation Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.<br><br>
+								<a class="btn" href="/academy/"><span>Public Innovation Academy</span>
 							</a><br><br></p>
-						</div>
+						</div> 
 					</div>
 				</div>
 			</div>
