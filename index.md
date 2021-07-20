@@ -40,7 +40,7 @@ img: main-social.jpg
 	<div class="wrap">
 		<div class="wrap_float">
 			<div class="section-left">
-				<h2 class="title">My name is Abhi Nemani.</h2>
+				<h2 class="title">I'm a different kind of public servant.</h2>
 				<div class="subtitle">
 					<a href="/about/"><b>Having had the privilege to help build the GovTech industry over the last decade,</b></a>  I only see more opportunity for the next chapter. So let's write it. Now. And better. And together. <br><br>I help as a <b><a href="/academy">teacher</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b> &#8212; because I know amazing things happen when government and technology come together.
 				</div>
