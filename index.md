@@ -97,7 +97,7 @@ img: main-social.jpg
 				<h2 class="page-title">Experience</h2>
 				<div class="location">GovDelivery</div>
 				<h3 class="page-title" style="font-size: 24px; line-height: 30px;">
-					"Abhi is a world class thinker and innovator. I admired his work at Code for America and am honored that he has chosen to with us at GovDelivery [now Grancius]."
+					"Abhi is a world class thinker and innovator. I admired his work at Code for America and am honored that he has chosen to work with us at GovDelivery [now Grancius]."
 				</h3>
 				<p class="subtitle">
 					- Scott Burns, CEO & Founder, GovDelivery
