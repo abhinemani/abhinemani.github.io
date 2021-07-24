@@ -2,7 +2,7 @@
 layout: home2
 permalink: /index.html
 title: Abhi Nemani
-subhead: Abhi Nemani runs the GovTech consultancy called EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. The Public Innovation Academy and GovGeek Club openly shares the knowledge from government technology leaders for everyone to access.
+subhead: Abhi Nemani has been a leader in Government Technology for over a decade. He runs the GovTech consultancy, EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. The Public Innovation Academy and GovGeek Club openly share the knowledge from government technology leaders for everyone to access.
 tags: [about, Abhi Nemani, Code for America, pandas]
 img: main-social.jpg
 ---
@@ -89,7 +89,7 @@ img: main-social.jpg
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 <section class="banner-section" style="background-image: url(/img/ethos-back.jpg);">
 	<div class="wrap wrap-center">
 		<div class="wrap_float" style="min-height: 400px">
