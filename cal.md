@@ -5,7 +5,4 @@ title: Schedule a Meeting
 subhead: Get time on the books
 tags: [about, Abhi Nemani, Code for America, pandas]
 ---
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/abhi-nemani?hide_landing_page_details=1" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+<div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/abhi-nemani?embed=true"></div><script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
