@@ -9,6 +9,14 @@
 	{% endunless %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	{% if page.title == "Abhi Nemani" %}
+	<meta property="og:title" content="Abhi Nemani: Government Technology and Innovation" />
+	{% endif %}
+	{% unless page.url == "/index.html" %}
+	<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+		{% endunless %}
+	
 	<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
 	<meta property="og:description" content="{{ page.subhead }}" />
 	{% if page.img != "" %}
