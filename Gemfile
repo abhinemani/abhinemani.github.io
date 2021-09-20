@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-minibundle'
-gem 'jekyll-github-metadata'
 gem 'coderay'
 gem 'rake'
 gem 'jekyll-watch'

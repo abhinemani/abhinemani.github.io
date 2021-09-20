@@ -44,9 +44,6 @@ kramdown:
   tab_width: 4
   bold_every: 10
   css: class
-
-plugins:
-  - "jekyll-github-metadata"
   
 tag_permalink_style: pretty 
 
