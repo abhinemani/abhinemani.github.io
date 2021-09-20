@@ -1,116 +1,106 @@
 ---
-layout: home
+layout: home2
 permalink: /blog/index.html
 title: Blog
 tagline: When I speak aloud, publicly
 tags: [about, Abhi Nemani, Code for America, pandas]
+img: pia-header.png
 ---
-<div class="page-wrap author-page">
-	<div class="author-header" style="margin-bottom: 0px;">
-		<div class="wrap wrap-center">
-			<div class="wrap_float">
-				<div class="title-wrap">
-					<div class="author-image">
-						<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
-					</div>
-					<h1 class="page-title">News, Stories & Essays</h1>
-                            </div>
-                            <div class="post-description">
-								<p>
-									I'm a fan of technology, government, and interesting ideas. So I've been thinking about things, ranging from political philosophy and cities to data-driven policy and civic tech, and I have gotten the opportunity to travel around the world to see first-hand how public life everywhere is changing — which makes me excited about what's ahead.
-								</p>
-                            </div>
-                            <div class="socials">
-                                <a class="soc-link">
-                                    <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://twitter.com/@abhinemani">
-                                    <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://linkedin.com/in/abhinemani">
-                                    <img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://github.com/abhinemani">
-                                    <img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
-                                </a>
-                                <a class="soc-link" href="https://www.youtube.com/results?search_query=%22abhi+nemani%22">
-                                    <img src="{{site.url}}/img/youtube-icon.svg" class="img-svg" alt="">
-                                </a>
-                            
-                            </div>
-                        </div>						
-                    </div>
-					
-                </div>
-                <div class="author-body">
-                    <div class="wrap">
-                        <div class="wrap_float">
-			                <div class="author-body">
-			                    <div class="wrap">
-			                        <div class="wrap_float">
-								
-										
-			                            <div class="wp-content">
-													
-			                                <div class="wrap wrap-center">
-									
-			                                    <h3>Posts</h2>
-											</div>
-										</div>
-									</div>
+<section class="banner-section" style="background-image: url(../img/blog-back.png); max-height: 400px;">
+	<div class="wrap wrap-center ">
+		<div class="wrap_float" style="min-height: 400px; padding: 100px 0 0 0;">
+			<div class="section-content">
+				<h2 class="page-title">
+					Blog
+				</h2>
+			
+				<p class="subtitle" style="color: white; line-height: 1.3em;">
+					Insights & updates on government, tech, and entrepreneurship.
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+<div class="page-wrap archive-page with-sidebar">
+	<div class="archive-body">
+		<div class="wrap">
+			<div class="page-wrap-content">
+				<div class="post-items-list posts-fullwidth">
+				
+					{% for post in site.posts %}
+					<a href="{{post.url}}" class="post-item" style="max-height: 300px;">
+						{% if post.img  %}
+						
+						<img src="{{ site.url }}/img/{{post.img}}" alt="" class="post-bg-img">
+						{% else %}
+						<img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
+						
+						{% endif  %}
+						<div class="post-tags">
+							{% if post %}
+							{% assign tags = post.tags %}
+							{% else %}
+							{% assign tags = post.tags %}
+							{% endif %}
+							{% for tag in tags %}
+							<div class="tag">{{ tag }}</div>
+							{% unless forloop.last %}&nbsp;{% endunless %}
+							{% endfor %}
+						</div>
+						<h3 class="post-title">
+							{{ post.title }}
+						</h3>
+						<div class="post-info">
+							<div class="post-author post-info-author">
+								<div class="author-image">
+									<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
 								</div>
+								<span>Abhi Nemani</span>
 							</div>
-                            <div class="post-items-list posts-three-columns">
-								
-							    {% for post in site.posts %}
-								
-                                <a href="{{ post.url }}" class="post-item">
-									{% if post.img  %}
-									
-                                    <img src="{{ site.url }}/img/{{post.img}}" alt="" class="post-bg-img">
-									{% else %}
-                                    <img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
-									
-									{% endif  %}
-                                    <div class="post-tags">
-									  {% if post %}
-									    {% assign tags = post.tags %}
-									  {% else %}
-									    {% assign tags = post.tags %}
-									  {% endif %}
-									  {% for tag in tags %}
-									  <div class="tag">{{ tag }}</div>
-									  {% unless forloop.last %}&nbsp;{% endunless %}
-									  {% endfor %}
-                                    </div>
-                                    <h3 class="post-title">
-                                       {{ post.title }}
-                                    </h3>
-                                    <div class="post-info">
-                                        <div class="post-author post-info-author">
-                                            <div class="author-image">
-                                                <img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
-                                            </div>
-                                            <span>Abhi Nemani</span>
-                                        </div>
-                                        <div class="post-date post-info-date">
-                                           {{ post.pubdate }}
-                                        </div>
-                                    </div>
-                                </a>
-								{% endfor %}
-                            </div>
-                            <!--<div class="show-more">
-                                <div class="show-more-btn">
-                                    <a href="/blog.html"><span>Show more</span></a>
-                                </div>
-                                <div class="loader">
-                                    <svg class="circular" viewBox="25 25 50 50">
-                                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-                                    </svg>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
+							<div class="post-date post-info-date">
+								{{ post.pubdate }}
+							</div>
+
+						</div>
+					</a>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="page-wrap-sidebar">
+				<div class="sidebar-item subscribe-widget">
+					<div class="sidebar-item-title">
+						Newsletter
+					</div>
+					<div class="subtitle">
+						Sign up for updates from the blog, new lessons, and other news from around the civic innovation ecosystem.
+					</div>
+					<div class="form">
+						<form>
+							<div class="form-fields">
+								<div class="input-wrap">
+									<input type="text" class="input" placeholder="Name*">
+								</div>
+								<div class="input-wrap">
+									<input type="email" placeholder="Email*" class="input" name="EMAIL" id="mce-EMAIL">
+								</div>
+								<button class="btn submit-btn" name="process" value="Subscribe" id="mc-embedded-subscribe" >
+									<span>Subscribe</span>
+								</button>
+							</div> 
+						</form>
+					</div>
+				</div>
+				<div class="sidebar-item widget_tag_cloud">
+					<div class="sidebar-item-title">Topics</div>
+					<div class="tagcloud">
+						{% for tag in site.categories %}
+						<a href="#" class="tag-cloud-link">#{{ tag[0] }}</a>
+						{% endfor %}
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
