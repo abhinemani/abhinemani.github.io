@@ -8,3 +8,4 @@ gem 'jekyll-watch'
 gem 'pygments.rb'
 gem "webrick", "~> 1.7"
 gem 'jekyll-tagging'
+gem 'jekyll-paginate'

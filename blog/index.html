@@ -1,11 +1,10 @@
 ---
 layout: home2
-permalink: /blog/index.html
 title: Blog
 subhead: Insights and updates on government, tech, and entrepreneurship.
 img: main-social.jpg
 ---
-<section class="banner-section" style="background-image: url(../img/blog-back.png); max-height: 400px;">
+<section class="banner-section" style="background-image: url({{site.url}}/img/blog-back.png); max-height: 400px;">
 	<div class="wrap wrap-center ">
 		<div class="wrap_float" style="min-height: 400px; padding: 100px 0 0 0;">
 			<div class="section-content">
@@ -27,7 +26,7 @@ img: main-social.jpg
 			<div class="page-wrap-content">
 				<div class="post-items-list posts-fullwidth">
 				
-					{% for post in site.posts %}
+					{% for post in paginator.posts %}
 					<a href="{{post.url}}" class="post-item" style="max-height: 300px;">
 						{% if post.img  %}
 						
@@ -65,6 +64,32 @@ img: main-social.jpg
 					</a>
 					{% endfor %}
 				</div>
+				<!-- pagination -->
+				{% if paginator.total_pages > 1 %}
+				<div class="pagination">
+				  {% if paginator.previous_page %}
+				    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+				  {% else %}
+				    <span>&laquo; Prev</span>
+				  {% endif %}
+
+				  {% for page in (1..paginator.total_pages) %}
+				    {% if page == paginator.page %}
+				      <span class="webjeda">{{ page }}</span>
+				    {% elsif page == 1 %}
+				      <a href="{{site.url}}/blog/">{{ page }}</a>
+				    {% else %}
+				      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+				    {% endif %}
+				  {% endfor %}
+
+				  {% if paginator.next_page %}
+				    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+				  {% else %}
+				    <span>Next &raquo;</span>
+				  {% endif %}
+				</div>
+				{% endif %}
 			</div>
 			<div class="page-wrap-sidebar">
 				<div class="sidebar-item subscribe-widget">
