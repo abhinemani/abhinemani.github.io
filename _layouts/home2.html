@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	{% if page.title == "Abhi Nemani" %}
-     <title>{{ site.title }}: Government Technology</title>
+     <title>{{ site.title }}: Government Tech and Innovation Advisory</title>
 	{% endif %}
 	{% unless page.url == "/index.html" %}
     <title>{{ page.title }} | {{ site.title }}</title>
@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
 	<meta property="og:description" content="{{ page.subhead }}" />
-	{% if page contains img %}
+	{% if page.img != "" %}
 	<meta property="og:image" content="{{ site.url }}/img/{{ page.img }}" />
 	{% else %}
 	<meta property="og:image" content="{{ site.url }}/img/placeholder.jpg" />
