@@ -1,16 +1,14 @@
 ---
 layout: page
 title: The Primer
-subhead: What does a 21st century city look like&#x3f;
+subhead: Introductory deck on civic tech
 categories: Academy
 img: pia-header.png
 pubdate: Updated 2021
 number: 1
 permalink: /lessons/primer/
 ---
-That’s a question I’m asked fairly often.
-
-Indeed, I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.
+I’m often tasked with giving an introduction on local government innovation — to new mayors, potential investors, etc — and after a couple dozen hacked together presentations, I decided to put some effort into it, and put together this document.
 
 <div class="container-iframe">
 <iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/%2F21stCitiesPrimer.pdf" title="webviewer" frameborder="0" class="responsive-iframe"></iframe>
