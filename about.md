@@ -51,7 +51,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					<img src="{{site.url}}/img/BigKC-shot-small.jpg">	
 					<p>Abhi is on the Board of Directors of non-profit, CivicPulse, and previously held board positions at the OpenGov Foundation and Data4America. He has also worked with various philanthropies including the Knight Foundation and the Arnold Foundation. He is also an advisor and investor in multiple govtech startups, including CityGrows, SPIDR Tech, GovDelivery, ZenCity, and POLCO.
 					</p>
-					<p>Abhi holds  from Claremont McKenna College and Stanford University Graduate School of Business, and is currently pursuing simulataneous degrees in public policy (MPA) at the USC's Price School and in advanced finance (AFP) at The Wharton School. Finally, Abhi has built and taught a civic technology course at the University of Chicago.
+					<p>Abhi holds degrees from Claremont McKenna College and Stanford University Graduate School of Business. He is currently pursuing simulataneous degrees in public policy (MPA) at the USC's Price School and in advanced finance (AFP) at The Wharton School. In the past, Abhi has taught civic technology at the University of Chicago.
 					</p>
 					<p>Abhi's work has been featured in the New York Times, Government Technology, Government Executive, and Forbes, and he has been featured as a speaker at SxSW, the World Bank, and various universities and conferences around the world.
 					</p>
