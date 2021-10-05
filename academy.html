@@ -10,10 +10,13 @@ img: pia-header.png
 	<div class="wrap wrap-center ">
 		<div class="wrap_float" >
 			<div class="section-content">
-				 <img src="../img/cta-logo3.png" style="max-width: 80%;" alt="Public Innovation Academy">
+				 <img src="../img/cta-logo3.png" style="max-width: 80%; padding-bottom: 20px;" alt="Public Innovation Academy">
 				 <p class="subtitle" style="color: white; line-height: 1.3em;">
-					 Based on experience teaching at the University of Chicago, Code for America, and conferences around the world, the Civic Technology Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact.
+					 Based on experience teaching at UChicago, Code for America, and conferences around the world, the Civic Technology Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact.
 				 </p>
+ 				<div class="buttons">
+ 					<a href="#lessons" class="btn"><span>Get Started</span></a>			 
+ 				</div>
 			 </div>
 		 </div>
 	 </div>
@@ -26,6 +29,7 @@ img: pia-header.png
                     <div class="wrap wrap-center">
                         <h2>Introductory Lessons</h2>
                         <div class="block-columns gallery-columns columns-4 wide-columns lightgallery-off">
+							<a name="lessons"></a>
 							{% for lesson in site.lessons %}
                             <div class="block-column">
 								<a href="{{ lesson.url }}">
