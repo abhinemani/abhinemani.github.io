@@ -30,7 +30,7 @@ img: main-social.jpg
 				</div>
 				<div class="buttons">
 					<a href="/consulting/" class="btn"><span>How I help</span></a>
-					<a class="btn getModal border-btn" data-href="#contact-us"><span>Let's Talk'</span></a>					 
+					<a class="btn getModal border-btn" data-href="#contact-us"><span>Let's Talk</span></a>					 
 				</div>
 			</div>
 		</div>
@@ -76,12 +76,12 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Educator: Public Innovation Academy
+								Educator: Civic Technology Academy
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>The Public Innovation Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.<br><br>
-								<a class="btn" href="/academy/"><span>Public Innovation Academy</span>
+							<p>The Civic Technology Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.<br><br>
+								<a class="btn" href="/academy/"><span>Civic Technology Academy</span>
 							</a><br><br></p>
 						</div> 
 					</div>
@@ -173,7 +173,7 @@ img: main-social.jpg
 		<div class="wrap_float">
 			<div class="wp-content">
 				<div class="wrap wrap-center">
-					<h2><a href="/academy"><img src="{{site.url}}/img/PIA-logo.png" style="margin: 10px auto 0px auto; max-width: 300px;"></a></h2>
+					<h2><a href="/academy"><img src="{{site.url}}/img/pia-logo.png" style="margin: 10px auto 0px auto; max-width: 400px;"></a></h2>
 					<div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">

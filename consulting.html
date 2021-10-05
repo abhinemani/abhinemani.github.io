@@ -248,66 +248,12 @@ img: ethos-social.png
 											</div>
 											-->
 										</div>
-							
-	                                    <h2>Case Studies</h2>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					
-                    <div class="post-items-list posts-three-columns">
-						
-					    {% for partner in site.portfolio %}
-						
-                        <a href="{{ partner.url }}" class="post-item">
-							{% if partner.img  %}
-							
-                            <img src="{{ site.url }}/img/{{partner.img}}" alt="" class="post-bg-img">
-							{% else %}
-                            <img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
-							
-							{% endif  %}
-                            <div class="post-tags">
-							  {% if post %}
-							    {% assign tags = partner.tags %}
-							  {% else %}
-							    {% assign tags = partner.tags %}
-							  {% endif %}
-							  {% for tag in tags %}
-							  <div class="tag">{{ tag }}</div>
-							  {% unless forloop.last %}&nbsp;{% endunless %}
-							  {% endfor %}
-                            </div>
-                            <h3 class="post-title">
-                               {{ partner.title }}
-                            </h3>
-                            <div class="post-info">
-                                <div class="post-author post-info-author">
-                                    <div class="author-image">
-                                        <img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
-                                    </div>
-                                    <span>Abhi Nemani</span>
-                                </div>
-                                <div class="post-date post-info-date">
-                                   {{ partner.pubdate }}
-                                </div>
-                            </div>
-                        </a>
-						{% endfor %}
-                    </div>
-                    <!--<div class="show-more">
-                        <div class="show-more-btn">
-                            <a href="/blog.html"><span>Show more</span></a>
-                        </div>
-                        <div class="loader">
-                            <svg class="circular" viewBox="25 25 50 50">
-                                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-                            </svg>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </div>
 	</div>
-	
