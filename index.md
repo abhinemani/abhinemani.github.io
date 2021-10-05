@@ -30,7 +30,7 @@ img: main-social.jpg
 				</div>
 				<div class="buttons">
 					<a href="/consulting/" class="btn"><span>How I help</span></a>
-					<a class="btn getModal border-btn" data-href="#contact-us"><span>Get in Touch</span></a>					 
+					<a class="btn getModal border-btn" data-href="#contact-us"><span>Let's Talk'</span></a>					 
 				</div>
 			</div>
 		</div>
