@@ -23,7 +23,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                     <h1 class="page-title">About me.</h1>
                 </div>
                 <div class="section-content wp-content">
-					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led <a href="https://codeforamerica.org">Code for America</a>, <a href="https://data.lacity.org">Mayor of Los Angeles' Office of Data & Analytics</a>, and <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development">Sacramento's Office of Innovation & Analytics. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
+					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led <a href="https://codeforamerica.org">Code for America</a>, <a href="https://data.lacity.org">Mayor of Los Angeles' Office of Data & Analytics</a>, and <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development">Sacramento's Office of Innovation & Analytics</a>. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
 					</p>					
 					<h3>More Information</h3>
 					<ul>
