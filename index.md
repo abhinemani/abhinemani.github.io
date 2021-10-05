@@ -29,7 +29,7 @@ img: main-social.jpg
 					</a>
 				</div>
 				<div class="buttons">
-					<a href="/about/" class="btn"><span>About me</span></a>
+					<a href="/consulting/" class="btn"><span>How I help</span></a>
 					<a class="btn getModal border-btn" data-href="#contact-us"><span>Get in Touch</span></a>					 
 				</div>
 			</div>
