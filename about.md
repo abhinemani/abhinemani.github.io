@@ -23,7 +23,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                     <h1 class="page-title">About me.</h1>
                 </div>
                 <div class="section-content wp-content">
-					<p>Abhi Nemani has worked for over a decade at the intersection of public service and technology. Abhi helped build the non-profit Code for America, growing it into a national leader in government tech, and then he was appointed as the first CDO of Los Angeles and CIO of Sacramento. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
+					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led <a href="https://codeforamerica.org">Code for America</a>, <a href="https://data.lacity.org">Mayor of Los Angeles' Office of Data & Analytics</a>, and <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development">Sacramento's Office of Innovation & Analytics. Now, his consultancy, EthosLabs.us, connects entrepreneurs across sectors to develop new approaches for public policy, on issues ranging from criminal justice to public health. Abhi has taught public innovation at the University of Chicago, and he has been featured as a speaker at SxSW, TEDx, the World Bank, and numerous convenings around the world.
 					</p>					
 					<h3>More Information</h3>
 					<ul>
@@ -40,7 +40,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					</ul>
 					<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149984557"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 					<h2>Full Biography</h2>
-					<p>Abhi Nemani is a writer, speaker, organizer, and technologist.</p>
+					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led Code for America, the Mayor of Los Angeles' Office of Data & Analytics, and Sacramento's Office of Innovation and Entreprenuership. </p>
 					<img src="{{site.url}}/img/TED-shot.jpeg">
 					<p>He currently runs a GovTech consultancy called EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. He is also building and teaching a first-of-its-kind Civic Technology course at the University of Chicago.</p>
 					<p>Previously, Mayor Kevin Johnson of Sacramento appointed him as interim Chief Innovation Officer to build out the city's budding startup sector, through venture investments, grants, and partnerships. Before that, he served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA. As CDO, Abhi led Los Angeles to the #1 ranking for US open data cities and mobilized LA's growing developer community through multiple events and challenges to put that data to work. To drive innovation within city hall, Abhi built a nationally-recognized Mayoral Dashboard, led data and analytics trainings for city staff, and piloted data science projects to address key policy issues.
