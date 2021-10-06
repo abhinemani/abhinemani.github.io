@@ -4,6 +4,7 @@ title: The Primer
 subhead: Introductory deck on civic tech
 categories: Academy
 img: pia-header.png
+socialimg: pia-social.png
 pubdate: Updated 2021
 number: 1
 permalink: /lessons/primer/
