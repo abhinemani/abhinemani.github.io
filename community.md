@@ -17,10 +17,11 @@ img: gg-social.jpg
 					 Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.
 				 </p>
 				 <div class="form">
-					 <form id="wrapped" method="POST" action="https://club.us4.list-manage.com/subscribe/post?u=8b0a6fcff3240da989198b6d9&amp;id=e2d6d289a5" >
+					 <form id="wrapped revue-form" method="POST" action=
+					"https://www.getrevue.co/profile/govgeek/add_subscriber" method="post" id="" name="revue-form"  target="_blank">
 					 <div class="form-fields">
 						 <div class="input-wrap">
-							 <input type="email" class="input" name="EMAIL" id="mce-EMAIL" placeholder="Email*">
+							  <input class="revue-form-field input"  placeholder="Your email address..." type="email" name="member[email]" id="member_email">
 						 </div>
 						 <button class="btn submit-btn submit" name="process" value="Subscribe" id="mc-embedded-subscribe" >
 							 <span>Subscribe</span>

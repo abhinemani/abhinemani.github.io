@@ -100,30 +100,24 @@ img: main-social.jpg
 						Sign up for updates from the blog, new lessons, and other news from around the civic innovation ecosystem.
 					</div>
 					<div class="form">
-						<form id="wrapped" method="POST" action="https://club.us4.list-manage.com/subscribe/post?u=8b0a6fcff3240da989198b6d9&amp;id=e2d6d289a5" >
+				    <form action="https://www.getrevue.co/profile/govgeek/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
 							<div class="form-fields">
 								<div class="input-wrap">
-									<input type="text" class="input" placeholder="Name*">
+									<input type="email" placeholder="Email*" class="input" name="member[email]" id="mce-EMAIL">
 								</div>
-								<div class="input-wrap">
-									<input type="email" placeholder="Email*" class="input" name="EMAIL" id="mce-EMAIL">
-								</div>
+							    <div class="input-wrap">
+							      <input class="revue-form-field input" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name">
+							    </div>
+							    <div class="input-wrap">
+							      <input class="revue-form-field input" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name">
+							    </div>
 								<button class="btn submit-btn" name="process" value="Subscribe" id="mc-embedded-subscribe" >
 									<span>Subscribe</span>
 								</button>
 							</div> 
 						</form>
 					</div>
-				</div>
-				<!--<div class="sidebar-item widget_tag_cloud">
-					<div class="sidebar-item-title">Topics</div>
-					<div class="tagcloud">
-						{% for tag in site.categories %}
-						<a href="#" class="tag-cloud-link">#{{ tag[0] }}</a>
-						{% endfor %}
-					</div>
-				</div>-->
-				
+				</div>				
 			</div>
 		</div>
 	</div>
