@@ -124,6 +124,13 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
+								<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt=""></a>
+							</div>
+						</figure>
+					</div>
+					<div class="block-column">
+						<figure class="block-caption img-caption">
+							<div class="img-wrap">
 								<a href="https://govdelivery.com"><img src="/img/startups/govdelivery.png" alt=""></a>
 							</div>
 						</figure>
@@ -132,13 +139,6 @@ img: main-social.jpg
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
 								<a href="https://www.arnoldventures.org/"><img src="/img/startups/arnold.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
