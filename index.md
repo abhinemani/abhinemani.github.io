@@ -173,13 +173,13 @@ img: main-social.jpg
 		<div class="wrap_float">
 			<div class="wp-content">
 				<div class="wrap wrap-center">
-					<h2><a href="/academy"><img src="{{site.url}}/img/pia-logo.png" style="margin: 10px auto 0px auto; max-width: 400px;"></a></h2>
-					<div class="block-columns gallery-columns columns-3 wide-columns lightgallery-off">
+					<h2><a href="/academy"><img src="{{site.url}}/img/cta-color.png" style="margin: 10px auto 0px auto; max-width: 400px;"></a></h2>
+					<div class="block-columns gallery-columns columns-4 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/academy/">
-										<img src="{{site.url}}/img/home/2.jpg" alt="Lessons">
+									<a href="{{site.url}}/primer/">
+										<img src="{{site.url}}/img/lessons/1.png" alt="GovTech Primer">
 									</a>
 								</div>
 							</figure>
@@ -187,37 +187,23 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/lessons/primer/"><img src="{{site.url}}/img/home/1.jpg" alt="Primer"></a>
+									<a href="{{site.url}}/lessons/ecosystem/"><img src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
 								</div>
 							</figure>
 						</div>
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/lessons/ecosystem/"><img src="{{site.url}}/img/home/3.jpg" alt="Ecosystem"></a>
+									<a href="{{site.url}}/blog/"><img src="{{site.url}}/img/lessons/7.png" alt="Essays"></a>
 								</div>
 							</figure>
 						</div>
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/community"><img src="{{site.url}}/img/home/4.jpg" alt="Community"></a>
+									<a href="{{site.url}}/resources/"><img src="{{site.url}}/img/lessons/4.png" alt="Resources"></a>
 								</div>
 							</figure>
-						</div>
-						<div class="block-column">
-							<figure class="block-caption img-caption">
-								<div class="img-wrap">
-									<a href="{{site.url}}/blog/"><img src="{{site.url}}/img/home/5.jpg" alt="Essays"></a>
-								</div>
-							</figure>
-						</div>
-						<div class="block-column">
-							<figure class="block-caption img-caption">
-								<div class="img-wrap">
-									<a href="{{site.url}}/resources/"><img src="{{site.url}}/img/home/6.jpg" alt="Resources"></a>
-								</div>
-							</figure>	
 						</div>
 					</div>
 				</div>
