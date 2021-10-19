@@ -131,7 +131,7 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://govdelivery.com"><img src="/img/startups/govdelivery.png" alt=""></a>
+								<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
