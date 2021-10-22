@@ -40,9 +40,9 @@ img: main-social.jpg
 	<div class="wrap">
 		<div class="wrap_float">
 			<div class="section-left">
-				<h2 class="title">I'm a different kind of public servant.</h2>
+				<h2 class="title">I help government technology matter more.</h2>
 				<div class="subtitle">
-					<a href="/about/"><b>Having had the privilege to help build the GovTech industry over the last decade,</b></a>  I only see more opportunity for the next chapter. So let's write it. Now. And better. And together. <br><br>I help as a <b><a href="/academy">teacher</a></b>, <b><a href="/community/">connector</a></b>, and <b><a href="/academy">consultant</a></b> &#8212; because I know amazing things happen when government and technology come together.
+					<a href="/about/"><b>For the last 10+ years,</b></a> I have helped build and run the most influential public & civic technology institutions in the world. Now, I help grow the field: first as a <a href="/consulting" style="text-decoration: underline;">consultant</a>, advising high-growth GovTech companies and investors; second as a <a href="/consulting" style="text-decoration: underline;">teacher</a> capturing and sharing best practices; and third as a <a href="/consulting" style="text-decoration: underline;">connector</a>, building a bigger, broader ecosystem for innovation.
 				</div>
 			</div>
 			<div class="section-right">
@@ -173,7 +173,7 @@ img: main-social.jpg
 		<div class="wrap_float">
 			<div class="wp-content">
 				<div class="wrap wrap-center">
-					<h2><a href="/academy"><img src="{{site.url}}/img/cta-color.png" style="margin: 10px auto 0px auto; max-width: 400px;"></a></h2>
+					<h2><a href="/academy"><img src="{{site.url}}/img/cta-color.png" style="margin: 10px auto 0px auto; max-width: 350px;"></a></h2>
 					<div class="block-columns gallery-columns columns-4 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">
