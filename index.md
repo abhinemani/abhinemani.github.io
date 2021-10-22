@@ -40,7 +40,7 @@ img: main-social.jpg
 	<div class="wrap">
 		<div class="wrap_float">
 			<div class="section-left">
-				<h2 class="title">I help government technology matter more.</h2>
+				<h2 class="title">Here to help.</h2>
 				<div class="subtitle">
 					<a href="/about/"><b>For the last 10+ years,</b></a> I have helped build and run the most influential public & civic technology institutions in the world. Now, I help grow the field: first as a <a href="/consulting" style="text-decoration: underline;">consultant</a>, advising high-growth GovTech companies and investors; second as a <a href="/academy" style="text-decoration: underline;">teacher</a> capturing and sharing best practices; and third as a <a href="/community" style="text-decoration: underline;">connector</a>, building a bigger, broader ecosystem for innovation.
 				</div>
