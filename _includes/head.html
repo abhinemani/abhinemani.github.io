@@ -7,12 +7,12 @@
 	{% if page.categories contains "Academy" %}
 	<meta name="twitter:image" content="{{ site.url }}/img/pia-social.png">
 	<meta property="og:image" content="{{ site.url }}/img/pia-social.png" />
-	{% else %}	{% if page contains img %}
+	{% else %}	{% if page.img contains ".png" or page.img contains ".jpg" %}
 	<meta property="og:image" content="{{ site.url }}/img/{{ page.img }}" />
 	<meta name="twitter:image" content="{{ site.url }}/img/{{ page.img }}">
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/img/placeholder.png" />
-	<meta name="twitter:image" content="{{ site.url }}/img/placeholder.png">
+	<meta property="og:image" content="{{ site.url }}/img/placeholder.jpg" />
+	<meta name="twitter:image" content="{{ site.url }}/img/placeholder.jpg">
 	{% endif %}	{% endif %}
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@abhinemani">
