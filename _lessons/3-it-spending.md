@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Government IT Spending
-subhead: Breakdown of where the money goes (alpha)
+title: The $200B+ Government Technology Market
+subhead: A practical overview of the opportunity, trends, and breakdown of IT spending
 categories: Academy
 pubdate: 2021
 img: pia-header.png
