@@ -1,51 +1,51 @@
 - name: 1
   description: What is Civic Tech?
-  id: 1uk1GKPUtSSv-TidGfZbQ2bsIwfpIshIg
+  id: CAPP1.pdf
   
 - name: 2-3
-  description: Empathy and the Ecosystem
-  id: 1JM8py30GRVDzxSLn25GmtsfWPNhBc_eL
+  description: Empathy and the GovTech Ecosystem
+  id: CAPP2.pdf
   
 - name: 4-5
-  description: Lean Civic Tech
-  id: 18RdfFZ1Y_-KATZSfDSIUNgC8JdT-OoQN
+  description: Applying Lean Principles to Civic Technology
+  id: CAPP4.pdf
 
 - name: 6
   description: How Civic Data Works
-  id: 1CGvMtykUj6_5e9WLnls42tkfnlGHyZRD
+  id: CAPP6.pdf
 
 - name: 7
-  description: Why and Where Open Data
-  id: 1TrUmzf8dWCs1uGzKXrlPEQMZhFj-VZRy
+  description: Why and Where Open Data - The Value Proposition and Accessibilty of Open Civic Data
+  id: CAPP7.pdf
   
 - name: 8
-  description: Which and How Open Data
-  id: 1yWkokpeNbl87kXaqMtF90FxCIHRUA5PD
+  description: Which and How Open Data - The Mechanics of Open Civic Data
+  id: CAPP8.pdf
   
 - name: 9
-  description: Optimizing Open Data
-  id: 1AH9IAegMJd2raJEiB-WAAZ_OvA1lulEJ
+  description: Optimizing Open Data - Best Practices in *Publishing* Open Data
+  id: CAPP9.pdf
   
 - name: 10
-  description: Open Data, Simply Seen
-  id: 1rE3awFnrpKzZiUtRiCqw1oO35g-zi1Zq
+  description: Open Data, Simply Seen - Best Practices in *Visualizing* Open Data
+  id: CAPP10.pdf
   
 - name: 11
   description: Digital Services, an Introduction
-  id: 1i-XLuDGa-NCrvAC4nVWIfP4s-iz-yKyy
+  id: CAPP11.pdf
   
 - name: 12
   description: Digital Services, Where and How
-  id: 1rb5U469uzqmzhbZxTFC9XD23V349Mgyw
+  id: CAPP12.pdf
 
 - name: 13
-  description: Getting to Users
-  id: 1Rj54Su8pVC8-5h8FzOVUeAq6HsHxCFMo
+  description: Growth and Adoption - Getting to Users
+  id: CAPP13.pdf
 
 - name: 14
   description: Procurement, Challenges and Opportunities
-  id: 1gHCg1ZUPbbgI7oJK5vkpV7Uvn4soJ15-
+  id: CAPP14.pdf
   
 - name: 15-16
-  description: Sustainability
-  id: 164BU-tn8HOvZZfsQba1bAGyWT1oK-pFu
+  description: Application and Impact Sustainability
+  id: CAPP15.pdf
