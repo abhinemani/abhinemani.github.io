@@ -93,7 +93,8 @@ permalink: /resources/
 
 **Graduate programs**:  [UChicago MS-CAPP](https://capp.uchicago.edu/) ,  [Digital@HKS](https://projects.iq.harvard.edu/digitalhks/home) ,  [Smart Communities @ Pepperdine](https://publicpolicy.pepperdine.edu/davenport-institute/training/professional-certificate-in-leading-smart-communities.htm) ,  [NYU CUSP](https://cusp.nyu.edu/) 
 
-**Fellowships**:  [CfA Community](https://www.codeforamerica.org/programs/fellowship),  [Civic Digital Fellowship](https://www.codingitforward.com/civic-digital-fellowship),  [Fuse Corps](https://www.fusecorps.org/),  [Coro Fellowship](http://www.corofellowship.org/),  [Presidential Innovation Fellowship](https://presidentialinnovationfellows.gov/),  [Georgetown](https://beeckcenter.georgetown.edu/gu-impacts-fellowship/) 
+**Fellowships**:  [CfA Community](https://www.codeforamerica.org/programs/fellowship),  [Civic Digital Fellowship](https://www.codingitforward.com/civic-digital-fellowship),  [Fuse Corps](https://www.fusecorps.org/),  [Coro Fellowship](http://www.corofellowship.org/),  [Presidential Innovation Fellowship](https://presidentialinnovationfellows.gov/),  [Georgetown](https://beeckcenter.georgetown.edu/gu-impacts-fellowship/)  [US Digital Corpos](https://digitalcorps.gsa.gov/)
 
-**Networks/Jobs**:  [ELGL](https://elgl.org/),  [GovGeek.club](https://govgeek.club/),  [GovLoop](https://www.govloop.com/) , [Public Interest Job Board](https://jobs.codeforamerica.org/)  (also  [USDS](https://usds.gov/)  &  [18F](https://18f.gsa.gov/)  are seemingly always hiring)
+**Public Sector Jobs (or volunteer roles)**: [Public Interest Job Board](https://jobs.codeforamerica.org/), [US Digital Response](https://www.usdigitalresponse.org/), [USDS](https://usds.gov/)  &  [18F](https://18f.gsa.gov/)
 
+**Networks**:  [ELGL](https://elgl.org/),  [GovLoop](https://www.govloop.com/) , 
