@@ -14,6 +14,18 @@ permalink: /resources/
 </div>
 <a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf">Open PDF in Browser</a>
 
+## Advice for People Wanting to Get into Government / Civic / Public Innovation**
+[“Being Better than ‘Good Enough for Government Work’”](https://www.linkedin.com/posts/abhinemani_getting-a-government-job-in-2021-advice-activity-6758102322355740672-Jrbu)  (deck): My overview of strategies and specific resources for getting hired or promoted in GovTech
+
+[“GovGeek Interactive Guide: How to be a poor man’s hacker”:](https://abhinemani.com/hacks/)  My compilation of easy, free, and insanely useful online tools any government person can and should use
+
+**Graduate programs**:  [UChicago MS-CAPP](https://capp.uchicago.edu/) ,  [Digital@HKS](https://projects.iq.harvard.edu/digitalhks/home) ,  [Smart Communities @ Pepperdine](https://publicpolicy.pepperdine.edu/davenport-institute/training/professional-certificate-in-leading-smart-communities.htm) ,  [NYU CUSP](https://cusp.nyu.edu/) 
+
+**Fellowships**:  [CfA Community](https://www.codeforamerica.org/programs/fellowship),  [Civic Digital Fellowship](https://www.codingitforward.com/civic-digital-fellowship),  [Fuse Corps](https://www.fusecorps.org/),  [Coro Fellowship](http://www.corofellowship.org/),  [Presidential Innovation Fellowship](https://presidentialinnovationfellows.gov/),  [Georgetown](https://beeckcenter.georgetown.edu/gu-impacts-fellowship/)  [US Digital Corpos](https://digitalcorps.gsa.gov/)
+
+**Public Sector Jobs (or volunteer roles)**: [Public Interest Job Board](https://jobs.codeforamerica.org/), [US Digital Response](https://www.usdigitalresponse.org/), [USDS](https://usds.gov/)  &  [18F](https://18f.gsa.gov/)
+
+**Networks**:  [ELGL](https://elgl.org/),  [GovLoop](https://www.govloop.com/)
 
 ## Book Recommendations
 [Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation-ebook/dp/B004J4XGN6/ref=sr_1_3?ie=UTF8&qid=1541132378&sr=8-3&keywords=lean+startup) .  [Democracy in America](https://en.wikipedia.org/wiki/Democracy_in_America) .  [Thinking with Type](http://thinkingwithtype.com/) .  [Cognitive Surplus](https://en.m.wikipedia.org/wiki/Cognitive_Surplus) .  [The Information](https://en.m.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood) .  [Civc Technologist’s Practice Guide](https://cydharrell.com/book/) .  [We the Possibility](https://www.wethepossibility.com/) .
@@ -86,15 +98,3 @@ permalink: /resources/
 
 **Foundation projects**:  [Knight](https://knightfoundation.org/) ,  [Luminate](https://luminategroup.com/) ,  [Omidyar](https://omidyar.com/) 
 
-## Advice for People Wanting to Get into Government / Civic / Public Innovation**
-[“Being Better than ‘Good Enough for Government Work’”](https://www.linkedin.com/posts/abhinemani_getting-a-government-job-in-2021-advice-activity-6758102322355740672-Jrbu)  (deck): My overview of strategies and specific resources for getting hired or promoted in GovTech
-
-[“GovGeek Interactive Guide: How to be a poor man’s hacker”:](https://abhinemani.com/hacks/)  My compilation of easy, free, and insanely useful online tools any government person can and should use
-
-**Graduate programs**:  [UChicago MS-CAPP](https://capp.uchicago.edu/) ,  [Digital@HKS](https://projects.iq.harvard.edu/digitalhks/home) ,  [Smart Communities @ Pepperdine](https://publicpolicy.pepperdine.edu/davenport-institute/training/professional-certificate-in-leading-smart-communities.htm) ,  [NYU CUSP](https://cusp.nyu.edu/) 
-
-**Fellowships**:  [CfA Community](https://www.codeforamerica.org/programs/fellowship),  [Civic Digital Fellowship](https://www.codingitforward.com/civic-digital-fellowship),  [Fuse Corps](https://www.fusecorps.org/),  [Coro Fellowship](http://www.corofellowship.org/),  [Presidential Innovation Fellowship](https://presidentialinnovationfellows.gov/),  [Georgetown](https://beeckcenter.georgetown.edu/gu-impacts-fellowship/)  [US Digital Corpos](https://digitalcorps.gsa.gov/)
-
-**Public Sector Jobs (or volunteer roles)**: [Public Interest Job Board](https://jobs.codeforamerica.org/), [US Digital Response](https://www.usdigitalresponse.org/), [USDS](https://usds.gov/)  &  [18F](https://18f.gsa.gov/)
-
-**Networks**:  [ELGL](https://elgl.org/),  [GovLoop](https://www.govloop.com/) , 
