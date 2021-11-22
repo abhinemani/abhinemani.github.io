@@ -46,7 +46,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
                 <div class="wrap_float">
                     <div class="section-content">
 						<h2 class="page-title">Talks</h2>
-						<p class="subtitle"><a href="https://abhinemani.com/about/talks">Watch more</a> & <a href="https://abhinemani.com/contact">get in touch</a> for speaking engagements</p>
+						<p class="subtitle"><a href="https://abhinemani.com/talks">Watch more</a> & <a href="https://abhinemani.com/contact">get in touch</a> for speaking engagements</p>
 						<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
                     </div>
                 </div>
