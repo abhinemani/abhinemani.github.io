@@ -27,15 +27,9 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					</p>					
 					<h3>More Information</h3>
 					<ul>
-						<li class="plus-li"><strong>Email:</strong> abhi.nemani@gmail.com
+						<li class="plus-li"><strong>Email:</strong> <a href="mailto:abhi@ethoslabs.us">abhi@ethoslabs.us</a>
 						</li>
-						<li class="plus-li"><a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>
-						</li>
-						<li class="plus-li"><a href="{{site.url}}/talks/"><strong>Talks</strong> (Videos & Speaking Information)</a>
-						</li>
-						<li class="plus-li"><strong><a href="{{site.url}}/cv">CV</a></strong>
-						</li>
-						<li class="plus-li"><strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong>: For media purposes, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>
+						<li class="plus-li"><strong><a href="{{site.url}}/cv">Curriculum Vitae (CV)</a></strong>, <a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>, and <strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong> (for media purposes)
 						</li>
 					</ul>
 				</div>
