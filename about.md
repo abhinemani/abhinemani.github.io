@@ -38,7 +38,6 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 						<li class="plus-li"><strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong>: For media purposes, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>
 						</li>
 					</ul>
-					<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149984557"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 					<h2>Full Biography</h2>
 					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led Code for America, the Mayor of Los Angeles' Office of Data & Analytics, and Sacramento's Office of Innovation and Entrepreneurship. </p>
 					<img src="{{site.url}}/img/TED-shot.jpeg">
