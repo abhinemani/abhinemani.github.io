@@ -38,9 +38,26 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 						<li class="plus-li"><strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong>: For media purposes, you can download <a href="{{site.url}}/img/headshot-large.jpg">a larger, high-res headshot (1MB)</a>
 						</li>
 					</ul>
+				</div>
+			</div>
+		</div>
+        <section class="banner-section" style="background-image: url(/img/ethos-back.jpg);">
+            <div class="wrap wrap-center">
+                <div class="wrap_float">
+                    <div class="section-content">
+						<h2 class="page-title">Talks</h2>
+						<p class="subtitle"><a href="https://abhinemani.com/about/talks">Watch more</a> & <a href="https://abhinemani.com/contact">get in touch</a> for speaking engagements</p>
+						<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	    <div class="author-header">
+	        <div class="wrap wrap-center">
+	            <div class="wrap_float">
+	                <div class="section-content wp-content">
 					<h2>Full Biography</h2>
 					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led Code for America, the Mayor of Los Angeles' Office of Data & Analytics, and Sacramento's Office of Innovation and Entrepreneurship. </p>
-					<img src="{{site.url}}/img/TED-shot.jpeg">
 					<p>He currently runs a government technology consultancy called <a href="https://abhinemani.com/consulting">EthosLabs.us</a> to scale up public innovation through scalable GovTech startups through hands-on consulting, advising, and investing. EthosLabs.us' portfolio includes multiple exits and has collectively helped over 2,000 governments and roughly 500M+ people.</p>
 					<p>Previously, Mayor Kevin Johnson of Sacramento appointed him as interim Chief Innovation Officer to build out the city's budding startup sector, through venture investments, grants, and partnerships. Before that, he served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA. As CDO, Abhi led Los Angeles to the #1 ranking for US open data cities and mobilized LA's growing developer community through multiple events and challenges to put that data to work. To drive innovation within city hall, Abhi built a nationally-recognized Mayoral Dashboard, led data and analytics trainings for city staff, and piloted data science projects to address key policy issues.
 					</p>
