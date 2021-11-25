@@ -41,16 +41,14 @@ img: main-social.jpg
 		<div class="wrap_float">
 			<div class="section-left">
 				<h2 class="title">Here to help.</h2>
-				<div class="subtitle">
-					<a href="/about/"><b>For the last 10+ years,</b></a> I have helped build and run the most influential public & civic technology institutions in the world. Now, I help grow the field: first as a <a href="/consulting" style="text-decoration: underline;">consultant</a>, advising high-growth GovTech companies and investors; second as a <a href="/academy" style="text-decoration: underline;">teacher</a> capturing and sharing best practices; and third as a <a href="/community" style="text-decoration: underline;">connector</a>, building a bigger, broader ecosystem for innovation.
-				</div>
+				<div class="subtitle">Abhi Nemani is a government technology <a href="https://abhinemani.com/consulting" style="font-weight: bold;">advisor</a>, <a href="https://abhinemani.com/academy" style="font-weight: bold;">educator</a> and <a href="https://abhinemani.com/community" style="font-weight: bold;">community builder</a> who has helped found and lead <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles' Office of Data & Analytics</a>, and <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">Sacramento's Office of Innovation</a>. Now, his consultancy, <a href="https://abhinemani.com/consulting" style="font-weight: bold;">EthosLabs.us</a>, helps entrepreneurs and investors in GovTech get to scale. <a href="https://abhinemani.com/contact" style="font-weight: bold;">Let's work together.</a></div>
 			</div>
 			<div class="section-right">
 				<div class="accordion-block with-border">
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Consultant: Marketing, Strategy & M/A
+								Advisor: Marketing, Product, Strategy & M/A
 							</span>
 						</div>
 						<div class="accordion-item-content">
@@ -63,12 +61,12 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Connector: 500+ GovTech Innovators
+								Community Builder: Join the Global GovGeek Network
 							</span>
 						</div>
 						<div class="accordion-item-content">
 							<p>
-								Over 500 government technology leaders get there news here. Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
+								Over 500 government technology leaders get there news from the GovGeek.club newsletter I produce. Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
 								<a class="btn" href="/community/"><span>GovGeek.Club</span>
 							</a><br><br></p>
 						</div>
@@ -76,7 +74,7 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Educator: Civic Technology Academy
+								Educator: GovTech Best Practices & Guides
 							</span>
 						</div>
 						<div class="accordion-item-content">
