@@ -199,7 +199,7 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/resources/"><img src="{{site.url}}/img/lessons/4.png" alt="Resources"></a>
+									<a href="{{site.url}}/resources/"><img src="{{site.url}}/img/lessons/10.png" alt="Getting Started"></a>
 								</div>
 							</figure>
 						</div>
