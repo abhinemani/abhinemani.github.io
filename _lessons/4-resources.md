@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Civic Technology Career Resources
+title: Civic Tech Career Resources
 subhead: Find opportunities to learn more, as well as jobs, funding, mentorship, and much, much more
 categories: Academy
 pubdate: Updated, 2021
