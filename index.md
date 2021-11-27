@@ -185,7 +185,7 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/academy/city-101/"><img src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
+									<a href="{{site.url}}/academy/city-hall/"><img src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
 								</div>
 							</figure>
 						</div>
