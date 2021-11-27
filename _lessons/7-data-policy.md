@@ -7,7 +7,7 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 7
-permalink: /lessons/data-policy/
+permalink: /academy/data-policy/
 ---
 ## An Introduction
 

@@ -6,7 +6,7 @@ categories: Academy
 pubdate: Updated, 2021
 img: pia-header.png
 number: 10
-permalink: /lessons/careers/
+permalink: /academy/careers/
 ---
 
 ## Advice for Starting in CivicTech / GovTech

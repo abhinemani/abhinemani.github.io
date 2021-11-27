@@ -7,7 +7,7 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 8
-permalink: /lessons/city-101/
+permalink: /academy/city-101/
 ---
 
 ## Guide: City Hall 101

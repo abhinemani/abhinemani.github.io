@@ -7,7 +7,7 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 3
-permalink: /lessons/it-spending/
+permalink: /academy/it-spending/
 ---
 ![2021 US Government IT Spending Overview](/img/gt-market-overview.png)
 

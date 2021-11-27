@@ -176,7 +176,7 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/primer/">
+									<a href="{{site.url}}/academy/primer/">
 										<img src="{{site.url}}/img/lessons/1.png" alt="GovTech Primer">
 									</a>
 								</div>
@@ -185,21 +185,21 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/lessons/ecosystem/"><img src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
+									<a href="{{site.url}}/academy/city-101/"><img src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
 								</div>
 							</figure>
 						</div>
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/blog/"><img src="{{site.url}}/img/lessons/7.png" alt="Essays"></a>
+									<a href="{{site.url}}/academy/careers/"><img src="{{site.url}}/img/lessons/10.png" alt="Getting Started in Civic Tech"></a>
 								</div>
 							</figure>
 						</div>
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/resources/"><img src="{{site.url}}/img/lessons/10.png" alt="Getting Started"></a>
+									<a href="{{site.url}}/academy/data-policy"><img src="{{site.url}}/img/lessons/7.png" alt="Data Driven Policy Making"></a>
 								</div>
 							</figure>
 						</div>

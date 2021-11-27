@@ -7,7 +7,7 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 6
-permalink: /lessons/lean/
+permalink: /academy/lean/
 ---
 ## 21st Century Civic Tech = Lean
 
