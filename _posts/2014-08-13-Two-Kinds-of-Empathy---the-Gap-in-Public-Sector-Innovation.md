@@ -1,8 +1,8 @@
 ---
 layout: single
-title: Two Kinds of Empathy & the Gap in Public Sector Innovation
+title: Building for Both Sides of the Government Counter
 categories: Essays
-subhead: Building for both sides of the government counter
+subhead: Two kinds of empathy and the gap in public sector innovation 
 date: 2014-08-13
 pubdate: August 13, 2014
 img: center.jpeg
