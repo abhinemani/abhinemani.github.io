@@ -5,7 +5,7 @@ categories: Essays
 subhead: Two kinds of empathy and the gap in public sector innovation 
 date: 2014-08-13
 pubdate: August 13, 2014
-img: center.jpeg
+img: center.jpg
 ---
 About a year ago I was doing introductions in this segment at the Code for America Summit around some of the harder problems for government technology. I was introducing a number of speakers, most of them were civic startup founders. I found myself commenting that the first speaker was working in government… and then the next speaker actually had been a police officer. Then finally the third one too was a retired cop.
 
