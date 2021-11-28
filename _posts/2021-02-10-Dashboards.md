@@ -5,7 +5,6 @@ subhead: Dashboards, Performance Management, and the Trouble with Different Kind
 img: data-venn-diagram2.jpg
 categories:
 - Essays
-- Featured
 pubdate: December 2015
 tags: 
 - Los Angeles

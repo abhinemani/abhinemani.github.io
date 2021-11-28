@@ -5,7 +5,9 @@ subhead: Using sophisticated sentiment analysis tools and a creative set of appr
 img: responsiveness.png
 layout: single
 pubdate: 'April 14, 2021'
-categories: Blog
+categories: 
+- Blog
+- Featured
 tags:
   - Academy
   - Data Science
