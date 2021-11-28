@@ -48,7 +48,7 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Advisor: Marketing, Product, Strategy & M/A
+								Advisor: Marketing, Product & M/A
 							</span>
 						</div>
 						<div class="accordion-item-content">
