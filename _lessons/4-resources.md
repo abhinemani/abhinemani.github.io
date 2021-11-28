@@ -10,12 +10,15 @@ permalink: /academy/careers/
 ---
 
 ## Advice for Starting in CivicTech / GovTech
-[“Being Better than ‘Good Enough for Government Work’”](https://www.linkedin.com/posts/abhinemani_getting-a-government-job-in-2021-advice-activity-6758102322355740672-Jrbu)  (deck): My overview of strategies and specific resources for getting hired or promoted in GovTech
+[“More Than ‘Good Enough for Government Work’”](https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAExCVJ9z_g&#x2F;view?utm_content=DAExCVJ9z_g&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link) // **Updated November 2021**: Overview of strategies and specific resources for getting hired or promoted in civic technology, inside government, in the private sector, and in academia/philanthropy.
 
-<div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAExCVJ9z_g&#x2F;view?embed">
+  </iframe>
 </div>
-<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf">Open PDF in Browser</a>
 
 ## Fellowships, Graduate Programs
 
