@@ -54,3 +54,17 @@ Weekly, curated list of jobs, links, and commentary in government technology and
 - **[Democracy in America](https://en.wikipedia.org/wiki/Democracy_in_America)** by Alexis de Tocqueville
 
 (The last two are arguably less practical, but still formative.)
+
+## What's Next?
+
+Recognizing that your time in public office will eventually come to an end -- fellowships end, elections happen -- it is just as important to plan on how to take advantage of your experience for your career. Here are some tips for ending your tour of sevice you should consider even when you begin:
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEmMuWbgl8&#x2F;view?embed">
+  </iframe>
+</div>
+
+_Presented for Coding it Forward fellows in September 2021_
