@@ -218,7 +218,7 @@ img: main-social.jpg
 				</div>
 			</div>
 			<div class="post-items-list posts-two-columns">
-				{% for post in site.categories.Essays limit:4 %}	
+				{% for post in site.categories.Featured limit:4 %}	
 				<a href="{{post.url}}" class="post-item">	
 					{% if post.img  %}
 					<img src="{{ site.url}}/img/{{post.img}}" alt="" class="post-bg-img">

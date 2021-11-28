@@ -1,7 +1,7 @@
 ---
 layout: single
 title: The Government Skills Gap
-categories: Blog
+categories: Blog, Featured
 tags: 
 - Government
 - Skills

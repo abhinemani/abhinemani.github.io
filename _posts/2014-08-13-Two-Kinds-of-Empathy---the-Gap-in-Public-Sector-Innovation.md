@@ -1,7 +1,7 @@
 ---
 layout: single
 title: On Empathy &#8212; Building for Both Sides of the Government Counter
-categories: Essays
+categories: Essays, Featured
 subhead: Two kinds of empathy and the gap in public sector innovation 
 date: 2014-08-13
 pubdate: August 13, 2014

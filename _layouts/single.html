@@ -7,7 +7,15 @@
                     <div class="breadcrumbs">
                         <div class="wrap wrap-center">
                             <div class="wrap_float">
-                                <a href="index.html">Home</a> / <a href="#">Post</a> / <span class="current">{{ page.categories }}</span>
+                                <a href="index.html">Home</a> / <a href="#">Post</a> / <span class="current">{% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %} | {% endunless %}
+  {% endfor %}</span>
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,9 @@ layout: single
 title: What I've learned&#x3a; Three Different Kinds of Civic Data
 subhead: Dashboards, Performance Management, and the Trouble with Different Kinds of Data
 img: data-venn-diagram2.jpg
-categories: Essays
+categories:
+- Essays
+- Featured
 pubdate: December 2015
 tags: 
 - Los Angeles
