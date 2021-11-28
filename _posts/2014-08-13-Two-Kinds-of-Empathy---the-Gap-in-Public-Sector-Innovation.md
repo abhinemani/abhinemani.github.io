@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Building for Both Sides of the Government Counter
+title: On Empathy &#8212; Building for Both Sides of the Government Counter
 categories: Essays
 subhead: Two kinds of empathy and the gap in public sector innovation 
 date: 2014-08-13
