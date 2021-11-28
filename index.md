@@ -66,7 +66,7 @@ img: main-social.jpg
 						</div>
 						<div class="accordion-item-content">
 							<p>
-								Over 500 government technology leaders get there news from the GovGeek.club newsletter I produce. Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
+								Over 500 government technology leaders get there news from the GovGeek.club newsletter I produce: weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
 								<a class="btn" href="/community/"><span>GovGeek.Club</span>
 							</a><br><br></p>
 						</div>
@@ -74,11 +74,11 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Educator: GovTech Best Practices & Guides
+								Educator: #CivicTech Best Practices
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>The Civic Technology Academy includes outcomes-driven online trainings for anyone, anywhere on the essential skills and tools for making an impact in the 21st Century.<br><br>
+							<p>Based on my experience in the field and teaching, the Civic Technology Academy featured guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.<br><br>
 								<a class="btn" href="/academy/"><span>Civic Technology Academy</span>
 							</a><br><br></p>
 						</div> 
