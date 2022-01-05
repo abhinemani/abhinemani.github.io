@@ -9,7 +9,7 @@ tags:
 - Training
 img: appstore.jpg
 pubdate: April 16, 2014
-date: 2020-07-11
+date: 2014-04-16
 author: Abhi Nemani
 ---
 “We need an app store for cities,” is a line I swear I’ve even written.
