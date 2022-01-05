@@ -108,6 +108,27 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
+								<a href="https://onex.com"><img src="/img/startups/onex-white.png" alt="Onex Partners"></a>
+							</div>
+						</figure>
+					</div>
+					<div class="block-column">
+						<figure class="block-caption img-caption">
+							<div class="img-wrap">
+								<a href="https://zencity.io"><img src="/img/startups/zencity-new-light.png" alt="ZenCity"></a>
+							</div>
+						</figure>
+					</div>
+					<div class="block-column">
+						<figure class="block-caption img-caption">
+							<div class="img-wrap">
+								<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt="CityGrows"></a>
+							</div>
+						</figure>
+					</div>
+					<div class="block-column">
+						<figure class="block-caption img-caption">
+							<div class="img-wrap">
 								<a href="https://codeforamerica.org"><img src="/img/startups/codeforamerica.png" alt=""></a>
 							</div>
 						</figure>
@@ -115,35 +136,14 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://zencity.io"><img src="/img/startups/zencity.png" alt=""></a>
+								<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt="GovDelivery"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://www.arnoldventures.org/"><img src="/img/startups/arnold.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://abhinemani.com/portfolio/2017-12-21-Sacramento/"><img src="/img/startups/sacramento.png" alt=""></a>
+								<a href="https://www.arnoldventures.org/"><img src="/img/startups/arnold.png" alt="Arnold Ventures"></a>
 							</div>
 						</figure>
 					</div>
