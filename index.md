@@ -29,8 +29,8 @@ img: main-social.jpg
 					</a>
 				</div>
 				<div class="buttons">
-					<a href="/consulting/" class="btn"><span>How I help</span></a>
-					<a class="btn getModal border-btn" data-href="#contact-us"><span>Let's Talk</span></a>					 
+					<a class="btn getModal" data-href="#contact-us"><span>Let's Talk</span></a>	
+					<a href="/consulting/" class="btn border-btn"><span>How I help</span></a>				 
 				</div>
 			</div>
 		</div>
