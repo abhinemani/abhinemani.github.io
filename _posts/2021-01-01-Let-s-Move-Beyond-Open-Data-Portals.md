@@ -10,7 +10,6 @@ tags:
 - Civic Tech
 - Open Data
 - Los Angeles
-- Featured
 img: dataportals.png
 ---
 

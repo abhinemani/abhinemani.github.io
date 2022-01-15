@@ -11,7 +11,6 @@ tags:
   - Academy
   - Data Science
   - Law Enforcement
-  - Featured
 ---
 ## Technology to Restore Trust in Public Safety agencies.
 
