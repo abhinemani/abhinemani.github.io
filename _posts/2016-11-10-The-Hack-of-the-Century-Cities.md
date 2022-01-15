@@ -5,12 +5,13 @@ subhead: A few months ago I was asked to speak at TedXSacramentoSalon in Septemb
 date: 2017-01-14
 pubdate: January 2017
 categories:
-- Blog
-- Reflections
+- Essays
 tags:
 - Civic Tech
 - Open Data
 - Code for America
+- TED
+- Speeches
 img: future-urban.jpeg
 ---
 

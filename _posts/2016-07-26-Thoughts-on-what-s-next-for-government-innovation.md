@@ -3,10 +3,11 @@ layout: single
 title: Thoughts on what’s next for government innovation
 categories: 
 - Blog
-- Reflections
-- Talks
 date: 2016-07-26
 img: 1__s1eW0lMKuOH2lwWPALZSbQ.png
+tags: 
+- Insights
+- Reflections
 ---
 I was recently asked to draft some thoughts on what’s needed for government and civic technology to continue to flourish. My thoughts — however useful — are below.
 

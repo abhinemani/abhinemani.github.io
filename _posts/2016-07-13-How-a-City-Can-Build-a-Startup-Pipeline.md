@@ -3,10 +3,14 @@ layout: single
 title: How a City Can Build a Startup Pipeline
 categories: 
 - Essays
-- Case Studies
 date: 2016-07-13
 pubdate: July 13, 2016
 img: 1__WzGpuffDp1NCiD8Y2MGGLQ.jpeg
+tags: 
+- Case Studies
+- Cities
+- Entrepreneurship
+- Economic Development
 ---
 > “**A more diverse, more entrepreneurial economy means a stronger Sacramento**: more jobs, more innovation, and mostly a better quality of life for all of us. That’s why we’re launching [RAILS](http://cityofsacramento.org/RAILS).” — Mayor Kevin Johnson
 

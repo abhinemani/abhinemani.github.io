@@ -5,6 +5,11 @@ subhead: Clever ways cities are turning civic enthusiasm into meaningful civic a
 date: 2016-02-04
 pubdate: February 2, 2016
 img: 1__WZ5H9EmT__Ywydr0Hr9xXbg.png
+category: Essays
+tags: 
+- Policy
+- Cities
+- Economic Development
 ---
 It was the French observer, Alexis de Tocqueville, that noted that in our American democracy our imagined lines between private and public lives were too crude, too strict, for reality. What he saw when he documented the early days of our young republic was a society, structured around small towns and bristling with associations of all kinds: political, civic, social, etc. Where there had been fires, a volunteer brigade was congealed to respond to future disasters; where bridges needed to be built, teams of people came together to get to work. Associative — or community — life in America was everywhere, and it was not one defined by ego or fancy; instead, by common need and collective resolve.
 

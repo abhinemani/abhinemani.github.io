@@ -5,12 +5,12 @@ subhead: What could be subtitled, biting the hand that feed me
 date: 2021-02-01
 pubdate: January 8, 2017
 categories:
-- Blog
-- Reflections
+- Essays
 tags:
 - Civic Tech
 - Open Data
 - Los Angeles
+- Featured
 img: dataportals.png
 ---
 

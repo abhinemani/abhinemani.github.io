@@ -6,6 +6,9 @@ subhead: Summary notes for discussion purposes
 date: 2020-07-06
 pubdate: June 6, 2020
 slug: city-government-technology-and-innovation-models-6ab040973242
+tags: 
+ - Cities
+ - Policy
 ---
 
 Governments have taken various approaches to reorganization for the digital age. The particular names and focus areas of the leadership teams/positions in each jurisdiction varies; however, these models suggest a common theme:

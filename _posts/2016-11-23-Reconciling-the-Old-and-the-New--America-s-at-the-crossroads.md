@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Reconciling the Old and the New — America at the crossroads
-categories: Essays
+categories: Blog
 date: 2016-11-23
 pubdate: November 23, 2016
 ---

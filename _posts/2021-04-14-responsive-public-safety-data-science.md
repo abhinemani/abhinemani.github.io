@@ -7,11 +7,11 @@ layout: single
 pubdate: 'April 14, 2021'
 categories: 
 - Blog
-- Featured
 tags:
   - Academy
   - Data Science
-  - Law Enformcement
+  - Law Enforcement
+  - Featured
 ---
 ## Technology to Restore Trust in Public Safety agencies.
 

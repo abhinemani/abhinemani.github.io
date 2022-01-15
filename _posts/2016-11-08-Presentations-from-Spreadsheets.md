@@ -3,11 +3,13 @@ layout: single
 title: Making Presentations from Spreadsheets
 categories: 
 - Blog
-- Essays
 subhead: Really it is better. Collaborate on the content in a structured, open way.
 date: 2016-11-08
 pubdate: November 8, 2016
 img: slide1.png
+tags: 
+- Technology
+- Tips
 ---
 
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of…

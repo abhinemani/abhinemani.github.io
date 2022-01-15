@@ -4,8 +4,6 @@ title: '21st Century Cities: A Primer'
 categories: Essays
 subhead: A “101” Overview of Technology and Innovation at the Local Level
 date: '2018-06-27T17:52:41.700Z'
-
-
 slug: 21st-century-cities-a-primer-8d88b0c481e0
 ---
 

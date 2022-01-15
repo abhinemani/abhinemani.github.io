@@ -2,13 +2,15 @@
 layout: single
 title: Push vs. Pull & the Opportunity for Automation in GovTech
 categories:
-- Blog
 - Essays
 subhead: >-
   Over the last ten years, I have seen firsthand the leaps and strides
   governments have taken to catch up to the private sector’s pace of…
 date: '2018-08-14T20:01:34.055Z'
 img: 1__t0N4Gq54Q4BzGibi8CeeLQ.jpeg
+tag: 
+ - Startups
+ - Law Enforcement
 ---
 
 Over the last ten years, I have [seen firsthand](https://medium.comopen-data-civic-engagement-and-delivery-28b990f321ce?source=user_profile---------42----------------) the leaps and strides governments have taken to catch up to the private sector’s pace of innovation. It started with digital engagement: websites and social media. Then we moved forward to providing greater digital access through open data and digital services. (I would be remiss not to applaud the tremendous work that has been done on the latter in the past few years, in particular.)

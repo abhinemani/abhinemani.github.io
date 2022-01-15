@@ -1,10 +1,12 @@
 ---
 layout: single
 title: Building a GovTech Industry Family — The First Midwest GT Meetup
-categories: Essays
+categories: Blog
 date: 2018-12-10
 pubdate: December 10, 2018
 img: 1__G0dbpEiF8yBeWTReccYjWg.jpeg
+tags: 
+ - Events
 ---
 Back in 2012, while at Code for America and we were thinking about how to build out the government technology industry, we had this crazy idea: let’s get all the best GovTech startups together, and try to help them out. Let’s try to help them scale, and in doing so, let’s show the investors, and the press, and everyone else who questioned that there could be a disruptive force happening in this legacy, old industry, a new source of momentum. So we started a first-of-its-kind government startup program, the CfA Accelerator. On the first class’s first day, we asked each of the CEOs why they were there. One said,
 
