@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">public servant. fmr city CIO/CDO. #GovTech consultant, advisor & investor.</div>
 				<h2 class="page-title">
-					Showing What's Possible in Government through Technology
+					Navigating the intersection of government & technology
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
@@ -41,7 +41,7 @@ img: main-social.jpg
 		<div class="wrap_float">
 			<div class="section-left">
 				<h2 class="title">Here to help.</h2>
-				<div class="subtitle"><a style="font-weight: bold;" href="https://abhinemani.com/about">Abhi Nemani</a> is a government technology advisor, educator, and community builder who has helped found and lead <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles' Office of Data & Analytics</a>, and <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">Sacramento's Office of Innovation</a>. Now, his consultancy, <a href="https://abhinemani.com/consulting" style="font-weight: bold;">EthosLabs.us</a>, helps entrepreneurs and investors in GovTech get to scale. <a href="https://abhinemani.com/contact" style="font-weight: bold;">Let's work together.</a></div>
+				<div class="subtitle"><a style="font-weight: bold;" href="https://abhinemani.com/about">Abhi Nemani</a> is a government technology advisor, educator, and community builder who has helped found and lead <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles' Office of Data & Analytics</a>, and <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">Sacramento's Office of Innovation</a>. Now, his consultancy, <a href="https://abhinemani.com/consulting" style="font-weight: bold;">EthosLabs.us</a>, helps entrepreneurs and investors in government technology ("GovTech") get to scale through growth strategies, unparalleled access to decision-makers, and years of research and best practices. <a href="https://abhinemani.com/contact" style="font-weight: bold;">Let's work together.</a></div>
 			</div>
 			<div class="section-right">
 				<div class="accordion-block with-border">
