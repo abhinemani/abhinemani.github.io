@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">public servant. fmr city CIO/CDO. #GovTech consultant, advisor & investor.</div>
 				<h2 class="page-title">
-					Navigating the intersection of government & technology
+					Driving the intersection of government & technology
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
