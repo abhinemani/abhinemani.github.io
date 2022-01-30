@@ -4,6 +4,8 @@ permalink: /about/index.html
 title: About
 tagline: About me
 tags: [about, Abhi Nemani, Code for America, pandas]
+redirect_from: 
+  - /bio
 ---
 <div class="page-wrap author-page">
     <div class="breadcrumbs">
