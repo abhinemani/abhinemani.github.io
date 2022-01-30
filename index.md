@@ -10,9 +10,9 @@ img: main-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">public servant. fmr city CIO/CDO. #GovTech consultant, advisor & investor.</div>
+				<div class="location">consulting public servant. fmr city CIO/CDO. #GovTech advisor & investor.</div>
 				<h2 class="page-title">
-					Driving the intersection of government & technology
+					Driving innovation in government through technology
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
