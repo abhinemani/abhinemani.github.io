@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Market Sizing
-subhead: How to figure out the money
+title: GovTech Market Sizing
+subhead: Most people get this very wrong
 categories: Academy
 pubdate: 2021
 img: pia-header.png
