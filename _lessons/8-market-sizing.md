@@ -10,7 +10,7 @@ number: 7
 permalink: /academy/market/
 ---
 
-##Market Sizing
+## Market Sizing
 Government technology is more difficult to size than other industries.
 
 - There 20k+ local governments, each with different purchasing rules — and different financial reporting mechanisms, making national analysis very cumbersome (or impossible). For instance, in some jurisdictions “economic development” is called “community development” or there isn’t even a department; it is just handled by some people or someone in the city manager’s office.
@@ -28,5 +28,11 @@ To generate servicable market -- SAM -- we can the findings from the report I re
 That is to say, given any city, we have a 40% chance they use some SaaS product. This becomes a handy limiter to apply to the total market. 
 
 SAM is approximated at $205M in this example. If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
+
+## City Analysis
+
+Tier 1 cities are very numerous, but so numerous that a hunter strategy would be inefficient; thus, that would be a self-service approach, which has had some but limited success in GovTech. (tl;dr: Traditional web-based marketing approaches, e.g. SEO, don’t apply to this highly-regulated “new” industry. For example, no government employee is likely searching for “community job aggregator”...) 
+
+I have found that tiers 2&3 are both accessible and reasonably similar to other SMBs: there aren’t dozens of loops to jump through, just usually a POC and a contractor officer (sometimes a committee meeting). Plus, I sense a strong product market fit for 2&3 because their job economy is small enough to be manageable by the city. 
 
 > **Featured Lesson:**<br />[Pathways to Sustainability](https://abhinemani.com/decks/web/viewer.html?file=/decks/lectures/CAPP15.pdf): *Deciding on a profit and revenue models*
