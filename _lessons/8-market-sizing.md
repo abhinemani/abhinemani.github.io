@@ -31,7 +31,7 @@ SAM is approximated at $205M in this example. If you're interested in learning m
 
 ## City Analysis
 
-Tier 1 cities are very numerous, but so numerous that a hunter strategy would be inefficient; thus, that would be a self-service approach, which has had some but limited success in GovTech. (tl;dr: Traditional web-based marketing approaches, e.g. SEO, don’t apply to this highly-regulated “new” industry. For example, no government employee is likely searching for “community job aggregator”...) 
+Tier 1 cities are very numerous, but so numerous that a hunter strategy would be inefficient; thus, that would be a self-service approach, which has had some but limited success in GovTech. (tl;dr: Traditional web-based marketing approaches, e.g. SEO, don’t apply to this highly-regulated “new” industry. For example, no government employee is likely searching for “department efficiency software”...) 
 
 I have found that tiers 2&3 are both accessible and reasonably similar to other SMBs: there aren’t dozens of loops to jump through, just usually a POC and a contractor officer (sometimes a committee meeting). Plus, I sense a strong product market fit for 2&3 because their job economy is small enough to be manageable by the city. 
 
