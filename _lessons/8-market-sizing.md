@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GovTech Market Sizing
-subhead: Most people get this very wrong
+subhead: Most people get this very wrong, but getting it right is not hard.
 categories: Academy
 pubdate: 2021
 img: pia-header.png
