@@ -23,10 +23,13 @@ So one should generate a market size using a bottom-up approach, recognizing the
 
 We can use a basic population based-breakdown, and in general, cities have a threshold of around $20-25k. Let's use conservative numbers starting at $18k and working down. We can then easily rough out a TAM of about $513M (per annum). 
 
-To generate SAM, I used the findings from the report I recently commissioned on GovTech with a leading — and only really — polling firm for local government leaders, where we found about 40% cloud / SaaS adoption. That is to say, given any city, we have a 40% chance they use some SaaS product. This becomes a handy limiter to apply to the total market. SAM is approximated at $205M in this example. 
+To generate servicable market -- SAM -- we can the findings from the report I recently commissioned on GovTech with a leading — and only really — polling firm for local government leaders, where we found about 40% cloud / SaaS adoption. 
 
-<strong>Featured Lesson</strong>
+That is to say, given any city, we have a 40% chance they use some SaaS product. This becomes a handy limiter to apply to the total market. 
 
-<a href="https://abhinemani.com/decks/web/viewer.html?file=/decks/lectures/CAPP15.pdf"><strong>Pathways to Sustainability:</strong> Deciding on a profit and revenue model</a>
+SAM is approximated at $205M in this example. If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
 
-If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
+<blockquote><strong>Featured Lesson</strong><br>
+<a href="https://abhinemani.com/decks/web/viewer.html?file=/decks/lectures/CAPP15.pdf"><h4>Pathways to Sustainability</h4> Deciding on a profit and revenue model</a>
+</blockquote>
+
