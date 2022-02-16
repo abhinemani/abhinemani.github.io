@@ -29,7 +29,4 @@ That is to say, given any city, we have a 40% chance they use some SaaS product.
 
 SAM is approximated at $205M in this example. If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
 
-<blockquote><strong>Featured Lesson</strong><br>
-<a href="https://abhinemani.com/decks/web/viewer.html?file=/decks/lectures/CAPP15.pdf"><h4>Pathways to Sustainability</h4> Deciding on a profit and revenue model</a>
-</blockquote>
-
+> **Featured Lesson:**<br />[Pathways to Sustainability](https://abhinemani.com/decks/web/viewer.html?file=/decks/lectures/CAPP15.pdf): *Deciding on a profit and revenue models*
