@@ -49,11 +49,7 @@ img: gg-social.jpg
 						</ul>
 						<p>Send tips to tips@govgeek.club.</p>
                         <h2>Past Newsletters</h2>
-						<style type="text/css">
-							<!--.display_archive {font-family: inherit; font-size: 16px;}.campaign {line-height: 150%; margin: 5px;}//-->
-							</style>
-							<script language="javascript" src="https://gmail.us4.list-manage.com/generate-js/?u=8b0a6fcff3240da989198b6d9&fid=22519&show=15" type="text/javascript"></script>
-						
+						<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The week&#39;s <a href="https://twitter.com/hashtag/GovGeek?src=hash&amp;ref_src=twsrc%5Etfw">#GovGeek</a>.club newsletter highlights new leadership by <a href="https://twitter.com/wutrain?ref_src=twsrc%5Etfw">@wutrain</a> &amp; <a href="https://twitter.com/NYCMayor?ref_src=twsrc%5Etfw">@NYCMayor</a>; viz from <a href="https://twitter.com/replica?ref_src=twsrc%5Etfw">@replica</a>, jobs from <a href="https://twitter.com/Zencityio?ref_src=twsrc%5Etfw">@Zencityio</a> &amp; <a href="https://twitter.com/litterati?ref_src=twsrc%5Etfw">@litterati</a>, and reports from <a href="https://twitter.com/govtechnews?ref_src=twsrc%5Etfw">@govtechnews</a> <a href="https://twitter.com/BeeckCenter?ref_src=twsrc%5Etfw">@BeeckCenter</a> <a href="https://twitter.com/hashtag/govtech?src=hash&amp;ref_src=twsrc%5Etfw">#govtech</a> <a href="https://twitter.com/hashtag/civictech?src=hash&amp;ref_src=twsrc%5Etfw">#civictech</a> <a href="https://twitter.com/hashtag/urbantech?src=hash&amp;ref_src=twsrc%5Etfw">#urbantech</a> <a href="https://t.co/3VVydqSozP">https://t.co/3VVydqSozP</a> via <a href="https://twitter.com/revue?ref_src=twsrc%5Etfw">@revue</a></p>&mdash; abhi nemani (@abhinemani) <a href="https://twitter.com/abhinemani/status/1488933680039043076?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>						
 					</div>
 				</div>
 			</div>
