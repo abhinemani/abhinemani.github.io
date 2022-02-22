@@ -7,7 +7,6 @@ date: '2017-05-20T01:47:22.276Z'
 pubdate: May 2017
 img: 1__a32VhVCgSdHMMR729fJ9__g.jpeg
 tags: 
-- Featured
 - Reflections
 ---
 

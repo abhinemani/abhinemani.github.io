@@ -1,13 +1,18 @@
 ---
 layout: single
-title: Keynote&#x3a; Reweaving the Fabric of the City with Data
+title: Putting Open Data to Work
 categories: 
-- Blog
 - Essays
-subhead: Video and edited notes from my address at the international CDO convening in in Paris
+subhead: Best practices from the field and a path forward for data visualization, innovation, and community-building
 date: 2015-12-28
 img: tocqueville.png
 pubdate: December 23, 2015
+redirect_from: 
+ - /blog/essays/2015/12/28/Reweaving-the-Fabric-of-the-City-with-Data/
+ - /blog/essays/2015/12/28/Putting-Open-Data-Work/
+tags: 
+ - Keynote
+ - Featured
 ---
 <div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149984557"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

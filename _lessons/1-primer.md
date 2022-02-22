@@ -8,6 +8,9 @@ socialimg: pia-social.png
 pubdate: Updated 2021
 number: 1
 permalink: /academy/primer/
+tags: 
+ - government
+ - software
 ---
 What is civic technology? This primer reviews three key areas of impact from the last few years: digital services, data science/analytics, and civic entrepreneurship. It closes with a high-level set of recommendations including policy and staffing. The document serves as a presentation or a leave behind.
 

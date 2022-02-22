@@ -8,6 +8,9 @@ img: pia-header.png
 pubdate: Updated 2021
 number: 3
 permalink: /academy/it-spending/
+tags: 
+ - data
+ - market
 ---
 ![2021 US Government IT Spending Overview](/img/gt-market-overview.png)
 

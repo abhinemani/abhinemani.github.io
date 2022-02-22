@@ -8,6 +8,10 @@ img: pia-header.png
 pubdate: Updated 2021
 number: 6
 permalink: /academy/lean/
+tags: 
+ - software
+ - agile
+ - procurement
 ---
 ## 21st Century Civic Tech = Lean
 

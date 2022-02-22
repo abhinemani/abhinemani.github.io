@@ -8,6 +8,9 @@ img: pia-header.png
 pubdate: Updated 2021
 number: 8
 permalink: /academy/city-hall/
+tags: 
+ - startups
+ - government
 ---
 
 ## Guide: City Hall 101

@@ -8,6 +8,10 @@ img: pia-header.png
 pubdate: Updated 2021
 number: 7
 permalink: /academy/data-policy/
+tags: 
+ - government
+ - policy
+ - data
 ---
 ## An Introduction
 

@@ -6,8 +6,12 @@ categories: Academy
 pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
-number: 7
+number: 4
 permalink: /academy/market/
+tags: 
+ - market
+ - data
+ - startups
 ---
 
 ## Market Sizing
