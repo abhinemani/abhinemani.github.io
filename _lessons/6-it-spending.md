@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The $200B+ Government Technology Market
-subhead: A practical overview of the opportunity, trends, and breakdown of IT spending
+title: GovTech Market Data
+subhead: A practical overview of the trends in the $200B+ in government IT spending
 categories: Academy
 pubdate: 2021
 img: pia-header.png
