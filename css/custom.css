@@ -130,6 +130,10 @@
 	 margin-bottom: 10px;
  }
  
+ .dark .academy-post-info {
+	 color: black;
+ }
+ 
  .academy .post-item {
  	flex-direction: column-reverse;
  }
