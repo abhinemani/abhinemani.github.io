@@ -13,7 +13,7 @@ tags:
  - data
  - startups
 ---
-##How to build a civic technology ecosystem: 4 Principles from Los Angeles
+## How to build a civic technology ecosystem: 4 Principles from Los Angeles
 <div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149984557"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I’ve got four key principles, the first is focusing on the user.
@@ -24,7 +24,7 @@ This is a picture of our first data portal from the city of Los Angeles.
 
 ![](https://cdn-images-1.medium.com/max/800/1*XagIg9Nsbjy3rC04R3K-Gw.png)
 
-This was launched in June 2014, about seven months ago. I started a few months after the launch — in September — and I figured it was a good opportunity to get some feedback and do some user testing. I went around and started doing some basic user feedback. I just knocked on doors and asked people, “Does this site work for you? Are you able to get the data you need from this interface?”
+This was launched in June 2014. I started a few months after the launch — in September — and I figured it was a good opportunity to get some feedback and do some user testing. I went around and started doing some basic user feedback. I just knocked on doors and asked people, “Does this site work for you? Are you able to get the data you need from this interface?”
 
 It was interesting, very interesting, in fact, the feedback that I got the most kind of blew my mind. It was, “Abhi, yeah… kind of, but I don’t know what data is.” “What is data?” was the question that I got asked the most. Even someone in my office asked me that question.
 
@@ -80,6 +80,6 @@ In Los Angeles last year, we did something like this, we had a #techLA competiti
 
 ![](https://cdn-images-1.medium.com/max/1200/1*SXewMDRODNUpCvS90CXZhQ.png)
 
-It’s really people of all ages who are able to use this data to solve problems. This year, instead of just doing the one hackathon, as I was mentioning, because we want to make it a more of a community building effort, we’re doing a broader year long what we’re calling _X Prize for LA_, where we’re actually challenging people around key issue areas, for instance water conservation, which is a central challenge for us in Los Angeles, also immigration reform. Taking these big issues that we have and saying, “Hey citizens, you’re interested in working with us? Here are the things that we want you to do, and if you do it, we’re going to help you out. We’re going to give you resources, we might give you a city contract, we might get you a Hollywood star to do an ad for you, because we’re in Los Angeles and we can do that.”
+It’s really people of all ages who are able to use this data to solve problems. This year, instead of just doing the one hackathon, as I was mentioning, because we want to make it a more of a community building effort, we’re doing a broader year long what we’re calling _X Prize for LA_, where we’re actually challenging people around key issue areas, for instance water conservation, which is a central challenge for us in Los Angeles, also immigration reform. Taking these big issues that we have and saying: "Hey citizens, you’re interested in working with us? Here are the things that we want you to do, and if you do it, we’re going to help you out. We’re going to give you resources, we might give you a city contract, we might get you a Hollywood star to do an ad for you, because we’re in Los Angeles and we can do that.”
 
-We’re thinking creatively about the way that we can motivate people to take on these challenges. Finally, I want to talk about the fourth piece, which is institutions.
+And no matter your city, you can find important challenges residents can address with data and creative ways to reward them -- that's how you truly put data to work in your community. Through empowering the people in it.
