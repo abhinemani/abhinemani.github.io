@@ -1,7 +1,7 @@
 ---
 layout: page
-title: New Ways to Build or Buy
-subhead: How to build, procure, or partner for innovation
+title: Lean Government
+subhead: How to build responsive, modern software within the public sector
 categories: Academy
 pubdate: 2021
 img: pia-header.png
