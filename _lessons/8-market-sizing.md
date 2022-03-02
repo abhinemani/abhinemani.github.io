@@ -41,4 +41,8 @@ I have found that tiers 2 & 3 are both accessible and reasonably similar to othe
 
 If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
 
-> **Featured Lesson:**<br />[Pathways to Sustainability](https://abhinemani.com/decks/web/viewer.html?file=/decks/lectures/CAPP15.pdf): *Deciding on a profit and revenue models*
+## Featured Lecture: Profitability & Sustainability
+<div class="container-iframe">
+<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/CAPP15.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+</div>
+<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/CAPP4.pdf">Open PDF in Browser</a>
