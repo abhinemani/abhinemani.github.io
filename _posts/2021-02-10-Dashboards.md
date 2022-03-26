@@ -58,9 +58,11 @@ As I went through that process, what occurred to me, though, was that those dist
 	
 After starting to work on the data and think about the kinds of questions the mayor, the senior staff, and the senior leadership wanted to look at, we realized that in fact that what they were looking for was something of a hodgepodge of those different types of data that the city staff were using and working on. It wasn’t just all of the crime reports, wasn’t just all performance metrics around crime, wasn’t just all of the citizens’ satisfaction with public safety — it was all the above.
 
-![Mayor Eric Garcetti at USCM](/img/garcetti-uscm.jpeg)
+<blockquote>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/FYnWs0jE0YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<strong>Mayor Garcetti Showcases Dashboard at US Conference of Mayors</strong>
+</blockquote>
 
-<caption>Mayor Eric Garcetti demoing the LA Mayoral Dashboard at the US Conference of Mayors from <em>my cellphone</em>.</caption>
 
 This presented a profoundly interesting question for myself as the Chief Data Officer, because it occurred to me that we track **very little amounts** of that data in any kind of structured, meaningful way. In fact when you start to think about the holistic picture of a city that you’d want to illustrate, almost none of it is actually tracked by the city itself. We had to start getting creative and thoughtful about what numbers do make sense for a mayor to see. Maybe it’s not just city data, maybe it’s community data, maybe even corporate… Then how do we start pulling that all together in a way that would make sense for him or her to go make decisions and for others around him or her to be able to support those.
 
