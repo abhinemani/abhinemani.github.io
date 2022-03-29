@@ -91,82 +91,15 @@ img: main-social.jpg
 	</div>
 </section>
 <section class="banner-section" style="background-image: url(/img/ethos-back.jpg);">
-	<div class="wrap wrap-center">
-		<div class="wrap_float" style="min-height: 400px">
-			<div class="section-content">
-				<h2 class="page-title">Experience</h2>
-				<div class="location">GovDelivery</div>
-				<h3 class="page-title" style="font-size: 24px; line-height: 30px;">
-					"Abhi is a world class thinker and innovator. I admired his work at Code for America and am honored that he has chosen to work with us at GovDelivery [now Grancius]."
-				</h3>
-				<p class="subtitle">
-					- Scott Burns, CEO & Founder, GovDelivery
-				</p>	
-			<div class="buttons" style="padding-bottom: 20px;">
-				<a href="{{ site.url }}/cv/" class="btn"><span>CV</span></a>
-				<a class="btn getModal border-btn" data-href="#contact-us"><span>Get in Touch</span></a>					 
-			</div>			
-				<div class="block-columns gallery-columns columns-4">
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://onex.com"><img src="/img/startups/onex-white.png" alt="Onex Partners"></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://zencity.io"><img src="/img/startups/zencity-new-light.png" alt="ZenCity"></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt="CityGrows"></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://codeforamerica.org"><img src="/img/startups/codeforamerica.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt="GovDelivery"></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://www.arnoldventures.org/"><img src="/img/startups/arnold.png" alt="Arnold Ventures"></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://polco.us"><img src="/img/startups/polco.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://spidrtech.com"><img src="/img/startups/spidr.png" alt=""></a>
-							</div>
-						</figure>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="wrap wrap-center">
+        <div class="wrap_float">
+            <div class="section-content">
+				<h2 class="page-title">Telling the Story</h2>
+				<p class="subtitle"><a href="https://abhinemani.com/talks">Watch more</a> & <a href="https://abhinemani.com/contact">get in touch</a> for webinars or lectures</p>
+					<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            </div>
+        </div>
+    </div>
 </section>
 <div class="author-body">
 	<div class="wrap">
@@ -258,15 +191,82 @@ img: main-social.jpg
 		</div>
 	</div>
 	<section class="banner-section" style="background-image: url(/img/blog-back.jpg);">
-	    <div class="wrap wrap-center">
-	        <div class="wrap_float">
-	            <div class="section-content">
-					<h2 class="page-title">Talks</h2>
-					<p class="subtitle"><a href="https://abhinemani.com/talks">Watch more</a> & <a href="https://abhinemani.com/contact">get in touch</a> for webinars or lectures</p>
-						<div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" src="https://www.youtube.com/embed/2qcmoD0qLSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-	            </div>
-	        </div>
-	    </div>
+		<div class="wrap wrap-center">
+			<div class="wrap_float" style="min-height: 400px">
+				<div class="section-content">
+					<h2 class="page-title">Experience</h2>
+					<div class="location">GovDelivery</div>
+					<h3 class="page-title" style="font-size: 24px; line-height: 30px;">
+						"Abhi is a world class thinker and innovator. I admired his work at Code for America and am honored that he has chosen to work with us at GovDelivery [now Grancius]."
+					</h3>
+					<p class="subtitle">
+						- Scott Burns, CEO & Founder, GovDelivery
+					</p>	
+				<div class="buttons" style="padding-bottom: 20px;">
+					<a href="{{ site.url }}/cv/" class="btn"><span>CV</span></a>
+					<a class="btn getModal border-btn" data-href="#contact-us"><span>Get in Touch</span></a>					 
+				</div>			
+					<div class="block-columns gallery-columns columns-4">
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://onex.com"><img src="/img/startups/onex-white.png" alt="Onex Partners"></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://zencity.io"><img src="/img/startups/zencity-new-light.png" alt="ZenCity"></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt="CityGrows"></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://codeforamerica.org"><img src="/img/startups/codeforamerica.png" alt=""></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt="GovDelivery"></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://www.arnoldventures.org/"><img src="/img/startups/arnold.png" alt="Arnold Ventures"></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://polco.us"><img src="/img/startups/polco.png" alt=""></a>
+								</div>
+							</figure>
+						</div>
+						<div class="block-column">
+							<figure class="block-caption img-caption">
+								<div class="img-wrap">
+									<a href="https://spidrtech.com"><img src="/img/startups/spidr.png" alt=""></a>
+								</div>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<div class="author-body">
 		<div class="wrap">
