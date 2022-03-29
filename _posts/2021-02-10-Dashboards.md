@@ -63,7 +63,6 @@ After starting to work on the data and think about the kinds of questions the ma
 <strong>Mayor Garcetti Showcases Dashboard at US Conference of Mayors</strong>
 </blockquote>
 
-
 This presented a profoundly interesting question for myself as the Chief Data Officer, because it occurred to me that we track **very little amounts** of that data in any kind of structured, meaningful way. In fact when you start to think about the holistic picture of a city that you’d want to illustrate, almost none of it is actually tracked by the city itself. We had to start getting creative and thoughtful about what numbers do make sense for a mayor to see. Maybe it’s not just city data, maybe it’s community data, maybe even corporate… Then how do we start pulling that all together in a way that would make sense for him or her to go make decisions and for others around him or her to be able to support those.
 
 ## Three different kinds of data
