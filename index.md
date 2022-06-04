@@ -124,14 +124,7 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://citygro.ws"><img src="/img/startups/citygrows.png" alt="CityGrows"></a>
-							</div>
-						</figure>
-					</div>
-					<div class="block-column">
-						<figure class="block-caption img-caption">
-							<div class="img-wrap">
-								<a href="https://codeforamerica.org"><img src="/img/startups/codeforamerica.png" alt=""></a>
+								<a href="https://www.wcas.com/"><img src="/img/wcas-white.png" alt="WCAS"></a>
 							</div>
 						</figure>
 					</div>
@@ -139,6 +132,13 @@ img: main-social.jpg
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
 								<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt="GovDelivery"></a>
+							</div>
+						</figure>
+					</div>
+					<div class="block-column">
+						<figure class="block-caption img-caption">
+							<div class="img-wrap">
+								<a href="https://codeforamerica.org"><img src="/img/startups/codeforamerica.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
