@@ -152,7 +152,7 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://polco.us"><img src="/img/startups/polco.png" alt=""></a>
+								<a href="https://polco.us"><img src="/img/startups/polco-new.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
