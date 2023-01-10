@@ -63,24 +63,11 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Community Builder: Join the Global GovGeek Network
-							</span>
-						</div>
-						<div class="accordion-item-content">
-							<p>
-								Over 500 government technology leaders get there news from the GovGeek.club newsletter I produce: weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.<br><br>
-								<a class="btn" href="/community/"><span>GovGeek.Club</span>
-							</a><br><br></p>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<div class="accordion-item-title">
-							<span>
 								Educator: #CivicTech Best Practices
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>Based on my experience in the field and teaching, the Civic Technology Academy featured guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.<br><br>
+							<p>Based on my experience in the field and teaching, the Civic Technology Academy features guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.<br><br>
 								<a class="btn" href="/academy/"><span>Civic Technology Academy</span>
 							</a><br><br></p>
 						</div> 
