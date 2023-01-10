@@ -47,13 +47,13 @@ img: main-social.jpg
 			</div>
 			<div class="section-right">
 				<div class="accordion-block with-border">
-					<div class="accordion-item">
+					<div class="accordion-item opened">
 						<div class="accordion-item-title">
 							<span>
-								Advisor: Marketing, Product & M/A
+								Consultant: Marketing, Product & M/A
 							</span>
 						</div>
-						<div class="accordion-item-content">
+						<div class="accordion-item-content" style="display: block;">
 							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
 <br><br>
 								<a class="btn" href="/consulting/"><span>EthosLabs.us</span></a>
@@ -67,9 +67,23 @@ img: main-social.jpg
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>Based on my experience in the field and teaching, the Civic Technology Academy features guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.<br><br>
+							<p>Based on the experience of 12+ years leading and teaching the government technology field, the Civic Technology Academy features guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.<br><br>
 								<a class="btn" href="/academy/"><span>Civic Technology Academy</span>
 							</a><br><br></p>
+						</div> 
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-item-title">
+							<span>
+								Investor & Advisor: Financing GovTech
+							</span>
+						</div>
+						<div class="accordion-item-content">
+							<p>EthosLabs helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br><br>
+								<a class="btn getModal" data-href="#contact-us"  onclick="gtag('event', 'Contact', {
+								  'event_category': 'button',
+								  'event_label': 'home'});"><span>Get in Touch</span></a>
+							<br><br></p>
 						</div> 
 					</div>
 				</div>
