@@ -29,7 +29,7 @@ img: main-social.jpg
 					</a>
 				</div>
 				<div class="buttons">
-					<a class="btn getModal" data-href="#contact-us"  onclick="gtag('event', 'Contact', {
+					<a class="btn" href="/contact/"  onclick="gtag('event', 'Contact', {
   'event_category': 'button',
   'event_label': 'home'});"><span>Get in Touch</span></a>	
 					<a href="/consulting/" class="btn border-btn"><span>How I help</span></a>				 
