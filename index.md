@@ -27,6 +27,9 @@ img: main-social.jpg
 					<a class="soc-link" href="https://github.com/abhinemani">
 						<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
 					</a>
+					<a class="soc-link" href="https://abhinemani.com/feed.xml">
+						<img src="{{site.url}}/img/rss-icon.png" class="img-svg" alt="">
+					</a>
 				</div>
 				<div class="buttons">
 					<a class="btn" href="/contact/"  onclick="gtag('event', 'Contact', {
