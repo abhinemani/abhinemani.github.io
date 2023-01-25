@@ -1,3 +1,3 @@
 # Abhi Nemani
 
-Personal and professional website, reframing "portfolio" features and designs as case studies and tutorials, making it a kind of educational site. Powered by Jekyll. 
+Personal and professional website. A kind of "portfolio" design has been re-purposed to serve as both an educational hub with lectures and best practices. Includes RSS feed and search functionality atop Jekyll. 
