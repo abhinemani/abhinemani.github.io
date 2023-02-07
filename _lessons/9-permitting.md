@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tech for Infrastructure
+title: Permitting &#38; Licensing Tech
 subhead: An ecosystem map of permitting, licensing, and code enforcement (PLC) technology 
 categories: Academy
 pubdate: 2023
