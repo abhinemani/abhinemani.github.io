@@ -19,7 +19,7 @@ tags:
 
 Explore the <a href="https://www.figma.com/file/ZLuWBwxHo2Rzt62i3O18TJ/Infrastructure-Permitting-Diagram?node-id=0%3A1&t=KYmSluhoWvDAFMlR-1">interactive diagram on Figma</a>. 
 
-## Role of ePlan
+## Role of ePlan (Hypothetical)
 
 <img src="{{ site.url}}/img/eplan.png" width="100%">
 
