@@ -15,11 +15,16 @@ tags:
 ---
 ## Permitting Ecosystem
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZLuWBwxHo2Rzt62i3O18TJ%2FInfrastructure-Permitting-Diagram%3Fnode-id%3D0%253A1%26t%3DfNdCZ8gQPhaGY2dg-1" allowfullscreen></iframe>
+<img src="{{ site.url}}/img/permitting-ecosystem.png" width="100%">
+
+Explore the <a href="https://www.figma.com/file/ZLuWBwxHo2Rzt62i3O18TJ/Infrastructure-Permitting-Diagram?node-id=0%3A1&t=KYmSluhoWvDAFMlR-1">interactive diagram on Figma</a>. 
 
 ## Role of ePlan
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwoHiAj7p6gNqrCLTwwNhiB%2FePlan-Flywheel%3Ft%3DfNdCZ8gQPhaGY2dg-1" allowfullscreen></iframe>
+<img src="{{ site.url}}/img/eplan.png" width="100%">
 
+Explore the <a href="https://www.figma.com/file/woHiAj7p6gNqrCLTwwNhiB/ePlan-Flywheel?node-id=0%3A1&t=fl5UIY191Wawqcud-1">interactive diagram on Figma</a>. 
+
+<hr>
 
 If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
