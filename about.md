@@ -64,9 +64,7 @@ redirect_from:
 					<img src="{{site.url}}/img/BigKC-shot-small.jpg">	
 					<p>Abhi has also worked with various philanthropies including the Knight Foundation and the Arnold Foundation. He is also an advisor and investor in multiple govtech startups, including CityGrows, SPIDR Tech, GovDelivery, ZenCity, and POLCO.
 					</p>
-					<p>Abhi is a graduate of Claremont McKenna College and Stanford University Graduate School of Business (LEAD). He is currently pursuing simultaneous degrees in public policy (MPA) at The USC Price School and in advanced finance (AFP) at The Wharton School. In the past, Abhi has taught civic technology at the University of Chicago.
-					</p>
-					<p>Abhi's work has been featured in the New York Times, Government Technology, Government Executive, and Forbes, and he has been featured as a speaker at SxSW, the World Bank, and various universities and conferences around the world.
+					<p>Abhi is a graduate of Claremont McKenna College with Honors in Philosophy, Politics, and Economics (PPE), the Stanford University Graduate School of Business (eMBA), The USC Price School (MPA), and the Wharton School (AFP). In the past, Abhi has taught civic technology at the University of Chicago. Abhi's work has been featured in the New York Times, Government Technology, Government Executive, and Forbes, and he has been featured as a speaker at SxSW, the World Bank, and various universities and conferences around the world.
 					</p>
 					<h2>Individual Honors & Acknowledgements</h2>
 					<ul>
