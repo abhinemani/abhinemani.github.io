@@ -10,9 +10,9 @@ img: main-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">#GovTech advisor, educator & investor. </div>
+				<div class="location">#GovTech entrepreneur, scholar & advisor. </div>
 				<h2 class="page-title">
-					Let's Build Government Technology We Can Be Proud Of
+					Cities everywhere deserve the best tech & talent anywhere.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
