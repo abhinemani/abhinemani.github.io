@@ -1,6 +1,6 @@
 ---
 layout: single
-title: We Must Mind the Gap in Public Service Empowerment
+title: The Gap in Public Sector Innovation
 subhead: The great programs and strategies to develop government tech leadership overlook the people that are already there, or need to be.
 categories:
 - Blog
