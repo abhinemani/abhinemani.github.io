@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">#GovTech entrepreneur, scholar & advisor. </div>
 				<h2 class="page-title">
-					Cities everywhere deserve the best tech & talent anywhere.
+					Building the government technology we need.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
