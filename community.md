@@ -17,8 +17,7 @@ img: gg-social.jpg
 					 Weekly, curated list of jobs, links, and commentary in government technology and innovation... With an editorial take.
 				 </p>
 				 <div class="form">
-					 <form id="wrapped revue-form" method="POST" action=
-					"https://www.getrevue.co/profile/govgeek/add_subscriber" method="post" id="" name="revue-form"  target="_blank">
+					 <form id="wrapped revue-form" method="post" name="revue-form"  target="_blank"  class="simple_form new_subscriber" id="new_subscriber" action="https://app.goodbits.io/e/19fc011c-1ecf-4a54-8a5a-61f16fc462b8" accept-charset="UTF-8" method="post">
 					 <div class="form-fields">
 						 <div class="input-wrap">
 							  <input class="revue-form-field input"  placeholder="Your email address..." type="email" name="member[email]" id="member_email">
