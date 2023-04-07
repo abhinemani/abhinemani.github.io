@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">#GovTech entrepreneur, scholar & advisor. </div>
 				<h2 class="page-title">
-					Leading a new kind of public service
+					Let's build government technology we can be proud of.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
