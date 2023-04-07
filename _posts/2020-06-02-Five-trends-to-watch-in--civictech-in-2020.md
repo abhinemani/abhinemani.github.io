@@ -9,7 +9,6 @@ tags:
  - Civic Tech
  - Insights
 ---
-
 ![](/img/1____TI__8yaflBfo2bwXpmz2og__2x.jpeg)
 
 I recently was asked to give a talk to [Code for Milwaukee](https://codeformilwaukee.org/) on their first anniversary. This happened to also by [my 10th anniversary](https://stlresponse.org/) in civic and government tech.
@@ -21,7 +20,6 @@ A brief summary is below, and [the full deck is available on LinkedIn](https://w
 #### Low Code
 
 ![](/img/1__6c7ZEKoi__RD232ZN3__VF4A__2x.jpeg)
-
 
 Focus on building tools that enable non-technologists (aka “poor man’s hackers) to get the job done. This means building not just an app — to say — map a set of open data, but a simple framework where anyone with enough enthusiasm could use your code to spin up their own.
 
@@ -53,7 +51,6 @@ And looking forward, there’s a new breed on open data technologies that serve 
 
 ![](/img/1__zXc5RWHAbVvXPUYFEh__r7A__2x.jpeg)
 
-
 Look towards enhanced regionalism for open data — as interagency coordination becomes even more regent in a COVID World — remembering that residents think of their lives and problems, not the city open data portal vs the county vs the state…
 
 Not only do these regional data programs — such as those in [Western Pennsylvania](http://www.wprdc.org/) and [St. Louis](https://stldata.org/) — save the jurisdictions money, time, and staff time, they enable more broadly useful application development. (See the [STL COVID portal](https://stlresponse.org/) built by the STL Alliance.)
@@ -61,13 +58,11 @@ Not only do these regional data programs — such as those in [Western Pennsyl
 ![](/img/1__Aq__rYlWZOL7Gi__lm__U2dqg__2x.jpeg)
 ![](/img/1__n1jAQCqsEdGeBDwMgP9Bkg__2x.jpeg)
 
-
 Pulling these two threads together — community data and regional programs — we can see a new model for open data that puts the **citizen experience** first, first for developers and designers, first for government officials and local business, and first for the communities they all serve.
 
 #### Hacks & Hackers (Redux)
 
 ![](/img/1__QhQIyQ5THxQDokvC87dERA__2x.jpeg)
-
 
 Collaborate with local journalists — or follow their lead — as the data rich projects both civic hacking groups and local news outlets as both share goals and limited capacity; make the whole greater than the sum of its parts.
 
@@ -82,7 +77,6 @@ These collaborations can take the form of news outlets building their own civic 
 #### Digital Services as Default
 
 ![](/img/1__Ni85MmU0tND99rCMEWlklw__2x.jpeg)
-
 
 Few cities can afford a digital services team and very few actually have the hyperbolic antiquated systems outsiders decry: most fall somewhere in the middle.
 

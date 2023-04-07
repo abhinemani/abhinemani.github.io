@@ -33,9 +33,9 @@ That was step two. Now I think we’re finally moving into this area of digital 
 
 [The interesting thing about that is actually that leads to _better data._](https://medium.com/@abhinemani/open-data-civic-engagement-and-delivery-28b990f321ce#.h1446cvnr)
 
-> Right now it takes 16 months to get official police records from the state, **16 months,** because we have to send _paper forms_ to the state, they transcribe them and then send them back. The backlog is mind-numbing.
+Right now it takes 16 months to get official police records from the state &mdash; **16 months** &mdash;  because we have to send _paper forms_ to the state, they transcribe them and then send them back. The backlog is mind-numbing.
 
-That’s not the right way to handle data — open or otherwise. Instead, a digital first strategy — eg no paper forms, just iPhones or iPads in the field — would lead to immediately accessible and usable (and hopefully open) data.
+That’s not the right way to handle data &mdash; open or otherwise. Instead, a digital first strategy — eg no paper forms, just iPhones or iPads in the field &mdash; would lead to immediately accessible and usable (and hopefully open) data.
 
 That’s trend one, is _this movement from_ [_data to services_](https://medium.com/@abhinemani/open-data-civic-engagement-and-delivery-28b990f321ce#.h1446cvnr)_._
 
@@ -48,9 +48,7 @@ A rather perceptive venture capitalist named [Mary Meeker](http://allthingsd.com
 
 A good example of this is Foursquare. Beforehand you’d do everything in one app. Now there’s Foursquare and Swarm. Facebook has Messenger as a separate app. Google has like 17 different apps. You’re seeing this shift from just one specific application that does everything to many different applications designed for a particular experience.
 
-> _Focus on a single, specific, and meaningful user experience, and build a beautiful interface simply for that._
-
-That’s trend two.
+That’s trend two: Focus on a single, specific, and meaningful user experience, and build a beautiful interface simply for that.
 
 ## Trend three is this notion of an architecture participation.
 
@@ -112,13 +110,11 @@ Here’s an example from the #TechLA event last year:
 
 ![](https://cdn-images-1.medium.com/max/600/1*-PNMAMDfPLjZ-jO9ZcMTtg.png)
 
-
 They built an app that helped people find homeless shelters, and all the kids were in high school. You’re seeing people do really remarkable and special things.
 
 I’m sure we can talk on and on about hackathons and app competitions and how to make those great. Those aren’t sustainable. You can have one great event. You can have another great event. Then what happens after that? People go home. They go back to their lives. The hard question is, how do you create staying power? How do you get people to come together on and on? How do you create infrastructure that lets people actually do meaningful work in an ongoing way?
 
 ![](https://cdn-images-1.medium.com/max/600/1*SfvHUxlb8GGGnqmFMbmXDQ.png)
-
 
 We built an organization specifically designed for this purpose in LA. It’s called [Compiler.LA](http://Compiler.LA), a for-profit that actually works on civic issues, but t_hey commit a percentage of all of their revenue back to the community to build the civic tech ecosystem._ They’ll get contracts from foundations, from cities, and then they use part of that money to then go back and help build the civic tech community. That to me is the kind of staying power that we need to have.
 
@@ -128,8 +124,6 @@ Bringing this all back then to data and open data portals: We too often think ab
 
 We should do lots of different, small things — not just build one, big thing — and instead think about crafting the ideal experiences for the wonderfully diverse users you have: be it the mayor, city staff, or even your boss; be it the researcher, the entrepreneur, or the regular citizen; be it the person you hadn’t thought of until you meet them randomly at the library. Be it anyone.
 
-
 <div class="container-iframe"><iframe title="vimeo-player" src="https://player.vimeo.com/video/150116199" class="responsive-iframe" frameborder="0" allowfullscreen></iframe></div>
 
 <em>This essay is based on an edited transcript from my keynote address at the 2015 National Association of Government Webmasters 2015 (NAGW); video is below.</em>
-
