@@ -42,7 +42,7 @@ That’s trend one, is _this movement from_ [_data to services_](https://medium.
 ### Trend two is from one app to many apps
 
 ![](https://cdn-images-1.medium.com/max/600/1*tUf6EBUQR9DByDNnms19ig.png)
-undefined
+
 
 A rather perceptive venture capitalist named [Mary Meeker](http://allthingsd.com/20130529/mary-meekers-2013-internet-trends-deck-the-full-video/) pens a must-read every year on internet trends. Recently, she noted that “_the web is splintering_.” Instead of just having one app to do everything, you in fact have multiple apps.
 
@@ -85,7 +85,7 @@ Not only does Waze now share pothole and road condition data it collects regular
 Waze is giving the city data in return. Any time there’s a kidnapping or a hit and run, Waze will tell the users, saying, “This just happened. Do you have any intel/info?” Any time that there’s a kidnapping on Wilshire, Waze will actually ping you and say, “Hey, do you know what’s going on? Have you seen anybody? Do you know what’s happening?” Users can, in-app, report sightings directly, and immediately that data is sent to the LAPD. The news reported it as, “A Gift for Law Enforcement.”
 
 ![](https://cdn-images-1.medium.com/max/800/1*i10295GUgJ_KXf8xxS5lug.png)
-undefined
+
 
 #### Two, I think we have to start thinking about data as content.
 
@@ -94,7 +94,7 @@ Anyone want to guess what the most popular data set for the City of Los Angeles 
 **Immigration workshops**.
 
 ![](https://cdn-images-1.medium.com/max/600/1*Gaz16rAKEMjaCnoyVzlD_g.png)
-undefined
+
 
 We collected information on accredited immigration workshops, and published it on the data portal; then we embedded that data _on the mayor’s website —_ a website far, far more popular than data.lacity.org.
 
@@ -111,14 +111,14 @@ What we decided to do there was very deeply commit to actually bringing these gr
 Here’s an example from the #TechLA event last year:
 
 ![](https://cdn-images-1.medium.com/max/600/1*-PNMAMDfPLjZ-jO9ZcMTtg.png)
-undefined
+
 
 They built an app that helped people find homeless shelters, and all the kids were in high school. You’re seeing people do really remarkable and special things.
 
 I’m sure we can talk on and on about hackathons and app competitions and how to make those great. Those aren’t sustainable. You can have one great event. You can have another great event. Then what happens after that? People go home. They go back to their lives. The hard question is, how do you create staying power? How do you get people to come together on and on? How do you create infrastructure that lets people actually do meaningful work in an ongoing way?
 
 ![](https://cdn-images-1.medium.com/max/600/1*SfvHUxlb8GGGnqmFMbmXDQ.png)
-undefined
+
 
 We built an organization specifically designed for this purpose in LA. It’s called [Compiler.LA](http://Compiler.LA), a for-profit that actually works on civic issues, but t_hey commit a percentage of all of their revenue back to the community to build the civic tech ecosystem._ They’ll get contracts from foundations, from cities, and then they use part of that money to then go back and help build the civic tech community. That to me is the kind of staying power that we need to have.
 

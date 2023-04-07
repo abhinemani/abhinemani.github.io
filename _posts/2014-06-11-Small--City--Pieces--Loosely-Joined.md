@@ -69,7 +69,6 @@ So let’s try it out.
 Consider the city of Chicago’s slate of digital services (well, some of them):
 
 ![](/img/1__iTo7lEyEh21LFS5EzlrFfw.jpeg)
-undefined
 
 These tools come from a host of different sources: some, like PurpleBinder, a social services finder, or the open data catalog, are from civic startups or other traditional IT vendors; others, such as the crime map and Look at Cook, are open source tools built by local groups of developers. You can see here the mix of components that’s possible when you look to the ecosystem. But they are spread across the board—just look at the URLs—making it difficult for citizens to find each service when needed, and more relevantly, without a picture of how these fit together (and ideally instructions on how to replicate it), it’d be tough for another city to follow suit. Where would they start and how?
 
