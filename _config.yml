@@ -51,6 +51,7 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-sitemap
   
 feed:
   excerpt_only: true
