@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: abhinemani.com
-Token: 536a24ac3857680ad55096146eae3286ad392b655c095bdd6d33a785ddb9fdc4
