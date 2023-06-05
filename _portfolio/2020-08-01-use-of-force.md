@@ -4,7 +4,7 @@ title: Boosting transparency around police use of force
 subhead: Data collection problems can stifle reform efforts that rely on data, such as the New Jersey effort to create an "early warning" system for abuse
 tags: [foundation, police, procurement]
 heading: Pilots
-categories: Partners
+categories: Portfolio
 pubdate: 2019
 ---
 In 2019, a national foundation asked for help for a state attorney general's office to modernize its collection, aggregation, and publication of law enforcement (LE) use of force data. This undertaking is large in scope — covering the entire state and over 500 law enforcement agencies — but seemingly simple in need: better data collection. 

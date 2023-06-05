@@ -5,7 +5,7 @@ subhead: Accessible and affordable workflow automation for local governments to 
 tags: [startup, workflow, SaaS]
 img: citygrows.svg
 heading: Investing
-categories: Partners
+categories: Portfolio
 pubdate: 2015
 ---
 >From <a href="https://dot.la/outdoor-restaurants-permit-2646792368.html" target="blank">dot.LA</a>: It takes about 19 minutes for a business owner to fill-out, receive and print a city of Los Angeles sidewalk permit application. The result of a program launched by CityGrows in late May. As long as the applicant completes the form and agrees to city requirements, a permit is issued immediately.

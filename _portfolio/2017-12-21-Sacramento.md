@@ -5,7 +5,7 @@ subhead: Case study on building an economic development strategy to level-up a c
 heading: Entrepreneurship
 tags: [government, economic development, innovation]
 img: sac-header.png
-categories: Partners
+categories: Portfolio
 pubdate: 2016
 redirect_from: 
   - /sacramento/

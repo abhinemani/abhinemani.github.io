@@ -8,19 +8,19 @@
                         </div>
                         <div class="section-content">
                             <div class="other-posts-slider" id="js-other-posts-slider">
-								{% for partner in site.portfolio  %}
-								{% if partner.img  %}
-                                <a href="{{ partner.url }}" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/{{ partner.img }}" alt="" class="post-bg-img">
+								{% for portfolio in site.portfolio  %}
+								{% if portfolio.img  %}
+                                <a href="{{ portfolio.url }}" class="other-posts-slider-item">
+                                    <img src="{{site.url}}/img/{{ portfolio.img }}" alt="" class="post-bg-img">
 								{% else %}
-                                <a href="{{ partner.url }}" class="other-posts-slider-item without-bg">
+                                <a href="{{ portfolio.url }}" class="other-posts-slider-item without-bg">
 								{% endif  %}
                                     <div class="other-post-info">
                                         <div class="post-tags">
-	  									  {% if partner %}
-	  									    {% assign tags = partner.tags %}
+	  									  {% if portfolio %}
+	  									    {% assign tags = portfolio.tags %}
 	  									  {% else %}
-	  									    {% assign tags = partner.tags %}
+	  									    {% assign tags = portfolio.tags %}
 	  									  {% endif %}
 	  									  {% for tag in tags %}
 	  									  <div class="tag">{{ tag }}</div>
@@ -28,7 +28,7 @@
 	  									  {% endfor %}
                                         </div>
                                         <h3 class="post-title">
-                                            <strong>{{partner.title}}</strong>: {{partner.subhead}}
+                                            <strong>{{portfolio.title}}</strong>: {{portfolio.subhead}}
                                         </h3>
                                     </div>
                                 </a>
