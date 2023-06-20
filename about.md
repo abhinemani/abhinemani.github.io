@@ -32,7 +32,7 @@ redirect_from:
 					<ul>
 						<li class="plus-li"><strong>Email:</strong> <a href="mailto:abhi@ethoslabs.us">abhi@ethoslabs.us</a>
 						</li>
-						<li class="plus-li"><strong><a href="{{site.url}}/cv">Curriculum Vitae (CV)</a></strong>, <a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>, and <strong><a href="{{site.url}}/img/headshot-large.jpg">Headshot</a></strong> (for media purposes)
+						<li class="plus-li"><strong><a href="{{site.url}}/cv">Curriculum Vitae (CV)</a></strong>, <a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>, and <strong><a href="{{site.url}}/img/headshot-2023.png">Headshot</a></strong> (for media purposes)
 						</li>
 					</ul>
 				</div>
