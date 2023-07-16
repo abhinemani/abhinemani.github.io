@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Let us Move Beyond Open Data Portals
+title: Moving Beyond Open Data Portals
 subhead: What could be subtitled, biting the hand that feed me
 date: 2021-02-01
 pubdate: January 8, 2017
