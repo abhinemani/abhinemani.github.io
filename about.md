@@ -22,7 +22,7 @@ redirect_from:
                     <div class="author-image">
                         <img src="{{site.url}}/img/headshot-square.jpg" alt="" class="image-cover">
                     </div>
-                    <h1 class="page-title">About me.</h1>
+                    <h1 class="page-title">Abhi Nemani</h1>
                 </div>
                 <div class="section-content wp-content">
 					<p>
