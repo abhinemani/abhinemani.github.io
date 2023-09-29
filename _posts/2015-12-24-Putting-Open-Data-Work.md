@@ -12,7 +12,6 @@ redirect_from:
  - /blog/essays/2015/12/28/Putting-Open-Data-Work/
 tags: 
  - Keynote
- - Featured
 ---
 <div class="container-iframe"><iframe width="500" height="600" class="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/149984557"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

@@ -10,7 +10,6 @@ tags:
 - Vision Zero
 - Transportation
 - Data Science
-- Featured
 ---
 For any city dweller brave enough to navigate their urban terrain on a bike — I am not — you know that it’s a tricky business. Limited bike paths, wayward pedestrians, and of course: cars. Auto collisions with bikes (and also pedestrians) poses a real threat to the safety and wellbeing of residents. Indeed, I have a friend who was “doored” twice in one month in San Francisco, which for those who don’t know, means that a passenger opened his/her door exactly when his bike was passing by, leaving him in the hospital and with scars for about 6 months.
 

@@ -8,6 +8,8 @@ subhead: Did We Go the Wrong Way?
 date: 2020-08-28
 pubdate: October 28, 2015
 img: 1__pZ3ZnGHoby1jjy3Kc5kZTQ.jpeg
+tags:
+- Featured
 ---
 For the past year in particular, and many more before that, I have invested no small part of my life into evangelizing open data. (Indeed we wrote a [book](http://beyondtransparency.org) about it at CfA, gave far too many talks, and I even took an appointment in local government focused on this effort.) Open data is what I do — or at least what I used to do. Looking back now, I have begun to wonder whether we might have been looking at things in the wrong way, or more to the point, whether I have been looking at things, just, wrong.
 

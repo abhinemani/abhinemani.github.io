@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">#GovTech entrepreneur, public servant & scholar. </div>
 				<h2 class="page-title">
-					Let's build government technology we can be proud of.
+					Building government technology with a purpose.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
@@ -217,14 +217,14 @@ img: main-social.jpg
 					<div class="wrap_float">
 						<div class="wp-content">
 							<div class="wrap wrap-center">
-								<h2>Featured Essays</h2>
+								<h2>Essays</h2>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="post-items-list posts-two-columns">
-				{% for post in site.tags.Featured limit: 4 %}
+				{% for post in site.tags.Featured reversed limit: 4 %}
 				<a href="{{post.url}}" class="post-item">	
 					{% if post.img  %}
 					<img src="{{ site.url}}/img/{{post.img}}" alt="" class="post-bg-img">
