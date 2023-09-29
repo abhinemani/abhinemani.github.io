@@ -10,7 +10,7 @@ img: main-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">#GovTech entrepreneur, bureaucrat & scholar. </div>
+				<div class="location">#GovTech entrepreneur, public servant & scholar. </div>
 				<h2 class="page-title">
 					Let's build government technology we can be proud of.
 				</h2>
