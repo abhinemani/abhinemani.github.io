@@ -32,10 +32,12 @@ img: main-social.jpg
 					</a>
 				</div>
 				<div class="buttons">
-					<a class="btn" href="/contact/"  onclick="gtag('event', 'Contact', {
+					<a class="btn" href="/about/"  onclick="gtag('event', 'About', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>Get in Touch</span></a>	
-					<a href="/consulting/" class="btn border-btn"><span>How I help</span></a>				 
+  'event_label': 'home'});"><span>Background</span></a>	
+					<a href="/academy/" class="btn border-btn" onclick="gtag('event', 'Academy', {
+  'event_category': 'button',
+  'event_label': 'home'});"><span>GovTech Research</span></a>				 
 				</div>
 			</div>
 		</div>
