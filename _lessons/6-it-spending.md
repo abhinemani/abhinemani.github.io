@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GovTech Market Data
+title: Government IT Spending
 subhead: A practical overview of the trends in the $200B+ in government IT spending
 categories: Academy
 pubdate: 2021

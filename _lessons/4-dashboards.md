@@ -16,6 +16,8 @@ tags:
 
 Government dashbaords have taken many forms, but all struggle with the fact that civic data takes different forms and accordingly have different values when it comes to building useful data products, specifically dashboards. With renewed interest in government data and analytics, developers and designers should be mindful of the different kinds of data and their limitations independently and together for enabling data-driven decisions. 
 
+![Data Sweet Spot](/img/data-venn-diagram2.jpg)
+
 ### Transactional / Raw Data
 
 First is transactional or operational data. This is what the city’s doing on a day-to-day basis. Easiest metaphor for that is crime: what crime is happening in the city and where? 
@@ -34,27 +36,35 @@ These three kinds of data -- raw, performance and quality of life -- are simply 
 
 ![Data Process](/img/data-flow.jpeg)
 
-More importantly, alignment of transactions, performance, and quality of life promises to be the "sweet spot" for data-driven decision making in the public sector:
-
-![Data Sweet Spot](/img/data-venn-diagram.jpeg)
+More importantly, alignment of transactions, performance, and quality of life promises to be the "sweet spot" for data-driven decision making in the public sector.
 
 But the fact that these datasets are decidedly of different kinds means that straightforward dashboarding attempts with transformative ambitions may fail. Indeed, many have, suffering both from user indifference and structural barriers. Cvic data has historically been too messy and the decision-making processes around them less direct, making the promise of clear causal inteventions more of a dream than reality. (See <a href="https://abhinemani.com/blog/essays/2020/08/28/Open-Data-Civic-Engagement-and-Delivery/">"Open Data: Did We Go the Wrong Way?"<a/>.) 
 
-The dashboards that have found success have targeted focus on key stakeholders, and are built around a decision-making process (or person):
+![Data Challenge 1](/img/data1.png)
+![Data Challenge 2](/img/data2.png)
+![Data Challenge 3](/img/data3.png)
 
-<blockquote>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/FYnWs0jE0YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<strong>Mayor Garcetti Showcases Dashboard at US Conference of Mayors</strong>
-</blockquote>
+And that's putting aside the technical issues of data access, reliability, recency, accuracy, and collection:
+
+![Data Process](/img/data4.png)
+![Data Process](/img/data8.png)
+![Data Process](/img/data6.png)
+
+The dashboards that have found success have targeted focus on key stakeholders, and are built around a decision-making process (or person), such as the <a href="http://localhost:4000/essays/2021/02/10/Dashboards/">Mayor of Los Angeles' dashboard</a>:
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/FYnWs0jE0YI?si=UNA79vxlGS_kaCC-&amp;start=578" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 But as the digital transformation becomes more real as does the potential for new opportunties to connect the dots with good government data.
 
-<hr>
+![Connecting the Dots](/img/data7.png)
 
-## More: Lecture on How Governments Use Data
+<hr />
 
 <blockquote>
+	<p><strong>Deep Dive: How Civic Data Works</strong><br>
+	<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open Lecture in Browser</a></p>
 <div class="container-iframe">
 <iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
-</div><a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open Lecture in Browser</a>
+</div>
+<br >
 </blockquote>

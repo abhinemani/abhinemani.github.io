@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Building Open Data Products
-subhead: Principles for Building Civic Data to Work
+subhead: Key design principles for meaningful transparency tools
 categories: Academy
 pubdate: 2021
 img: pia-header.png
