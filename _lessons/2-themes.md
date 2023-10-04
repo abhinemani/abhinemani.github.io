@@ -1,26 +1,22 @@
 ---
 layout: page
-title: 2022 GovTech Tailwinds
-subhead: Why 2022 should be an even bigger year for the government technology industry&#58; changing leaders, staff, and expectations
+title: Government Technology (GovTech) Industry Tailwinds
+subhead: Structural enablers for growth are changing leaders, staff, and expectations
 categories: Academy
 pubdate: 2022
 img: pia-header.png
-pubdate: Updated 2022
+pubdate: Updated 2023
 number: 6
-permalink: /academy/2022-tailwinds/
+permalink: /academy/tailwinds/
 tags: 
  - themes
  - GovTech
  - hiring
 ---
 
-![2022 Tailwinds](/img/2022-tailwinds.png) 
-
-2021 was a groundbreaking year for the government technology market (GovTech). This was at a time of massive strain on governments and entrepreneurs themselves. Indeed, the market continued its remarkable growth over the last decade in the face of the pandemic, even at the state and local level where economic crises compound fiscal challenges. 
-
 ![GovTech Market Spend](/img/2021-spend-growth.png) 
 
-Why? Based on dozens of interviews in the fall of 2021 with CIOs, CTOs, and other departmental heads, along with a <a href="https://www.civicpulse.org/it-trends">unprecedented survey of 400+ local government decision makers</a>, three trends have been fundamentally changing the buyer landscape in government technology over the last ten years, which are now coming to a head: new leadership, personnel turnover, and SaaS expectations. And indeed the pandemic accelerated those drivers. Together, these demand-side shifts not only promise continued growth for the industry, but also more activity, innovation, and competition in the marketplace.
+Based on dozens of interviews with CIOs, CTOs, and other departmental heads, along with a <a href="https://www.civicpulse.org/it-trends">unprecedented survey of 400+ local government decision makers</a>, three trends have been fundamentally changing the buyer landscape in government technology over the last ten years, which are now coming to a head: new leadership, personnel turnover, and SaaS expectations. And indeed the pandemic accelerated those drivers. Together, these demand-side shifts not only promise continued growth for the industry, but also more activity, innovation, and competition in the marketplace.
 
 ![GovTech Market Spend](/img/gt-market-overview.png)
 
@@ -53,7 +49,7 @@ That said, this budgetary windfall should not be seen as a free lunch for softwa
 
 As government technology moves from admin-facing to public-facing, the expectations change, and so CIOs have begun to expect private-sector grade digital experiences from their technology vendors. But because many legacy vendors have not been able to modernize their citizen/customer experiences, governments have begun to look at new solutions, including many SaaS solutions "layering" atop the legacy solutions. On the other hand, some have turned to the private sector: A few even reported more substantial, yet rapid deployments of ZenDesk. 
 
-The combination of limited funding for capital projects and the heightened expectations for digital should persist and intensify in 2022, opening the door for innovation or disruption. 
+The combination of limited funding for capital projects and the heightened expectations for digital should persist and intensify moving forward, opening the door for innovation or disruption. 
 
 <hr>
 
