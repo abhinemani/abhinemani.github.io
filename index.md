@@ -77,15 +77,11 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Investor & Advisor: Financing GovTech
+								Investor & Advisor: Catalyzing GovTech
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>EthosLabs helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br><br>
-								<a class="btn getModal" data-href="#contact-us"  onclick="gtag('event', 'Contact', {
-								  'event_category': 'button',
-								  'event_label': 'home'});"><span>Get in Touch</span></a>
-							<br><br></p>
+							<p>EthosLabs helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br></p>
 						</div> 
 					</div>
 				</div>
@@ -107,7 +103,7 @@ img: main-social.jpg
 				</p>	
 			<div class="buttons" style="padding-bottom: 20px;">
 				<a href="{{ site.url }}/cv/" class="btn"><span>CV</span></a>
-				<a class="btn getModal border-btn" data-href="/contact/"><span>Get in Touch</span></a>					 
+				<a class="btn border-btn" href="/contact/"><span>Get in Touch</span></a>					 
 			</div>			
 				<div class="block-columns gallery-columns columns-4">
 					<div class="block-column">
