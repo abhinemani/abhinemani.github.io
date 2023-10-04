@@ -19,12 +19,6 @@ Permitting, licensing, and code enforcement (PLC) are core functions of local go
 
 <img src="{{ site.url}}/img/permitting-ecosystem.png" width="100%">
 
-## Role of ePlan (Hypothetical)
-
-The following diagram illustrates how one of the above opportunity areas &#8212; ePlan &#8212; could be conceptualized and optimized to streamline the permitting process, particularly for large infrastructure builds. 
-
-img src="{{ site.url}}/img/eplan.png" width="100%">
-
 <hr>
 
 If you're interested in learning more, get in touch: <a href="https://twitter.com/@abhinemani" target="_blank">@abhinemani</a>
