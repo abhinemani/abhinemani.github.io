@@ -52,36 +52,33 @@ img: main-social.jpg
 					<div class="accordion-item opened">
 						<div class="accordion-item-title">
 							<span>
-								Consultant: Marketing, Product & M/A
-							</span>
-						</div>
-						<div class="accordion-item-content" style="display: block;">
-							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
-<br><br>
-								<a class="btn" href="/consulting/"><span>EthosLabs.us</span></a>
-							<br><br></p>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<div class="accordion-item-title">
-							<span>
 								Educator: #CivicTech Best Practices
 							</span>
 						</div>
-						<div class="accordion-item-content">
-							<p>Based on the experience of 12+ years leading and teaching the government technology field, the Civic Technology Academy features guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.<br><br>
-								<a class="btn" href="/academy/"><span>Civic Technology Academy</span>
-							</a><br><br></p>
+						<div class="accordion-item-content"  style="display: block;">
+							<p>Based on the experience of 12+ years leading and teaching the government technology field, the <a href="/academy/" style="font-weight: bold;">Civic Technology Academy</a> features guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
+							<br></p>
 						</div> 
 					</div>
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Investor & Advisor: Catalyzing GovTech
+								Advisor: Product, Marketing & Dilligence
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>EthosLabs helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br></p>
+							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
+							<br></p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-item-title">
+							<span>
+								Investor: Supporting GovTech Entrepreneurs
+							</span>
+						</div>
+						<div class="accordion-item-content">
+							<p><a href="/consulting/"><strong>EthosLabs</strong></a> helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br></p>
 						</div> 
 					</div>
 				</div>
