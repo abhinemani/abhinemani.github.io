@@ -108,7 +108,7 @@ img: main-social.jpg
 				</p>	
 			<div class="buttons" style="padding-bottom: 20px;">
 				<a href="{{ site.url }}/cv/" class="btn"><span>CV</span></a>
-				<a class="btn getModal border-btn" data-href="#contact-us"><span>Get in Touch</span></a>					 
+				<a class="btn getModal border-btn" data-href="/contact/"><span>Get in Touch</span></a>					 
 			</div>			
 				<div class="block-columns gallery-columns columns-4">
 					<div class="block-column">
