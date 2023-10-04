@@ -15,9 +15,6 @@ img: main-social.jpg
 					Building government technology with a purpose.
 				</h2>
 				<div class="socials">
-					<a class="soc-link" href="https://twitter.com/@abhinemani">
-						<img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
-					</a>
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
 						<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
 					</a>
