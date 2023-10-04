@@ -17,6 +17,8 @@ tags:
 ## Market Sizing
 Government technology is more difficult to size than other industries.
 
+<img src="https://media.licdn.com/dms/image/D5612AQG63wGulmoo3g/article-cover_image-shrink_423_752/0/1687126829263?e=1701907200&v=beta&t=kBseVtzewXAr14UIHlsmPLND80S7W_0ij_zteJFOw_k">
+
 - There 20k+ local governments, each with different purchasing rules — and different financial reporting mechanisms, making national analysis very cumbersome (or impossible). For instance, in some jurisdictions “economic development” is called “community development” or there isn’t even a department; it is just handled by some people or someone in the city manager’s office.
 - Big cities have big budgets, but small numbers. Although it may be easier to look at big city purchasing trends (which are more accessible) to determine TAM, that would skew towards bigger cities that have disproportionately long sales cycles and atypical contracts. The reality of local government is that most cities are small (>12k), which compounds the top-down TAM calculus.
 - Many new technologies are just that, new. Thus, looking at previous budget allocations for technology misses the point: government spending is only growing so consider willingness to pay (WTP) for bottom-up analysis.

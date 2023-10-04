@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Government Technology (GovTech) Industry Tailwinds
-subhead: Structural enablers for growth are changing leaders, staff, and expectations
+title: GovTech Industry Tailwinds
+subhead: Enablers for the government technology industry&#58; changing leaders, staff, and expectations
 categories: Academy
 pubdate: 2022
 img: pia-header.png
