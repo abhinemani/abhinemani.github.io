@@ -6,7 +6,7 @@ categories:
 - Essays
 subhead: Experiments in stitching together civic technology for local governments
 date: 2020-08-28
-img: legos.jpeg
+img: legos2.jpg
 pubdate: June 11, 2014
 tags:
  - Featured
