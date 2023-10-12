@@ -4,7 +4,7 @@ title: Small (City) Pieces, Loosely Joined
 categories: 
 - Essays
 subhead: Experiments in stitching together civic technology for local governments
-date: 2020-08-28
+date: 2014-06-11
 img: legos2.jpg
 pubdate: June 11, 2014
 tags:
