@@ -177,8 +177,8 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/academy/primer/">
-										<img src="{{site.url}}/img/lessons/1.png" alt="GovTech Primer">
+									<a href="{{site.url}}/academy/">
+										<img src="{{site.url}}/img/lessons/1.png" alt="GovTech Academy">
 									</a>
 								</div>
 							</figure>
