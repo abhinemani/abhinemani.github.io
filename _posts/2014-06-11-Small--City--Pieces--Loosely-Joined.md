@@ -2,7 +2,6 @@
 layout: single
 title: Small (City) Pieces, Loosely Joined
 categories: 
-- Blog
 - Essays
 subhead: Experiments in stitching together civic technology for local governments
 date: 2020-08-28
