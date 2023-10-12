@@ -9,6 +9,8 @@ img: legos2.jpg
 pubdate: June 11, 2014
 tags:
  - Featured
+redirect_from: 
+  - /blog/essays/2020/08/28/Small-City-Pieces-Loosely-Joined/
 ---
 I grew up in rural Southern Illinois. Centralia the town is called. Population 13,000. It’s taken on many lives through its history; beginning first as a railway hub, then a well of natural resource, and later as a small, yet productive manufacturing base for the region. When I was growing up, a nearby highway was built that put town miles off the main interstate, and soon the factories began to close. Growth stalled, and population waned. Today, the town remains a primarily service-based economy, and for recreation, entertainment, or growth, you have to look more at St. Louis, MO, the area’s largest metro — and that’s where my family now spends nearly every weekend. We look to the bigger city nearby.
 
