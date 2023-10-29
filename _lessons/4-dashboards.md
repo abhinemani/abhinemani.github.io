@@ -18,7 +18,6 @@ Government dashboards have taken many forms, but all struggle with the fact that
 
 [![Data Sweet Spot](/img/data-venn-diagram2.jpg 'Venn Diagram of Data Alignment')](https://abhinemani.com/essays/2021/02/10/Dashboards/)
 
-
 (For an in-depth review, see <a href="https://abhinemani.com/essays/2021/02/10/Dashboards/">"What I've learned: Three Different Kinds of Civic Data"<a/>.) 
 
 ### Transactional / Raw Data
