@@ -3,7 +3,7 @@ layout: page
 title: Data and Dashboards
 subhead: Dashboards, Performance Management, and the Trouble with Different Kinds of Data
 categories: Academy
-pubdate: December 2015
+pubdate: Septmeber 2023
 img: pia-header.png
 pubdate: Updated 2021
 number: 4
@@ -14,9 +14,12 @@ tags:
  - startups
 ---
 
-Government dashbaords have taken many forms, but all struggle with the fact that civic data takes different forms and accordingly have different values when it comes to building useful data products, specifically dashboards. With renewed interest in government data and analytics, developers and designers should be mindful of the different kinds of data and their limitations independently and together for enabling data-driven decisions. 
+Government dashboards have taken many forms, but all struggle with the fact that civic data takes different forms and accordingly have different values when it comes to building useful data products, specifically dashboards. With renewed interest in government data and analytics, developers and designers should be mindful of the different kinds of data and their limitations independently and together for enabling data-driven decisions. 
 
-![Data Sweet Spot](/img/data-venn-diagram2.jpg)
+[![Data Sweet Spot](/img/data-venn-diagram2.jpg 'Venn Diagram of Data Alignment')](https://abhinemani.com/essays/2021/02/10/Dashboards/)
+
+
+(For an in-depth review, see <a href="https://abhinemani.com/essays/2021/02/10/Dashboards/">"What I've learned: Three Different Kinds of Civic Data"<a/>.) 
 
 ### Transactional / Raw Data
 
@@ -52,7 +55,7 @@ And that's putting aside the technical issues of data access, reliability, recen
 
 The dashboards that have found success have targeted focus on key stakeholders, and are built around a decision-making process (or person), such as the <a href="http://localhost:4000/essays/2021/02/10/Dashboards/">Mayor of Los Angeles' dashboard</a>:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/FYnWs0jE0YI?si=UNA79vxlGS_kaCC-&amp;start=578" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container-iframe" style="padding-top: 10px;"><iframe width="100%" height="400" src="https://www.youtube.com/embed/FYnWs0jE0YI?si=UNA79vxlGS_kaCC-&amp;start=578" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 But as the digital transformation becomes more real as does the potential for new opportunties to connect the dots with good government data.
 
