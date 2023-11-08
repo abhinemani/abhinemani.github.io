@@ -6,7 +6,5 @@ tagline: Schedule some time
 tags: [about, Abhi Nemani, Code for America, pandas]
 ---
 <div class="page-wrap author-page">
-					<!-- Calendly inline widget begin -->
-					<div class="calendly-inline-widget" data-url="https://calendly.com/abhi-nemani" style="min-width:320px;height:630px;"></div>
-					<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+	<iframe id="myIframe" src='https://outlook.office.com/bookwithme/user/9d6a9a653a604bcebc5784ac318ba819@eunasolutions.com?anonymous&ep=pcard' style="min-height: 800px;" width="100%" marginheight="0" frameborder="0" border="0" scrolling="auto"></iframe>
 </div>
