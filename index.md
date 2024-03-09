@@ -31,10 +31,10 @@ img: main-social.jpg
 				<div class="buttons">
 					<a class="btn" href="/about/"  onclick="gtag('event', 'About', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>Background</span></a>	
+  'event_label': 'home'});"><span>Biography</span></a>	
 					<a href="/academy/" class="btn border-btn" onclick="gtag('event', 'Academy', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>GovTech Research</span></a>				 
+  'event_label': 'home'});"><span>GovTech Research & Lectures</span></a>				 
 				</div>
 			</div>
 		</div>
