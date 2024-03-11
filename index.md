@@ -34,7 +34,7 @@ img: main-social.jpg
   'event_label': 'home'});"><span>Biography</span></a>	
 					<a href="/academy/" class="btn border-btn" onclick="gtag('event', 'Academy', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>GovTech Research & Lectures</span></a>				 
+  'event_label': 'home'});"><span>GovTech Lectures</span></a>				 
 				</div>
 			</div>
 		</div>
