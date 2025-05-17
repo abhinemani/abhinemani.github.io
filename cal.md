@@ -13,7 +13,7 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 					Scheduling
 				</h2>
 				<p class="subtitle" style="color: white; line-height: 1.3em;">
-					Drop me a line at <strong><a href="mailto:abhi.nemani@gmail.com">abhi.nemani@gmail.com</a></strong>  to get in touch.
+					Use the form below to find a convenient time.
 				</p>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
