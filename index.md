@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">#GovTech entrepreneur, public servant & scholar. </div>
 				<h2 class="page-title">
-					Building government technology with a purpose.
+					Accelerating innovative and efficient government.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
@@ -29,12 +29,12 @@ img: main-social.jpg
 					</a>
 				</div>
 				<div class="buttons">
-					<a class="btn" href="/about/"  onclick="gtag('event', 'About', {
+					<a class="btn" href="/contact/"  onclick="gtag('event', 'About', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>Biography</span></a>	
+  'event_label': 'home'});"><span>Get in Touch</span></a>	
 					<a href="/academy/" class="btn border-btn" onclick="gtag('event', 'Academy', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>GovTech Lectures</span></a>				 
+  'event_label': 'home'});"><span>Lectures & Research</span></a>				 
 				</div>
 			</div>
 		</div>
