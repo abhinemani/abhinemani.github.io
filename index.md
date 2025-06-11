@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">#GovTech entrepreneur, public servant & scholar. </div>
 				<h2 class="page-title">
-					Accelerating innovative and efficient government.
+					Building tech for more innovative and efficient government.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
