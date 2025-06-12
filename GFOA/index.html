@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFOA Innovation Lab - Board Presentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .presentation {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .slide {
+            min-height: 90vh;
+            padding: 60px;
+            display: none;
+            position: relative;
+        }
+        
+        .slide.active {
+            display: block;
+        }
+        
+        .slide-header {
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #1d4ed8;
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 700;
+        }
+        
+        h2 {
+            color: #2563eb;
+            font-size: 2em;
+            margin: 0 0 30px 0;
+            font-weight: 600;
+        }
+        
+        h3 {
+            color: #1d4ed8;
+            font-size: 1.4em;
+            margin: 30px 0 15px 0;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            color: #6b7280;
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #3b82f6, #06b6d4);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-size: 1.1em;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 30px 0;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: 30px;
+            background: #f8fafc;
+            border-radius: 10px;
+            border-left: 5px solid #2563eb;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1d4ed8;
+            display: block;
+        }
+        
+        .timeline {
+            margin: 30px 0;
+        }
+        
+        .timeline-item {
+            display: flex;
+            margin: 20px 0;
+            align-items: center;
+        }
+        
+        .timeline-date {
+            background: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            min-width: 150px;
+            text-align: center;
+            margin-right: 30px;
+        }
+        
+        .timeline-content {
+            flex: 1;
+            font-size: 1.1em;
+        }
+        
+        ul {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        li {
+            margin: 15px 0;
+        }
+        
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .nav-btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .nav-btn:hover {
+            background: #1d4ed8;
+        }
+        
+        .nav-btn:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+        
+        .slide-counter {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: #6b7280;
+            font-size: 0.9em;
+        }
+        
+        .call-to-action {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+            font-size: 1.2em;
+        }
+        
+        .problem-list {
+            background: #fef2f2;
+            border-left: 5px solid #ef4444;
+            padding: 20px 30px;
+            margin: 20px 0;
+        }
+        
+        .solution-list {
+            background: #f0fdf4;
+            border-left: 5px solid #10b981;
+            padding: 20px 30px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <div class="slide-counter">1 / 9</div>
+            <div class="slide-header">
+                <h1>GFOA Innovation Lab</h1>
+                <div class="subtitle">Accelerating Innovation in Public Finance</div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3 style="color: white; margin-top: 0;">Real solutions. Public finance impact.</h3>
+                <p>A new platform to identify, develop, and scale solutions that solve real problems for local governments.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">20K+</span>
+                    <span>GFOA Members</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">Jan 2026</span>
+                    <span>Target Launch</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">∞</span>
+                    <span>Impact Potential</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: The Challenge -->
+        <div class="slide">
+            <div class="slide-counter">2 / 9</div>
+            <div class="slide-header">
+                <h2>The Challenge</h2>
+            </div>
+            
+            <div class="problem-list">
+                <h3>Local Government Finance Departments Face Critical Barriers</h3>
+                <ul>
+                    <li><strong>Innovation Paralysis:</strong> Limited ability to take risks or pilot new approaches</li>
+                    <li><strong>Resource Constraints:</strong> Insufficient funding and personnel for innovation</li>
+                    <li><strong>Technology Gap:</strong> Stuck with outdated tools while facing modern challenges</li>
+                    <li><strong>Institutional Lag:</strong> History shows local governments get left behind in tech adoption</li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <strong>The Result:</strong> A widening gap between what's possible with modern technology and what most finance departments actually have access to use.
+            </div>
+        </div>
+
+        <!-- Slide 3: Why Now -->
+        <div class="slide">
+            <div class="slide-counter">3 / 9</div>
+            <div class="slide-header">
+                <h2>Why Now?</h2>
+            </div>
+            
+            <div class="two-column">
+                <div>
+                    <h3>🚀 AI Revolution</h3>
+                    <p>We're at the beginning of the AI transformation. If history is any guide, local government finance will be left far behind without proactive intervention.</p>
+                    
+                    <h3>🏛️ Institutional Renewal</h3>
+                    <p>The institutions of the future will be built in "bits and bytes, not just atoms." Public finance needs to be part of this transformation.</p>
+                </div>
+                <div>
+                    <h3>💪 GFOA's Unique Position</h3>
+                    <p>GFOA is uniquely positioned to lead this transformation with trusted relationships, deep expertise, and 20,000+ members ready for solutions.</p>
+                    
+                    <h3>⚡ Fiscal Pressure</h3>
+                    <p>Unprecedented fiscal challenges require new approaches to budgeting, forecasting, and financial management.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: The Solution -->
+        <div class="slide">
+            <div class="slide-counter">4 / 9</div>
+            <div class="slide-header">
+                <h2>The Solution: GFOA Innovation Lab</h2>
+            </div>
+            
+            <div class="solution-list">
+                <h3>A Platform That Can Take Risks and Bring Resources to Bear</h3>
+                <ul>
+                    <li><strong>Mission-Driven Innovation:</strong> Technology-led solutions grounded in GFOA's mission</li>
+                    <li><strong>Balanced Portfolio:</strong> Mix of practical "blocking & tackling" tools and game-changing innovations</li>
+                    <li><strong>Multiple Solution Sources:</strong> Homegrown development, startup partnerships, and government-created innovations</li>
+                    <li><strong>Ethical Foundation:</strong> Strong guardrails to maintain GFOA's neutrality and member trust</li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <strong>Key Differentiator:</strong> Unlike vendor-driven initiatives, the Lab applies discipline, ethics, and structured evaluation to ensure real value delivery.
+            </div>
+        </div>
+
+        <!-- Slide 5: Dual-Track Strategy -->
+        <div class="slide">
+            <div class="slide-counter">5 / 9</div>
+            <div class="slide-header">
+                <h2>Dual-Track Implementation Strategy</h2>
+            </div>
+            
+            <div class="two-column">
+                <div class="solution-list">
+                    <h3>Track 1: Infrastructure Development</h3>
+                    <ul>
+                        <li>Legal entity formation and governance</li>
+                        <li>Fundraising and team building</li>
+                        <li>Program design for external partnerships</li>
+                        <li>Long-term institutional capacity</li>
+                    </ul>
+                </div>
+                <div class="solution-list">
+                    <h3>Track 2: Homegrown Solutions</h3>
+                    <ul>
+                        <li>Scale existing prototypes (ChatGFOA, risk-based reserves)</li>
+                        <li>Solution-specific fundraising</li>
+                        <li>Market validation and early revenue</li>
+                        <li>Immediate impact and credibility</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <strong>Strategic Advantage:</strong> Track 2 provides market validation that strengthens Track 1's fundraising, while Track 1 creates the capacity for Track 2 to scale.
+            </div>
+        </div>
+
+        <!-- Slide 6: Priority Solutions -->
+        <div class="slide">
+            <div class="slide-counter">6 / 9</div>
+            <div class="slide-header">
+                <h2>Priority Homegrown Solutions</h2>
+            </div>
+            
+            <div class="two-column">
+                <div>
+                    <h3>🤖 ChatGFOA</h3>
+                    <p>AI-enabled assistant for public finance questions using GFOA resources. Flagship proof-of-concept for AI in public finance.</p>
+                    
+                    <h3>📊 Risk-Based Reserves Tool</h3>
+                    <p>Framework for calculating reserve levels based on risk scenarios. Strong mission alignment with GFOA best practices.</p>
+                    
+                    <h3>🔍 AI-Powered Fraud Detection</h3>
+                    <p>Anomaly detection for financial transactions. Start narrow (duplicate payments) and expand.</p>
+                </div>
+                <div>
+                    <h3>💼 Accrued PTO Liability Simulator</h3>
+                    <p>Models long-term cost of employee leave liabilities. Clear market gap with no standard ERP solution.</p>
+                    
+                    <h3>💰 Risk-Based Cash Flow Forecasting</h3>
+                    <p>Scenario-based cash flow prediction tool. Natural extension of reserves tool.</p>
+                    
+                    <h3>📏 Materiality Assessment App</h3>
+                    <p>Calculator for financial reporting materiality thresholds. Training and audit risk reduction focus.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Timeline -->
+        <div class="slide">
+            <div class="slide-counter">7 / 9</div>
+            <div class="slide-header">
+                <h2>Implementation Timeline</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2025</div>
+                    <div class="timeline-content">Assemble Board of Advisors, validate market demand, begin solution testing</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">July 2025</div>
+                    <div class="timeline-content">Hire interim CEO, build technical capabilities, develop go-to-market approach</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">August 2025</div>
+                    <div class="timeline-content">Complete pitch deck, test solutions with partners, pursue funding opportunities</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">September 2025</div>
+                    <div class="timeline-content">Launch VC roadshow, begin legal formation, validate market response</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2026</div>
+                    <div class="timeline-content"><strong>Public Launch:</strong> Lab operations with proven solutions and business model</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2026</div>
+                    <div class="timeline-content"><strong>Demo Day:</strong> Showcase success stories at GFOA Annual Conference</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Financial Model -->
+        <div class="slide">
+            <div class="slide-counter">8 / 9</div>
+            <div class="slide-header">
+                <h2>Financial Model (Draft)</h2>
+            </div>
+            
+            <div class="two-column">
+                <div>
+                    <h3>Revenue Streams (To Be Validated)</h3>
+                    <ul>
+                        <li>Software licensing for homegrown solutions</li>
+                        <li>Consulting services and implementation support</li>
+                        <li>Program fees from Accelerator participants</li>
+                        <li>Revenue sharing with external partners</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Funding Approach</h3>
+                    <ul>
+                        <li><strong>Phase 1:</strong> GFOA seed funding for validation</li>
+                        <li><strong>Phase 2:</strong> Strategic investors based on traction</li>
+                        <li><strong>Phase 3:</strong> Growth capital with proven model</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">80%+</span>
+                    <span>Target member interest in solutions</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">5+</span>
+                    <span>Governments using solutions by end of 2025</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">24 months</span>
+                    <span>Path to operational break-even</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Board Ask -->
+        <div class="slide">
+            <div class="slide-counter">9 / 9</div>
+            <div class="slide-header">
+                <h2>Request for Board Support</h2>
+            </div>
+            
+            <div class="call-to-action">
+                <h3 style="color: white; margin-top: 0;">Strategic Opportunity for GFOA Leadership</h3>
+                <p>Position GFOA at the forefront of public finance innovation while maintaining trusted, neutral relationships with members and vendors.</p>
+            </div>
+            
+            <div class="two-column">
+                <div>
+                    <h3>What We Need</h3>
+                    <ul>
+                        <li>Board endorsement of the Lab concept</li>
+                        <li>Support for separate legal entity formation</li>
+                        <li>Initial seed funding for market validation</li>
+                        <li>Permission to use GFOA relationship for development</li>
+                        <li>Guidance on governance and ethics framework</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>What Success Looks Like</h3>
+                    <ul>
+                        <li>Tangible improvements in government financial management</li>
+                        <li>Enhanced value proposition for GFOA members</li>
+                        <li>Sustainable revenue streams for continued innovation</li>
+                        <li>Leadership position in public finance transformation</li>
+                        <li>Maintained trust and institutional neutrality</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <strong>Next Steps:</strong> Board approval to proceed with advisor assembly, market validation, and interim CEO recruitment.
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+        <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            
+            // Update navigation buttons
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+
+        function changeSlide(direction) {
+            if (direction === 1 && currentSlide < totalSlides - 1) {
+                showSlide(currentSlide + 1);
+            } else if (direction === -1 && currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                changeSlide(1);
+            } else if (e.key === 'ArrowLeft') {
+                changeSlide(-1);
+            }
+        });
+
+        // Initialize
+        showSlide(0);
+    </script>
+</body>
+</html>
