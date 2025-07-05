@@ -53,6 +53,9 @@
 	background: #d6b681;
 	color: white;
 }
+.location:before { 
+	background: url(../img/location.svg) center center no-repeat;
+}
 
 .wp-content p a {
 	color: #0b73ab;
