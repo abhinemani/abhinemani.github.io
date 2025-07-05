@@ -46,8 +46,8 @@ img: main-social.jpg
 			<div class="section-left">
 				<h2 class="title">Here to help.</h2>
 				<div class="subtitle">
-					<a style="font-weight: bold;" href="https://abhinemani.com/about">Abhi Nemani</a> is a government technology entrepreneur, scholar, and public servant — founding, building, and leading many of the most influential GovTech institutions over the last 15 years, including the <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">City of Sacramento's Innovation & Growth Fund</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles Mayor's Office of Data & Analytics</a>, and <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>.<br /><br />
-					Currently, Abhi is the managing director of <a href="/consulting" style="font-weight:bold;">EthosLabs</a>, managing a portfolio of transparency, and data startups for local government, reaching over 100M people across more than 2,000 communities. Nemani is also a visiting scholar at the <a href="https://roseinstitute.org" style="font-weight:bold;">Rose Institute of State & Local Government</a> and a board member of <a href="https://leadingcities.org" style="font-weight: bold;">Leading Cities</a>, a global sustainability accelerator.
+					<a style="font-weight: bold;" href="https://abhinemani.com/about">Abhi Nemani</a> is a government technology entrepreneur, scholar, and public servant — founding, building, and leading many of the most influential GovTech institutions over the last 15 years, including the <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">City of Sacramento's Innovation Fund</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles Mayor's Office of Data</a>, and <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>.<br /><br />
+					Most recently, Abhi was the SVP of Product Strategy for Euna Solutions, where he build and integrated a portfolio of 10+ companies with $100M+ in revenue. Nemani's consulting firm, <a href="/consulting" style="font-weight:bold;">EthosLabs</a>, manages a portfolio of transparency, and data startups for local government. Nemani is also a visiting scholar at the <a href="https://roseinstitute.org" style="font-weight:bold;">Rose Institute of State & Local Government</a> and a board member of <a href="https://leadingcities.org" style="font-weight: bold;">Leading Cities</a>, a global sustainability accelerator.
 				</div>
 			</div>
 			<div class="section-right">
@@ -59,29 +59,29 @@ img: main-social.jpg
 							</span>
 						</div>
 						<div class="accordion-item-content"  style="display: block;">
-							<p>Based on the experience of 12+ years leading and teaching the government technology field, the <a href="/academy/" style="font-weight: bold;">Civic Technology Academy</a> features guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
+							<p>Based on the experience of 15+ years leading and teaching the government technology field, Nemani <a href="/academy/" style="font-weight: bold;">publishes best practices</a>, with guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
 							<br></p>
 						</div> 
 					</div>
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Advisor: Product, Marketing & Dilligence
+								Investor: Product, Marketing & Dilligence
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, I bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
+							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, Abhi bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
 							<br></p>
 						</div>
 					</div>
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Investor: Supporting GovTech Entrepreneurs
+								Advisor: Supporting GovTech Entrepreneurs
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p><a href="/consulting/"><strong>EthosLabs</strong></a> helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br></p>
+							<p><a href="/consulting/"><strong>As an advisor, investor, and consultant,</strong></a> Abhi helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br></p>
 						</div> 
 					</div>
 				</div>
