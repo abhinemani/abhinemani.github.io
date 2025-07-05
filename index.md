@@ -6,7 +6,7 @@ subhead: Abhi Nemani has been a leader in Government Technology for over a decad
 tags: [about, Abhi Nemani, Code for America, pandas]
 img: main-social.jpg
 ---
-<section class="banner-section" style="background-image: url(../img/GD-shot.jpg);">
+<section class="banner-section" style="background-image: url(../img/abhi-rose.jpg);">
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
