@@ -12,7 +12,7 @@ img: main-social.jpg
 			<div class="section-content">
 				<div class="location">#GovTech entrepreneur, public servant & scholar. </div>
 				<h2 class="page-title">
-					Building tech to help us all govern better.
+					Building tech to help us govern better for everyone.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
