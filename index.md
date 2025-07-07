@@ -10,9 +10,9 @@ img: main-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">#GovTech entrepreneur, public servant & scholar. </div>
+				<div class="location">#GovTech & finance entrepreneur, public servant & scholar. </div>
 				<h2 class="page-title">
-					Building tech to help us govern better for everyone.
+					Building tech to help us serve everyone, better.
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
