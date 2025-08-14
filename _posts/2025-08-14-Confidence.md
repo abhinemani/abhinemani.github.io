@@ -1,8 +1,8 @@
 ---
 published: true
 layout: single
-title: The Decline in City Fiscal Confidence
-subhead: Why It Matters to Everyone
+title: The Decline in Local Government Financials Confidence
+subhead: Confidence among city finance officers fell from 65 in 2023 to 50 in 2024
 categories:
   - Blog
 tags:
