@@ -1,98 +1,103 @@
 ---
 published: true
 layout: single
-title: The Decline in Local Government Fiscal Confidence
+title: The Age of Uncertainty and the Upshot for Public Service
 subhead: Cities leaders are worried they cannot pay the bills
 categories:
   - Blog
 tags:
   - Governments
   - Leadership
-pubdate: 'January 12, 2025'
-date: 2025-01-12
+pubdate: 'June 14, 2025'
+date: 2025-06-14
 author: Abhi Nemani
-img: confidence-large.jpg
+img: uncertainty.jpg
 
 ---
+If 2020 was the year of crisis, and 2021 the year of recovery, then 2025 may go down as the year of **uncertainty**. Not just an emotional state, but a measurable, structural reality — one that's reshaping how governments budget, plan, and serve.
 
-Every day, cities power the essential services that make modern life possible. From safe drinking water to public safety, public schools to trash collection, municipal governments operate in the background, ensuring communities function. But in 2024, the confidence of the people managingthose systems—city finance officers—has taken a sharp decline, and that shift should matter to everyone.
+According to **Google Trends**, searches for the term *“*[*uncertainty*](https://trends.google.com/trends/explore?date=2012-01-01%202025-05-01&amp;geo=US&amp;gprop=news&amp;q=Uncertainty&amp;hl=en)*”* have soared in recent months, outpacing historic spikes from the 2008 financial crisis and the COVID-19 pandemic. These are not idle clicks. They reflect an ambient, national anxiety — political, economic, and institutional — that is especially acute in state and local governments.
 
-According to the [**2024 City Fiscal Conditions Report**](https://www.nlc.org/wp-content/uploads/2024/10/2024-City-Fiscal-Conditions-Report-WEB.pdf), confidence among city finance officers fell from 65 in 2023 to 50 in 2024. This 15-point drop is the steepest since the early days of the COVID-19 pandemic, and it’s happening not because of a sudden crisis, but because of mounting long-term challenges. Rising costs, slower revenue growth, and the expiration of federal aid are pushing cities into a period of intense fiscal strain, with real implications for the residents and businesses that rely on them.
+### "Uncertainty" as a Google Search Topic
 
-![](/img/confidence-chart.jpeg)
+In **news searches**, the spike is sharp and unprecedented. Interest in “uncertainty” has surged to the highest levels Google has recorded since 2008, when the Great Recession rattled global markets and municipal budgets alike.
 
----
+Even when viewed as a broader **topic**, incorporating related terms and contexts, “uncertainty” has never seen greater search volume. This is not a momentary blip — it’s a signal of a deeper instability in the civic imagination.
 
-## What Confidence in Cities Really Means
+![](/img/uncertainty-2.jpg)
 
-When municipal finance officers report confidence in balancing their budgets, it signals that cities are financially stable and able to meet the demands of their communities. High confidence enables cities to invest in infrastructure, expand services, and plan for the future.
+But public perception is only part of the picture. The structural data behind city budgets tells the same story.
 
-But when confidence falls, as it has in 2024, the effects ripple outward. A city grappling with financial uncertainty has to make difficult choices—scaling back programs, delaying repairs, and postponing long-term projects. These decisions don’t just affect the city’s balance sheet; they directly impact everyone who lives and works there.
+## Fiscal Optimism is Fading — Fast
 
-A lower confidence score means the margin for error is shrinking. Cities are less able to absorb unexpected shocks, whether it’s a natural disaster, a sudden economic downturn, or an infrastructure failure. And when cities are under stress, the people they serve inevitably feel the strain.
+![](img/confidence-large.jpg)
+
+In its [**2024 City Fiscal Conditions**](https://www.nlc.org/wp-content/uploads/2024/10/2024-City-Fiscal-Conditions-Report-WEB.pdf) report, the **National League of Cities (NLC)** confirms what many public finance officials already feel: even amid strong performance in FY 2023, the path forward is clouded.
+
+> “City finance officers’ confidence in meeting fiscal needs has declined significantly since last year… Cities are entering a period of structural imbalance.” — *NLC, 2024 Fiscal Conditions Report*
+
+Consider just a few highlights:
+
+* **64% of city finance officers** said their city was better able to meet financial needs in FY 2024 than the year before.
+
+* But **confidence drops to 50%** when asked about FY 2025.
+
+* Meanwhile, **public safety now accounts for 28% of general fund expenditures**, up from 23% in 2018.
+
+* **Revenue growth**, bolstered by post-COVID rebound and inflation-driven property tax gains, is **expected to stagnate or decline**.
+
+* And while **ARPA dollars bridged many gaps**, the sun is setting on that federal aid — and cities face a tough question: *What now?*
+
+In short: [city governments are sailing into 2025 with weaker wind](https://www.linkedin.com/pulse/decline-city-fiscal-confidence-why-matters-everyone-abhi-nemani-x6sqc/) at their backs and heavier ballast below.
 
 ![](/img/budget-confidence.jpg)
 
----
+### Uncertainty Is Not a Bug — It’s the System Now
 
-## The Numbers Behind the Confidence Decline
+Historically, government systems were built for predictability. Budgeting followed annual cycles. Grant funding came in regular appropriations. Civic hiring was stable, if slow. Even political transitions followed relatively known rhythms.
 
-To understand why this year’s confidence drop is so concerning, it’s helpful to look at the historical context. The table below shows how city leaders’ confidence has fluctuated over the past two decades, often tied to major economic events:
+Today, **those assumptions are failing**:
 
-### Current Challenges
+* **Federal funding pipelines** are inconsistent and politically fragile.
 
-The pattern is clear: confidence falls sharply during periods of fiscal stress and begins to recover as cities adapt. The most recent decline reflects a combination of long-anticipated and structural challenges.
+* **Labor markets** have shifted dramatically, with vacancies, retirements, and burnout challenging service delivery.
 
-![](/img/confidence-table.jpg)
+* **Cost structures** are volatile, driven by inflation and capital market disruptions.
 
-![](/img/confidence-line-chart.jpg)
+* **Technology and public expectations** are accelerating faster than governments can adapt.
 
-## Why Everyone Should Care
+And yet, much of the civic infrastructure — both literal and administrative — still assumes certainty. This is the heart of the disconnect: **our institutions are built for stability, but we live in ambiguity**.
 
-The drop in municipal confidence isn’t just a concern for city leaders—it’s a sign of growing strain on the systems we all rely on every day. Here’s why it matters:
+## From Uncertainty to Adaptability
 
-### 1. Essential Services May Be Scaled Back
+If “uncertainty” is now the backdrop for civic decision-making, then **adaptability** must be the new benchmark for success. Public sector leaders must move from managing to maneuvering — building institutions that are not only fiscally sound, but *strategically flexible*.
 
-When budgets tighten, cities are forced to focus on core services like public safety, water systems, and waste management. This often means other programs—such as parks, libraries, and recreational initiatives—face cuts or delays. Residents may notice fewer community events, shorter library hours, or deferred park maintenance.
+This demands change across four dimensions:
 
-### 2. Infrastructure Problems Could Worsen
+### 1. Budgeting for Scenarios, Not Just Line Items
 
-Cities across the country are grappling with aging infrastructure, from crumbling bridges to outdated water systems. Financial uncertainty means repairs and upgrades may be postponed, increasing the risk of failures that disrupt daily life and become more expensive to fix later.
+City budgets must reflect a range of futures. Sensitivity analyses, reserve strategies, and contingency planning can no longer be back-office exercises — they must be front-line tools of governance.
 
-### 3. Emergency Preparedness is at Risk
+### 2. Procurement That Allows for Pacing
 
-Lower confidence in city finances can also mean reduced capacity to respond to unexpected challenges, such as natural disasters or public health emergencies. With reserves already strained, cities may struggle to recover quickly from future crises.
+Long, fixed RFPs may work for bridges — but not for innovation. Modular procurement, cooperative contracts, and pre-negotiated vehicles give cities the tools to move at the pace of opportunity (or crisis).
 
-## The Broader Economic Impact
+### 3. Grants That Respond to the Present
 
-When cities struggle financially, the ripple effects extend beyond local government. Businesses rely on municipal services—like reliable transportation infrastructure and safe neighborhoods—to operate effectively. Families depend on strong schools and community programs to support their children. And the overall quality of life in a city influences whether people choose to move there, invest there, or stay.
+Federal and state grants must be rethought to allow for **adaptive implementation**. Awarding funds is one thing; ensuring they are deployed quickly and equitably in unpredictable contexts is another.
 
-In short, the health of city finances is directly tied to the health of the local economy. When cities are forced to scale back, businesses face higher costs, property values can decline, and long-term growth slows.
+### 4. Communications That Inspire Confidence Without Certainty
 
-### What’s Driving the Decline?
+Leaders often feel pressure to provide answers — but the public is more ready for candor than we give them credit for. Saying “we don’t know yet, but here’s how we’re planning for the unknown” is a strength, not a weakness.
 
-Several factors are contributing to the drop in confidence this year:
+## Why This Moment Matters
 
-1. **Rising Costs**: Inflation has increased the cost of everything from road repairs to employee salaries. These rising expenses are outpacing revenue growth, leaving cities with difficult budget gaps to fill.
+As I wrote [earlier this year](https://www.linkedin.com/pulse/decline-city-fiscal-confidence-why-matters-everyone-abhi-nemani-x6sqc), *the decline in fiscal confidence among local government leaders is not an academic metric — it’s a civic risk.* When city leaders are unsure of their footing, investments stall, hiring freezes, and the most vulnerable communities bear the brunt.
 
-2. **The End of Federal Aid**: Programs like the American Rescue Plan Act (ARPA) provided temporary relief, helping cities recover from the pandemic. With those funds gone, cities are returning to pre-pandemic budget constraints while facing higher costs.
+But data, when read honestly, can be empowering.
 
-3. **Stagnant Revenue Growth**: Tax revenues have stabilized after the post-pandemic surge, but they are no longer growing fast enough to meet increasing demands.
+Because if this is indeed the **Age of Uncertainty**, then this is also the moment for governments to modernize for it — to lead not just despite ambiguity, but through it.
 
-## What Can Be Done?
+### A Final Word: Uncertainty Isn’t Going Away — But Neither Is Public Leadership
 
-Cities are taking steps to address these challenges, but solutions require time, collaboration, and creativity:
-
-* **Innovative Revenue Sources**: Many cities are exploring public-private partnerships, targeted fees, or new taxes to diversify their funding.
-
-* **Cost Efficiency**: Leveraging technology and streamlining processes can help cities reduce costs without cutting services.
-
-* **Federal and State Support**: Renewed investment in local governments, particularly for infrastructure, could ease the strain and prevent deeper cuts.
-
-## A Shared Responsibility
-
-The decline in confidence among city finance officers is a signal that the systems we all depend on are under strain. While municipal leaders are doing everything they can to manage these challenges, residents, businesses, and policymakers all have a role to play in supporting cities during this adjustment period.
-
-Investing in cities isn’t just a local issue—it’s a national priority. Strong, financially stable cities create opportunities for everyone, from safe streets and good schools to vibrant economies and thriving communities. The current fiscal challenges may be significant, but they also present an opportunity to rethink how we fund and support the places we call home.
-
-By working together, we can ensure that the confidence of city leaders—and the services that underpin our daily lives—are restored and strengthened for the future.
+Let’s not pretend this is a storm we can wait out. The fog isn’t lifting next quarter. The question is not whether we return to certainty, but whether we build **systems and leadership practices that thrive without it**
