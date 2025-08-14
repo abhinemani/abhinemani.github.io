@@ -42,7 +42,6 @@ This worldview had significant virtues:
 
 3. **Meritocratic Optimism:**The belief that effort and talent would be rewarded encouraged ambition and self-improvement, creating a generation of individuals invested in their own success and the broader systems they inhabited.
 
-⠀
 These traits aligned well with societal needs, producing disciplined leaders who strengthened the institutions they served. But this faith depended on a critical assumption: that institutions would remain effective, fair, and responsive. When that assumption was shattered, the foundation of the organizational kid’s worldview began to crumble.
 
 ### The Erosion of Institutional Trust
@@ -57,7 +56,6 @@ The years following Brooks’ essay were marked by a series of crises that expos
 
 4. **Technological Disruption:**The rise of smartphones and social media has amplified institutional flaws. Scandals, corruption, and inequalities are now broadcast in real time, eroding trust and fueling critiques.
 
-⠀
 These failures shattered the meritocratic optimism of Brooks’ organizational kids. Where they once saw institutions as reliable partners, Millennials and Gen Z increasingly view them as barriers to progress.
 
 ### The Need for Institutions
@@ -70,7 +68,6 @@ Despite widespread skepticism, institutions remain indispensable. They are the s
 
 3. **Equity and Accountability:**When reformed, institutions can ensure fairness and representation, providing mechanisms for marginalized voices to shape policy and governance.
 
-⠀
 Rebuilding trust in institutions is not just desirable—it is essential. Younger generations’ critiques, while disruptive, offer an opportunity for renewal. By demanding greater transparency, inclusivity, and responsiveness, Millennials and Gen Z can help transform institutions to better serve the common good.
 
 ### The Long Arc of Institutional Decline and Renewal
@@ -83,10 +80,9 @@ The story of institutional trust spans three critical works:
 
 3. **Twenge’s *Generations*(2023):** Twenge documents the culmination of this decline, as Millennials and Gen Z grapple with the failures of institutions and seek alternative pathways to power and progress.
 
-⠀
 Together, these works reveal the historical forces shaping generational attitudes toward institutions—and the potential for renewal.
 
-### Conclusion: A Crossroads for Institutions
+### A Crossroads for Institutions
 
 The decline of institutional trust reflects both the failures of the systems themselves and the broader societal changes that have reshaped our relationship to authority. While Millennials and Gen Z’s skepticism is justified, the loss of trust in institutions poses significant risks for societal stability and collective action.
 
