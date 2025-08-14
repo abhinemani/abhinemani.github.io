@@ -1,13 +1,13 @@
 ---
 layout: page
-title: GovTech Industry Tailwinds
+title: Local GovTech Market Trends
 subhead: Enablers for the government technology industry&#58; changing leaders, staff, and expectations
 categories: Academy
 pubdate: 2022
 img: pia-header.png
 pubdate: Updated 2023
-number: 6
-permalink: /academy/tailwinds/
+number: 10
+permalink: /academy/trends/
 tags: 
  - themes
  - GovTech
