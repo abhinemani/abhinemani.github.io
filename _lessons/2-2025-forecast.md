@@ -23,7 +23,7 @@ We’re at an inflection point. Not just a product cycle shift, but a structural
 The signals aren’t always obvious. They emerge in fiscal policy reports, PE prospectuses, and job vacancy data. But taken together, they form a coherent picture: one of constraint and opportunity, of headwinds and tailwinds, and of a market that will reward those who understand both.
 
 ## I. Headwinds: The Structural Limits of Innovation
-![2025 GovTech Headwinds](/img/2025-headwinds.png) 
+![2025 GovTech Headwinds](/img/2025-headwinds.jpg) 
 
 ### 1. The Fiscal Cliff is Now Structural
 ![2025 GovTech Headwinds](/img/2025-priorities.png) 
@@ -45,8 +45,7 @@ Even the best tools in the world are inert without people to implement them. The
 ![2025 GovTech Headwinds](/img/2025-hiring.png) 
 
 ## II. Tailwinds: The Forces Enabling a New Civic Infrastructure
-![2025 GovTech Headwinds](/img/2025-tailwinds.png) 
-
+![2025 GovTech Tailwinds](/img/2025-tailwinds.png) 
 
 ### 1. Philanthropy is Widening Its Aperture
 For years, foundations have funded public outcomes. Today, they’re funding the means to those outcomes. Infrastructure. Capacity. Technology. MacArthur, Ford, Knight, and others are stepping in—not just to close programmatic gaps, but to reimagine public service delivery itself.
