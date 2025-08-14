@@ -11,7 +11,7 @@ tags:
 pubdate: 'January 12, 2025'
 date: 2025-01-12
 author: Abhi Nemani
-img: confidence.jpg
+img: confidence-large.jpg
 
 ---
 
@@ -20,8 +20,6 @@ Every day, cities power the essential services that make modern life possible. F
 According to the [**2024 City Fiscal Conditions Report**](https://www.nlc.org/wp-content/uploads/2024/10/2024-City-Fiscal-Conditions-Report-WEB.pdf), confidence among city finance officers fell from 65 in 2023 to 50 in 2024. This 15-point drop is the steepest since the early days of the COVID-19 pandemic, and it’s happening not because of a sudden crisis, but because of mounting long-term challenges. Rising costs, slower revenue growth, and the expiration of federal aid are pushing cities into a period of intense fiscal strain, with real implications for the residents and businesses that rely on them.
 
 ![](/img/confidence-chart.jpeg)
-![](/img/confidence-large.jpg)
-
 
 ---
 
