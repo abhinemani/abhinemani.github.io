@@ -1,13 +1,13 @@
 ---
 layout: page
 title: 2025-2026 GovTech Forecast
-subhead: Enablers for the government technology industry&#58; changing leaders, staff, and expectations
+subhead: Headwinds and Tailwinds shaping the market.
 categories: Academy
 pubdate: 2022
 img: pia-header.png
 pubdate: Updated 2023
 number: 6
-permalink: /academy/trends/
+permalink: /academy/2025/
 tags: 
  - themes
  - GovTech
