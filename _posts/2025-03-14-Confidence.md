@@ -39,13 +39,9 @@ In its [**2024 City Fiscal Conditions**](https://www.nlc.org/wp-content/uploads/
 Consider just a few highlights:
 
 * **64% of city finance officers** said their city was better able to meet financial needs in FY 2024 than the year before.
-
 * But **confidence drops to 50%** when asked about FY 2025.
-
 * Meanwhile, **public safety now accounts for 28% of general fund expenditures**, up from 23% in 2018.
-
 * **Revenue growth**, bolstered by post-COVID rebound and inflation-driven property tax gains, is **expected to stagnate or decline**.
-
 * And while **ARPA dollars bridged many gaps**, the sun is setting on that federal aid — and cities face a tough question: *What now?*
 
 In short: [city governments are sailing into 2025 with weaker wind](https://www.linkedin.com/pulse/decline-city-fiscal-confidence-why-matters-everyone-abhi-nemani-x6sqc/) at their backs and heavier ballast below.
@@ -59,11 +55,8 @@ Historically, government systems were built for predictability. Budgeting follow
 Today, **those assumptions are failing**:
 
 * **Federal funding pipelines** are inconsistent and politically fragile.
-
 * **Labor markets** have shifted dramatically, with vacancies, retirements, and burnout challenging service delivery.
-
 * **Cost structures** are volatile, driven by inflation and capital market disruptions.
-
 * **Technology and public expectations** are accelerating faster than governments can adapt.
 
 And yet, much of the civic infrastructure — both literal and administrative — still assumes certainty. This is the heart of the disconnect: **our institutions are built for stability, but we live in ambiguity**.
