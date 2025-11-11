@@ -29,7 +29,18 @@ redirect_from:
 						Abhi Nemani is a government technology entrepreneur, scholar, and public servant — founding, building, and leading many of the most influential GovTech institutions over the last 15 years, including the <a href="/portfolio/2017-12-21-Sacramento/">City of Sacramento's Innovation & Growth Fund</a>, <a href="https://data.lacity.org">Los Angeles Mayor's of Los Office of Data</a>, and <a href="https://codeforamerica.org">Code for America</a>. Most recently, as Senior Vice President of Product Strategy at <a href="https://eunasolutions.com">Euna Solutions</a>, he supported the growth of Euna's portfolio of public administration and financial products to better serve its growing network of 3,000+ public sector organizations across North America, helping manage over $550B in public funds. Abhi is also a visiting scholar at the <a href="https://roseinstitute.org">Rose Institute of State & Local Government</a> and a board member of <a href="https://leadingcities.org">Leading Cities</a>, a global sustainability accelerator.</p>
 						<p>In the past, Nemani helped launch and scale the internationally recognized nonprofit, Code for America, which jumpstarted innovation in dozens of local governments and served as a model for the Obama White House’s innovation strategy. In 2014, Mayor Eric Garcetti appointed Nemani as the City of Los Angeles’ first Chief Data Officer, and in that role, he drove the city’s performance management and transparency initiatives, garnering international recognition for Los Angeles as the top data and digital city. Nemani later served as the Chief Innovation Officer for the City of Sacramento, building the Office of Entreprenuership to adapt economic development strategies for the digital economy. In 2018, he was selected to Co-Chair the Tech & Innovation Platform Committee for Governor Newsom’s first gubernatorial campaign. </p>
 						<p>As an researcher and investor, Nemani regularly consults with major foundations, private equity, and governments on technology investments and policy, and he has developed civic innovation curriculum for the University of Chicago Computational Analysis and Public Policy program and the World Bank. In addition to executive credentials from Stanford (eMBA) and Wharton (AFP), Nemani holds a B.A. from Claremont McKenna College and a Masters of Public Administration (MPA) from the USC Price School of Public Policy.			
-					</p>					
+					</p>
+	                <div class="socials" style="padding-bottom: 20px;">
+	                    <a class="soc-link">
+	                        <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
+	                    </a>
+	                    <a class="soc-link">
+	                        <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
+	                    </a>
+	                    <a class="soc-link">
+	                        <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="">
+	                    </a>
+	                </div>		
 					<h3>More Information</h3>
 					<ul>
 						<li class="plus-li"><strong>Email:</strong> <a href="mailto:abhi@ethoslabs.us">abhi.nemani@gmail.com.us</a>
@@ -55,7 +66,7 @@ redirect_from:
 	        <div class="wrap wrap-center">
 	            <div class="wrap_float">
 	                <div class="section-content wp-content">
-					<h2>Full Biography</h2>
+					<!--<h2>Full Biography</h2>
 					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led Code for America, the Mayor of Los Angeles' Office of Data & Analytics, and Sacramento's Office of Innovation and Entrepreneurship. </p>
 					<p>He currently runs a government technology consultancy called <a href="https://abhinemani.com/consulting">EthosLabs.us</a> to scale up public innovation through scalable GovTech startups through hands-on consulting, advising, and investing. EthosLabs.us' portfolio includes multiple exits and has collectively helped over 3,000 governments and roughly 200M+ people.</p>
 					<p>At Euna Solutions, Abhi Nemani served as Senior Vice President of Product Strategy, where he unified a $100M+ SaaS portfolio across 10+ acquisitions, built the company’s AI strategy and Innovation Center, and established the Product Marketing function. He led GTM integration efforts, elevated Euna’s national profile through partnerships with GFOA and others, and served as interim Product Director for Euna Grants—integrating AmpliFund into a market-leading platform. He also launched the “Rethinking Budgeting” initiative, bringing ADA-accessible, strategic budgeting tools to local governments.</p>
@@ -85,18 +96,7 @@ redirect_from:
 						<li>2012 Oxford Internet and Society Award</li>
 						<li>White House Champions of Change</li>
 						<li>Multiple Knight News Challenge Selections</li>
-					</ul>
-                </div>
-                <div class="socials">
-                    <a class="soc-link">
-                        <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
-                    </a>
-                    <a class="soc-link">
-                        <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
-                    </a>
-                    <a class="soc-link">
-                        <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="">
-                    </a>
+					</ul>-->
                 </div>
             </div>
         </div>
