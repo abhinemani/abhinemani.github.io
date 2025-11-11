@@ -46,9 +46,19 @@ redirect_from:
 					</div>
 					<h3>More Information</h3>
 					<ul>
-						<li class="plus-li"><strong>Email:</strong> <a href="mailto:abhi@ethoslabs.us">abhi.nemani@gmail.com.us</a>
+						<li class="plus-li"><strong>Email:</strong> <a href="mailto:abhi@ethoslabs.us">abhi.nemani@gmail.com</a>
 						</li>
-						<li class="plus-li"><strong><a href="{{site.url}}/cv">Curriculum Vitae (CV)</a></strong>, <a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>, and <strong><a href="{{site.url}}/img/headshot-2023.jpg">Headshot</a></strong> (for media purposes)
+						<li class="plus-li">
+							<a href="{{site.url}}/cv"><strong>Curriculum Vitae (CV)</strong></a>
+						</li>
+						<li>
+							<a href="{{site.url}}/press/"><strong>Press Mentions</strong></a>						
+						</li>
+						<li>
+							<a href="{{site.url}}/talks"><strong>Speaking Engagements</strong></a> 
+						</li>
+						<li>
+							<a href="{{site.url}}/img/headshot-2023.jpg"><strong>Headshot</strong></a>(for media purposes)
 						</li>
 					</ul>
 				</div>
