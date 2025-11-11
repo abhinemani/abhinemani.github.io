@@ -30,17 +30,20 @@ redirect_from:
 						<p>In the past, Nemani helped launch and scale the internationally recognized nonprofit, Code for America, which jumpstarted innovation in dozens of local governments and served as a model for the Obama White House’s innovation strategy. In 2014, Mayor Eric Garcetti appointed Nemani as the City of Los Angeles’ first Chief Data Officer, and in that role, he drove the city’s performance management and transparency initiatives, garnering international recognition for Los Angeles as the top data and digital city. Nemani later served as the Chief Innovation Officer for the City of Sacramento, building the Office of Entreprenuership to adapt economic development strategies for the digital economy. In 2018, he was selected to Co-Chair the Tech & Innovation Platform Committee for Governor Newsom’s first gubernatorial campaign. </p>
 						<p>As an researcher and investor, Nemani regularly consults with major foundations, private equity, and governments on technology investments and policy, and he has developed civic innovation curriculum for the University of Chicago Computational Analysis and Public Policy program and the World Bank. In addition to executive credentials from Stanford (eMBA) and Wharton (AFP), Nemani holds a B.A. from Claremont McKenna College and a Masters of Public Administration (MPA) from the USC Price School of Public Policy.			
 					</p>
-	                <div class="socials" style="padding-bottom: 20px;">
-	                    <a class="soc-link">
-	                        <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
-	                    </a>
-	                    <a class="soc-link">
-	                        <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
-	                    </a>
-	                    <a class="soc-link">
-	                        <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="">
-	                    </a>
-	                </div>		
+					<div class="socials" style="margin-bottom: 20px;" target="_blank">
+						<a class="soc-link" href="https://linkedin.com/in/abhinemani">
+							<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
+						</a>
+						<a class="soc-link" href="mailto:abhi.nemani@gmail.com" target="_blank">
+							<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
+						</a>
+						<a class="soc-link" href="https://github.com/abhinemani" target="_blank">
+							<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
+						</a>
+						<a class="soc-link" href="https://abhinemani.com/feed.xml" target="_blank">
+							<img src="{{site.url}}/img/rss-icon.png" class="img-svg" alt="">
+						</a>
+					</div>
 					<h3>More Information</h3>
 					<ul>
 						<li class="plus-li"><strong>Email:</strong> <a href="mailto:abhi@ethoslabs.us">abhi.nemani@gmail.com.us</a>
