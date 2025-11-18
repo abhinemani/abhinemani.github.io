@@ -13,33 +13,25 @@ tags:
  - data
  - startups
 ---
-# **Market Sizing**
-
 One of the advantages of the government technology market is that it’s *knowable.* Local governments are a fixed universe — about 90,000 entities nationwide — each with budgets, responsibilities, and operational needs that technology can meaningfully improve.
 
-The complexity comes from **variation**, not uncertainty: size, staffing, capacity, and willingness to pay differ dramatically across jurisdictions. That’s why “one-number” TAM estimates tend to gloss over what really matters.
+The complexity comes from **variation**, not uncertainty: size, staffing, capacity, and willingness to pay differ dramatically across jurisdictions. These variations make determine total addressable market (TAM) or serviceable addressable market (SAM).
+
+That’s why historical or comparative market estimates for GovTech — in my experience — overestimate realistic growth. Instead, I take a bottom-up willingness and ability to pay approach to give more realistic estimates based on agency size. Here's how...
+
+(So I've also [a simple calculator](https://abhinemani.com/govtech-market/), where you can models yourself.)
+
+![GovTech Market Sizing](/img/marketi-size-header.jpg)
 
 ## **The Shape of the Market**
 
 Most U.S. cities are small, while SaaS adoption is highest among large jurisdictions. CivicPulse’s survey shows:
 
 **City size distribution**
-
-* 17,900 under 25K
-* 2,200 between 25K–75K
-* 894 between 75K–250K
-* 326 above 250K
-
-![Most cities are small. CivicPulse](attachment:8F7501FB-E40A-4BA1-B4DA-B92B576B7B8F.jpeg)
+![Most cities are small. CivicPulse](/img/localgov-count.png)
 
 **SaaS adoption by size**
-
-* 98% in large cities
-* 84% in mid-sized
-* 73% in smaller mid-sized
-* 49% under 25K
-
-![SaaS Adoption is Skewed. CivicPulse](attachment\:D41AD503-34A6-4FDA-8271-EEC148DF482D.jpeg)
+![SaaS Adoption is Skewed. CivicPulse](/img/saas-adoption.png)
 
 This “wide base, narrow top” structure is exactly why **bottom-up modeling** is the most accurate way to size the GovTech market.
 
@@ -53,44 +45,28 @@ Instead of assuming every government eventually buys something at the same price
 
 This lets you see which segments actually drive revenue and what is realistically addressable.
 
+
+
 ## **A Quick Walk-Through Example**
 
 Using the **[GovTech TAM/SAM Calculator](https://abhinemani.com/govtech-market/)**:
 
-### 1. Pricing assumptions
+### 1. Set Tiered Pricing & Adoption Assumptions
 
-* $60K for large cities
-* $30K for mid-sized
-* $15K for smaller mid-sized
-* $7.5K for small cities
+![TAM Calculator Example - Inputs](/img/tam-inputs.png)
 
-### 2. Adoption assumptions
+### 2. Total Revenue by Teirs
+![TAM Calculator Example - Analysis](/img/tam-analysis.png)
 
-* 25% large
-* 12% mid
-* 8% smaller mid
-* 2% small
+### 3. Total TAM & SAM
 
-### 3. Multiply by actual U.S. counts
-
-* 82 large
-* 107 mid
-* 176 smaller mid
-* 358 small
-
-### 4. Revenue per tier
-
-* $4.9M
-* $3.2M
-* $2.6M
-* $2.7M
-
-**≈ $13.4M SAM**, with conservative settings.
+![TAM Calculator Example - Outputs](/img/tam-outputs.png)
 
 The calculator lets you adjust adoption and pricing on the fly — making bottom-up modeling a fast, interactive exercise rather than a one-time estimate.
 
-
-## Market Sizing Calculator
-<div class="container-iframe">
 👉 **Try it:** [https://abhinemani.com/govtech-market/](https://abhinemani.com/govtech-market/)
-</div>
+
+## Takeaways
+- There 20k+ local governments, each with different purchasing rules — and different financial reporting mechanisms, making national analysis very cumbersome (or impossible). For instance, in some jurisdictions “economic development” is called “community development” or there isn’t even a department; it is just handled by some people or someone in the city manager’s office.
+- Big cities have big budgets, but small numbers. Although it may be easier to look at big city purchasing trends (which are more accessible) to determine TAM, that would skew towards bigger cities that have disproportionately long sales cycles and atypical contracts. The reality of local government is that most cities are small (>12k), which compounds the top-down TAM calculus.
+- Many new technologies are just that, new. Thus, looking at previous budget allocations for technology misses the point: government spending is only growing so consider willingness to pay (WTP) for bottom-up analysis.
