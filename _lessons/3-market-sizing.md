@@ -46,7 +46,7 @@ Instead of assuming every government eventually buys something at the same price
 This lets you see which segments actually drive revenue and what is realistically addressable.
 
 ## **A Quick Walk-Through Example**
-The key is to realistically set **adoption** estimates for each customer category, from small to large. It's critical to keep in mind the direct relationship between size and adoption rates, and the inverse relationship between size and number. I recommend starting with which categories have the ideal product-market, focus estimates there, and build possible growth trajectories in new tiers, summing into a reasonable TAM
+The key is to realistically set **adoption** estimates for each customer category, from small to large. It's critical to keep in mind the direct relationship between size and adoption rates, and the inverse relationship between size and number. I recommend starting with which categories have the ideal product-market, focus estimates there, and build possible growth trajectories in new tiers, summing into reasonable TAM and SAM projections.
 
 Using the **[GovTech TAM/SAM Calculator](https://abhinemani.com/govtech-market/)**:
 
