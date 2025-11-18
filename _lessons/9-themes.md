@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Local GovTech Market Trends
-subhead: Enablers for the government technology industry&#58; changing leaders, staff, and expectations
-categories: Academy
+title: GovTech Buyer Trends
+subhead: Overview of the structural enablers for technology innovation, and the new buyers driving change
 pubdate: 2022
 img: pia-header.png
 pubdate: Updated 2023
