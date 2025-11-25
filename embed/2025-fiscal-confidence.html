@@ -59,6 +59,34 @@
         .source a:hover {
             text-decoration: underline;
         }
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .legend-box {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+        .legend-line {
+            width: 30px;
+            height: 3px;
+            background: #95a5a6;
+        }
+        .legend-green {
+            background: rgba(46, 204, 113, 0.4);
+        }
+        .legend-red {
+            background: rgba(231, 76, 60, 0.4);
+        }
         .chart-container {
             position: relative;
             height: 500px;
@@ -85,9 +113,25 @@
 </head>
 <body>
     <div class="container">
-        <h1>The Fiscal Cliff Is Here: City Budget Confidence Drops Below 50%</h2>
+        <h1>The Fiscal Cliff Is Here</h1>
+        <h2>City Fiscal Confidence Drops Below 50% in 2025</h2>
         <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 needs</div>
         
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-box legend-green"></div>
+                <span>>50%</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box legend-red"></div>
+                <span><50%</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line"></div>
+                <span>'Better Able' to Balance Next Year's Budget</span>
+            </div>
+        </div>
+
         <div class="chart-container">
             <canvas id="budgetChart"></canvas>
         </div>
@@ -235,7 +279,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Year',
+                            text: 'Fiscal Year (FY)',
                             font: {
                                 size: 14,
                                 weight: 600
