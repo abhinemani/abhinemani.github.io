@@ -23,34 +23,38 @@
             max-width: 100%;
         }
         h1 {
-            color: #2c3e50;
-            font-size: 28px;
-            margin-bottom: 4px;
-            font-weight: 600;
+            color: #1a1a1a;
+            font-size: 32px;
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            line-height: 1.2;
         }
         h2 {
-            color: #2c3e50;
-            font-size: 22px;
+            color: #4a5568;
+            font-size: 18px;
             margin-top: 0;
-            margin-bottom: 8px;
-            font-weight: 500;
+            margin-bottom: 20px;
+            font-weight: 400;
+            line-height: 1.4;
         }
         .subtitle {
             background: #fee;
             color: #c00;
-            padding: 12px 20px;
-            border-left: 5px solid #c00;
-            font-weight: 600;
-            font-size: 16px;
+            padding: 14px 18px;
+            border-left: 4px solid #c00;
+            font-weight: 500;
+            font-size: 15px;
             margin-bottom: 24px;
-            line-height: 1.5;
+            line-height: 1.6;
         }
         .subtitle a {
             color: #c00;
-            text-decoration: underline;
+            text-decoration: none;
+            font-weight: 600;
         }
         .subtitle a:hover {
-            color: #900;
+            text-decoration: underline;
         }
         .source a {
             color: #1565c0;
@@ -63,8 +67,9 @@
             display: flex;
             justify-content: center;
             gap: 30px;
-            margin: 20px 0;
-            font-size: 14px;
+            margin: 20px 0 24px 0;
+            font-size: 13px;
+            color: #4a5568;
         }
         .legend-item {
             display: flex;
@@ -72,13 +77,13 @@
             gap: 8px;
         }
         .legend-box {
-            width: 20px;
-            height: 20px;
-            border-radius: 3px;
+            width: 18px;
+            height: 18px;
+            border-radius: 2px;
         }
         .legend-line {
-            width: 30px;
-            height: 3px;
+            width: 28px;
+            height: 2px;
             background: #95a5a6;
         }
         .legend-green {
@@ -89,19 +94,74 @@
         }
         .branding {
             text-align: center;
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #e0e0e0;
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid #e8e8e8;
+            font-size: 12px;
+            color: #9ca3af;
+        }
+        .branding img {
+            height: 18px;
+            width: auto;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+        .branding a:hover img {
+            opacity: 1;
+        }
+        .controls {
+            background: #fafafa;
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            border: 1px solid #e8e8e8;
+        }
+        .controls label {
+            font-weight: 500;
+            color: #4a5568;
             font-size: 13px;
-            color: #666;
         }
-        .branding a {
-            color: #1565c0;
-            text-decoration: none;
-            font-weight: 600;
+        .controls select {
+            padding: 5px 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+            font-size: 13px;
+            background: white;
+            cursor: pointer;
+            color: #374151;
         }
-        .branding a:hover {
-            text-decoration: underline;
+        .controls button {
+            padding: 5px 14px;
+            background: #1565c0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .controls button:hover {
+            background: #0d47a1;
+        }
+        .controls button:last-child {
+            background: #6b7280;
+        }
+        .controls button:last-child:hover {
+            background: #4b5563;
+        }
+        .year-range {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .year-range span {
+            color: #6b7280;
+            font-size: 13px;
         }
         .chart-container {
             position: relative;
@@ -119,18 +179,25 @@
             margin: 20px 0;
         }
         .source {
-            color: #6c757d;
-            font-size: 13px;
+            color: #9ca3af;
+            font-size: 12px;
             margin-top: 16px;
-            font-style: italic;
-            line-height: 1.6;
+            line-height: 1.5;
+        }
+        .source a {
+            color: #6b7280;
+            text-decoration: none;
+        }
+        .source a:hover {
+            color: #1565c0;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>The Fiscal Cliff Is Here</h1>
-		<h2>Municipal Budget Confidence Drops Below 50%</h1>
+        <h1>The Fiscal Cliff Arrives</h1>
+        <h2>City budget confidence falls to 45% as federal aid ends and structural pressures mount</h2>
         <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 needs</div>
         
         <div class="legend">
@@ -144,7 +211,7 @@
             </div>
             <div class="legend-item">
                 <div class="legend-line"></div>
-                <span>'Better Able' to Balance Next Year's Budget</span>
+                <span>Cities Feeling 'Better Able' to Balance Budget</span>
             </div>
         </div>
 
@@ -152,39 +219,84 @@
             <canvas id="budgetChart"></canvas>
         </div>
 
-        <p class="source">
-            <strong>Source:</strong> <a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities 2025 City Fiscal Conditions Survey</a>.<br>
-            <strong>Figure Note:</strong> Percentages are calculated as the proportion of all total responses to the question (n=257 for CFC 2025 survey). The sample size depends on the number of cities that responded to the City Fiscal Conditions survey for each of the analyzed years.
-        </p>
-
-        <div class="branding">
-            Analysis by <a href="https://abhinemani.com/consulting/" target="_blank">EthosLabs</a> | GovTech Consultancy & Market Insights
+        <div class="controls">
+            <label>Filter by year:</label>
+            <div class="year-range">
+                <select id="startYear">
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+                <span>to</span>
+                <select id="endYear">
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026" selected>2026</option>
+                </select>
+            </div>
+            <button onclick="updateChart()">Update</button>
+            <button onclick="resetChart()">Reset</button>
         </div>
+
+        <p class="source">
+            <strong>Source:</strong> <a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities 2025 City Fiscal Conditions Survey</a><br>
+            Visualization by <a href="https://abhinemani.com" target="_blank">Abhi Nemani</a>
+        </p>
     </div>
 
     <script>
-        const years = [
+        const allYears = [
             2005, 2006, 2007, 2008, 2009,
             2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
             2020, 2021, 2022, 2023, 2024, 2025, 2026
         ];
 
-        const betterAble = [
+        const allBetterAble = [
             63, 65, 70, 36, 12,
             13, 43, 57, 72, 80, 82, 81, 69, 73, 76,
             22, 65, 89, 69, 64, 52, 45
         ];
 
+        let currentYears = [...allYears];
+        let currentBetterAble = [...allBetterAble];
+
         const ctx = document.getElementById('budgetChart').getContext('2d');
         
-        const chart = new Chart(ctx, {
+        let chart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: years,
+                labels: currentYears,
                 datasets: [
                     {
                         label: '',
-                        data: betterAble,
+                        data: currentBetterAble,
                         borderColor: '#000',
                         borderWidth: 0,
                         backgroundColor: 'rgba(46, 204, 113, 0.25)',
@@ -200,7 +312,7 @@
                     },
                     {
                         label: '',
-                        data: betterAble,
+                        data: currentBetterAble,
                         borderColor: '#000',
                         borderWidth: 0,
                         backgroundColor: 'rgba(231, 76, 60, 0.3)',
@@ -216,7 +328,7 @@
                     },
                     {
                         label: 'Cities Better Able to Balance Budget',
-                        data: betterAble,
+                        data: currentBetterAble,
                         borderColor: '#95a5a6',
                         backgroundColor: 'transparent',
                         borderWidth: 2,
@@ -299,7 +411,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Fiscal Year (FY)',
+                            text: 'Year',
                             font: {
                                 size: 14,
                                 weight: 600
@@ -312,15 +424,16 @@
                                 size: 11
                             },
                             callback: function(value, index) {
-                                // Show all years since we only have 22 years
-                                return years[index];
+                                const year = currentYears[index];
+                                // Show every 3 years: 2005, 2008, 2011, 2014, 2017, 2020, 2023, 2026
+                                return (year - 2005) % 3 === 0 ? year : '';
                             },
                             color: function(context) {
-                                const year = years[context.index];
+                                const year = currentYears[context.index];
                                 return year === 2026 ? '#c0392b' : '#666';
                             },
                             font: function(context) {
-                                const year = years[context.index];
+                                const year = currentYears[context.index];
                                 return {
                                     size: year === 2026 ? 13 : 11,
                                     weight: year === 2026 ? 'bold' : 'normal'
@@ -384,6 +497,44 @@
             meta.data[17].options.pointBorderWidth = 3;
         }
         chart.update();
+        
+        function updateChart() {
+            const startYear = parseInt(document.getElementById('startYear').value);
+            const endYear = parseInt(document.getElementById('endYear').value);
+            
+            if (startYear >= endYear) {
+                alert('Start year must be before end year');
+                return;
+            }
+            
+            const startIndex = allYears.indexOf(startYear);
+            const endIndex = allYears.indexOf(endYear);
+            
+            currentYears = allYears.slice(startIndex, endIndex + 1);
+            currentBetterAble = allBetterAble.slice(startIndex, endIndex + 1);
+            
+            chart.data.labels = currentYears;
+            chart.data.datasets[0].data = currentBetterAble;
+            chart.data.datasets[1].data = currentBetterAble;
+            chart.data.datasets[2].data = currentBetterAble;
+            
+            chart.update();
+        }
+        
+        function resetChart() {
+            currentYears = [...allYears];
+            currentBetterAble = [...allBetterAble];
+            
+            chart.data.labels = currentYears;
+            chart.data.datasets[0].data = currentBetterAble;
+            chart.data.datasets[1].data = currentBetterAble;
+            chart.data.datasets[2].data = currentBetterAble;
+            
+            document.getElementById('startYear').value = '2005';
+            document.getElementById('endYear').value = '2026';
+            
+            chart.update();
+        }
     </script>
 </body>
 </html>
