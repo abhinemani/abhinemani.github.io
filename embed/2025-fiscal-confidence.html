@@ -87,6 +87,22 @@
         .legend-red {
             background: rgba(231, 76, 60, 0.4);
         }
+        .branding {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 13px;
+            color: #666;
+        }
+        .branding a {
+            color: #1565c0;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .branding a:hover {
+            text-decoration: underline;
+        }
         .chart-container {
             position: relative;
             height: 500px;
@@ -114,7 +130,7 @@
 <body>
     <div class="container">
         <h1>The Fiscal Cliff Is Here</h1>
-        <h2>City Fiscal Confidence Drops Below 50% in 2025</h2>
+        <h2>Municipal Budget Confidence Drops Below 50% in 2025</h2>
         <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 needs</div>
         
         <div class="legend">
@@ -140,6 +156,10 @@
             <strong>Source:</strong> <a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities 2025 City Fiscal Conditions Survey</a>.<br>
             <strong>Figure Note:</strong> Percentages are calculated as the proportion of all total responses to the question (n=257 for CFC 2025 survey). The sample size depends on the number of cities that responded to the City Fiscal Conditions survey for each of the analyzed years.
         </p>
+
+        <div class="branding">
+            Analysis by <a href="https://abhinemani.com/consulting/" target="_blank">EthosLabs</a> | GovTech Consultancy & Market Insights
+        </div>
     </div>
 
     <script>
@@ -279,7 +299,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Fiscal Year (FY)',
+                            text: 'Year',
                             font: {
                                 size: 14,
                                 weight: 600
