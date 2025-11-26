@@ -16,9 +16,11 @@ img: 2025-confidence-recent.png
 ---
 Municipal governments oversee the systems that keep daily life functioning—public safety, water and wastewater operations, streets, sanitation, and emergency response. Each year, the [National League of Cities](https://www.nlc.org/) surveys the finance officers who manage these systems, offering an early view into how prepared cities feel for the fiscal demands ahead.
 
-This year’s [**2025 City Fiscal Conditions Report**](https://www.nlc.org/resource/city-fiscal-conditions-2025/) shows a meaningful shift. For the **first time since the COVID-19 period**, a majority of cities &mdash; **55%** &mdash; expect to be less able to meet next year’s budget needs. Historically, this threshold has only been crossed during major national shocks. Seeing the same pattern emerge today—during a period of relative economic stability—suggests that city finances are being shaped by deeper structural forces.
+This year’s [**2025 City Fiscal Conditions Report**](https://www.nlc.org/resource/city-fiscal-conditions-2025/) shows a meaningful shift. For the **first time since the COVID-19 period, a majority of cities &mdash; 55% &mdash; expect to be less able to meet next year’s budget needs.** Earlier this year, I wrote that many city leaders were operating in an **["age of uncertainty,"](https://abhinemani.com/blog/2025/03/14/Confidence/)** where familiar patterns were giving way to more fluid conditions. Now, the new data suggests that the mood is shifting once again &mdash; **from uncertainty to concern**.
 
-Earlier this year, I wrote that many city leaders were operating in an **["age of uncertainty,"](https://abhinemani.com/blog/2025/03/14/Confidence/)** where familiar patterns were giving way to more fluid conditions. The new data suggests that the mood is shifting once again &mdash; **from uncertainty to concern**.
+### How do you measure fiscal confidence?
+
+Each year, the National League of Cities surveys city finance officers and asks a simple question: _Do you expect to be better able or less able to meet next year’s budget needs compared to last year?_ It’s essentially asking a city’s CFO whether projected revenues will cover projected expenses in the year ahead. If they think the budget will be easier to balance, they answer “better able.” If they expect rising costs or slowing revenues to make things harder, they answer “less able.”
 
 <iframe 
     id="fiscalCliffChart" 
@@ -40,9 +42,11 @@ window.addEventListener('message', function(e) {
 });
 </script>
 
-Crossings above the 50-percent “less able” line have been rare and tied to major recessions or early-pandemic disruptions. The fact that this year’s results show a similar crossing without a national downturn indicates a more fundamental constraint. Cities aren’t reacting to a single event; they’re recognizing a landscape where pressures have accumulated enough to change their outlook.
+The chart tracks these responses over more than four decades. When the “less able” share rises above 50%, it means most cities expect next year’s budget to be harder to balance  &mdash; a clear signal about the broader fiscal climate local governments are facing. It's important to note that it’s not a technical forecast: it’s a sentiment measure grounded in the people who manage the day-to-day realities of municipal budgets.
 
-## Three Forces Behind the Decline in Confidence
+It's easy to see that crossings below the 50-percent line have been **rare**. Historically  and tied to major recessions or early-pandemic disruptions. Seeing the same pattern emerge today &mdash; during a period of relative economic stability &mdash; suggests that city finances are being shaped by deeper structural forces.
+
+## Three Structural Forces Behind the Decline in Confidence
 
 1. **Rising and Rigid Costs Are Outpacing Stabilizing Revenues**: Cities are contending with sustained increases in wages, public-safety spending, and long-deferred infrastructure needs. These are essential, recurring costs that grow each year. Meanwhile, key revenue sources &mdash; sales, income, and property taxes &mdash; have returned to modest, pre-pandemic growth trends. The mismatch between rising obligations and stabilizing revenues is widening, prompting cities to reassess their capacity.
 2. **The End of Federal Relief Has Revealed a Tighter Fiscal Baseline**: Federal relief programs, particularly ARPA, provided temporary stability during a volatile period. As those supports expire, cities are facing a clearer picture of their underlying fiscal condition. Some, like Dearborn, MI, have already seen measurable revenue declines as federal inflows ended. With no comparable federal relief on the horizon, cities are adjusting to a baseline that is more constrained than the last several years.
