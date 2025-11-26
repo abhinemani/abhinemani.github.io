@@ -16,7 +16,7 @@ img: 2025-confidence-recent.png
 ---
 Municipal governments manage the systems that keep daily life functioning—public safety, water and wastewater operations, streets, sanitation, parks, libraries, and emergency response. Each year, the National League of Cities surveys the finance officers responsible for those systems, providing an early indicator of how well cities believe they can meet the demands ahead.
 
-The **2025 City Fiscal Conditions Report** shows a meaningful shift. For the **first time since the COVID-19 period**, a majority of cities &mdash; **55%** &mdash; expect to be less able to meet next year’s budget needs. While this threshold has been crossed before, it has typically aligned with major national economic downturns. This year’s crossing is different: it is occurring outside a recession, which suggests deeper structural forces at work.
+The [**2025 City Fiscal Conditions Report**](https://www.nlc.org/resource/city-fiscal-conditions-2025/) shows a meaningful shift. For the **first time since the COVID-19 period**, a majority of cities &mdash; **55%** &mdash; expect to be less able to meet next year’s budget needs. While this threshold has been crossed before, it has typically aligned with major national economic downturns. This year’s crossing is different: it is occurring outside a recession, which suggests deeper structural forces at work.
 
 <iframe 
     id="fiscalCliffChart" 
