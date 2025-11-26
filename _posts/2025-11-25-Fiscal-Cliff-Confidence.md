@@ -8,8 +8,8 @@ categories:
 tags:
   - Governments
   - Leadership
-pubdate: 'November 24, 2025'
-date: 2025-11-24
+pubdate: 'November 25, 2025'
+date: 2025-11-25
 author: Abhi Nemani
 img: 2025-confidence-recent.png
 
@@ -45,7 +45,7 @@ Crossings above the 50-percent “less able” line have been rare and tied to m
 ## Three Forces Behind the Decline in Confidence
 
 1. **Rising and Rigid Costs Are Outpacing Stabilizing Revenues**: Cities are contending with sustained increases in wages, public-safety spending, and long-deferred infrastructure needs. These are essential, recurring costs that grow each year. Meanwhile, key revenue sources &mdash; sales, income, and property taxes &mdash; have returned to modest, pre-pandemic growth trends. The mismatch between rising obligations and stabilizing revenues is widening, prompting cities to reassess their capacity.
-2. The End of Federal Relief Has Revealed a Tighter Fiscal Baseline**: Federal relief programs, particularly ARPA, provided temporary stability during a volatile period. As those supports expire, cities are facing a clearer picture of their underlying fiscal condition. Some, like Dearborn, MI, have already seen measurable revenue declines as federal inflows ended. With no comparable federal relief on the horizon, cities are adjusting to a baseline that is more constrained than the last several years.
+2. **The End of Federal Relief Has Revealed a Tighter Fiscal Baseline**: Federal relief programs, particularly ARPA, provided temporary stability during a volatile period. As those supports expire, cities are facing a clearer picture of their underlying fiscal condition. Some, like Dearborn, MI, have already seen measurable revenue declines as federal inflows ended. With no comparable federal relief on the horizon, cities are adjusting to a baseline that is more constrained than the last several years.
 3. **Capital and Procurement Costs Remain Volatile, Complicating Long-Term Planning**: Tariffs, supply-chain shifts, and inflation continue to affect the cost and timing of capital projects. Even modest disruptions require cities to delay work, increase contingencies, or scale back scope. Concerns about the tax treatment of municipal bonds add uncertainty to long-term financing. Together, these forces make it harder to plan with confidence, especially for infrastructure.
 
 Taken together, these dynamics help explain why cities’ posture has changed: uncertainty has now become concern, driven not by crisis but by structural imbalances.
