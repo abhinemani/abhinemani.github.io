@@ -15,11 +15,12 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
             background: white;
-            padding: 0px;
+            padding: 0;
+            margin: 0;
         }
         .container {
             background: white;
-            padding: 0px;
+            padding: 0;
             max-width: 100%;
         }
         h1 {
@@ -198,7 +199,7 @@
     <div class="container">
         <h1>The Fiscal Cliff Arrives</h1>
         <h2>City budget confidence falls to 45% as federal aid retreats and structural pressures mount</h2>
-        <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 budgetary needs. Explore the historical data below.</div>
+        <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 budgetary needs</div>
         
         <div class="legend">
             <div class="legend-item">
@@ -223,6 +224,21 @@
             <label>Filter by year:</label>
             <div class="year-range">
                 <select id="startYear">
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
                     <option value="2005">2005</option>
                     <option value="2006">2006</option>
                     <option value="2007">2007</option>
@@ -242,6 +258,9 @@
                 </select>
                 <span>to</span>
                 <select id="endYear">
+                    <option value="1995">1995</option>
+                    <option value="2000">2000</option>
+                    <option value="2005">2005</option>
                     <option value="2010">2010</option>
                     <option value="2011">2011</option>
                     <option value="2012">2012</option>
@@ -273,13 +292,15 @@
 
     <script>
         const allYears = [
-            2005, 2006, 2007, 2008, 2009,
+            1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+            2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009,
             2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
             2020, 2021, 2022, 2023, 2024, 2025, 2026
         ];
 
         const allBetterAble = [
-            63, 65, 70, 36, 12,
+            33, 21, 22, 34, 54, 58, 65, 68, 69, 75,
+            73, 56, 45, 19, 37, 63, 65, 70, 36, 12,
             13, 43, 57, 72, 80, 82, 81, 69, 73, 76,
             22, 65, 89, 69, 64, 52, 45
         ];
@@ -425,8 +446,9 @@
                             },
                             callback: function(value, index) {
                                 const year = currentYears[index];
-                                // Show every 3 years: 2005, 2008, 2011, 2014, 2017, 2020, 2023, 2026
-                                return (year - 2005) % 3 === 0 ? year : '';
+                                const firstYear = currentYears[0];
+                                // Show every 3 years from the starting year
+                                return (year - firstYear) % 3 === 0 ? year : '';
                             },
                             color: function(context) {
                                 const year = currentYears[context.index];
@@ -530,7 +552,7 @@
             chart.data.datasets[1].data = currentBetterAble;
             chart.data.datasets[2].data = currentBetterAble;
             
-            document.getElementById('startYear').value = '2005';
+            document.getElementById('startYear').value = '1990';
             document.getElementById('endYear').value = '2026';
             
             chart.update();
