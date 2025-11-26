@@ -24,7 +24,7 @@ Earlier this year, I wrote that many city leaders were operating in an **["age o
     id="fiscalCliffChart" 
     src="https://abhinemani.com/embed/2025-fiscal-confidence.html" 
     width="100%" 
-    height="800" 
+    height="850" 
     frameborder="0" 
     style="border: none; display: block; margin: 20px auto; max-width: 1200px;">
 </iframe>
