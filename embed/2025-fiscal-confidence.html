@@ -535,6 +535,29 @@
             
             chart.update();
         }
+        
+        // Auto-resize functionality - sends height to parent page
+        function sendHeight() {
+            const height = document.body.scrollHeight;
+            window.parent.postMessage({type: 'resize', height: height}, '*');
+        }
+        
+        // Send height on load, resize, and after chart updates
+        window.addEventListener('load', sendHeight);
+        window.addEventListener('resize', sendHeight);
+        
+        // Also send height after chart updates (with small delay to ensure rendering is complete)
+        const originalUpdateChart = updateChart;
+        updateChart = function() {
+            originalUpdateChart();
+            setTimeout(sendHeight, 100);
+        };
+        
+        const originalResetChart = resetChart;
+        resetChart = function() {
+            originalResetChart();
+            setTimeout(sendHeight, 100);
+        };
     </script>
 </body>
 </html>

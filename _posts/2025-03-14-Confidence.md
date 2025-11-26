@@ -30,7 +30,7 @@ But public perception is only part of the picture. The structural data behind ci
 
 ## Fiscal Optimism is Fading — Fast
 
-![](img/confidence-large.jpg)
+![2024 NLC Fiscal Conditions Survey Results](/img/confidence-large.jpg)
 
 In its [**2024 City Fiscal Conditions**](https://www.nlc.org/wp-content/uploads/2024/10/2024-City-Fiscal-Conditions-Report-WEB.pdf) report, the **National League of Cities (NLC)** confirms what many public finance officials already feel: even amid strong performance in FY 2023, the path forward is clouded.
 
