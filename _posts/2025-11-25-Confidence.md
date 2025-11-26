@@ -2,16 +2,16 @@
 published: true
 layout: single
 title: The Fiscal Cliff Arrives
-subhead: And For the First Time Since COVID, Most Cities Expect to Be Less Able to Meet Next Year’s Budget
+subhead: According to a 2025 National League of Cities survey, less than half of municipaliites (45%) feel confident about meeting next year's budget &mdash; the lowest since COVID.
 categories:
   - Blog
 tags:
   - Governments
   - Leadership
-pubdate: 'November 246 2025'
+pubdate: 'November 24, 2025'
 date: 2025-03-14
 author: Abhi Nemani
-img: uncertainty.jpg
+img: 2025-confidence-recent.png
 
 ---
 Municipal governments manage the systems that keep daily life functioning—public safety, water and wastewater operations, streets, sanitation, parks, libraries, and emergency response. Each year, the National League of Cities surveys the finance officers responsible for those systems, providing an early indicator of how well cities believe they can meet the demands ahead.
@@ -44,39 +44,18 @@ For decades, the balance between cities feeling “better able” and “less ab
 
 ## **Why Confidence Is Declining: Five Structural Drivers**
 
-**1. Expenditure Growth Is Outpacing Revenue Growth**
-Cities are experiencing sustained increases across core cost centers—wages and benefits needed to compete for talent, public safety costs that now represent the majority of many general funds, and long-deferred infrastructure needs that are growing more expensive to postpone. These cost pressures are structural rather than temporary, and they accumulate annually.
-
-**2. Revenues Are Stabilizing Rather Than Expanding**
-Following several years of strong post-pandemic recovery, key revenue sources have leveled off. Sales taxes have returned to pre-COVID patterns, while income and property tax growth has slowed. Many cities expect an overall decline in general fund revenues in FY2025. The economy remains stable, but the revenue base is no longer expanding fast enough to absorb rising obligations.
-
-**3. Federal Support Has Normalized After an Unusual Period of Aid**
-Federal relief programs such as ARPA provided cities with temporary flexibility and breathing room. As those funds expire, budgets now reflect cities’ true fiscal positions. In some cases—Dearborn, MI being one example—the end of federal inflows has resulted in immediate revenue declines. This normalization removes a buffer that cities had relied on.
-
-**4. Capital and Procurement Costs Are Increasingly Uncertain**
-Nearly half of finance officers reported that tariff and supply-chain conditions affected their budgets this year. Even where impacts are modest, the uncertainty forces cities to increase allocations or delay major projects. Concerns about potential changes to municipal bond tax treatment introduce another long-term cost variable. Together, these dynamics make it more challenging to plan and execute infrastructure projects.
-
-**5. Converging Long-Term Pressures Are Reshaping the Fiscal Landscape**
-Cities are simultaneously contending with aging infrastructure, climate-related obligations, workforce shortages, and rising service expectations. Each factor alone is manageable; in combination, they create a more constrained planning environment. The result is not a sharp downturn, but a gradual tightening in which cities have less room to maneuver.
-
----
+1. **Expenditure Growth Is Outpacing Revenue Growth**: Cities are experiencing sustained increases across core cost centers—wages and benefits needed to compete for talent, public safety costs that now represent the majority of many general funds, and long-deferred infrastructure needs that are growing more expensive to postpone. These cost pressures are structural rather than temporary, and they accumulate annually.
+2. **Revenues Are Stabilizing Rather Than Expanding**: Following several years of strong post-pandemic recovery, key revenue sources have leveled off. Sales taxes have returned to pre-COVID patterns, while income and property tax growth has slowed. Many cities expect an overall decline in general fund revenues in FY2025. The economy remains stable, but the revenue base is no longer expanding fast enough to absorb rising obligations.
+3. **Federal Support Has Normalized After an Unusual Period of Aid**: Federal relief programs such as ARPA provided cities with temporary flexibility and breathing room. As those funds expire, budgets now reflect cities’ true fiscal positions. In some cases—Dearborn, MI being one example—the end of federal inflows has resulted in immediate revenue declines. This normalization removes a buffer that cities had relied on.
+4. **Capital and Procurement Costs Are Increasingly Uncertain**: Nearly half of finance officers reported that tariff and supply-chain conditions affected their budgets this year. Even where impacts are modest, the uncertainty forces cities to increase allocations or delay major projects. Concerns about potential changes to municipal bond tax treatment introduce another long-term cost variable. Together, these dynamics make it more challenging to plan and execute infrastructure projects.
+5. **Converging Long-Term Pressures Are Reshaping the Fiscal Landscape**: Cities are simultaneously contending with aging infrastructure, climate-related obligations, workforce shortages, and rising service expectations. Each factor alone is manageable; in combination, they create a more constrained planning environment. The result is not a sharp downturn, but a gradual tightening in which cities have less room to maneuver.
 
 ## **Why This Matters Beyond City Hall**
 
 Declining fiscal confidence affects more than budget spreadsheets. It shapes the systems residents and businesses rely on every day. When cities anticipate less fiscal capacity, they tend to delay capital projects, adjust service levels, and revisit long-standing programs. Infrastructure repairs take longer to schedule, staffing decisions become harder, and investments in modernization are deferred. The cumulative effect is felt quietly but broadly—across neighborhoods, business districts, and the basic public services that underpin economic vitality and community well-being.
-
----
 
 ## **Looking Ahead**
 
 This year’s decline in confidence does not signal crisis. Instead, it reflects a shift in the operating environment—one in which the assumptions of the past decade no longer fully apply. Cities will need to plan with greater flexibility, evaluate long-term commitments more deliberately, and communicate more clearly about tradeoffs.
 
 The crossing of the 50-percent line offers a clear signal: local governments recognize that the conditions around them have changed. The task ahead is adapting systems, priorities, and investments to match that reality.
-
----
-
-If you’d like, I can now:
-• shorten this into a LinkedIn post
-• format it for your website
-• write a tighter chart caption or intro paragraph specifically for the graph
-• help you refine headlines or subheads to align with your tone
