@@ -197,10 +197,14 @@
 <body>
     <div class="container">
         <h1>The Fiscal Cliff Arrives</h1>
-        <h2>City budget confidence falls to 45% as federal aid ends and structural pressures mount</h2>
-        <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 needs</div>
+        <h2>City budget confidence falls to 45% as federal aid retreats and structural pressures mount</h2>
+        <div class="subtitle"><a href="https://www.nlc.org/resource/city-fiscal-conditions-2025/" target="_blank">National League of Cities' 2025 City Fiscal Conditions report</a> reveals that the majority of cities feel less able to meet FY2026 budgetary needs</div>
         
         <div class="legend">
+            <div class="legend-item">
+                <div class="legend-line"></div>
+                <span>Cities Feeling 'More Able' to Balance Budget</span>
+            </div>
             <div class="legend-item">
                 <div class="legend-box legend-green"></div>
                 <span>>50%</span>
@@ -208,10 +212,6 @@
             <div class="legend-item">
                 <div class="legend-box legend-red"></div>
                 <span><50%</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-line"></div>
-                <span>Cities Feeling 'Better Able' to Balance Budget</span>
             </div>
         </div>
 
@@ -327,7 +327,7 @@
                         order: 2
                     },
                     {
-                        label: 'Cities Better Able to Balance Budget',
+                        label: 'Cities More Able to Balance Budget',
                         data: currentBetterAble,
                         borderColor: '#95a5a6',
                         backgroundColor: 'transparent',
@@ -411,7 +411,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Year',
+                            text: 'Fiscal Year (FY)',
                             font: {
                                 size: 14,
                                 weight: 600
