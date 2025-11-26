@@ -14,7 +14,7 @@ author: Abhi Nemani
 img: 2025-confidence-recent.png
 
 ---
-Municipal governments oversee the systems that keep daily life functioning—public safety, water and wastewater operations, streets, sanitation, and emergency response. Each year, the [National League of Cities]((https://www.nlc.org/) surveys the finance officers who manage these systems, offering an early view into how prepared cities feel for the fiscal demands ahead.
+Municipal governments oversee the systems that keep daily life functioning—public safety, water and wastewater operations, streets, sanitation, and emergency response. Each year, the [National League of Cities](https://www.nlc.org/) surveys the finance officers who manage these systems, offering an early view into how prepared cities feel for the fiscal demands ahead.
 
 This year’s [**2025 City Fiscal Conditions Report**](https://www.nlc.org/resource/city-fiscal-conditions-2025/) shows a meaningful shift. For the **first time since the COVID-19 period**, a majority of cities &mdash; **55%** &mdash; expect to be less able to meet next year’s budget needs. Historically, this threshold has only been crossed during major national shocks. Seeing the same pattern emerge today—during a period of relative economic stability—suggests that city finances are being shaped by deeper structural forces.
 
