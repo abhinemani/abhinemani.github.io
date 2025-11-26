@@ -44,7 +44,7 @@ window.addEventListener('message', function(e) {
 
 The chart tracks these responses over more than four decades. When the “less able” share rises above 50%, it means most cities expect next year’s budget to be harder to balance  &mdash; a clear signal about the broader fiscal climate local governments are facing. It's important to note that it’s not a technical forecast: it’s a sentiment measure grounded in the people who manage the day-to-day realities of municipal budgets.
 
-It's easy to see that crossings below the 50-percent line have been **rare**. Historically  and tied to major recessions or early-pandemic disruptions. Seeing the same pattern emerge today &mdash; during a period of relative economic stability &mdash; suggests that city finances are being shaped by deeper structural forces.
+It's easy to see that crossings below the 50-percent line have been **rare** historically  and tied to major recessions or early-pandemic disruptions. Seeing the same pattern emerge today &mdash; during a period of relative economic stability &mdash; suggests that city finances are being shaped by deeper structural forces.
 
 ## Three Structural Forces Behind the Decline in Confidence
 
