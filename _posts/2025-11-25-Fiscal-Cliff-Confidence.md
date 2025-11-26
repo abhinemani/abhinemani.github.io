@@ -2,7 +2,7 @@
 published: true
 layout: single
 title: The Fiscal Cliff Arrives
-subhead: According to a 2025 National League of Cities survey, less than half of municipaliites (45%) feel confident about meeting next year's budget &mdash; the lowest since COVID.
+subhead: According to a 2025 National League of Cities survey, less than half of municipalities (45%) feel confident about meeting next year's budget &mdash; the lowest since COVID.
 categories:
   - Blog
 tags:
