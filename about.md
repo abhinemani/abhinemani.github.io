@@ -20,7 +20,7 @@ redirect_from:
             <div class="wrap_float">
                 <div class="title-wrap">
                     <div class="author-image">
-                        <img src="{{site.url}}/img/headshot-square.jpg" alt="" class="image-cover">
+                        <img src="{{site.url}}/img/headshot-square.webp" alt="" class="image-cover">
                     </div>
                     <h1 class="page-title">Abhi Nemani</h1>
                 </div>
@@ -64,7 +64,7 @@ redirect_from:
 				</div>
 			</div>
 		</div>
-        <section class="banner-section" style="background-image: url(/img/ethos-back.jpg);">
+        <section class="banner-section" style="background-image: url(/img/ethos-back.webp);">
             <div class="wrap wrap-center">
                 <div class="wrap_float">
                     <div class="section-content">

@@ -4,7 +4,7 @@ title: Putting Sacramento On the Map
 subhead: Case study on building an economic development strategy to level-up a city's innovation and entrepreneurship ecosystem
 heading: Entrepreneurship
 tags: [government, economic development, innovation]
-img: sac-header.png
+img: sac-header.webp
 categories: Portfolio
 pubdate: 2016
 redirect_from: 

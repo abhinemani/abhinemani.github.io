@@ -6,7 +6,7 @@ tags: [foundation, police, procurement]
 heading: Pilots
 categories: Portfolio
 pubdate: 2019
-img: use-of-force-v2.png
+img: use-of-force-v2.webp
 ---
 
 The State of New Jersey Attorney General’s (AG) Office works with hundreds of law enforcement agencies across the state, and to effectively coordinate a statewide program of data-driven justice, it needs to have access to reliable, clean, and comprehensive data from those agencies. These agencies, however, have historically been siloed from a technological perspective with each agency using its own systems, often antiquated and never effectively centralized or standardized. This makes statewide reform, innovation, and accountability challenging.
