@@ -10,7 +10,7 @@ img: pia-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float" >
 			<div class="section-content">
-				 <img src="../img/cta-logo3.png" style="max-width: 80%; padding-bottom: 20px;" alt="Public Innovation Academy">
+				 <img loading="lazy" src="../img/cta-logo3.png" style="max-width: 80%; padding-bottom: 20px;" alt="Public Innovation Academy">
 				 <p class="subtitle" style="color: white; line-height: 1.3em;">
 					 Lessons for innovators &#8212; current or future, private or public &#8212; with a focus on getting the job done, based on lectures at the University of Chicago, Code for America, and cities around the world.
 				 </p>
@@ -33,11 +33,11 @@ img: pia-social.jpg
 					{% for lesson in site.lessons %}
 					<a href="{{lesson.url}}" class="post-item" style="max-height: 300px;">
 						{% if lesson.img  %}
-						
-						<img src="{{ site.url }}/img/lessons/standard.jpg" alt="" class="post-bg-img">
+
+						<img loading="lazy" src="{{ site.url }}/img/lessons/standard.jpg" alt="" class="post-bg-img">
 						{% else %}
-						<img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
-						
+						<img loading="lazy" src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
+
 						{% endif  %}
 
 						<div class="academy-post-info">
@@ -99,7 +99,7 @@ img: pia-social.jpg
 			<h2 class="title">
 				University of Chicago Civic Technology Lectures
 			</h2>
-			<img src="../img/uchicago-overview.png">
+			<img loading="lazy" src="../img/uchicago-overview.png">
 			<div class="section-content wp-content">
 				
 				<p>Part theory, and part technical, with a focus on the characteristics unique to public interest tech, this graduate-level course was designed and delivered in 2019 for the University of Chicago Masters in Computational Analysis and Public Policy (MS-CAPP) program, where I was a visiting lecturer. There were 16 lectures total delivered between April and June 2019. Slides from each class are posted here for viewing, sharing, or downloading, per a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Free Culture license</a>. 

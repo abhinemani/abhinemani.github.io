@@ -110,56 +110,56 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://onex.com"><img src="/img/startups/onex-white.png" alt="Onex Partners"></a>
+								<a href="https://onex.com"><img loading="lazy" src="/img/startups/onex-white.png" alt="Onex Partners"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://zencity.io"><img src="/img/startups/zencity-new-light.png" alt="ZenCity"></a>
+								<a href="https://zencity.io"><img loading="lazy" src="/img/startups/zencity-new-light.png" alt="ZenCity"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://www.wcas.com/"><img src="/img/wcas-white.png" alt="WCAS"></a>
+								<a href="https://www.wcas.com/"><img loading="lazy" src="/img/wcas-white.png" alt="WCAS"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://govdelivery.com"><img src="/img/startups/gd.png" alt="GovDelivery"></a>
+								<a href="https://govdelivery.com"><img loading="lazy" src="/img/startups/gd.png" alt="GovDelivery"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://codeforamerica.org"><img src="/img/startups/codeforamerica.png" alt=""></a>
+								<a href="https://codeforamerica.org"><img loading="lazy" src="/img/startups/codeforamerica.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://www.arnoldventures.org/"><img src="/img/startups/arnold.png" alt="Arnold Ventures"></a>
+								<a href="https://www.arnoldventures.org/"><img loading="lazy" src="/img/startups/arnold.png" alt="Arnold Ventures"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://polco.us"><img src="/img/startups/polco-new.png" alt=""></a>
+								<a href="https://polco.us"><img loading="lazy" src="/img/startups/polco-new.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://spidrtech.com"><img src="/img/startups/spidr.png" alt=""></a>
+								<a href="https://spidrtech.com"><img loading="lazy" src="/img/startups/spidr.png" alt=""></a>
 							</div>
 						</figure>
 					</div>
@@ -173,13 +173,13 @@ img: main-social.jpg
 		<div class="wrap_float">
 			<div class="wp-content">
 				<div class="wrap wrap-center">
-					<h2><a href="/academy"><img src="{{site.url}}/img/cta-color.png" style="margin: 10px auto 0px auto; max-width: 350px;"></a></h2>
+					<h2><a href="/academy"><img loading="lazy" src="{{site.url}}/img/cta-color.png" style="margin: 10px auto 0px auto; max-width: 350px;"></a></h2>
 					<div class="block-columns gallery-columns columns-4 wide-columns lightgallery-off">
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
 									<a href="{{site.url}}/academy/">
-										<img src="{{site.url}}/img/lessons/1.png" alt="GovTech Academy">
+										<img loading="lazy" src="{{site.url}}/img/lessons/1.png" alt="GovTech Academy">
 									</a>
 								</div>
 							</figure>
@@ -187,21 +187,21 @@ img: main-social.jpg
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/academy/city-hall/"><img src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
+									<a href="{{site.url}}/academy/city-hall/"><img loading="lazy" src="{{site.url}}/img/lessons/8.png" alt="City Hall 101"></a>
 								</div>
 							</figure>
 						</div>
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/academy/careers/"><img src="{{site.url}}/img/lessons/10.png" alt="Getting Started in Civic Tech"></a>
+									<a href="{{site.url}}/academy/careers/"><img loading="lazy" src="{{site.url}}/img/lessons/10.png" alt="Getting Started in Civic Tech"></a>
 								</div>
 							</figure>
 						</div>
 						<div class="block-column">
 							<figure class="block-caption img-caption">
 								<div class="img-wrap">
-									<a href="{{site.url}}/academy/data-policy"><img src="{{site.url}}/img/lessons/7.png" alt="Data Driven Policy Making"></a>
+									<a href="{{site.url}}/academy/data-policy"><img loading="lazy" src="{{site.url}}/img/lessons/7.png" alt="Data Driven Policy Making"></a>
 								</div>
 							</figure>
 						</div>
@@ -221,11 +221,11 @@ img: main-social.jpg
 			</div>
 			<div class="post-items-list posts-two-columns">
 				{% for post in site.tags.Featured reversed limit: 4 %}
-				<a href="{{post.url}}" class="post-item">	
+				<a href="{{post.url}}" class="post-item">
 					{% if post.img  %}
-					<img src="{{ site.url}}/img/{{post.img}}" alt="" class="post-bg-img">
+					<img loading="lazy" src="{{ site.url}}/img/{{post.img}}" alt="" class="post-bg-img">
 					{% else %}
-					<img src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
+					<img loading="lazy" src="{{ site.url}}/img/placeholder.jpg" alt="" class="post-bg-img">
 					{% endif  %}
 					<div class="post-tags">
 						{% if post %}
@@ -244,7 +244,7 @@ img: main-social.jpg
 					<div class="post-info">
 						<div class="post-author post-info-author">
 							<div class="author-image">
-								<img src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
+								<img loading="lazy" src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
 							</div>
 							<span>Abhi Nemani</span>
 						</div>
@@ -275,11 +275,11 @@ img: main-social.jpg
 					<div class="wrap wrap-center">
 						<h2>In the News</h2>
 						<div class="block-columns gallery-columns columns-4">
-							{% for press in site.press limit:8 %}  
+							{% for press in site.press limit:8 %}
 							<div class="block-column">
 								<figure class="block-caption img-caption">
 									<div class="img-wrap">
-										<a href="{{ press.url }}"><img src="{{site.url}}/img/{{ press.image.thumb }}" alt=""></a>
+										<a href="{{ press.url }}"><img loading="lazy" src="{{site.url}}/img/{{ press.image.thumb }}" alt=""></a>
 									</div>
 									<figcaption class="caption-text">{{ press.title }}</figcaption>
 								</figure>
