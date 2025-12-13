@@ -53,8 +53,8 @@
 	background: #d6b681;
 	color: white;
 }
-.location:before { 
-	background: url(../img/location.svg) center center no-repeat;
+.location:before {
+	background: url(../img/gov-building.svg) center center no-repeat;
 }
 
 .wp-content p a {
