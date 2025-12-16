@@ -30,7 +30,7 @@ img: pia-social.jpg
 			<div class="page-wrap-content academy">
 				<div class="post-items-list posts-three-columns">
 				
-					{% for lesson in site.lessons %}
+					{% for lesson in site.lessons limit:9 %}
 					<a href="{{lesson.url}}" class="post-item" style="max-height: 300px;">
 						{% if lesson.img  %}
 
