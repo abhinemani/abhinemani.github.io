@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ecosystem MapPermitting &#38; Licensing Tech
-subhead: An example how to build out an understand the value chain embedded within government workflows
+title: Ecosystem Map&colon; Permitting
+subhead: An example how to map the full value chain within agency workflows
 categories: Academy
 pubdate: 2023
 img: pia-header.png
