@@ -1,0 +1,19 @@
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "author": {
+    "@type": "Person",
+    "name": "Abhi Nemani"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% if page.modified_date %}
+  "dateModified": "{{ page.modified_date | date_to_xmlschema }}",
+  {% endif %}
+  "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+  "url": "{{ site.url }}{{ page.url }}"
+}
+</script>
+{% endif %}
