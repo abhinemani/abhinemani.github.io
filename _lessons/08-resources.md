@@ -29,10 +29,8 @@ tags:
 > **⚠️ 2025 Landscape Note:** The civic tech fellowship landscape has changed significantly. 18F was shut down in February 2025. USDS was reorganized as "United States DOGE Service" in January 2025. Code for America restructured its Community Fellowship to shorter community-based engagements. Many new programs have emerged to fill the gap.
 
 ### Federal Programs
-
 - [**Presidential Innovation Fellows**](https://presidentialinnovationfellows.gov/) — 12-month senior-level fellowship embedding entrepreneurs in federal agencies. Now runs two cohorts annually including AI-specific tracks. 260+ alumni since 2012.
 - [**U.S. Digital Corps**](https://digitalcorps.gsa.gov/) — Two-year paid fellowship for early-career technologists (0-2 years experience). Grown to 70+ fellows annually with 95% retention rate. Strong AI/data science focus.
-- [**Civic Digital Fellowship (Coding it Forward)**](https://www.codingitforward.com/fellowship) — 10-week summer internship placing students at federal agencies. 700+ alumni, 50+ fellows annually. Also offers Civic Innovation Corps for state/local placements.
 
 ### State & Local Digital Service Teams
 
