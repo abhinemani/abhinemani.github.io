@@ -33,14 +33,12 @@ tags:
 - [**U.S. Digital Corps**](https://digitalcorps.gsa.gov/) — Two-year paid fellowship for early-career technologists (0-2 years experience). Grown to 70+ fellows annually with 95% retention rate. Strong AI/data science focus.
 
 ### State & Local Digital Service Teams
-
 - [**California Office of Data and Innovation**](https://innovation.ca.gov/) — Merged digital innovation with CalData. Runs CalAcademy training (5,000+ state workers trained) and Governor's Innovation Fellows Program.
 - [**Colorado Digital Service**](https://oit.colorado.gov/colorado-digital-service) — Active hiring with embedded teams across state departments.
 - [**New Jersey Office of Innovation**](https://innovation.nj.gov/) — Led major wins: unemployment time reduced from 4 hours to 25 minutes; NJ AI Assistant used by 15,000+ workers.
 - [**Digital Service Network Tracker**](https://digitalgovernmenthub.org/) — Beeck Center's comprehensive tracker showing 45% of states now have digital service teams.
 
 ### Professional Fellowships
-
 - [**Fuse Corps**](https://fuse.org/executive-fellowship/) — 1-2 year fellowships for experienced professionals (15+ years). $80,000 annual salary. Operating across 26 states with 400+ completed projects.
 - [**Govern For America**](https://www.govforamerica.org/fellowship-program) — 2-year paid fellowships ($45,000-$75,000) for recent graduates in state/local government across CT, CO, MD, MI, and MO.
 - [**Georgetown Beeck Center Fellowships**](https://beeckcenter.georgetown.edu/) — Multiple programs expanded with $8M Ballmer Group gift: Innovation + Incubation Fellowship, Federal Alumni Fellowship, Digital Service Alumni Fellowship.
@@ -90,13 +88,11 @@ tags:
 - [**A Civic Technologist's Practice Guide**](https://cydharrell.com/book/) by Cyd Harrell (2020) — The essential field guide for technologists entering public sector work.
 
 ### AI & Technology Policy
-
 - [**The Oxford Handbook of AI Governance**](https://global.oup.com/academic/product/the-oxford-handbook-of-ai-governance-9780197579329) edited by Justin B. Bullock et al. (2024) — 49 chapters covering value foundations, regulatory ecosystem, and implementation.
 - [**Rewiring Democracy**](https://www.schneier.com/) by Bruce Schneier and Nathan E. Sanders (2025) — How AI is reshaping lawmaking, regulation, courts, and civic participation.
 - [**A Hacker's Mind**](https://www.schneier.com/books/a-hackers-mind/) by Bruce Schneier (2023) — Expands "hacking" concept to economic, political, and social systems.
 
 ### Foundational Works
-
 - [**Beyond Transparency**](https://beyondtransparency.org/) edited by Brett Goldstein & Lauren Dyson — Code for America anthology on open data.
 - [**Lean Startup**](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation-ebook/dp/B004J4XGN6/) by Eric Ries — Essential methodology applicable to government innovation.
 - [**Cognitive Surplus**](https://en.m.wikipedia.org/wiki/Cognitive_Surplus) by Clay Shirky — Understanding collective action in the digital age.
@@ -176,7 +172,6 @@ Subscribe to stay current on civic tech jobs, news, and opportunities:
 - [**Tech to Gov**](https://www.techtogov.org/finding-jobs) — Job fairs and recruitment events for tech-to-government transitions.
 
 ## What's Next?
-
 Recognizing that your time in public office will eventually come to an end — fellowships end, elections happen — it is just as important to plan on how to take advantage of your experience for your career. Here are some tips for ending your tour of service you should consider even when you begin:
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
@@ -186,5 +181,3 @@ Recognizing that your time in public office will eventually come to an end — f
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEmMuWbgl8&#x2F;view?embed">
   </iframe>
 </div>
-
-*Presented for Coding it Forward fellows in September 2021*
