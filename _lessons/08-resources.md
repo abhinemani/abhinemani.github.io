@@ -49,10 +49,11 @@ tags:
 - [**Coro Fellowship**](https://www.corofellowship.org/) — 7-9 month program in SF, LA, NYC, and St. Louis. Now 100% tuition-free with monthly stipend.
 
 ### Student Programs
-
+- [**Coding it Forward**](https://codingitforward.com) - Summer fellowship program for early-career technologists to innovate in local, state, and federal government offices nationwide.
 - [**Cornell Tech PiTech Initiative**](https://www.pi.tech.cornell.edu/) — PhD Impact Fellowships, Visiting Practitioner's Program, and PiTech Impact Studio for graduate students.
 - [**Princeton CITP Summer Fellowship**](https://citp.princeton.edu/) — Places 16-20 rising juniors/seniors in tech policy work.
 - [**Media Democracy Fund Fellowships**](https://mediademocracyfund.org/public-interest-technology-fellowships) — Technology Exchange (12+ months at civil society orgs) and PhDX Fellowship (PhD students at DC policy orgs).
+- [**Paragon Policy Fellowship**](https://www.paragonfellowship.org/) -  Fellowship connects university students and recent graduates with opportunities to work on technology policy and digital governance
 
 ### Volunteer & Crisis Response
 
