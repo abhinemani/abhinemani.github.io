@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Civic Tech Career Resources
-subhead: Best practices, resources, and programs to get started
+subhead: Whether you're breaking into civic tech or building the next wave of government innovation, start here.
 categories: Academy
 pubdate: Updated December 2025
 img: pia-header.png
