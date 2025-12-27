@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Civic Tech Career Resources
-subhead: Find opportunities to learn more, as well as jobs, funding, mentorship, and much, much more
+subhead: Best practices, resources, programs and more to get started
 categories: Academy
 pubdate: Updated December 2025
 img: pia-header.png
