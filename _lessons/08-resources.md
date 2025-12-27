@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Civic Tech Career Resources
-subhead: Best practices, resources, programs and more to get started
+subhead: Best practices, resources, and programs to get started
 categories: Academy
 pubdate: Updated December 2025
 img: pia-header.png
@@ -11,8 +11,7 @@ tags:
  - jobs
  - hiring
 ---
-
-## Getting Started
+## Overviews
 
 [**"More Than 'Good Enough for Government Work'"**](https://www.canva.com/design/DAExCVJ9z_g/view?utm_content=DAExCVJ9z_g&utm_campaign=designshare&utm_medium=embeds&utm_source=link) (November 2021): Overview of strategies and specific resources for getting hired or promoted in civic technology, inside government, in the private sector, and in academia/philanthropy.
 
