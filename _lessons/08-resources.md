@@ -80,12 +80,11 @@ tags:
 - [**Harvard Kennedy School**](https://www.hks.harvard.edu/) — Offers courses ("Digital Government," "Digital Governance and Leadership") and executive education. Belfer Center launched new Emerging Technology program 2024-25.
 - [**UMass Amherst Graduate Certificate in PIT**](https://www.umass.edu/itprogram/graduate-public-interest-technology-certificate) — Fully online 9-credit certificate from School of Public Policy and Manning College of Computer Science.
 - [**Carnegie Mellon MS in Privacy Technology and Policy**](https://www.cylab.cmu.edu/) — Part-time online format for working professionals.
-- [**Public Interest Technology University Network (PIT-UN)**](https://pit-un.org/) — 63 academic institutions. Over $16M deployed to 154 projects since 2019.
 
 ## Book Recommendations
 
 ### Essential Reading (2021-2025)
-- [**Recoding America**](https://recodingamerica.us/)** by Jennifer Pahlka (2023) - NPR's Best Books of 2023. Ezra Klein called it "the book I wish every policymaker would read." The Code for America founder and former U.S. Deputy CTO argues government must be recoded from the ground up.
+- [**Recoding America**](https://recodingamerica.us/) by Jennifer Pahlka (2023) - NPR's Best Books of 2023. Ezra Klein called it "the book I wish every policymaker would read." The Code for America founder and former U.S. Deputy CTO argues government must be recoded from the ground up.
 - [**Hack Your Bureaucracy**](https://www.hackyourbureaucracy.com/) by Marina Nitze and Nick Sinai (2022) — 56 practical tactics from former VA CTO and US Deputy CTO.
 - [**Power to the Public**](https://press.princeton.edu/books/ebook/9780691216638/power-to-the-public) by Tara Dawson McGuinness and Hana Schank (2021) — Endorsed by Barack Obama. Defines public interest technology around Design, Data, and Delivery.
 - [**We the Possibility**](https://www.wethepossibility.com/) by Mitch Weiss (2021) — Framework for shifting from "Probability Government" to "Possibility Government."
@@ -119,19 +118,14 @@ tags:
 - [**Smart City Works**](https://smartcityworks.io/) — Washington DC-area accelerator named Top 12 Global Smart City Accelerator.
 
 ### Foundations
-
-- [**Bloomberg Philanthropies**](https://www.bloomberg.org/government-innovation/) — The largest funder in government innovation. Distributed $3.7B in 2024 alone. Key programs include:
-  - **[What Works Cities](https://whatworkscities.bloomberg.org/)** — Data-driven governance certification with Results for America. 100+ cities certified.
-  - **[Mayors Challenge](https://www.bloomberg.org/government-innovation/spurring-innovation-in-cities/mayors-challenge/)** — 2025 edition is their largest ever: 25 winners receive $1M each. 38 winning cities to date across 5 rounds.
-  - **[Innovation Teams (i-teams)](https://www.bloomberg.org/government-innovation/spurring-innovation-in-cities/i-teams-and-innovation-programs/)** — Funded teams in 86 cities across 9 countries. Expanding to 8 U.S. cities and 20 European cities in 2025.
-  - **[City Data Alliance](https://bloombergcities.jhu.edu/)** — With Johns Hopkins, 65 cities with coaching, training, and technical assistance.
-  - **[Local Infrastructure Hub](https://localinfrastructure.org/)** — Helped ~1,600 communities (mostly small/mid-sized) navigate federal grant processes.
+- [**Bloomberg Philanthropies**](https://www.bloomberg.org/government-innovation/) — The largest funder in government innovation. Distributed $3.7B in 2024 alone. Key programs includ  [What Works Cities](https://whatworkscities.bloomberg.org/), the [Mayors Challenge](https://www.bloomberg.org/government-innovation/spurring-innovation-in-cities/mayors-challenge/), [Innovation Teams (i-teams)](https://www.bloomberg.org/government-innovation/spurring-innovation-in-cities/i-teams-and-innovation-programs/), and the [Local Infrastructure Hub](https://localinfrastructure.org/).
 - [**Knight Foundation**](https://knightfoundation.org/) — Relaunched Knight Emerging City Champions in 2024. Over $25M invested in civic tech since 2010.
-- [**Luminate**](https://luminategroup.com/) — ~$320M across 240 groups in 18 countries; ~$50M in U.S. civic tech.
+- [**Luminate**](https://luminategroup.com/) — ~$320M across 240 groups in 18 countries; ~$50M in U.S. civic tech. Part of the Omidyar Group.
 - [**Ford Foundation Technology and Society**](https://www.fordfoundation.org/) — $80M budget. $20M+ commitment to PIT in 2024.
 - [**Public Interest Tech Infrastructure Fund**](https://www.publicinteresttech.fund/) — Pooled fund with Ford, McGovern, Pivotal Ventures, Siegel Family Endowment. 24 grants, $16M+ disbursed.
 - [**Schmidt Sciences**](https://www.schmidtsciences.com/) — Social Safety Net Product Studio ($13M initiative) supporting 12 grantees including U.S. Digital Response.
 - [**Rockefeller Foundation**](https://www.rockefellerfoundation.org/) — Launched AI Readiness Project (November 2025) expanding to all 50 states.
+- [**Public Interest Technology University Network (PIT-UN)**](https://pit-un.org/) — 63 academic institutions. Over $16M deployed to 154 projects since 2019.
 
 ## Networks & Communities
 
