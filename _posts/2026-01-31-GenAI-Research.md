@@ -1,8 +1,8 @@
 ---
 published: true
 layout: single
-title: Rethinking GenAI
-subhead: Turning Market Research on its Head. 
+title: What happens when you are questioned by a machine.
+subhead: Using GenAI to Listen to the Market Better.
 categories:
   - Blog
 tags:
@@ -11,13 +11,15 @@ tags:
 pubdate: 'January 30, 2026'
 date: 2026-01-25
 author: Abhi Nemani
-img: 2025-confidence-recent.png
+img: Cronkite - 001.png
 ---
 I got tired of answering the same questions.
 
 They came from everywhere—city leaders trying to make sense of a crowded GovTech market, investors asking about traction and risk, researchers looking for signal in what increasingly felt like noise. The questions themselves weren’t the problem. They were reasonable and often thoughtful. What wore me down was the sense that my answers weren’t getting better even as the tools around me supposedly improved. Too often, what I offered was stitched together from half-remembered reports, one-off conversations, and PDFs I’d skimmed but never fully absorbed. I wasn’t being careless. I was operating inside a system that makes accuracy expensive and confidence cheap.
 
-At some point, I stopped optimizing for speed and started wondering why—after all this data, all these tools—it was still so hard to answer accurately. That frustration eventually led me to build Cronkite, an AI-powered market research tool focused on government and the public sector. I expected it to be a workflow improvement, maybe a way to reduce some of the friction I’d been feeling for years. I didn’t expect it to change how I thought about the technology itself.
+At some point, I stopped optimizing for speed and started wondering why—after all this data, all these tools—it was still so hard to answer accurately. That frustration eventually led me to build Cronkite, an simple AI-powered market research tool. I expected it to be a workflow improvement, maybe a way to reduce some of the friction I’d been feeling for years. I didn’t expect it to change how I thought about the technology itself.
+
+![Cronkite Screenshot](/img/Cronkite - 001.png)
 
 What surprised me wasn’t what the system could generate. It was what it made visible.
 
@@ -29,25 +31,37 @@ But the way a technology first enters common use isn’t always where its most d
 
 By focusing so heavily on generation, we’ve implicitly positioned large language models as writing engines—tools that sit at the end of the research process. We ask them to help articulate conclusions, compress complexity, or refine arguments. Evidence gathering, context-building, and verification are still assumed to be human responsibilities.
 
-That approach isn’t wrong. It mirrors how people already work, and it reflects what the tools make most immediately obvious. But it also leaves a significant opportunity underexplored. Large language models are not just capable writers; they are unusually powerful readers. They can absorb large volumes of heterogeneous material, track themes across sources, reconcile inconsistent structures, and retain context at a scale that is difficult for human teams to sustain.
+A similar tension is beginning to surface in fields that depend heavily on research and judgment. In healthcare market research, for example, analysts are already noticing that as AI becomes better at producing content, something else quietly becomes more valuable:
 
-Seen this way, the question isn’t whether we’re using generative AI incorrectly. It’s whether we’re using only the most visible part of what it can do.
+> “As AI-generated content becomes more prevalent, the value of authentic, verifiable data increases rather than decreases.”
+> [How Gen AI Is Transforming Market Research](https://www.physicianleaders.org/articles/how-gen-ai-is-transforming-market-research)
+
+This observation captures something important. The risk isn’t that AI floods the world with bad answers. It’s that it makes *unearned certainty* cheap. In that environment, the scarce input isn’t articulation—it’s grounding.
 
 ## From Generation to Recovery
 
 This distinction shaped how I approached building Cronkite.
 
+![Cronkite Screenshot](/img/Cronkite - 5.png)
+
 I wasn’t trying to automate insight or replace judgment. I was trying to reduce the friction involved in gathering and holding evidence—especially in local government, where the data is public but deeply fragmented. Procurement records, budget documents, council agendas, vendor registries, interview transcripts, policy memos—all of it describes the same institutional reality, but rarely in ways that align naturally.
 
 Traditional research methods compensate for this fragmentation by relying on people: analysts conducting interviews, experts offering perspective, teams synthesizing findings into reports. I’ve worked with expert networks like GLG and Third Bridge, and while the people involved are capable, the process itself is often redundant. Each project starts close to zero, context accumulates unevenly, and much of the underlying evidence disappears once the final deck is delivered.
 
-Cronkite takes a different approach. Instead of asking the system to generate conclusions, it focuses on recovery: continuously collecting material, normalizing incompatible formats, and structuring information so that context compounds rather than resets. The AI’s role is not to decide what matters, but to ensure that what exists is visible and accessible.
+![Cronkite Screenshot](/img/Cronkite - 002.png)
+
+I wanted to take a different approach. Instead of asking the system to generate conclusions, it focuses on recovery: continuously collecting material, normalizing incompatible formats, and structuring information so that context compounds rather than resets. The AI’s role is not to decide what matters, but to ensure that what exists is visible and accessible.
+
+![Cronkite Screenshot](/img/Cronkite - 4.png)
 
 This can sound like a modest shift. In practice, it changes the entire posture of the system.
 
 ## Being Questioned by a Machine
 
 The clearest signal that this approach was different didn’t come from a dashboard. It came from the experience of being questioned.
+
+![Cronkite Screenshot](/img/Cronkite - 1.png)
+![Cronkite Screenshot](/img/Cronkite - 2.png)
 
 When I sat in on early interviews, I expected the interaction to feel constrained or mechanical. Instead, it was more demanding than many human-led conversations. The system didn’t politely fill in gaps or smooth over ambiguity. When an answer relied on shorthand—terms like “traction,” “risk,” or “support”—it asked for clarification. When examples were missing, it didn’t move on for the sake of flow; it treated that absence as something worth examining.
 
