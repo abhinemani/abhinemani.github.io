@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: Leveraging GenAI to Listen Better.
+title: GenAI to Listen, not Just Create.
 subhead: What happens when you are interviewed by a machine.
 categories:
   - Blog
