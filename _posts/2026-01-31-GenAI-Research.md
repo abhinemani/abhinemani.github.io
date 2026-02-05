@@ -72,8 +72,6 @@ This can sound like a modest shift. In practice, it changes the entire posture o
 
 The clearest signal that this approach was different didn’t come from a dashboard. It came from the experience of being questioned.
 
-![Cronkite Homepage](/img/cronkite-goodrobot.png) 
-
 > *In one early session, I answered what felt like a straightforward question about market traction. The system paused—not technically, but structurally—and asked:*
 >
 > **What does “traction” mean in this context?**
@@ -83,7 +81,11 @@ The clearest signal that this approach was different didn’t come from a dashbo
 >
 > **Which of those indicators would weaken your conclusion if it were absent?**
 
-When I sat in on early interviews, I expected the interaction to feel constrained or mechanical. Instead, it was more demanding than many human-led conversations. The system didn’t politely fill in gaps or smooth over ambiguity. When an answer relied on shorthand—terms like “risk,” “support,” or “momentum”—it asked for clarification. When examples were missing, it didn’t move on for the sake of flow; it treated that absence as something worth examining.
+When I sat in on early interviews, I expected the interaction to feel constrained or mechanical. Instead, it was more demanding than many human-led conversations. The system didn’t politely fill in gaps or smooth over ambiguity. 
+
+![Cronkite Homepage](/img/cronkite-goodrobot.png) 
+
+When an answer relied on shorthand—terms like “risk,” “support,” or “momentum”—it asked for clarification. When examples were missing, it didn’t move on for the sake of flow; it treated that absence as something worth examining.
 
 > *When evidence was incomplete, the system did not compensate. It stopped.*
 >
