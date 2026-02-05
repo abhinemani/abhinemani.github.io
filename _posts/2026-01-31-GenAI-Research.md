@@ -121,18 +121,14 @@ For government, this matters not because AI promises efficiency, but because it 
 
 ## But sometimes, it doesn't work.
 
+![Cronkite Homepage](/img/cronkite-generation.png)
+
 Any tehnology leader will be quick to remind you that most tools are buggy, and AI's habit of hallucinating ideas, we should be especially concered.
 
 All AI tolls will grapple with this—bad code, bad chats, and bad robots. The challenge for AI builders, especially government ones, is how to balance risk versus reward. And in the market research context, not just risk and reward, but also cost. Public sector organizations should be open to exploring ways to minimize risk and cost while improving scale and quality. Turning human interview functions into machine-led approaches may help, but there are still a lot of questions.
 
 ## Repositioning the Technology
 
-![Cronkite Homepage](/img/cronkite-generation.png)
-
-None of this requires rejecting the generative capabilities of these systems. Writing, summarization, and synthesis remain useful. But they are most valuable when they rest on a stronger foundation.
-
-Rather than thinking of generative AI primarily as a tool for producing answers, it may be more helpful to see it as **infrastructure for understanding**—something that helps recover, organize, and hold reality in view long enough for people to reason about it.
+None of this requires rejecting the generative capabilities of these systems. Writing, summarization, and synthesis remain useful. But they are most valuable when they rest on a stronger foundation. Rather than thinking of generative AI primarily as a tool for producing answers, it may be more helpful to see it as **infrastructure for understanding**—something that helps recover, organize, and hold reality in view long enough for people to reason about it.
 
 The future of research, at least in complex domains like government, is unlikely to hinge on generating more content. It will hinge on making existing information easier to assemble, examine, and trust.
-
-That, more than anything, is the opportunity I didn’t fully appreciate until I got tired of answering the same questions—and started asking why they were so hard to answer well in the first place.
