@@ -1,5 +1,4 @@
----
----
+Sitemap: https://abhinemani.com/sitemap.xml
 
 # Allow all well-behaved crawlers by default
 User-agent: *
@@ -31,4 +30,3 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap for better discoverability
-Sitemap: https://abhinemani.com/sitemap.xml
