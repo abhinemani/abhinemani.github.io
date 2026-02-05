@@ -37,9 +37,7 @@ In *The Organization Kid*, Brooks described young people who excelled within hig
 This worldview had significant virtues:
 
 1. **Discipline and Productivity**: Organizational kids exemplified an extraordinary work ethic, mastering the demands of academic and professional life. Their rigor fueled innovation and contributed to societal progress.
-
 2. **Faith in Systems:**They trusted institutions to function as intended, reinforcing stability and continuity. When young people believe in the legitimacy of systems, they are more likely to participate in and sustain them.
-
 3. **Meritocratic Optimism:**The belief that effort and talent would be rewarded encouraged ambition and self-improvement, creating a generation of individuals invested in their own success and the broader systems they inhabited.
 
 These traits aligned well with societal needs, producing disciplined leaders who strengthened the institutions they served. But this faith depended on a critical assumption: that institutions would remain effective, fair, and responsive. When that assumption was shattered, the foundation of the organizational kid’s worldview began to crumble.
@@ -60,9 +58,7 @@ These failures shattered the meritocratic optimism of Brooks’ organizational k
 Despite widespread skepticism, institutions remain indispensable. They are the scaffolding for societal stability, enabling collective action and ensuring continuity. Their decline poses significant risks:
 
 1. **Stability and Legitimacy:**Institutions provide frameworks for resolving conflicts, enforcing rules, and upholding rights. Without them, societies risk fragmentation and chaos.
-
 2. **Addressing Complex Problems:**Challenges like climate change, economic inequality, and public health crises require large-scale coordination. Grassroots movements, while powerful, often lack the infrastructure and resources to implement systemic solutions.
-
 3. **Equity and Accountability:**When reformed, institutions can ensure fairness and representation, providing mechanisms for marginalized voices to shape policy and governance.
 
 Rebuilding trust in institutions is not just desirable—it is essential. Younger generations’ critiques, while disruptive, offer an opportunity for renewal. By demanding greater transparency, inclusivity, and responsiveness, Millennials and Gen Z can help transform institutions to better serve the common good.
@@ -71,11 +67,9 @@ Rebuilding trust in institutions is not just desirable—it is essential. Younge
 
 The story of institutional trust spans three critical works:
 
-1. **Putnam’s *Bowling Alone*(2000):** The erosion of social capital weakened the communal bonds that sustained institutions, fostering a more individualistic society.
-
-2. **Brooks’ *The Organization Kid*(2001):** Brooks captured a transitional moment when trust in institutions persisted but was increasingly transactional, focused on personal advancement.
-
-3. **Twenge’s *Generations*(2023):** Twenge documents the culmination of this decline, as Millennials and Gen Z grapple with the failures of institutions and seek alternative pathways to power and progress.
+1. **Putnam’s *Bowling Alone* (2000):** The erosion of social capital weakened the communal bonds that sustained institutions, fostering a more individualistic society.
+2. **Brooks’ *The Organization Kid* (2001):** Brooks captured a transitional moment when trust in institutions persisted but was increasingly transactional, focused on personal advancement.
+3. **Twenge’s *Generations* (2023):** Twenge documents the culmination of this decline, as Millennials and Gen Z grapple with the failures of institutions and seek alternative pathways to power and progress.
 
 Together, these works reveal the historical forces shaping generational attitudes toward institutions—and the potential for renewal.
 

@@ -54,7 +54,7 @@ A similar tension is beginning to surface in fields that depend heavily on resea
 
 This observation captures something important. The risk isn’t that AI floods the world with bad answers. It’s that it makes **unearned certainty cheap**. In that environment, the scarce input isn’t articulation—it’s grounding.
 
-## From Generation to Recovery
+## From Generation to Listening
 
 ![Mobile Render](/img/cronkite-mobile.png)
 
@@ -66,7 +66,7 @@ Traditional research methods compensate for this fragmentation by relying on peo
 
 Rather than responding with synthesized conclusions, the system repeatedly returned adjacent material—documents, excerpts, and references that complicated the original claim instead of resolving it.
 
-I wanted to take a different approach. Instead of asking the system to generate conclusions, Cronkite focuses on **recovery**: continuously collecting material, normalizing incompatible formats, and structuring information so that context compounds rather than resets. The AI’s role is not to decide what matters, but to ensure that what exists is visible and accessible.
+I wanted to take a different approach. Instead of asking the system to generate conclusions, Cronkite focuses on **listening**: continuously collecting material, normalizing incompatible formats, and structuring information so that context compounds rather than resets. The AI’s role is not to decide what matters, but to ensure that what exists is visible and accessible.
 
 ![Cronkite Homepage](/img/cronkite-share.png)
 
@@ -101,7 +101,7 @@ When an answer relied on shorthand—terms like “risk,” “support,” or �
 
 ![Cronkite Homepage](/img/cronkite-sentiment.png)
 
-That experience reframed how I think about common concerns around generative AI, particularly the risk of hallucination. In this context, the more salient risk wasn’t that the system would invent facts, but that humans would rely too heavily on confidence when evidence was incomplete. Used as a recovery tool rather than a generator, the AI didn’t obscure those gaps. It made them harder to ignore.
+That experience reframed how I think about common concerns around generative AI, particularly the risk of hallucination. In this context, the more salient risk wasn’t that the system would invent facts, but that humans would rely too heavily on confidence when evidence was incomplete. Used as a listening tool rather than a generator, the AI didn’t obscure those gaps. It made them harder to ignore.
 
 ## Implications for Research and the Market
 
