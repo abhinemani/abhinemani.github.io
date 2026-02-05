@@ -23,7 +23,7 @@ The questions themselves aren’t the problem. They’re usually reasonable, oft
 
 At some point, I stopped trying to answer faster and started wondering why—after all this data, all these dashboards, all these tools—it was still so hard to answer *well*.
 
-That frustration is what led me to build **Cronkite**, a simple AI-powered market research tool designed to help retain and interrogate context across fragmented sources ([https://cronkite-alpha.vercel.app](https://cronkite-alpha.vercel.app)). I initially thought of it as a workflow improvement: a way to reduce friction, retain institutional memory, and avoid starting from scratch every time a familiar question came back around. I did not expect it to change how I think about generative AI itself.
+That frustration is what led me to build **Cronkite**, a simple AI-powered market research tool designed to help retain and interrogate context across fragmented sources. I initially thought of it as a workflow improvement: a way to reduce friction, retain institutional memory, and avoid starting from scratch every time a familiar question came back around. I did not expect it to change how I think about generative AI itself.
 
 ![Cronkite Homepage](/img/cronkite-mobile.png) 
 
