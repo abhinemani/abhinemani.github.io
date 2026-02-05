@@ -31,8 +31,7 @@ What surprised me wasn’t what the system could generate.
 
 It was what it made visible.
 
-## A Subtle Misalignment
-
+## Limits of the Current Thinking
 We’ve come to describe this moment as the rise of “Generative AI,” and it’s easy to see why. The most visible capability of these systems is their ability to produce language—summaries, drafts, strategies—quickly and fluently. In many contexts, that alone feels transformative.
 
 But the way a technology first enters common use isn’t always where its most durable value lies.
