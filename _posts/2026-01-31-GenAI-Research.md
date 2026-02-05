@@ -25,7 +25,7 @@ At some point, I stopped trying to answer faster and started wondering why—aft
 
 That frustration is what led me to build **Cronkite**, a simple AI-powered market research tool designed to help retain and interrogate context across fragmented sources. I initially thought of it as a workflow improvement: a way to reduce friction, retain institutional memory, and avoid starting from scratch every time a familiar question came back around. I did not expect it to change how I think about generative AI itself.
 
-![Cronkite Homepage](/img/cronkite-logged.png) 
+![Homepage of demo site](/img/cronkite-start.png) 
 
 What surprised me wasn’t what the system could generate.
 
@@ -47,11 +47,11 @@ A similar tension is beginning to surface in fields that depend heavily on resea
 This observation captures something important. The risk isn’t that AI floods the world with bad answers. It’s that it makes **unearned certainty cheap**. In that environment, the scarce input isn’t articulation—it’s grounding.
 
 ## From Generation to Recovery
-![Cronkite Homepage](/img/cronkite-mobile.png) 
+![Mobile Render](/img/cronkite-mobile.png) 
 
 This distinction shaped how I approached building Cronkite. I wasn’t trying to automate insight or replace judgment. I was trying to reduce the friction involved in gathering and holding evidence—especially in local government, where the data is public but deeply fragmented. Procurement records, budget documents, council agendas, vendor registries, interview transcripts, policy memos—all of it describes the same institutional reality, but rarely in ways that align naturally.
 
-![Cronkite Homepage](/img/cronkite-home.png) 
+![Desktop Render](/img/cronkite-home.png) 
 
 Traditional research methods compensate for this fragmentation by relying on people: analysts conducting interviews, experts offering perspective, teams synthesizing findings into reports. I’ve worked with expert networks like GLG and Third Bridge, and while the people involved are capable, the process itself is often redundant. Each project starts close to zero, context accumulates unevenly, and much of the underlying evidence disappears once the final deck is delivered.
 
