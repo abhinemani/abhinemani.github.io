@@ -65,8 +65,7 @@ This can sound like a modest shift. In practice, it changes the entire posture o
 ![Cronkite Homepage](/img/cronkite-interview.png) 
 
 ## Being Questioned by a Machine
-The system worked in unexpected ways; it pushed me harder and gathered more information than a human interviewer has in my experience. And it seems that we can take broad ideas like AI into specific examples:
-
+The system worked in unexpected ways; it pushed me harder and gathered more information than a human interviewer has in my experience. And it seems that we can take broad ideas like AI into specific examples.
 
 The clearest signal that this approach was different didn’t come from a dashboard. It came from the experience of being questioned. Here's an example: 
 
@@ -79,7 +78,13 @@ The clearest signal that this approach was different didn’t come from a dashbo
 
 I expected the interaction to feel constrained or mechanical. Instead, it was more demanding than many human-led conversations. The system didn’t politely fill in gaps or smooth over ambiguity. 
 
+What stayed with me wasn’t the quality of the questions so much as how they felt to answer. The model wasn’t confrontational, but it was unyielding. It didn’t let me rely on shorthand or professional muscle memory. Answers that would pass unchallenged in a meeting—“budgets are tight,” “cities are interested,” “it depends”—simply didn’t move the conversation forward. Each time I tried to generalize, the model slowed things down and asked me to be specific in ways that were mildly uncomfortable, because they forced me to notice where I was leaning on experience rather than evidence.
+
 ![Cronkite Homepage](/img/cronkite-goodrobot.png) 
+
+There was also something subtly disarming about the interaction. A human interviewer often gives you cues—agreement, skepticism, impatience—that shape how much you explain or defend. The model did none of that. It just kept asking, calmly and precisely, until the answer either became grounded or collapsed under its own vagueness. I found myself thinking more carefully, not because I was being judged, but because there was nowhere to hide. In that moment, GenAI stopped feeling like a tool for producing output and started feeling like a mirror for my own reasoning—one that reflected back not what I meant to say, but what I had actually substantiated. 
+
+For the first time in my research work, I wasn’t deciding when a line of inquiry was “good enough” — the system was.
 
 When an answer relied on shorthand—terms like “risk,” “support,” or “momentum”—it asked for clarification. When examples were missing, it didn’t move on for the sake of flow; it treated that absence as something worth examining. When evidence was incomplete, the system did not compensate. It stopped. Missing information was treated as a condition to resolve, not an inconvenience to bypass. And it pushes:
 
@@ -96,7 +101,6 @@ When an answer relied on shorthand—terms like “risk,” “support,” or �
 * **Conkite App**: Then which departments absorbed the constraint?
 * **User:** Finance, IT, grants management.
 * **Conkite App**: Got it. Thanks for clarifying
-
 
 That experience reframed how I think about common concerns around generative AI, particularly the risk of hallucination. In this context, the more salient risk wasn’t that the system would invent facts, but that humans would rely too heavily on confidence when evidence was incomplete. Used as a recovery tool rather than a generator, the AI didn’t obscure those gaps. It made them harder to ignore.
 
