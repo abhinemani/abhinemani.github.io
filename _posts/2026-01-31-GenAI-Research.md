@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: How to use GenAI to listen, not just create.
+title: How I built GenAI to listen, not just make.
 subhead: What happens when you are interviewed by a machine.
 categories:
   - Blog
