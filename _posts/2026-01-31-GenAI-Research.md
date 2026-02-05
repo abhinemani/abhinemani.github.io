@@ -1,8 +1,8 @@
 ---
 published: true
 layout: single
-title: What happens when you are questioned by a machine.
-subhead: Using GenAI to Listen to the Market Better.
+title: Leveraging GenAI to Listen Better.
+subhead: What happens when you are interviewed by a machine.
 categories:
   - Blog
 tags:
