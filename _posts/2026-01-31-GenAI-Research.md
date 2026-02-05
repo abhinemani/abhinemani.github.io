@@ -56,7 +56,7 @@ This distinction shaped how I approached building Cronkite. I wasn’t trying to
 
 Traditional research methods compensate for this fragmentation by relying on people: analysts conducting interviews, experts offering perspective, teams synthesizing findings into reports. I’ve worked with expert networks like GLG and Third Bridge, and while the people involved are capable, the process itself is often redundant. Each project starts close to zero, context accumulates unevenly, and much of the underlying evidence disappears once the final deck is delivered.
 
-> *Rather than responding with synthesized conclusions, the system repeatedly returned adjacent material—documents, excerpts, and references that complicated the original claim instead of resolving it.*
+Rather than responding with synthesized conclusions, the system repeatedly returned adjacent material—documents, excerpts, and references that complicated the original claim instead of resolving it.
 
 I wanted to take a different approach. Instead of asking the system to generate conclusions, Cronkite focuses on **recovery**: continuously collecting material, normalizing incompatible formats, and structuring information so that context compounds rather than resets. The AI’s role is not to decide what matters, but to ensure that what exists is visible and accessible.
 
@@ -85,11 +85,7 @@ When I sat in on early interviews, I expected the interaction to feel constraine
 
 ![Cronkite Homepage](/img/cronkite-goodrobot.png) 
 
-When an answer relied on shorthand—terms like “risk,” “support,” or “momentum”—it asked for clarification. When examples were missing, it didn’t move on for the sake of flow; it treated that absence as something worth examining.
-
-> *When evidence was incomplete, the system did not compensate. It stopped.*
->
-> *Missing information was treated as a condition to resolve, not an inconvenience to bypass.*
+When an answer relied on shorthand—terms like “risk,” “support,” or “momentum”—it asked for clarification. When examples were missing, it didn’t move on for the sake of flow; it treated that absence as something worth examining. When evidence was incomplete, the system did not compensate. It stopped. Missing information was treated as a condition to resolve, not an inconvenience to bypass.*
 
 What stood out was that the system wasn’t trying to impress anyone. It wasn’t optimizing for comfort or narrative coherence. It was simply maintaining focus on the underlying question: **what do we actually know, and how do we know it?**
 
@@ -101,7 +97,7 @@ That experience reframed how I think about common concerns around generative AI,
 
 As AI-generated content becomes more common, fluent text is likely to become less distinctive. When anyone can produce a confident-sounding memo in seconds, the value of the memo itself declines. Scarcity shifts elsewhere—to provenance, cross-source synthesis, institutional context, and a clear understanding of what remains uncertain.
 
-> *What the system consistently resisted was premature closure.*
+What the system consistently resisted was premature closure.*
 >
 > *It privileged traceability over polish, and specificity over speed.*
 
@@ -114,16 +110,13 @@ For government, this matters not because AI promises efficiency, but because it 
 ![Cronkite Homepage](/img/cronkite-dash.png) 
 
 ## But sometimes, it doesn't work.
-![Cronkite Homepage](/img/cronkite-generation.png) 
 
 Any tehnology leader will be quick to remind you that most tools are buggy, and AI's habit of hallucinating ideas, we should be especially concered.
+![Cronkite Homepage](/img/cronkite-generation.png) 
+
+All AI tolls will grapple with this, bad code, bad chats, and bad robots. The challenge for AI builders, especially government ones, is how to balance the risk v. reward. And in the market research context, not just risk and reward, but also cost. Public sector organization should be open to exploring ways to minimize risk and cost while improving scale and quality. Turning human intevise funcations into machine-led approachs may help, but there are still a lot of questions. 
+
 ![Cronkite Homepage](/img/cronkite-badchat.png) 
-
-All AI tolls will grapple with this, bad code, bad chats, and bad robots. 
-
-![Cronkite Homepage](/img/cronkite-badrobot.png) 
-
-The challenge for AI builders, especially government ones, is how to balance the risk v. reward. And in the market research context, not just risk and reward, but also cost. Public sector organization should be open to exploring ways to minimize risk and cost while improving scale and quality. Turning human intevise funcations into machine-led approachs may help, but there are still a lot of questions. 
 
 ## Repositioning the Technology
 
