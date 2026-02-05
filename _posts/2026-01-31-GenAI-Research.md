@@ -25,15 +25,13 @@ At some point, I stopped trying to answer faster and started wondering why—aft
 
 That frustration is what led me to build **Cronkite**, a simple AI-powered market research tool designed to help retain and interrogate context across fragmented sources. I initially thought of it as a workflow improvement: a way to reduce friction, retain institutional memory, and avoid starting from scratch every time a familiar question came back around. I did not expect it to change how I think about generative AI itself.
 
-![Cronkite Homepage](/img/cronkite-mobile.png) 
+![Cronkite Homepage](/img/cronkite-logged.png) 
 
 What surprised me wasn’t what the system could generate.
 
 It was what it made visible.
 
 ## A Subtle Misalignment
-
-![Cronkite Homepage](/img/cronkite-generation.png) 
 
 We’ve come to describe this moment as the rise of “Generative AI,” and it’s easy to see why. The most visible capability of these systems is their ability to produce language—summaries, drafts, strategies—quickly and fluently. In many contexts, that alone feels transformative.
 
@@ -50,10 +48,11 @@ A similar tension is beginning to surface in fields that depend heavily on resea
 This observation captures something important. The risk isn’t that AI floods the world with bad answers. It’s that it makes **unearned certainty cheap**. In that environment, the scarce input isn’t articulation—it’s grounding.
 
 ## From Generation to Recovery
-
-![Cronkite Homepage](/img/cronkite-home.png) 
+![Cronkite Homepage](/img/cronkite-mobile.png) 
 
 This distinction shaped how I approached building Cronkite. I wasn’t trying to automate insight or replace judgment. I was trying to reduce the friction involved in gathering and holding evidence—especially in local government, where the data is public but deeply fragmented. Procurement records, budget documents, council agendas, vendor registries, interview transcripts, policy memos—all of it describes the same institutional reality, but rarely in ways that align naturally.
+
+![Cronkite Homepage](/img/cronkite-home.png) 
 
 Traditional research methods compensate for this fragmentation by relying on people: analysts conducting interviews, experts offering perspective, teams synthesizing findings into reports. I’ve worked with expert networks like GLG and Third Bridge, and while the people involved are capable, the process itself is often redundant. Each project starts close to zero, context accumulates unevenly, and much of the underlying evidence disappears once the final deck is delivered.
 
@@ -64,6 +63,8 @@ I wanted to take a different approach. Instead of asking the system to generate 
 ![Cronkite Homepage](/img/cronkite-share.png) 
 
 This can sound like a modest shift. In practice, it changes the entire posture of the system.
+
+![Cronkite Homepage](/img/cronkite-sentiment.png) 
 
 ## Being Questioned by a Machine
 
@@ -111,6 +112,8 @@ For government, this matters not because AI promises efficiency, but because it 
 ![Cronkite Homepage](/img/cronkite-dash.png) 
 
 ## But sometimes, it doesn't work.
+![Cronkite Homepage](/img/cronkite-generation.png) 
+
 Any tehnology leader will be quick to remind you that most tools are buggy, and AI's habit of hallucinating ideas, we should be especially concered.
 ![Cronkite Homepage](/img/cronkite-badchat.png) 
 
