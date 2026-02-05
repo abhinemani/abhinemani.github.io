@@ -38,10 +38,7 @@ But the way a technology first enters common use isn’t always where its most d
 
 By focusing so heavily on generation, we’ve implicitly positioned large language models as writing engines—tools that sit at the end of the research process. We ask them to help articulate conclusions, compress complexity, or refine arguments. Evidence gathering, context-building, and verification are still assumed to be human responsibilities.
 
-A similar tension is beginning to surface in fields that depend heavily on research and judgment. In healthcare market research, for example, analysts are already noticing that as AI becomes better at producing content, something else quietly becomes more valuable:
-
->*“As AI-generated content becomes more prevalent, the value of authentic, verifiable data increases rather than decreases.”*
-* — **“How Gen AI Is Transforming Market Research,” - [Physician Leadership Journal](https://www.physicianleaders.org/articles/how-gen-ai-is-transforming-market-research)
+A similar tension is beginning to surface in fields that depend heavily on research and judgment. In healthcare market research, for example, analysts are already noticing that as AI becomes better at producing content, something else quietly becomes more <a href="https://www.physicianleaders.org/articles/how-gen-ai-is-transforming-market-research)">valuable</a>: “As AI-generated content becomes more prevalent, the value of authentic, verifiable data <strong>increases rather than decreases</strong>.”
 
 This observation captures something important. The risk isn’t that AI floods the world with bad answers. It’s that it makes **unearned certainty cheap**. In that environment, the scarce input isn’t articulation—it’s grounding.
 
