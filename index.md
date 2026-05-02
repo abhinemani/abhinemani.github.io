@@ -78,11 +78,11 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Advisor: Supporting GovTech Entrepreneurs
+								Advisor: Supporting GovTech G
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p><a href="/consulting/"><strong>As an advisor, investor, and consultant,</strong></a> Abhi helps for-profit startups and non-profit groups find financing and sustainability models for scale. Ethos directly invests in organizations or provides investment advice for banks, philanthropies, investors, and other groups in the public sector.<br></p>
+							<p><a href="/consulting/"><strong>As an advisor, investor, and consultant,</strong></a> Abhi helps grow the government technology ecosystem, providing data-driven insights to private equity, philanthropy, and companies.<br></p>
 						</div> 
 					</div>
 				</div>
