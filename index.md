@@ -60,7 +60,7 @@ img: main-social.jpg
 							</span>
 						</div>
 						<div class="accordion-item-content"  style="display: block;">
-							<p>From co-founding Code for America to serving as LA's first Chief Data Officer — and from founding startups to leading product at Euna Solutions — there's a <a href="/cv/">track record of 15+ years</a> building and shaping the government technology field from every angle.
+							<p>From co-founding Code for America to serving as LA's first Chief Data Officer — and from founding startups to leading product at Euna Solutions — there's a <strong><a href="/cv/">track record of 15+ years</a></strong> building and shaping the government technology field from every angle.
 							<br></p>
 						</div> 
 					</div>
