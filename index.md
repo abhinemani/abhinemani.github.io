@@ -78,7 +78,7 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Advisor: Supporting GovTech G
+								Advisor: Supporting GovTech Growth
 							</span>
 						</div>
 						<div class="accordion-item-content">
