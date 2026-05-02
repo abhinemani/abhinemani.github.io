@@ -56,22 +56,22 @@ img: main-social.jpg
 					<div class="accordion-item opened">
 						<div class="accordion-item-title">
 							<span>
-								Educator: #CivicTech Best Practices
+								GovTech Leader: Building Products and Teams
 							</span>
 						</div>
 						<div class="accordion-item-content"  style="display: block;">
-							<p>Based on the experience of 15+ years leading and teaching the government technology field, Nemani <a href="/academy/" style="font-weight: bold;">publishes best practices</a>, with guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
+							<p>From co-founding Code for America to serving as LA's first Chief Data Officer — and from founding startups to leading product at Euna Solutions — there's a <a href="https://abhinemani.com/cv">track record of 15+ years</a> building and shaping the government technology field from every angle.
 							<br></p>
 						</div> 
 					</div>
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Investor: Product, Marketing & Dilligence
+								Scholar: Resources to Drive Innovation
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>As both an operator and an investor in government technology for nearly 15 years, and as someone who helped spearhead digital transformation in local government, Abhi bring a differentiated perspective to investors (VC, Growth, PE, etc), philanthropies, and others trying to make an outsized impact in the industry.
+							<p>Based on the experience of 15+ years leading and teaching the government technology field, Nemani <a href="/academy/" style="font-weight: bold;">publishes best practices</a>, with guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
 							<br></p>
 						</div>
 					</div>
