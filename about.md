@@ -79,7 +79,7 @@ redirect_from:
 	        <div class="wrap wrap-center">
 	            <div class="wrap_float">
 	                <div class="section-content wp-content">
-					<!--<h2>Full Biography</h2>
+					<h2>Full Biography</h2>
 					<p>Abhi Nemani is a government technology advisor, educator, and operator, who has built and led Code for America, the Mayor of Los Angeles' Office of Data & Analytics, and Sacramento's Office of Innovation and Entrepreneurship. </p>
 					<p>He currently runs a government technology consultancy called <a href="https://abhinemani.com/consulting">EthosLabs.us</a> to scale up public innovation through scalable GovTech startups through hands-on consulting, advising, and investing. EthosLabs.us' portfolio includes multiple exits and has collectively helped over 3,000 governments and roughly 200M+ people.</p>
 					<p>At Euna Solutions, Abhi Nemani served as Senior Vice President of Product Strategy, where he unified a $100M+ SaaS portfolio across 10+ acquisitions, built the company’s AI strategy and Innovation Center, and established the Product Marketing function. He led GTM integration efforts, elevated Euna’s national profile through partnerships with GFOA and others, and served as interim Product Director for Euna Grants—integrating AmpliFund into a market-leading platform. He also launched the “Rethinking Budgeting” initiative, bringing ADA-accessible, strategic budgeting tools to local governments.</p>
@@ -109,7 +109,7 @@ redirect_from:
 						<li>2012 Oxford Internet and Society Award</li>
 						<li>White House Champions of Change</li>
 						<li>Multiple Knight News Challenge Selections</li>
-					</ul>-->
+					</ul>
                 </div>
             </div>
         </div>
