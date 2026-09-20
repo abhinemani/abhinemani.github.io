@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-{% include nav.html %}
+{% include header.html %}
             <div class="page-wrap">
                 <div class="page-wrap-content">
                     <div class="breadcrumbs">
@@ -12,72 +12,34 @@
                         </div>
                     </div>
                     <div class="post-single-wrap sticky-parent">
-                        <div class="share-block">
-                            <div class="share-block-main js-share-block-main">
-                                <div class="socials">
-                                    <a class="soc-link" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" data-title="Facebook">
-                                        <span class="soc-icon">
-                                            <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="Facebook">
-                                        </span>
-                                    </a>
-                                    <a class="soc-link" data-title="Twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title}} by @abhinemani {{site.url}}{{page.url}}" >
-                                        <span class="soc-icon">
-                                            <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="Twitter">
-                                        </span>
-                                    </a>
-                                    <a class="soc-link" data-title="Pinterest">
-                                        <span class="soc-icon">
-                                            <img src="{{site.url}}/img/pinterest-icon.svg" class="img-svg" alt="Pinterest">
-                                        </span>
-                                    </a>
-                                    <a class="soc-link" data-title="Behance">
-                                        <span class="soc-icon">
-                                            <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="Behance">
-                                        </span>
-                                    </a>
-                                    <div class="soc-link show-more-socials" style="display: none;"></div>
-                                </div>
-                            </div>
-                            <div class="share-block-item mobile-item js-mobile-share-show mobile-share-show-btn">
-                                <div class="show-mobile-icon"></div>
-                            </div>
-                        </div>
+{% include share-block.html links="facebook,twitter,pinterest,behance" %}
                         <div class="single-header">
                             <div class="wrap wrap-center">
                                 <div class="wrap_float">
-                                    <div class="post-tags"> <!-- tags -->
-										  {% if post %}
-										    {% assign tags = post.tags %}
-										  {% else %}
-										    {% assign tags = page.tags %}
-										  {% endif %}
-										  {% for tag in tags %}
-										  <a href="#" class="tag">{{ tag }}</a>
-										  {% unless forloop.last %}&nbsp;{% endunless %}
-										  {% endfor %}
+                                    <div class="post-tags">
+                                        {% for tag in page.tags %}
+                                        <a href="#" class="tag">{{ tag }}</a>
+                                        {% unless forloop.last %}&nbsp;{% endunless %}
+                                        {% endfor %}
                                     </div>
-
-					                 
-										<a href="{{ page.link }}" target="_blank"><h1 class="page-title"> {{page.publication}}: {{ page.title }}</h1></a>
-	                                    <div class="post-info">
-	                                        <a href="#" class="post-author post-info-author">
-	                                            <div class="author-image">
-	                                                <img src="{{site.url}}/img/{{page.image.thumb}}" alt="{{ page.title | strip_html | escape }}" class="image-cover">
-	                                            </div>
-	                                            <span>{{ page.byline }}</span>
-	                                        </a>
-	                                        <div class="post-date post-info-date">
-												{{ page.pubdate }}
-	                                        </div>
-	                                    </div>
-
-									
-									{% if page.img  %}
+                                    <a href="{{ page.link }}" target="_blank"><h1 class="page-title"> {{page.publication}}: {{ page.title }}</h1></a>
+                                    <div class="post-info">
+                                        <a href="#" class="post-author post-info-author">
+                                            <div class="author-image">
+                                                <img src="{{site.url}}/img/{{page.image.thumb}}" alt="{{ page.title | strip_html | escape }}" class="image-cover">
+                                            </div>
+                                            <span>{{ page.byline }}</span>
+                                        </a>
+                                        <div class="post-date post-info-date">
+                                            {{ page.pubdate }}
+                                        </div>
+                                    </div>
+                                    {% if page.img %}
                                     <div class="post-image-large wide">
                                         <img src="{{site.url}}/img/{{ page.img }}" alt="{{ page.img-caption | default: page.title | strip_html | escape }}">
-                                        <span class="caption-text"> {{ page.img-caption}}</span>
+                                        <span class="caption-text"> {{ page.img-caption }}</span>
                                     </div>
-								  {% endif %}
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -85,12 +47,11 @@
                             <div class="wrap wrap-center">
                                 <div class="wrap_float">
                                     {{ content }}
-									<a href="{{ page.link }}" target="_blank"><img src="{{site.url}}/img/{{page.image.thumb}}"></a>						
+                                    <a href="{{ page.link }}" target="_blank"><img src="{{site.url}}/img/{{page.image.thumb}}"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
 {% include partners.html %}
 {% include footer.html %}
 </html>

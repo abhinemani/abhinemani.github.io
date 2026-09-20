@@ -1,5 +1,5 @@
 ---
-layout: home2
+layout: landing
 permalink: /cal/
 title: Calendar
 tagline: Schedule some time

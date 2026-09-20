@@ -17,12 +17,7 @@
 								{% endif  %}
                                     <div class="other-post-info">
                                         <div class="post-tags">
-	  									  {% if portfolio %}
-	  									    {% assign tags = portfolio.tags %}
-	  									  {% else %}
-	  									    {% assign tags = portfolio.tags %}
-	  									  {% endif %}
-	  									  {% for tag in tags %}
+	  									  {% for tag in portfolio.tags %}
 	  									  <div class="tag">{{ tag }}</div>
 	  									  {% unless forloop.last %}&nbsp;{% endunless %}
 	  									  {% endfor %}
