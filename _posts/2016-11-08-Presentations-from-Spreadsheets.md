@@ -15,7 +15,6 @@ tags:
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of…
 
 ![Code for Sacramento and I/O Labs Foundation slides](/img/medium/1_2BWF57jB0a08HX0a2Uu0lw.png)
-undefined
 
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of including every since one of that year’s fellowship apps in the intro presentation at the annual Summit. Seems easy, no? Over a handful of teams working for just 11 months, that should be just a handful of slides, right?
 
@@ -25,8 +24,6 @@ So there we sat, our meager communications team, hammering away at Powerpoint to
 
 At one point, I felt like giving my laptop, the [Office Space treatment](https://www.youtube.com/watch?v=N9wsjroVlu8).
 
-undefined
-undefined
 
 So this year, when I was tasked with pulling together slides to pitch the City Council the 15 recommendations for the [RAILS grant program](https://sacmoie.github.io/RAILS/), I said:
 

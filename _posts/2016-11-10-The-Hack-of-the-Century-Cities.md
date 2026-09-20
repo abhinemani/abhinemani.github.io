@@ -66,7 +66,6 @@ I think the way we make cities work effectively in the 21st century is using tec
 That’s for good reason because cities do thing — things that are _vital_ but totally _mundane_ like picking up trash, things that are _vital_ but totally _dangerous_ like putting out fires. Then things that are just _simply vital_ like getting people to school. That’s what cities do. We do things. This is why I think people trust cities way more than they trust the federal government because they know that we’re the ones in delivering the services that they need.
 
 ![City of Boston "City Hall To Go" truck](/img/medium/1_7LaZg7GM9k4u4_f2DlV0dg.jpg)
-undefined
 
 Plus, sometimes they do some cool stuff too. This is a picture of the “wicked cool tree” in Boston. This is a tree they set up in City Hall where you could tweet at this hashtag and it would change the color of the tree based on your tweet. They also did a thing in Boston where they took a food truck and re-purposed it as a “City Hall-to-go” food truck. You didn’t have to come to city hall to renew that permit; City Hall will come to you. (Though likely without tacos.)
 
@@ -85,7 +84,6 @@ All of this urban innovation couldn’t come at a better time. Right now 50% of 
 The last thing I want to say and I’m going to pull off stage here in a minute is that what’s most exciting to me is bringing those 2 things together, 1) the fact that we live in cities and we care about our cities and 2) cities need technology, and that technology is fundamentally urban. How do we bring those two things together?
 
 ![Slide: the future of technology is urban](/img/medium/1_PXCIB9NYNL756YN-IzM2sg.jpg)
-undefined
 
 Let me give you an example of that, which is really the most compelling illustrations about what the next phase of “good” technology will look like. In a city if you have a heart attack it takes about 11 minutes for a ambulance to get to you. However, most cities are overwhelmed with 911 calls, so it’s hard for them to respond to you right away. Well, what if — and this is a big if — you could bring that number down just a little; say, 8 minutes? That would increase the likelihood of survival by more than 2/3 (67%). This means that if we could creatively speed up the delivery process for assistance, we could be saving lives. **Saving lives.**
 

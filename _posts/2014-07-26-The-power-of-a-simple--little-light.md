@@ -16,7 +16,6 @@ Just recently, in the sprawling indoor parking structure of an outlet mall outsi
 > “Oh, so that’s what you do.”
 
 ![Green indicator light on a parking-garage space sensor](/img/1__OB9AGB3TWK1AW5E__cnNpvA.jpeg)
-undefined
 
 Hanging above each parking space was a small light that simply emitted one of two colors: green if it was open, red if not. Either via sensors on the ground or in the bulb’s housing, this technology determined whether the space was available and, well, let you know. To boot, they had lights ahead of each lane indicating whether there were openings, saving you the time of driving up and down scanning for a space — and avoiding the heartbreak of thinking you’ve spotted one, only to find it occupied by a Vespa or a Mini you couldn’t see around the SUV next to it.
 

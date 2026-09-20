@@ -14,7 +14,7 @@ img: drain.jpg
 
 Back in 2011, I was a part of a fantastic team at a nonprofit organization called Code for America. We embarked on a project to create a tool called [Adopt-a-Hydrant](https://www.boston.gov/departments/innovation-and-technology/adopt-hydrant), a novel initiative designed to encourage civic engagement by allowing residents to "adopt" fire hydrants in their locality and commit to keeping them clear of snow during winter months. This program was started in collaboration with the Boston Fire Department and Emergency Management, and right at launch, we saw about 100 volunteers adopt hydrants across the city. 
 
-![Screeshot of original Adopt-a-Hydrant in Boston](img/hydrant.jpg)
+![Screeshot of original Adopt-a-Hydrant in Boston](/img/hydrant.jpg)
 Screeshot of original Adopt-a-Hydrant in Boston
 
 The whole endeavor was [truly exciting and celebrated as a model for modern civic engagement](https://www.ted.com/talks/jennifer_pahlka_coding_a_better_government), so much so that its opensource code was reused and adapted, meeting different needs across different locales over the next few years, such as Providence, Anchorage, Chicago, and even Honolulu, where the code was adapted for Adopt-a-Siren, a program that allows volunteers to check for dead batteries in tsunami sirens across the city.
@@ -25,7 +25,7 @@ Maybe. But, I've learned, sometimes people ***have to be civic***.
 
 Fast forward to 2015, the city of San Francisco creatively repurposed the same codebase we used for Adopt-a-Hydrant to create [Adopt-a-Drain](https://adoptadrain.sfwater.org/). This program was designed to address the issue of maintaining more than 25,000 storm drains in the city, a task that the city's crews found overwhelming. The system allowed volunteers to adopt a drain and commit to its regular cleaning, offering a little bit of fun by granting naming rights over the storm drain of their choice. This led to amusing and quirky names like [”Thirsty Boi," "You're So Drain," and "Drainmond Green.”](https://www.kqed.org/arts/13923319/you-can-adopt-a-drain-in-san-francisco-with-naming-rights-included) Again, the initial use of this tool was limited, but it set the stage for something inspiring.
 
-![Map of storm drains adopted by residents](img/drain-map.jpg)Actual screenshot of Adopt-a-Drain SF (May 2023)
+![Map of storm drains adopted by residents](/img/drain-map.jpg)Actual screenshot of Adopt-a-Drain SF (May 2023)
 
 In the winter of 2022/2023, a massive storm hit the Bay Area, causing severe flooding in many cities. [The storm brought some positive attention to San Francisco's Adopt-a-Drain program, making it onto the local news](https://www.kqed.org/arts/13923319/you-can-adopt-a-drain-in-san-francisco-with-naming-rights-included). Over 4,000 drains were regularly cleaned by local good Samaritans, showing an inspiring testament to civic responsibility. It was heartening to see the tool we had created years ago put to such great use in a time of need.
 
