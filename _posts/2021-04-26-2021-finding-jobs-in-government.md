@@ -16,9 +16,9 @@ Earlier this year, my alma mater, Claremont McKenna College, hosted a panel disc
 **Main takeaways: get creative, focus on practical skills/ways to help, and look at startups, foundation, and universities -- the ecosystem emerging around government innovation.**
 
 <div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+<iframe src="{{site.url}}/decks/2021GovGeekJobs.pdf" title="PDF" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
 </div>
-<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/2021GovGeekJobs.pdf">Open PDF in Browser</a>
+<a href="{{site.url}}/decks/2021GovGeekJobs.pdf">Open PDF in Browser</a>
 
 ## More resources:
 [Find opportunities to learn more, as well as jobs, funding, mentorship, and much, much more.](https://abhinemani.com/lessons/4-resources/)

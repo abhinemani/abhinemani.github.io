@@ -47,6 +47,6 @@ If you're interested in learning more, get in touch: <a href="https://twitter.co
 
 ## Featured Lecture: Profitability & Sustainability
 <div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/CAPP15.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+<iframe src="{{site.url}}/decks/lectures/CAPP15.pdf" title="PDF" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
 </div>
-<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/CAPP4.pdf">Open PDF in Browser</a>
+<a href="{{site.url}}/decks/lectures/CAPP4.pdf">Open PDF in Browser</a>

@@ -64,9 +64,9 @@ But as the digital transformation becomes more real as does the potential for ne
 
 <blockquote>
 	<p><strong>Deep Dive: How Civic Data Works</strong><br>
-	<a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open Lecture in Browser</a></p>
+	<a href="{{site.url}}/decks/lectures/CAPP6.pdf">Open Lecture in Browser</a></p>
 <div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+<iframe src="{{site.url}}/decks/lectures/CAPP6.pdf" title="PDF" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
 </div>
 <br >
 </blockquote>

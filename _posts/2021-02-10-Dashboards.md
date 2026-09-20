@@ -109,6 +109,6 @@ That’s where data can, should, and must come in.
 
 <blockquote>
 <div class="container-iframe">
-<iframe id="pdf-js-viewer" src="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf" title="webviewer" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
-</div><a href="{{site.url}}/decks/web/viewer.html?file={{site.url}}/decks/lectures/%2FCAPP6.pdf">Open Lecture in Browser</a>
+<iframe src="{{site.url}}/decks/lectures/CAPP6.pdf" title="PDF" frameborder="0" width="500" height="600" class="responsive-iframe"></iframe>
+</div><a href="{{site.url}}/decks/lectures/CAPP6.pdf">Open Lecture in Browser</a>
 </blockquote>
