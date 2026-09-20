@@ -62,7 +62,17 @@ https://hellodigi.ru/
   overflow: hidden;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
+/* The webp plugin wraps each img in <picture>; it must fill .img-wrap so the
+   img's height:100% resolves against the wrapper, and .wp-content's 20px
+   image margins must not push it down inside the fixed-height box. */
+.gallery-columns .img-wrap picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 .gallery-columns .img-wrap img {
+  margin: 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
