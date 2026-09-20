@@ -11,7 +11,6 @@ tags:
 pubdate: 'March 14, 2025'
 date: 2025-03-14
 author: Abhi Nemani
-img: uncertainty.jpg
 
 ---
 If 2020 was the year of crisis, and 2021 the year of recovery, then 2025 may go down as the year of **uncertainty**. Not just an emotional state, but a measurable, structural reality — one that's reshaping how governments budget, plan, and serve.
