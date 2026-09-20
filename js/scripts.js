@@ -265,9 +265,12 @@ jQuery(document).ready(function(){
     }
     
     jQuery("li.dropdown-li > a").on("click", function(e){
-        e.preventDefault();
-        
+        // On wide screens the submenu opens on hover, so let the parent link
+        // navigate. On narrow screens there is no hover: the tap toggles the
+        // submenu instead.
         if (window.innerWidth <= 1000) {
+            e.preventDefault();
+            
             var thisA = jQuery(this),
                thisLi = thisA.parent("li"),
                thisMenu = thisA.next("ul");
