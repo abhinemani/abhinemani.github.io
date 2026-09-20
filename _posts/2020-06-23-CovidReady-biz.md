@@ -32,7 +32,7 @@ In our pandemic plagued cities, public health inspections are essential, and hea
 
 I am acutely passionate and optimistic around this topic because of the innovative work public health agencies, in partnership with local businesses and major internet sites, have already done with regular health inspections.
 
-![](https://cdn-images-1.medium.com/max/800/1*QWDQm_9J8H6C53rVG5X_1Q@2x.jpeg)
+![Yelp page showing a cafe's health inspection score](/img/medium/1_QWDQm_9J8H6C53rVG5X_1Q@2x.jpg)
 
 Years ago, [the three came together to develop a “data standard”](https://www.yelp-support.com/article/What-are-Health-Score-Alerts?l=en_US) on how to openly publish inspection scores for restaurants so residents didn’t have to go searching within the restaurant (after they sat down!) for its grade. [The score is visible on Yelp and in other apps, so you can make an informed choice on where you go.](https://www.theatlantic.com/magazine/archive/2013/07/youll-never-throw-up-in-this-town-again/309383/) **This is open data at work**, following the mantra, “[Make all apps more civic](https://link.medium.com/83D3bVeBx7),” taking data previously hidden and placing it into the palm of your (disinfected) hand. **This is open data at work, following the mantra, “Make all apps more civic,” taking data previously hidden and placing it into the palm of your (disinfected) hand.**
 

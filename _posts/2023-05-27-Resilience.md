@@ -25,7 +25,7 @@ Maybe. But, I've learned, sometimes people ***have to be civic***.
 
 Fast forward to 2015, the city of San Francisco creatively repurposed the same codebase we used for Adopt-a-Hydrant to create [Adopt-a-Drain](https://adoptadrain.sfwater.org/). This program was designed to address the issue of maintaining more than 25,000 storm drains in the city, a task that the city's crews found overwhelming. The system allowed volunteers to adopt a drain and commit to its regular cleaning, offering a little bit of fun by granting naming rights over the storm drain of their choice. This led to amusing and quirky names like [”Thirsty Boi," "You're So Drain," and "Drainmond Green.”](https://www.kqed.org/arts/13923319/you-can-adopt-a-drain-in-san-francisco-with-naming-rights-included) Again, the initial use of this tool was limited, but it set the stage for something inspiring.
 
-![](img/drain-map.jpg)Actual screenshot of Adopt-a-Drain SF (May 2023)
+![Map of storm drains adopted by residents](img/drain-map.jpg)Actual screenshot of Adopt-a-Drain SF (May 2023)
 
 In the winter of 2022/2023, a massive storm hit the Bay Area, causing severe flooding in many cities. [The storm brought some positive attention to San Francisco's Adopt-a-Drain program, making it onto the local news](https://www.kqed.org/arts/13923319/you-can-adopt-a-drain-in-san-francisco-with-naming-rights-included). Over 4,000 drains were regularly cleaned by local good Samaritans, showing an inspiring testament to civic responsibility. It was heartening to see the tool we had created years ago put to such great use in a time of need.
 

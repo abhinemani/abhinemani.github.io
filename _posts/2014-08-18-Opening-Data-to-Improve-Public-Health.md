@@ -29,15 +29,15 @@ Indeed, this role of the public health agency as a _communicator_ means that _op
 
 ### Design
 
-![](https://cdn-images-1.medium.com/max/600/1*ZdvQveDM36fMBUr2j0-eiA.png)
+![California Department of Public Health open data portal homepage](/img/medium/1_ZdvQveDM36fMBUr2j0-eiA.png)
 
 The CADPH site seems to strike a balance, with a richly graphical user interface. The homepage includes data, stories, visualized metrics, and developer information, with clear navigation right at the start. (Diving in deeper, you will see that this homepage sits a front a typical [Socrata](http://socrata.com) open data portal with typical rows of sortable, searchable datasets — wrapped in a slightly cleaner design.)
 
-![](https://cdn-images-1.medium.com/max/400/1*cIl3tRIpVZ1l9so_0C4ZXw.png)
+![CDPH portal featured story: poverty rate by census tract map](/img/medium/1_cIl3tRIpVZ1l9so_0C4ZXw.png)
 
 What this homepage design tacitly does is segment the user base into personas: say, subject matter experts seeking **data**; citizens or journalists exploring **stories**; and developers eager for **APIs** and design references. Consider the value this kind of structure could have for analytics and user understanding: if properly instrumented, this site could tell the government (and any interested citizens) what kinds of users are coming to the site, where they are coming from, and how valuable they are finding it. This is vital data as you [consider and design calls-to-action](http://www.govexec.com/state-local/2014/08/ahbi-nemani-civic-interest-action/90695/) for these high value demographics.
 
-![](https://cdn-images-1.medium.com/max/800/1*yQ-lprFBfmFdrROhbjuiEQ.png)
+!["Build stuff with our stuff" developer section of the CDPH portal](/img/medium/1_yQ-lprFBfmFdrROhbjuiEQ.png)
 
 None of this is groundbreaking on its own; yet, _together_, they do give us a new opportunity to engage users and understand their use of open data.
 

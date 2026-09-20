@@ -17,22 +17,22 @@
                                 <div class="socials">
                                     <a class="soc-link" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" data-title="Facebook">
                                         <span class="soc-icon">
-                                            <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/facebook-icon.svg" class="img-svg" alt="Facebook">
                                         </span>
                                     </a>
                                     <a class="soc-link" data-title="Twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title}} by @abhinemani {{site.url}}{{page.url}}" >
                                         <span class="soc-icon">
-                                            <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="Twitter">
                                         </span>
                                     </a>
                                     <a class="soc-link" data-title="Pinterest">
                                         <span class="soc-icon">
-                                            <img src="{{site.url}}/img/pinterest-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/pinterest-icon.svg" class="img-svg" alt="Pinterest">
                                         </span>
                                     </a>
                                     <a class="soc-link" data-title="Behance">
                                         <span class="soc-icon">
-                                            <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="">
+                                            <img src="{{site.url}}/img/behance-icon.svg" class="img-svg" alt="Behance">
                                         </span>
                                     </a>
                                     <div class="soc-link show-more-socials" style="display: none;"></div>
@@ -62,7 +62,7 @@
 	                                    <div class="post-info">
 	                                        <a href="#" class="post-author post-info-author">
 	                                            <div class="author-image">
-	                                                <img src="{{site.url}}/img/{{page.image.thumb}}" alt="" class="image-cover">
+	                                                <img src="{{site.url}}/img/{{page.image.thumb}}" alt="{{ page.title | strip_html | escape }}" class="image-cover">
 	                                            </div>
 	                                            <span>{{ page.byline }}</span>
 	                                        </a>
@@ -74,7 +74,7 @@
 									
 									{% if page.img  %}
                                     <div class="post-image-large wide">
-                                        <img src="{{site.url}}/img/{{ page.img }}" alt="">
+                                        <img src="{{site.url}}/img/{{ page.img }}" alt="{{ page.img-caption | default: page.title | strip_html | escape }}">
                                         <span class="caption-text"> {{ page.img-caption}}</span>
                                     </div>
 								  {% endif %}

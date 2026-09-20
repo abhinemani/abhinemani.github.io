@@ -26,7 +26,7 @@ Last year I was fortunate enough to be brought along by the World Bank as a cons
 
 You see [baby elephants](https://www.facebook.com/photo.php?fbid=4144495173180&l=579cbd78db), as well, and that’s fun, but you also see this:
 
-![](https://cdn-images-1.medium.com/max/800/1*_fO_TVIToCv8-CLWPyImWg.png)
+![Person holding Kenyan shillings and a phone beside an M-Pesa sign](/img/medium/1__fO_TVIToCv8-CLWPyImWg.png)
 
 You see people exchanging currency with their cell phones. You get out of a cab, and you just see someone text the driver. You’re at a convenience store, and you see people texting the cashier. That surprised me. Kenya is not exactly as advanced technologically as the US. We have Square here or other modern technologies. We have our iPhones. Not as much there, so it’s like, what’s going on? I asked somebody, “What is this?” They said it’s a thing called M-Pesa, and I said, “What’s that?” They said, “It’s revolutionary,” and this is why:
 
@@ -34,7 +34,7 @@ You see people exchanging currency with their cell phones. You get out of a cab,
 
 Initially that’s just interesting, right? You think, “Wow, they leap-frogged modern currency, right?” You don’t have to use as much paper. You don’t have to use credit cards. You can just use your phone. iPhone users would love that, and I don’t have to carry around my wallet (and even here in the U.S., I’m a huge fan of Venmo, which does basically this), but the real interesting thing was the impact on that society.
 
-![](https://cdn-images-1.medium.com/max/600/1*k5z4A-9RLOydNnqV8aGcmQ.png)
+![Anti-corruption suggestion box](/img/medium/1_k5z4A-9RLOydNnqV8aGcmQ.png)
 
 
 Beforehand, you were fearful of public and financial institutions, which were historically corrupt and inaccessible. And so, you keep your money, literally, close to your chest. You would keep your money under your mattress. You stay regionally within your home. You couldn’t move into the city, but M-Pesa changed that. It let you take your money out from the mattress. It created a modern economy, and here’s what’s great about it: It got people back into the cities, and created trust in civil society. Now you see vibrant urban corridors, bustling with street life and economic activity, and humming with the sounds of busses and cars shuttling residents back and forth from their rural homes and their urban jobs. Not at all unlike what you see in westernized countries, but instead of payment by plastic cards, it’s by SIM card.
@@ -53,7 +53,7 @@ What did he mean by that? He’s looking at the way software has disrupted core 
 
 **Software is eating the world.**
 
-![](https://cdn-images-1.medium.com/max/1200/1*RdEuhy6FH3uNS7T0EJ1XHg.jpeg)
+![Before and now: bank queues versus mobile banking](/img/medium/1_RdEuhy6FH3uNS7T0EJ1XHg.jpg)
 
 Then, bringing those two themes together, I think we’re asked another question. How will technology reshape our society? Now for a lot of the folks in this room, you’re probably thinking, “Well, that’s not a question that I can grapple with. I’m not a technologist. I don’t know how to code, and you know, the apps on my phone work just fine. Whatever.” Let me tell you something. This is something we all here have to answer, and I’ll tell you in a minute why I think we’re best equipped to do that.
 
@@ -79,15 +79,15 @@ Here’s an example of a problem they had to take on.
 
 The first year we were working in the City of Boston. We send our fellows because we’re cruel, I guess, to the City in the month of February. In Boston that year there was a snowstorm, so instead of being able to do the research that they needed to do, they had to man the call center because people were calling in saying, “I can’t get to where I need to go.” While they’re there, though, they talk to some people in the call center, and they saw a fireman and asked the fireman, “What’s a problem you’re dealing with today in this crisis?” He said, “It’s this.” He said, “In snowstorms or when it snows a lot, hydrants get covered with snow, and we can’t go put out fires. We have to drive around the city and shovel them out.” They were like, “Okay, how can we use technology for that?”
 
-![](https://cdn-images-1.medium.com/max/600/1*KwIWyilRTRp_LMRNlcx25w.png)
+![Adopt-a-Hydrant signup form and map](/img/medium/1_KwIWyilRTRp_LMRNlcx25w.png)
 
 Initially, the thought was, “Let’s build an app where you can just map them and track them. That’ll make it easier for the firemen to do their job,” but the fellow who was working on this was a philosophy major from Carnegie Melon, and he thought, “Well, citizens are living right in front of that hydrant. That’s someone’s house behind that. Why shouldn’t that person have the responsibility as a citizen to do something about it?” so we built this, Adopt a Hydrant. It’s a little web app, not complicated. It’s cute. You can click on a hydrant near your house. It jumps up and down. You give it a name. It texts you if you don’t take care of it, but think about this. This is self-interest rightly understood. This is Tocqueville. This is saying, “As a citizen, you should make your society better,” and technology enabled that.
 
 Here’s another example of a project from this year. When you have food stamps, you get credit each month at the beginning of the month, and you have to use those food stamps and report on them and what you did. If you don’t submit your report for how you use that food stamps, you get kicked off. If you ask somebody who uses food stamps, they’ll say, “Every day, the first day of the month, we go to the grocery store. That’s the day we get to go to the grocery store.” A mom with her two kids will go to the store, get the groceries, get in line, get ready to checkout, give the person the card, and sometimes they get rejected, not because they’re not eligible anymore.
 
-![](https://cdn-images-1.medium.com/max/1200/1*20-hiJTuEtFhT1hs5oxTIg.png)
+![Dense CalFresh benefits notice letter](/img/medium/1_20-hiJTuEtFhT1hs5oxTIg.png)
 
-![](https://cdn-images-1.medium.com/max/600/1*2TCH67aIE9tRrepKxZ0ojg.png)
+![Illustrated phone showing a plain-language CalFresh text message](/img/medium/1_2TCH67aIE9tRrepKxZ0ojg.png)
 
 It’s because they didn’t fill out this form (above), and what happens when you don’t fill out the form? They send you a letter what looks just like this, that oftentimes you can’t understand and oftentimes too hard for you to read, and so you get kicked off .That means for that month you may not have food, or at least you’ve spent three days in line in the bureaucracy trying to solve that problem.
 
@@ -95,7 +95,7 @@ Well, our fellows said, “That doesn’t make sense. That’s not right,” so 
 
 Finally, this is an example from New Orleans two years ago. New Orleans, like a of American cities, has a big problem around blight, vacant housing. Vacant housing can be hotbeds of crime, drugs, murder, and so people like this woman named Aunt Rita, get really concerned about vacant houses in their neighborhoods because they want to keep their neighborhood safe. The City wasn’t telling her the status of those vacant houses. She didn’t know what was going on, so her and her friends walked around each day for hours and mapped out the houses. Is that house safe or not? Is something being done or not? She had to do that herself because the City wasn’t doing anything. Well, we built an app for that. We built a simple app, blightSTATUS, that found all the data from the City, created a visualization, and let her see the status of it.
 
-![](https://cdn-images-1.medium.com/max/800/1*eV7KnOQ8JliSUwRHHkMq7g.png)
+![BlightStatus homepage for New Orleans property information](/img/medium/1_eV7KnOQ8JliSUwRHHkMq7g.png)
 
 Again, the technology here isn’t what’s important. What’s important is this. After we launched that app, Miss Rita ran up to the fellow and gave him a hug, and along with her neighbors, she said, “_You changed the conversation.”_ Beforehand there was a frustrated conversation. The City was on one hand saying, “I don’t know what to tell you, citizen,” and on the other hand, the citizen was saying, “City, you’re not telling us what you’re doing.” The conversation wasn’t collaborative, it was paralyzing. The application gave them a means to communicate, and it changed the conversation. When you think about a democracy and the way that we should be communicating with each other and with our government, this is how technology can be so core.
 

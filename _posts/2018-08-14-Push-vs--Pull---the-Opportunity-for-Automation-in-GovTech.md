@@ -30,7 +30,7 @@ Fortunately, enough, this has been one evolution government technology has not b
 
 At SPIDR, this notion of push communications is central to what we do. “No more apps” is a working mantra. That’s because we work with law enforcement agencies that need to provide crucial information to victims of crimes or 911 callers, who do not have time to download another app. And nor do the agencies have the bandwidth for more calls. Instead automated, personalized, and relevant communication makes lives easier for officials and residents.
 
-![](/img/1__6m7xZ1GMjf0G3aRJdYNOvg.jpeg)
+![Phone showing a plain-language police report follow-up email from SPIDR Tech](/img/1__6m7xZ1GMjf0G3aRJdYNOvg.jpeg)
 
 These aren’t like the more traditional push messages you may be used to from law enforcement (emergency notifications), instead there are _personalized for the resident for the specific problem they have_. And just as importantly from a governmental perspective, there’s no need for new systems or process change. In fact, using the _existing_ processes / systems, SPIDR is able to provide a **1/1 communication** that’d be impossible at scale for an agency.
 

@@ -29,7 +29,7 @@ This isn’t apathy or malice. There’s some reasonable thinking, I hope, behin
 
 Why? Because think about what the federal government has done in the last 8 years… it’s limited. The last major piece of legislation that the federal government has passed was the ObamaCare Act. That was 6 years ago. Everything else since then… Immigration reform held up in the courts, new justices on Bench held up…
 
-![](https://cdn-images-1.medium.com/max/600/1*eIHU-5cIX6Fw7ZnPc1Kgyw.jpeg)
+![Slide: 73% trust in local government](/img/medium/1_eIHU-5cIX6Fw7ZnPc1Kgyw.jpg)
 
 And naturally, this government inaction leads to citizen distrust. A Pew recently researched the level of trust in federal government. 23 percent of people trusted federal government, 23 percent. That’s just under one in four. On the flip side, local government had 73 percent. Put another way, when you look around this room, you’re going to find a lot more people trusting their public servants here in Sacramento than those in D.C.
 
@@ -41,11 +41,11 @@ It’s easy to think that because of Katrina, blight is just a New Orleans probl
 
 Cities **_have_** to figure out how to deal with it.
 
-![](https://cdn-images-1.medium.com/max/600/1*0sZDLpFtoX6dRK9QMs3wxg.jpeg)
+![Two people reviewing a large printed map](/img/medium/1_0sZDLpFtoX6dRK9QMs3wxg.jpg)
 
 What was fascinating when we were in New Orleans is there’s this woman. She’s wonderful. Her name is Miss Rita. She cared about her community. She’s older, retired, didn’t have anything else to do with her time so she wanted to focus on figuring out what’s going on with the community. She would literally with paper maps track what’s going on with vacant housing in her community. If you walk into her house you would see these big pieces of paper, which apparently are called Tom’s guides that I’m too young to know what those really mean, all around her house that she’s tracking manually what’s going on.
 
-![](https://cdn-images-1.medium.com/max/600/1*LhlIM2Gf3hDej5eHOK6TJw.jpeg)
+![New Orleans Mayor Landrieu reviewing plans with residents](/img/medium/1_LhlIM2Gf3hDej5eHOK6TJw.jpg)
 
 Here’s what’s fascinating. The mayor had the same problem. The mayor was asked by citizens all the time, “Hey, Mr. Mayor, what’s going on with vacant housing in this place? What’s happening in that specific area?” He didn’t have an answer because he didn’t have the information or the data to answer that question. He asked his chief information officer, “Can you build an application to solve that problem? Can you build an application on my iPad that you can tell me what’s going on?” He said, “Yeah, sure. It’s going to cost me **$3 million and take 3 years**,” because that’s usually how government does business.
 
@@ -55,28 +55,28 @@ That itself is interesting, but the story doesn’t end with just a dashboard.
 
 Guess who was the main user of the app? It was Habitat for Humanity. This community based organization needed basically a realtime CRM on blighted houses, and the city just handed them one for free.
 
-![](https://cdn-images-1.medium.com/max/800/1*NCw0bCQ1pHzjYOwSoDwEww.jpeg)
+![Volunteers raising a wall frame at a Habitat for Humanity build](/img/medium/1_NCw0bCQ1pHzjYOwSoDwEww.jpg)
 
 That I think is what’s most exciting about building new technology for cities, is that you can empower people who aren’t technological to do things that help their city better, which is why I think the future of cities is technology.
 
 I think the way we make cities work effectively in the 21st century is using technology to solve every day, real-work problems.
 
-![](https://cdn-images-1.medium.com/max/1200/1*c38m3mHZpvYVLTDov1ETQQ.jpeg)
+![Slide: the future of cities is technology](/img/medium/1_c38m3mHZpvYVLTDov1ETQQ.jpg)
 
 That’s for good reason because cities do thing — things that are _vital_ but totally _mundane_ like picking up trash, things that are _vital_ but totally _dangerous_ like putting out fires. Then things that are just _simply vital_ like getting people to school. That’s what cities do. We do things. This is why I think people trust cities way more than they trust the federal government because they know that we’re the ones in delivering the services that they need.
 
-![](https://cdn-images-1.medium.com/max/600/1*7LaZg7GM9k4u4_f2DlV0dg.jpeg)
+![City of Boston "City Hall To Go" truck](/img/medium/1_7LaZg7GM9k4u4_f2DlV0dg.jpg)
 undefined
 
 Plus, sometimes they do some cool stuff too. This is a picture of the “wicked cool tree” in Boston. This is a tree they set up in City Hall where you could tweet at this hashtag and it would change the color of the tree based on your tweet. They also did a thing in Boston where they took a food truck and re-purposed it as a “City Hall-to-go” food truck. You didn’t have to come to city hall to renew that permit; City Hall will come to you. (Though likely without tacos.)
 
 It’s hard not to trust a city when they’re that cool. But I think most importantly, this is a quote from the Mayor in Minneapolis:
 
-![](https://cdn-images-1.medium.com/max/800/1*vMr7xEBxczXafmUTSD5gTA.jpeg)
+![Minneapolis mayor quote: there is no Republican or Democratic way to pick up the trash](/img/medium/1_vMr7xEBxczXafmUTSD5gTA.jpg)
 
 That’s an important perspective on local government, is that it’s not about traditional partisan politics. It’s about getting — sorry for my language — getting shit done. That’s what we care about and that’s what we do. .
 
-![](https://cdn-images-1.medium.com/max/600/1*QnoTrQx7OxSVGGwjjkih2g.jpeg)
+![Uber app on a phone setting a pickup location](/img/medium/1_QnoTrQx7OxSVGGwjjkih2g.jpg)
 
 That’s government. Government is moving in this area that they focus on technology more. But technology is also really focusing on urban. Imagine, how many of you guys took Uber to get here? Or Lyft? Or used a Zipcar? Or some other app/service I’ve never heard of? It’s impossible to deny that getting around a city has radically changed in the past few years. Because cities are dense, tightly woven, and there are people there… people with smartphone that tell you where they are and can request a car that’s only 2 minutes away. But this kind of immensely convenient (arguably disruptive) technology only works in cities, in an _urban environment_. You couldn’t have Uber if people didn’t live in urban environments. There wouldn’t be enough people around. You couldn’t have Airbnb without urban environments; there wouldn’t be enough apartment units or Uber to get you from the suburb back to downtown. Ways and Google Maps and everything else that we use on a daily basis only work because we all live in cities — they continue to get terabytes and terabytes of traffic data and behavior because we continue to use them day after day to get around.
 
@@ -84,7 +84,7 @@ All of this urban innovation couldn’t come at a better time. Right now 50% of 
 
 The last thing I want to say and I’m going to pull off stage here in a minute is that what’s most exciting to me is bringing those 2 things together, 1) the fact that we live in cities and we care about our cities and 2) cities need technology, and that technology is fundamentally urban. How do we bring those two things together?
 
-![](https://cdn-images-1.medium.com/max/1200/1*PXCIB9NYNL756YN-IzM2sg.jpeg)
+![Slide: the future of technology is urban](/img/medium/1_PXCIB9NYNL756YN-IzM2sg.jpg)
 undefined
 
 Let me give you an example of that, which is really the most compelling illustrations about what the next phase of “good” technology will look like. In a city if you have a heart attack it takes about 11 minutes for a ambulance to get to you. However, most cities are overwhelmed with 911 calls, so it’s hard for them to respond to you right away. Well, what if — and this is a big if — you could bring that number down just a little; say, 8 minutes? That would increase the likelihood of survival by more than 2/3 (67%). This means that if we could creatively speed up the delivery process for assistance, we could be saving lives. **Saving lives.**
@@ -93,13 +93,13 @@ Turn’s out, there’s an app for that. A company called PulsePoint launched a 
 
 Effectively, the app asks **_you_**, standing right there next to someone in cardiac arrest to step up and use your training to help, reducing that patient’s response time, and increase their chance of survival. Literally, if you keep the application open in the background, it may someday send you a simple notification: “Hey, someone’s dying near you. Can you help them out?”
 
-![](https://cdn-images-1.medium.com/max/800/1*JaUdyM1Jm8HixqChNA8DcQ.jpeg)
+![PulsePoint CPR-needed alert on a phone](/img/medium/1_JaUdyM1Jm8HixqChNA8DcQ.jpg)
 
 **That’s what’s possible with technology. That’s what’s possible with cities.**
 
 I guess in closing what I’ll say is this, and you can’t give a talk about cities without quoting Jane Jacobs, so I have to do this:
 
-![](https://cdn-images-1.medium.com/max/1200/1*aiOhnApZbdfyDvn7TUDa9g.jpeg)
+![Jane Jacobs quote on cities being created by everybody](/img/medium/1_aiOhnApZbdfyDvn7TUDa9g.jpg)
 
 BlightStatus wouldn’t work if people weren’t stepping up to build houses with Habitat for Humanity. The PulsePoint app wouldn’t work if people weren’t stepping up to stop heart attacks with PulsePoint.
 

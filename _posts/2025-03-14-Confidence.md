@@ -24,7 +24,7 @@ In **news searches**, the spike is sharp and unprecedented. Interest in “uncer
 
 Even when viewed as a broader **topic**, incorporating related terms and contexts, “uncertainty” has never seen greater search volume. This is not a momentary blip — it’s a signal of a deeper instability in the civic imagination.
 
-![](/img/uncertainty-2.jpg)
+![Line chart of the index rising from 2004 to 2020](/img/uncertainty-2.jpg)
 
 But public perception is only part of the picture. The structural data behind city budgets tells the same story.
 
@@ -46,7 +46,7 @@ Consider just a few highlights:
 
 In short: [city governments are sailing into 2025 with weaker wind](https://www.linkedin.com/pulse/decline-city-fiscal-confidence-why-matters-everyone-abhi-nemani-x6sqc/) at their backs and heavier ballast below.
 
-![](/img/budget-confidence.jpg)
+![Chart: declining confidence in city budgets, 2021 to 2024 (National League of Cities)](/img/budget-confidence.jpg)
 
 ### Uncertainty Is Not a Bug — It’s the System Now
 

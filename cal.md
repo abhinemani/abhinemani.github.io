@@ -17,16 +17,16 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 				</p>
 				<div class="socials">
 					<a class="soc-link" href="https://twitter.com/@abhinemani">
-						<img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="">
+						<img src="{{site.url}}/img/twitter-soc-icon.svg" class="img-svg" alt="Twitter">
 					</a>
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
-						<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="LinkedIn">
 					</a>
 					<a class="soc-link" href="mailto:abhi.nemani@gmail.com">
-						<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="Email">
 					</a>
 					<a class="soc-link" href="https://github.com/abhinemani">
-						<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="GitHub">
 					</a>
 				</div>
 			</div>

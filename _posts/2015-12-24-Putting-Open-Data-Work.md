@@ -31,7 +31,7 @@ I’ve got four key principles, the first is focusing on the user.
 
 This is a picture of our first data portal from the city of Los Angeles.
 
-![](https://cdn-images-1.medium.com/max/800/1*XagIg9Nsbjy3rC04R3K-Gw.png)
+![DataLA open data portal homepage](/img/medium/1_XagIg9Nsbjy3rC04R3K-Gw.png)
 
 This was launched in June 2014, about seven months ago. I started a few months after the launch — in September — and I figured it was a good opportunity to get some feedback and do some user testing. I went around and started doing some basic user feedback. I just knocked on doors and asked people, “Does this site work for you? Are you able to get the data you need from this interface?”
 
@@ -41,13 +41,13 @@ It was interesting, very interesting, in fact, the feedback that I got the most 
 
 What I decided then is we should think about interaction around open data that visualizes it compellingly, to let people really know what data is and how it affects them. Simply enough, we redesigned the portal a month ago, this is the new look of [data.lacity.org](http://data.lacity.org) and just at the front it’s pretty basic.
 
-![](https://cdn-images-1.medium.com/max/800/1*P1-8oirxs26tsm-wTFoqDQ.png)
+![Los Angeles open data map of February building permits](/img/medium/1_P1-8oirxs26tsm-wTFoqDQ.png)
 
 We just put a map, we put points on a map that’s kind of beautiful, it’s Easter themed, because we’re coming up to Easter. It shows building permits that you can actually zoom in and find them near you. Scroll down, there’s search functionality, there’s discovery functionality like you see in most data portals, but the key feature was I wanted to say right there front and center, here’s the data that can matter to you.
 
 We keep it relevant too; if there’s a particular event one week, like this last weekend in Los Angeles we had a big bike festival called CicLAvia, where they shut down parts of the street to let people just bike all along the street, so we put a map of the route front-and center. We made it relevant and visual, and here’s what happened when we did that.
 
-![](https://cdn-images-1.medium.com/max/1200/1*iLBUZy5JvXlk-XixLNrt9g.png)
+![Chart: data.lacity.org bounce rate fell from 50% to 5% after the redesign](/img/medium/1_iLBUZy5JvXlk-XixLNrt9g.png)
 
 The bounce rate, for anybody who knows technology, this is like if you go to a website and you don’t find what you need and you leave immediately, that’s called bouncing off the site. Our bounce rate before hand was 50%, half the people that came to data.lacity.gov went right away, not great for me. **It dropped to 5%**. Just by talking to people, figuring out what they wanted, what their problems were with the interface, had this kind of a dramatic shift in less than a month.
 
@@ -55,7 +55,7 @@ The bounce rate, for anybody who knows technology, this is like if you go to a w
 
 I bring this up as we think about building open data experiences, if you think about building open data programs, keep in mind the user. Here’s just a preview by the way, of what the new data view site will be...  right now it’s just spreadsheets on the internet, which it is. If you just go, it looks like a spreadsheet on the internet. This is what it’s going to look like soon, where every data set is going to be visualized and made interactive for people to explore and understand in a more meaningful way:
 
-![](https://cdn-images-1.medium.com/max/800/1*bvaocQwVkyQ2MgANVknOgw.png)
+![Data portal dashboard with charts of permits by type and council district](/img/medium/1_bvaocQwVkyQ2MgANVknOgw.png)
 
 That’s the first principle, focus on the user. The next thing I think is, changing the citizen’s experience.
 
@@ -67,7 +67,7 @@ This is a problem, right, because you want to get this information before you ch
 
 Trulia is a very popular apartment search website, having recently moved to Los Angeles, I can tell you it’s very valuable, even though rents are really high. What they did is they took building inspection data; is your landlord a good landlord? Do they keep the building up to code? Are there termites, are there rats? The city is actually doing a lot of work to inspect that, they send inspectors to apartment buildings to see what’s happening, but again, that data, that information typically lives in some code enforcement, frankly piece of paper. If you’re lucky, excel page, if you’re really lucky, web page, but no one is lucky enough to actually have a citizen go to that web page and check it out before they pick an apartment.
 
-![](https://cdn-images-1.medium.com/max/600/1*W8oGyMmncIiI3y7QGQpP9g.png)
+![Trulia listing with a House Facts panel showing past code violations](/img/medium/1_W8oGyMmncIiI3y7QGQpP9g.png)
 
 I’m sure none of you have ever done that before picking a place to live. Now, any time you’re looking for a place in a place that has this open data, you get that right in front of you. For the private sector folks in the room, I would encourage you to think about this: Think about the work that you’re doing, and how you might be able to integrate open data into it, to improve your business operations, but also to improve the experience of the customers that you have. The broader point here is, instead of thinking about building more civic applications, which is what we tend to think about, [how do we make all apps a bit more civic](https://medium.com/@abhinemani/ubers-as-ambulances-4e3a2db3880b)?
 
@@ -87,7 +87,7 @@ Then, you’ve got a challenge of them to get something done, and here I’m tal
 
 In Los Angeles last year, we did something like this, we had a #techLA competition. It was a 24 hour hackathon, and they built an app that made it easier to find homeless shelters, which I know this is something you’re passionate about, and the great thing is the winners of one more thing were all in high school.
 
-![](https://cdn-images-1.medium.com/max/1200/1*SXewMDRODNUpCvS90CXZhQ.png)
+![LA Times headline: a team of high-schoolers wins the #techLA competition](/img/medium/1_SXewMDRODNUpCvS90CXZhQ.png)
 
 It’s really people of all ages who are able to use this data to solve problems. This year, instead of just doing the one hackathon, as I was mentioning, because we want to make it a more of a community building effort, we’re doing a broader year long what we’re calling _X Prize for LA_, where we’re actually challenging people around key issue areas, for instance water conservation, which is a central challenge for us in Los Angeles, also immigration reform. Taking these big issues that we have and saying, “Hey citizens, you’re interested in working with us? Here are the things that we want you to do, and if you do it, we’re going to help you out. We’re going to give you resources, we might give you a city contract, we might get you a Hollywood star to do an ad for you, because we’re in Los Angeles and we can do that.”
 
@@ -97,11 +97,11 @@ We’re thinking creatively about the way that we can motivate people to take on
 
 One thing we talked about last night was this question of sustainability. You might build something interesting while you have it, chief data officer in office, but what happens if that guy leaves, or that woman leaves? What happens if that major turns over? This is where I think institution building is really important. You’ve got to build a culture within City Hall, and then you also have to build capacity outside of City Hall. Here’s one way we’re trying to build culture within City Hall. We’ve been working in this program in performance management, and the mayor one day said, “Hey Abhi, can we build a dashboard that I can track all of this stuff on?” He actually asked me that on a January 2nd, and wanted it done by a January 6th. Sometimes things move fast in government.
 
-![](https://cdn-images-1.medium.com/max/1200/1*2Q9hX6S3Kss7bhANLtKUvA.png)
+![Los Angeles mayor's dashboard with job growth and building permit charts](/img/medium/1_2Q9hX6S3Kss7bhANLtKUvA.png)
 
 We built this dashboard for the city. The reason I bring this up is for two reasons. One, the way we built it was on Google docs. A lot of times, people within the government don’t have as much technical familiarity, they can’t go in and edit code on GitHub for instance, but they can at a Google doc or spreadsheet.
 
-![](https://cdn-images-1.medium.com/max/600/1*U6w0_RXmZ9jrIEE9NhMTPg.png)
+![Spreadsheet that feeds the mayor's dashboard metrics](/img/medium/1_U6w0_RXmZ9jrIEE9NhMTPg.png)
 
 The second reason I bring it up is, after we built this for the major and we sent it around the city, I can’t tell you the number of departments that reached out to me and said, “Hey, we want a dashboard just like that.” That’s called momentum, and that momentum can lead to culture change. That’s what we’re trying to do within the city, so even if major’s office staff turns over in 4 years, hopefully 8, there’ll still be that capacity within the organizations themselves, within the departments themselves, around technology.
 
@@ -109,7 +109,7 @@ That’s only part of it, and I keep talking about Chicago, which I kind of hate
 
 I love this model, and when I went to LA, I told myself, we need to recreate this in Los Angeles. I’m pleased to tell you that we actually have, we built an organization called [Compiler.LA](http://Compiler.LA), which is our version of Smart Chicago. What they’re doing is building civic technology, so they’re working with non-profits, with the governments, and helping them solve solutions directly. More importantly, they’ve committed 10% of all revenue generated from any contracts they have to community building. This means we’re going to have an actual source of ongoing revenue to fund innovation throughout the city that doesn’t come from the city government. Back to that point about sustainability, this creates a capacity within the community that’s there long term.
 
-![](https://cdn-images-1.medium.com/max/600/1*Q4h1pMogs9P-gWvVRZEU3g.jpeg)
+![CityGrows.LA map of proposed projects](/img/medium/1_Q4h1pMogs9P-gWvVRZEU3g.jpg)
 
 This is an example of something that they built, it’s called CityGrows.LA, and what they do is they track all permits within the city, they scrape it from our website and let people comment on whether they like it or not. It’s own kind of crowd source planning effort. The last thing I’ll just say about the community side is it’s great to have individual organizations like Smart Chicago, like Compiler.LA doing this work, but to really grow and sustain the broader civic technology movement, we need serious capital, and I think someone back there said the word venture capital, so we should talk after this. What we need are real investments to take an organization that’s built a prototype and help them become a startup. That’s what venture capital helps do.
 

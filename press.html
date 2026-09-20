@@ -18,7 +18,7 @@ For press inquires, please email <a href="mailto:abhi@ethoslabs.us">abhi@ethosla
 	<div class="block-column">
 		<figure class="block-caption img-caption">
 			<div class="img-wrap">
-				<a href="{{ press.url }}"><img src="{{site.url}}/img/{{ press.image.thumb }}" alt=""></a>
+				<a href="{{ press.url }}"><img src="{{site.url}}/img/{{ press.image.thumb }}" alt="{{ press.title | strip_html | escape }}"></a>
 			</div>
 			<figcaption class="caption-text">{{ press.title }}</figcaption>
 		</figure>

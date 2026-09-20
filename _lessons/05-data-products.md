@@ -19,15 +19,15 @@ tags:
 
 This is a picture of our first data portal from the city of Los Angeles.
 
-![](https://cdn-images-1.medium.com/max/800/1*XagIg9Nsbjy3rC04R3K-Gw.png)
+![DataLA open data portal homepage](/img/medium/1_XagIg9Nsbjy3rC04R3K-Gw.png)
 
 This was launched in June 2014. I started a few months after the launch — in September — and I figured it was a good opportunity to get some feedback and do some user testing. I went around and started doing some basic user feedback. “What is data?” was the question that I got asked the most. So we decided to show, not tell:
 
-![](https://cdn-images-1.medium.com/max/800/1*P1-8oirxs26tsm-wTFoqDQ.png)
+![Los Angeles open data map of February building permits](/img/medium/1_P1-8oirxs26tsm-wTFoqDQ.png)
 
 We just put a map, we put points on a map that’s kind of beautiful and simple. It shows building permits that you can actually zoom in and find them near you. We keep it relevant too; if there’s a particular event one week, like this last weekend in Los Angeles we had a big bike festival called CicLAvia, where they shut down parts of the street to let people just bike all along the street, so we put a map of the route front-and center. We made the data portal relevant and visual, and here’s what happened when we did that:
 
-![](https://cdn-images-1.medium.com/max/1200/1*iLBUZy5JvXlk-XixLNrt9g.png)
+![Chart: data.lacity.org bounce rate fell from 50% to 5% after the redesign](/img/medium/1_iLBUZy5JvXlk-XixLNrt9g.png)
 
 When building open data products, focus on the user. 
 
@@ -37,4 +37,4 @@ We tend to think of open data as something that’s on a portal or maybe on an a
 
 Here's what's possible when government data goes to work inside consumer platforms:
 
-![](https://cdn-images-1.medium.com/max/600/1*W8oGyMmncIiI3y7QGQpP9g.png)
+![Trulia listing with a House Facts panel showing past code violations](/img/medium/1_W8oGyMmncIiI3y7QGQpP9g.png)

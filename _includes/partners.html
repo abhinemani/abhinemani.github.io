@@ -11,7 +11,7 @@
 								{% for portfolio in site.portfolio  %}
 								{% if portfolio.img  %}
                                 <a href="{{ portfolio.url }}" class="other-posts-slider-item">
-                                    <img src="{{site.url}}/img/{{ portfolio.img }}" alt="" class="post-bg-img">
+                                    <img src="{{site.url}}/img/{{ portfolio.img }}" alt="{{ portfolio.title | strip_html | escape }}" class="post-bg-img">
 								{% else %}
                                 <a href="{{ portfolio.url }}" class="other-posts-slider-item without-bg">
 								{% endif  %}

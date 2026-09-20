@@ -16,16 +16,16 @@ img: main-social.jpg
 				</h2>
 				<div class="socials">
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
-						<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="LinkedIn">
 					</a>
 					<a class="soc-link" href="mailto:abhi.nemani@gmail.com">
-						<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="Email">
 					</a>
 					<a class="soc-link" href="https://github.com/abhinemani">
-						<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="GitHub">
 					</a>
 					<a class="soc-link" href="https://abhinemani.com/feed.xml">
-						<img src="{{site.url}}/img/rss-icon.png" class="img-svg" alt="">
+						<img src="{{site.url}}/img/rss-icon.png" class="img-svg" alt="RSS feed">
 					</a>
 				</div>
 				<div class="buttons">
@@ -138,7 +138,7 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://codeforamerica.org"><img loading="lazy" src="/img/startups/codeforamerica.png" alt=""></a>
+								<a href="https://codeforamerica.org"><img loading="lazy" src="/img/startups/codeforamerica.png" alt="Code for America"></a>
 							</div>
 						</figure>
 					</div>
@@ -152,14 +152,14 @@ img: main-social.jpg
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://polco.us"><img loading="lazy" src="/img/startups/polco-new.png" alt=""></a>
+								<a href="https://polco.us"><img loading="lazy" src="/img/startups/polco-new.png" alt="Polco"></a>
 							</div>
 						</figure>
 					</div>
 					<div class="block-column">
 						<figure class="block-caption img-caption">
 							<div class="img-wrap">
-								<a href="https://spidrtech.com"><img loading="lazy" src="/img/startups/spidr.png" alt=""></a>
+								<a href="https://spidrtech.com"><img loading="lazy" src="/img/startups/spidr.png" alt="SPIDR Tech"></a>
 							</div>
 						</figure>
 					</div>
@@ -244,7 +244,7 @@ img: main-social.jpg
 					<div class="post-info">
 						<div class="post-author post-info-author">
 							<div class="author-image">
-								<img loading="lazy" src="{{site.url}}/img/headshot.jpg" alt="" class="image-cover">
+								<img loading="lazy" src="{{site.url}}/img/headshot.jpg" alt="Abhi Nemani" class="image-cover">
 							</div>
 							<span>Abhi Nemani</span>
 						</div>
@@ -279,7 +279,7 @@ img: main-social.jpg
 							<div class="block-column">
 								<figure class="block-caption img-caption">
 									<div class="img-wrap">
-										<a href="{{ press.url }}"><img loading="lazy" src="{{site.url}}/img/{{ press.image.thumb }}" alt=""></a>
+										<a href="{{ press.url }}"><img loading="lazy" src="{{site.url}}/img/{{ press.image.thumb }}" alt="{{ press.title | strip_html | escape }}"></a>
 									</div>
 									<figcaption class="caption-text">{{ press.title }}</figcaption>
 								</figure>

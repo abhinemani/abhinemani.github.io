@@ -14,7 +14,7 @@ tags:
 
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of…
 
-![](https://cdn-images-1.medium.com/max/800/1*2BWF57jB0a08HX0a2Uu0lw.png)
+![Code for Sacramento and I/O Labs Foundation slides](/img/medium/1_2BWF57jB0a08HX0a2Uu0lw.png)
 undefined
 
 A remember a few years back — well, now, maybe more than a few — while i was working at Code for America, we had the thoughtful idea of including every since one of that year’s fellowship apps in the intro presentation at the annual Summit. Seems easy, no? Over a handful of teams working for just 11 months, that should be just a handful of slides, right?
@@ -38,7 +38,7 @@ Problem: Not everyone I work now with knows what either HTML5 or github is —
 
 So I stepped back and thought about the ideal experience for me to do the “heavy-lifting” of design and formatting and my colleagues to edit and tweak. Effectively, I realized I wanted a very simple content management system (CMS) for slide, or put another way, a “data-driven” presentation.
 
-![](https://cdn-images-1.medium.com/max/600/1*xFZIDukI3pjLKqZzlqenSQ.png)
+![Spreadsheet of organizations with descriptions and image filenames](/img/medium/1_xFZIDukI3pjLKqZzlqenSQ.png)
 
 Then I remembered how we approached a similar problem with [dashboard-ing in Los Angeles](https://medium.com/@abhinemani/government-dashboards-what-ought-we-do-b0dcc58f299d#.j7i2hkcyy): **Google Spreadsheets**, and a nice little bit of JS called [Tabletop](https://github.com/jsoma/tabletop). Wiring up those two enabled me then, and now, enabled clean, consistent, and elegant design and also general non-technical access and editing.
 

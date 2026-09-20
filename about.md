@@ -20,7 +20,7 @@ redirect_from:
             <div class="wrap_float">
                 <div class="title-wrap">
                     <div class="author-image">
-                        <img src="{{site.url}}/img/headshot-square.webp" alt="" class="image-cover">
+                        <img src="{{site.url}}/img/headshot-square.webp" alt="Abhi Nemani" class="image-cover">
                     </div>
                     <h1 class="page-title">Abhi Nemani</h1>
                 </div>
@@ -32,16 +32,16 @@ redirect_from:
 					</p>
 					<div class="socials" style="margin-bottom: 20px;" target="_blank">
 						<a class="soc-link" href="https://linkedin.com/in/abhinemani">
-							<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="">
+							<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="LinkedIn">
 						</a>
 						<a class="soc-link" href="mailto:abhi.nemani@gmail.com" target="_blank">
-							<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="">
+							<img src="{{site.url}}/img/email-icon.png" class="img-svg" alt="Email">
 						</a>
 						<a class="soc-link" href="https://github.com/abhinemani" target="_blank">
-							<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="">
+							<img src="{{site.url}}/img/github-icon.png" class="img-svg" alt="GitHub">
 						</a>
 						<a class="soc-link" href="https://abhinemani.com/feed.xml" target="_blank">
-							<img src="{{site.url}}/img/rss-icon.png" class="img-svg" alt="">
+							<img src="{{site.url}}/img/rss-icon.png" class="img-svg" alt="RSS feed">
 						</a>
 					</div>
 					<h3>More Information</h3>
