@@ -845,22 +845,25 @@ jQuery(document).ready(function(){
     
     
     //footer fix if page height is small
-    jQuery(window).on('resize',function() {
-        
-        var containerHeight = jQuery(".container").innerHeight();
-        var windowHeight = jQuery(window).innerHeight();
-        var footerHeight = jQuery(".footer").innerHeight();
+    // Measured with the "absolute"/"relative" classes cleared first, otherwise
+    // .container-wrap.relative (height: 100vh) makes the check self-fulfilling.
+    // Re-run on load and when the async stylesheet finishes (see head.html),
+    // since this script can run before styles.css has applied.
+    function fixFooterPosition() {
+        var $footer = jQuery(".footer"),
+            $wrap = jQuery(".container-wrap");
 
-        if (containerHeight < windowHeight) {
-            jQuery(".footer").addClass("absolute");
-            jQuery(".container-wrap").addClass("relative");
-        } else {
-            jQuery(".footer").removeClass("absolute");
-            jQuery(".container-wrap").removeClass("relative");
+        $footer.removeClass("absolute");
+        $wrap.removeClass("relative");
+
+        if (jQuery(".container").innerHeight() < jQuery(window).innerHeight()) {
+            $footer.addClass("absolute");
+            $wrap.addClass("relative");
         }
-    });
-    
-    jQuery(window).trigger('resize');
+    }
+
+    jQuery(window).on('resize load', fixFooterPosition);
+    fixFooterPosition();
     //footer fix if page height is small
     
     
