@@ -12,6 +12,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    fastimage (2.4.1)
     ffi (1.17.4)
     ffi (1.17.4-arm64-darwin)
     forwardable-extended (2.6.0)
@@ -91,6 +92,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fastimage
   jekyll (~> 4.4)
   jekyll-feed
   jekyll-paginate
