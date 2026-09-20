@@ -62,6 +62,7 @@ paginate_path: "/blog/:num/"
 include: [".htaccess"]
 exclude:
   - .jekyll-cache
+  - scripts
   - node_modules
   - vendor
   - package.json
@@ -79,3 +80,9 @@ exclude:
   - Rakefile.rb
   - tmp
   - less
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true
+  sourcemap: never

@@ -138,3 +138,9 @@
  	flex-direction: column-reverse;
  }
  
+/* <picture> wrappers are added at build time (see _plugins/webp_picture.rb).
+   Make them layout-transparent so the <img> inside keeps positioning against
+   its original parent (e.g. absolutely positioned card backgrounds). */
+picture {
+  display: contents;
+}
