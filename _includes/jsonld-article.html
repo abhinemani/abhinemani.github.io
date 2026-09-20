@@ -1,19 +1,21 @@
 {% if page.layout == 'single' %}
+{% assign headline = page.title | strip_html | replace: "&quot;", '"' | replace: "&amp;", "&" | replace: "&#x3a;", ":" | replace: "&mdash;", "—" | replace: "&#8212;", "—" | replace: "&#63;", "?" %}
+{% assign description = page.subhead | default: page.excerpt | strip_html | strip_newlines | strip | truncate: 160 %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "{{ page.title }}",
+  "headline": {{ headline | jsonify }},
   "author": {
     "@type": "Person",
     "name": "Abhi Nemani"
   },
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   {% if page.modified_date %}
-  "dateModified": "{{ page.modified_date | date_to_xmlschema }}",
+  "dateModified": {{ page.modified_date | date_to_xmlschema | jsonify }},
   {% endif %}
-  "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
-  "url": "{{ site.url }}{{ page.url }}"
+  "description": {{ description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }}
 }
 </script>
 {% endif %}
