@@ -71,6 +71,14 @@ https://hellodigi.ru/
      object-position: center center;
   display: block;
 }
+/* Logo grids (partners, press, experience) aren't photo galleries — cropping
+   with object-fit: cover cuts off circular seals and square marks. Only
+   .wide-columns (the Academy lesson thumbnails) is an actual photo gallery
+   and keeps the cover crop above. */
+.gallery-columns:not(.wide-columns) .img-wrap img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .gallery-columns.columns-2 .img-wrap {
   height: 376px;
 }
