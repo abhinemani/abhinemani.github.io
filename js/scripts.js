@@ -1332,25 +1332,6 @@ jQuery(document).ready(function(){
     
     
     
-    //datepicker
-    jQuery(".js_calendar").datepicker({
-      dateFormat: "d MM yy",
-        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ],
-        monthNames: [ "January", "February", "March", "April", "May", "June", "Jule", "August", "September", "Oktober", "November", "December" ],
-        setDate: "today",
-        firstDay: 0,
-        onSelect: function() {
-            jQuery(this).parent().addClass("active");
-            
-        },
-        beforeShow: function() {
-            jQuery("body").addClass("locked-by-datepicker");
-        },
-        onClose: function() {
-            jQuery("body").removeClass("locked-by-datepicker");
-        }
-    });
-    //datepicker
     
     
     
