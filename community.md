@@ -1,5 +1,5 @@
 ---
-layout: home2
+layout: landing
 permalink: /community/
 title: GovGeek.Club Newsletter
 subhead: Join the community of public servants of all stripes, public or private, using technology to serve the public good.

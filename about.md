@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 permalink: /about/index.html
 title: About
 tagline: About me

@@ -1,32 +1,44 @@
+{% comment %}
+  <head> only. Optional param: hero=true (landing layout) switches the
+  critical CSS to the full-bleed hero variant.
+{% endcomment %}
 <head>
+    {% if page.url == "/index.html" %}
+    <title>{{ site.title }}: Government Technology Leader & Advisor</title>
+    {% else %}
     <title>{{ page.title }} | {{ site.title }}</title>
+    {% endif %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.subhead | default: site.description | strip_html | strip_newlines | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | remove: 'index.html' | absolute_url }}">
-	<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
-	<meta property="og:description" content="{{ page.subhead }}" />
-	{% if page.categories contains "Academy" %}
-	<meta name="twitter:image" content="{{ site.url }}/img/pia-social.jpg">
-	<meta property="og:image" content="{{ site.url }}/img/pia-social.jpg" />
-	{% else %}	{% if page.img contains ".png" or page.img contains ".jpg" %}
-	<meta property="og:image" content="{{ site.url }}/img/{{ page.img }}" />
-	<meta name="twitter:image" content="{{ site.url }}/img/{{ page.img }}">
-	{% else %}
-	<meta property="og:image" content="{{ site.url }}/img/placeholder.jpg" />
-	<meta name="twitter:image" content="{{ site.url }}/img/placeholder.jpg">
-	{% endif %}	{% endif %}
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@abhinemani">
-	<meta name="twitter:creator" content="@abhinemani">
-	<meta name="twitter:title" content="{{ page.title }}">
-	<meta name="twitter:description" content="{{ page.subhead }} ">
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+    <meta property="og:description" content="{{ page.subhead }}" />
+    {% if page.categories contains "Academy" %}
+    <meta name="twitter:image" content="{{ site.url }}/img/pia-social.jpg">
+    <meta property="og:image" content="{{ site.url }}/img/pia-social.jpg" />
+    {% elsif page.img contains ".png" or page.img contains ".jpg" %}
+    <meta property="og:image" content="{{ site.url }}/img/{{ page.img }}" />
+    <meta name="twitter:image" content="{{ site.url }}/img/{{ page.img }}">
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}/img/placeholder.jpg" />
+    <meta name="twitter:image" content="{{ site.url }}/img/placeholder.jpg">
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@abhinemani">
+    <meta name="twitter:creator" content="@abhinemani">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.subhead }} ">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    {% if page.url == "/index.html" %}
+    <!-- Preload hero background image for LCP optimization -->
+    <link rel="preload" as="image" href="{{ site.url}}/img/abhi-rose.webp" fetchpriority="high">
+    {% endif %}
 
     <!-- Critical CSS for above-the-fold content (LCP optimization) -->
-    <style>*{box-sizing:border-box}body{margin:0;padding:0;font-family:'Roboto',sans-serif;font-weight:400;color:#1D1D1D}.wrap{width:100%;max-width:1200px;float:none;margin:0 auto}.wrap_float{display:block;float:left;width:100%}.wrap-center{max-width:744px}.section-content{display:block;float:left;width:100%}.banner-section{display:block;float:left;width:100%;background-position:center center;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;position:relative}.banner-section:before{position:absolute;content:'';top:0;left:0;width:100%;height:100%;opacity:.6;z-index:2;background:linear-gradient(to bottom,#000 0%,rgba(0,0,0,0) 100%)}.banner-section:after{position:absolute;content:'';bottom:0;left:0;width:100%;height:100%;background:linear-gradient(to bottom,rgba(255,255,255,0) 50%,#fff 100%)}.banner-section .wrap_float{min-height:750px;padding:100px 0;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:3}.banner-section .location{margin-bottom:10px}.banner-section .page-title{color:#fff}.page-title{display:block;float:left;width:100%;font-size:50px;font-family:'Roboto',sans-serif;font-weight:700;line-height:56px;margin-bottom:27px}.location{font-size:18px;line-height:28px;color:#fff;padding-left:23px;position:relative}.location:before{background:url(../img/location.svg) center center no-repeat;background-size:contain;position:absolute;content:'';left:0;top:50%;width:18px;height:23px;margin-top:-11.5px}.btn{display:flex;justify-content:center;align-items:center;float:left;height:57px;background:#0D84FB;border-radius:8px;font-size:17px;color:#fff;font-family:'Roboto',sans-serif;font-weight:500;padding:0 30px;white-space:nowrap;position:relative}.btn.border-btn{background:none}.banner-section .buttons .btn.border-btn{border:1px solid rgba(255,255,255,.6)}.buttons{display:block;float:left}.buttons .btn{margin-right:20px}.buttons .btn:last-child{margin-right:0}.socials{display:block;float:left;width:auto}.socials .soc-link{width:32px;height:32px;border-radius:50%;background:#ebebeb;margin-right:13px;position:relative;display:flex;justify-content:center;align-items:center;float:left}.socials .soc-link:last-child{margin-right:0}.socials .soc-link img{max-width:18px;max-height:18px}@media screen and (max-width:1400px){.banner-section .wrap_float{min-height:630px}}@media screen and (max-width:590px){.banner-section .wrap_float{min-height:600px;padding:60px 0}}@media screen and (max-width:480px){.buttons{display:flex}.buttons .btn{padding:0 15px;width:100%}}.title{display:block;float:left;width:100%;font-size:32px;font-family:'Roboto',sans-serif;font-weight:700;margin-bottom:26px}.subtitle{display:block;float:left;width:100%;color:#8E8E8E;margin-bottom:42px;line-height:24px}.section{padding:50px 0}.faq-section{display:block;float:left;width:100%}.faq-section .wrap_float{display:flex;justify-content:space-between}.faq-section .section-left{max-width:464px}.faq-section .section-right{max-width:658px}.faq-section .accordion-block{margin:0}.faq-section .accordion-block .accordion-item:first-child .accordion-item-title{padding-top:0}.faq-section .accordion-block .accordion-item:last-child{border-bottom:0}.accordion-block{margin:30px 0 30px}.accordion-block.with-border .accordion-item{border:0;border-bottom:1px solid #DCDEE1;background:none;border-radius:0}.accordion-block.with-border .accordion-item .accordion-item-title{padding-left:0;padding-right:48px}.accordion-item{background:#ebebeb;border-radius:4px;border:1px solid #ebebeb;margin-bottom:10px}.accordion-item:last-child{margin-bottom:0}.accordion-item.opened{background:none;border-color:#DCDEE1}.accordion-item-title{font-size:19px;font-family:'Roboto',sans-serif;font-weight:500;padding:20px 74px 20px 26px;line-height:25px;position:relative}.accordion-item-content{display:none;font-size:16px;line-height:22px;color:#8E8E8E;padding:0 26px 26px 26px}@media screen and (max-width:1230px){.faq-section .section-left{max-width:440px}.faq-section .section-right{max-width:480px}}@media screen and (max-width:1000px){.faq-section .wrap_float{flex-direction:column}.faq-section .section-left{margin-bottom:30px}.faq-section .section-left,.faq-section .section-right{max-width:100%}}@media screen and (max-width:760px){.accordion-block{margin:15px 0}}@media screen and (max-width:590px){.section{padding:30px 0}.faq-section .section-left .subtitle{margin-bottom:20px}}@media screen and (max-width:480px){.title{margin-bottom:10px}.subtitle{margin-bottom:16px}.accordion-item-title{padding:18px 50px 18px 18px}}.search-section{position:fixed;top:0;left:0;width:100%}.mobile-panel{display:none}.top-panel{padding:45px 0;position:absolute;top:0;left:0;z-index:10;display:block}</style>
+{% include critical-css.html hero=include.hero %}
 
     <!-- Load non-critical CSS asynchronously -->
     <link rel="preload" href="{{ site.url}}/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet';window.dispatchEvent(new Event('resize'))">
@@ -34,75 +46,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url}}/img/favicons/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url}}/img/favicons/favicon.ico">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url}}/img/favicons/favicon.ico">
-	<link rel="apple-touch-icon" sizes="57x57" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url}}/img/favicons/favicon.png">
-	<link rel="alternate" type="application/rss+xml" 
-	  title="RSS Feed Abhi Nemani" 
-	  href="https://abhinemani.com/feed.xml" />
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QRMNN6HBDZ"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url}}/img/favicons/favicon.png">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed Abhi Nemani" href="https://abhinemani.com/feed.xml" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRMNN6HBDZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-	  gtag('config', 'G-QRMNN6HBDZ');
-	  </script>
-	  {% include jsonld.html %}
-	  {% include jsonld-article.html %}
+      gtag('config', 'G-QRMNN6HBDZ');
+    </script>
+    {% include jsonld.html %}
+    {% include jsonld-article.html %}
 </head>
-<body class="transition-none">
-    <div class="search-section">
-        <div class="wrap">
-            <div class="wrap_float">
-                <div class="search-form" id="search">
-                    <input type="text" class="search-input search" id="search-input" placeholder="Search…">
-                    <button class="search-submit"></button>
-					<ul id="results-container" style="color: white; padding-left: 20px; line-height: 1.2em;"></ul>
-                </div>
-                <div class="search-close" id="search-close"></div>
-				</div>
-				<script defer src="{{site.url}}/js/search-script.js" type="text/javascript"></script>
-				<script defer>
-				document.addEventListener('DOMContentLoaded', function() {
-					SimpleJekyllSearch({
-					  searchInput: document.getElementById('search-input'),
-					  resultsContainer: document.getElementById('results-container'),
-					  json: '{{site.url}}/search.json'
-					})
-				});
-				</script>
-            </div>
-        </div>
-    </div>
-    <div class="container page">
-        <div class="container-wrap">
-            <div class="mobile-panel">
-                <div class="wrap">
-                    <div class="wrap_float">
-						<div class="search-button"></div>
-                        <a class="logo" href="/">
-                            {{ site.title }} 
-                        </a>
-                        <div class="mobile-btn" id="js-menu-open">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-wrap--dummy"></div>
-            <div class="top-panel fixed" id="js-panel">
-                <div class="wrap">
-                    <div class="wrap_float">
-                        <div class="wrap-center">
-                            <a href="/" class="logo">
-                                {{ site.title }}
-							</a>
