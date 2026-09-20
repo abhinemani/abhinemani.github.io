@@ -165,6 +165,7 @@ https://hellodigi.ru/
 .wp-content picture {
   display: block;
   max-width: 100%;
+  height: auto; /* keep aspect ratio when width/height attrs are present */
   border-radius: 13px;
   margin-top: 20px;
   margin-bottom: 20px;

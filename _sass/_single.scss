@@ -273,6 +273,7 @@ https://hellodigi.ru/
 .post-image-large img {
   max-width: 100%;
   width: 100%;
+  height: auto; /* keep aspect ratio when width/height attrs are present */
   display: block;
   float: left;
   border-radius: 13px;
