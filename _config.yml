@@ -39,7 +39,6 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
   line_numbers: 
   line_numbers_start: 1
   tab_width: 4
@@ -60,11 +59,23 @@ feed:
 paginate: 20
 paginate_path: "/blog/:num/"
 
+include: [".htaccess"]
 exclude:
   - .jekyll-cache
-  
-whitelist:
-  - jekyll-redirect-from
-  
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - css/less
+  - lib
+  - config.rb
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - Rakefile.rb
+  - tmp
+  - less

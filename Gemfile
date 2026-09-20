@@ -1,16 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-minibundle'
-gem 'coderay'
-gem 'rake'
-gem 'jekyll-watch'
-gem 'pygments.rb'
-gem 'thin'
+gem 'jekyll', '~> 4.4'
 gem 'webrick'
-gem 'jekyll-tagging'
-gem 'jekyll-paginate'
-gem 'jekyll-redirect-from'
-gem 'rack'
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
+
+group :jekyll_plugins do
+  gem 'jekyll-paginate'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+end

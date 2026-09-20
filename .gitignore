@@ -5,4 +5,7 @@ _site/
 Pages/
 post-img/
 index2.html
-Gemfile.lock
+node_modules/
+vendor/
+.bundle/
+.DS_Store
