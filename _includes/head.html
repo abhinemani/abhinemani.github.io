@@ -1,7 +1,4 @@
-{% comment %}
-  <head> only. Optional param: hero=true (landing layout) switches the
-  critical CSS to the full-bleed hero variant.
-{% endcomment %}
+{% comment %}<head> only.{% endcomment %}
 <head>
     {% if page.url == "/index.html" %}
     <title>{{ site.title }}: Government Technology Leader & Advisor</title>
@@ -37,12 +34,7 @@
     <link rel="preload" as="image" href="{{ site.url}}/img/abhi-rose.webp" fetchpriority="high">
     {% endif %}
 
-    <!-- Critical CSS for above-the-fold content (LCP optimization) -->
-{% include critical-css.html hero=include.hero %}
-
-    <!-- Load non-critical CSS asynchronously -->
-    <link rel="preload" href="{{ site.url}}/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet';window.dispatchEvent(new Event('resize'))">
-    <noscript><link rel="stylesheet" href="{{ site.url}}/css/styles.css"></noscript>
+    <link rel="stylesheet" href="{{ site.url}}/css/styles.css">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url}}/img/favicons/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url}}/img/favicons/favicon.ico">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url}}/img/favicons/favicon.ico">
