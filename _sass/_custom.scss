@@ -164,3 +164,11 @@ picture {
     height: 22vw;
   }
 }
+
+/* The webp plugin stamps width/height attributes on every <img>. Combined
+   with the theme's max-width/max-height clamp on social icons, that squashes
+   the 86x66 icon art into an 18x18 box. Let the height follow the width. */
+.soc-link img {
+  width: auto;
+  height: auto;
+}
