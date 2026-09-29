@@ -144,3 +144,23 @@
 picture {
   display: contents;
 }
+
+/* Featured Partners on /consulting/: 3-up logo grid with tighter vertical
+   gaps on phones, instead of the default 2-up gallery layout. */
+@media screen and (max-width: 590px) {
+  .gallery-columns.columns-4.partners-grid .block-column {
+    width: 31%;
+    margin-left: 3.5%;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .gallery-columns.columns-4.partners-grid .block-column:nth-child(3n+1) {
+    margin-left: 0;
+  }
+  .gallery-columns.columns-4.partners-grid .block-column:nth-child(-n+3) {
+    margin-top: 0;
+  }
+  .gallery-columns.columns-4.partners-grid .img-wrap {
+    height: 22vw;
+  }
+}
