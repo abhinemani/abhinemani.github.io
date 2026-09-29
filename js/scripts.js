@@ -332,6 +332,22 @@ jQuery(document).ready(function(){
     //Slider "other posts"
     if (jQuery("#js-other-posts-slider").length) {
         
+        // Sections marked .stack-mobile drop the carousel below 760px and
+        // render the cards as a plain vertical stack (styled in _custom.scss).
+        var otherPostsResponsive = [
+            {
+              breakpoint: 1024,
+              settings: {
+                  swipe: true,
+                    touchMove: false,
+                    draggable: false
+              }
+            }
+          ];
+        if (jQuery('#js-other-posts-slider').closest('.stack-mobile').length) {
+            otherPostsResponsive.push({ breakpoint: 761, settings: 'unslick' });
+        }
+        
         jQuery('#js-other-posts-slider').slick({
             arrows: true,
             dots: false,
@@ -349,16 +365,7 @@ jQuery(document).ready(function(){
             speed: 300,
             prevArrow: jQuery('.other-posts-section .arrow.prev'),
             nextArrow: jQuery('.other-posts-section .arrow.next'),
-            responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                  swipe: true,
-                    touchMove: false,
-                    draggable: false
-              }
-            }
-          ]
+            responsive: otherPostsResponsive
         });
     }
     //Slider "other posts"
