@@ -137,6 +137,11 @@
  .academy .post-item {
  	flex-direction: column-reverse;
  }
+
+ /* /portfolio/ reuses the academy cards but pins the info box to the bottom. */
+ .academy.portfolio .post-item {
+ 	flex-direction: column;
+ }
  
 /* <picture> wrappers are added at build time (see _plugins/webp_picture.rb).
    Make them layout-transparent so the <img> inside keeps positioning against
