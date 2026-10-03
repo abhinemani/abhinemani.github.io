@@ -13,48 +13,61 @@ img: ethos-social.png
 				<h2 class="page-title">
 					Portfolio
 				</h2>
+
 				<p class="subtitle" style="color: white; line-height: 1.3em;">
 					Case studies in building, advising, and investing in GovTech that scales.
 				</p>
-				<div class="buttons">
-					<a class="btn  border-btn" href="/contact/"  onclick="gtag('event', 'Contact', {
-  'event_category': 'button',
-  'event_label': 'portfolio'});"><span>Work together? Let's talk</span></a>
-				</div>
+
 			</div>
 		</div>
 	</div>
 </section>
-
-<div class="page-wrap archive-pager">
+<div class="page-wrap archive-page with-sidebar">
 	<div class="archive-body">
 		<div class="wrap">
-			<div class="page-wrap-content academy">
-				<div class="post-items-list posts-three-columns">
+			<div class="page-wrap-content">
+				<div class="post-items-list posts-fullwidth">
 
 					{% assign projects = site.portfolio | sort: 'pubdate' | reverse %}
 					{% for project in projects %}
 					<a href="{{ project.url }}" class="post-item">
 						{% if project.img %}
-						<img loading="lazy" src="{{ site.url }}/img/{{ project.img }}" alt="{{ project.title | strip_html | escape }}" class="post-bg-img">
+						<img src="{{ site.url }}/img/{{ project.img }}" alt="" class="post-bg-img" loading="lazy">
 						{% else %}
-						<img loading="lazy" src="{{ site.url }}/img/placeholder.jpg" alt="" class="post-bg-img">
+						<img src="{{ site.url }}/img/placeholder.jpg" alt="" class="post-bg-img" loading="lazy">
 						{% endif %}
-
-						<div class="academy-post-info">
-							<div class="post-tags">
-								{% if project.heading %}<div class="tag">{{ project.heading }}</div>{% endif %}
-								{% for tag in project.tags limit:2 %}
-								&nbsp;<div class="tag">{{ tag }}</div>
-								{% endfor %}
+						<div class="post-tags">
+							{% for tag in project.tags %}
+							<div class="tag">{{ tag }}</div>
+							{% unless forloop.last %}&nbsp;{% endunless %}
+							{% endfor %}
+						</div>
+						<h3 class="post-title">
+							{{ project.title }}
+						</h3>
+						<div class="post-info">
+							<div class="post-author post-info-author" style="padding-left: 0;">
+								<span>{{ project.heading }}</span>
 							</div>
-							<h3 class="post-title">
-								{{ project.title }}
-							</h3>
-							{{ project.subhead }}
+							<div class="post-date post-info-date">
+								{{ project.pubdate }}
+							</div>
 						</div>
 					</a>
 					{% endfor %}
+				</div>
+			</div>
+			<div class="page-wrap-sidebar">
+				<div class="sidebar-item subscribe-widget">
+					<h3 class="sidebar-item-title">Work together</h3>
+					<p class="subtitle">
+						EthosLabs helps governments, startups, investors, and philanthropies build GovTech that scales &#8212; through hands-on consulting, advising, and investing.
+					</p>
+					<div class="buttons">
+						<a class="btn" href="/contact/" onclick="gtag('event', 'Contact', {
+  'event_category': 'button',
+  'event_label': 'portfolio'});"><span>Let's talk</span></a>
+					</div>
 				</div>
 			</div>
 		</div>
