@@ -1,0 +1,62 @@
+---
+layout: landing
+permalink: /portfolio/
+title: Portfolio
+subhead: Case studies from a decade of building, advising, and investing in GovTech — from city halls to startups to statewide reform.
+tags: [portfolio, case studies, GovTech, Abhi Nemani]
+img: ethos-social.png
+---
+<section class="banner-section" style="background-image: url({{site.url}}/img/ethos-back.jpg); max-height: 400px;">
+	<div class="wrap wrap-center ">
+		<div class="wrap_float" style="min-height: 400px; padding: 100px 0 0 0;">
+			<div class="section-content">
+				<h2 class="page-title">
+					Portfolio
+				</h2>
+				<p class="subtitle" style="color: white; line-height: 1.3em;">
+					Case studies in building, advising, and investing in GovTech that scales.
+				</p>
+				<div class="buttons">
+					<a class="btn  border-btn" href="/contact/"  onclick="gtag('event', 'Contact', {
+  'event_category': 'button',
+  'event_label': 'portfolio'});"><span>Work together? Let's talk</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="page-wrap archive-pager">
+	<div class="archive-body">
+		<div class="wrap">
+			<div class="page-wrap-content academy">
+				<div class="post-items-list posts-three-columns">
+
+					{% assign projects = site.portfolio | sort: 'pubdate' | reverse %}
+					{% for project in projects %}
+					<a href="{{ project.url }}" class="post-item">
+						{% if project.img %}
+						<img loading="lazy" src="{{ site.url }}/img/{{ project.img }}" alt="{{ project.title | strip_html | escape }}" class="post-bg-img">
+						{% else %}
+						<img loading="lazy" src="{{ site.url }}/img/placeholder.jpg" alt="" class="post-bg-img">
+						{% endif %}
+
+						<div class="academy-post-info">
+							<div class="post-tags">
+								{% if project.heading %}<div class="tag">{{ project.heading }}</div>{% endif %}
+								{% for tag in project.tags limit:2 %}
+								&nbsp;<div class="tag">{{ tag }}</div>
+								{% endfor %}
+							</div>
+							<h3 class="post-title">
+								{{ project.title }}
+							</h3>
+							{{ project.subhead }}
+						</div>
+					</a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
