@@ -3,6 +3,6 @@
 {% include head.html %}
 {% include header.html body_class="no-padding" panel_class="top-panel-wide white-color" %}
 {{ content }}
-{% include partners.html %}
+{% unless page.hide_case_studies %}{% include partners.html %}{% endunless %}
 {% include footer.html %}
 </html>
