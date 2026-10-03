@@ -18,6 +18,11 @@ hide_case_studies: true
 				<p class="subtitle" style="color: white; line-height: 1.3em;">
 					Case studies in building, advising, and investing in GovTech that scales.
 				</p>
+				<div class="buttons">
+					<a class="btn" href="/contact/" onclick="gtag('event', 'Contact', {
+  'event_category': 'button',
+  'event_label': 'portfolio'});"><span>Work together? Let's talk</span></a>
+				</div>
 
 			</div>
 		</div>
@@ -27,7 +32,7 @@ hide_case_studies: true
 <div class="page-wrap archive-pager">
 	<div class="archive-body">
 		<div class="wrap">
-			<div class="page-wrap-content academy">
+			<div class="page-wrap-content academy portfolio">
 				<div class="post-items-list posts-three-columns">
 
 					{% assign projects = site.portfolio | sort: 'pubdate' | reverse %}
