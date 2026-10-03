@@ -142,12 +142,6 @@
  .academy.portfolio .post-item {
  	flex-direction: column;
  }
-
- /* Same-size info boxes on every card; 260px clears the tallest title + tags. */
- .academy.portfolio .academy-post-info {
- 	box-sizing: border-box;
- 	min-height: 260px;
- }
  
 /* <picture> wrappers are added at build time (see _plugins/webp_picture.rb).
    Make them layout-transparent so the <img> inside keeps positioning against
