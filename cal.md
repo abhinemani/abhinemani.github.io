@@ -34,24 +34,16 @@ tags: [about, Abhi Nemani, Code for America, pandas]
 	</div>
 </section>
 
-<div class="page-wrap archive-page with-sidebar">
+<div class="page-wrap archive-page">
 	<div class="archive-body">
 		<div class="wrap">
 			<div class="page-wrap-content">
 				<div class="section-content wp-content">
-					<div style="height: 100vh;">
-						<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/abhi-nemani" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
-					</div>
-			   </div>
-			 </div>
-			<div class="page-wrap-sidebar">
-				<div class="sidebar-item subscribe-widget">
-					<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-46eaba72-8498-4ea1-ae9b-7773d84c1ac4"></div>
-				</div>				
+					<!-- Calendly inline widget begin -->
+					<div class="calendly-inline-widget" data-url="https://calendly.com/abhi-nemani?hide_gdpr_banner=1" style="min-width:320px;height:1050px;"></div>
+					<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+					<!-- Calendly inline widget end -->
+				</div>
 			</div>
 		</div>
 	</div>
