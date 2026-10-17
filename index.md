@@ -10,10 +10,10 @@ img: main-social.jpg
 	<div class="wrap wrap-center ">
 		<div class="wrap_float">
 			<div class="section-content">
-				<div class="location">#GovTech & finance entrepreneur, public servant & scholar. </div>
-				<h2 class="page-title">
-					Leveraging technology and data for the public good.
-				</h2>
+				<h1 class="page-title">
+					<span class="location">Abhi Nemani: GovTech & finance entrepreneur, advisor & scholar.</span>
+					<span class="tagline">Leveraging technology and data for the public good.</span>
+				</h1>
 				<div class="socials">
 					<a class="soc-link" href="https://linkedin.com/in/abhinemani">
 						<img src="{{site.url}}/img/linkedin-icon.png" class="img-svg" alt="LinkedIn">
