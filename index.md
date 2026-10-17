@@ -2,7 +2,7 @@
 layout: landing
 permalink: /index.html
 title: Government Technology Advisory and Investment
-subhead: Abhi Nemani has been a leader in Government Technology for over a decade. He runs the GovTech consultancy, EthosLabs, designed to accelerate good government through great technology, where he has consulted with dozens of cities and startups on growth, product, and innovation. The Public Innovation Academy and GovGeek Club openly share the knowledge from government technology leaders for everyone to access.
+subhead: Abhi Nemani is a GovTech and finance entrepreneur, advisor and scholar with more than 15 years building technology and scaling innovation for the public sector.
 tags: [about, Abhi Nemani, Code for America, pandas]
 img: main-social.jpg
 ---
@@ -46,7 +46,7 @@ img: main-social.jpg
 			<div class="section-left">
 				<h2 class="title">Here to help.</h2>
 				<div class="subtitle">
-					<a style="font-weight: bold;" href="https://abhinemani.com/about">Abhi Nemani</a> is a government technology entrepreneur, scholar, and public servant — founding, building, and leading many of the most influential GovTech institutions over the last 15 years, including the <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">City of Sacramento's Innovation Fund</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles Mayor's Office of Data</a>, and <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>. Most recently, Abhi was the SVP of Product Strategy for <a style="font-weight: bold;" href="https://eunasolutions.com">Euna Solutions</a>, where he built and integrated a suite of 10+ companies with $100M+ in revenue. 
+					<a style="font-weight: bold;" href="https://abhinemani.com/about">Abhi Nemani</a> is a GovTech and finance entrepreneur, advisor and scholar — founding, building, and leading many of the most influential GovTech institutions over the last 15 years, including the <a href="https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Innovation-Economic-Development" style="font-weight: bold;">City of Sacramento's Innovation Fund</a>, <a style="font-weight: bold;" href="https://data.lacity.org">Los Angeles Mayor's Office of Data</a>, and <a href="https://codeforamerica.org" style="font-weight: bold;">Code for America</a>. Most recently, Abhi was the SVP of Product Strategy for <a style="font-weight: bold;" href="https://eunasolutions.com">Euna Solutions</a>, where he built and integrated a suite of 10+ companies with $100M+ in revenue. 
 					<br /><br />
 					Nemani's consulting firm, <a href="/consulting" style="font-weight:bold;">EthosLabs</a>, manages a portfolio of startups for local government and advises private equity and philanthropy with a focus on scale and impact. Abhi is also a visiting scholar at the <a href="https://roseinstitute.org" style="font-weight:bold;">Rose Institute of State & Local Government</a> and a board member of <a href="https://leadingcities.org" style="font-weight: bold;">Leading Cities</a>, a global sustainability accelerator.
 				</div>

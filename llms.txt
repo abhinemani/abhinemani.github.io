@@ -5,7 +5,7 @@ sitemap: false
 ---
 # Abhi Nemani
 
-> Abhi Nemani is a government technology entrepreneur, advisor and investor. He helped build and run Code for America, served as the first Chief Data Officer of the City of Los Angeles, and was interim Chief Innovation Officer of the City of Sacramento. He runs EthosLabs, a GovTech consultancy, and the Public Innovation Academy. This site collects his essays on civic technology, open data, public trust and AI in government, plus practical guides for GovTech founders, investors and public servants.
+> Abhi Nemani is a GovTech and finance entrepreneur, advisor and scholar with more than 15 years building technology and scaling innovation for the public sector. He helped build and run Code for America, served as Los Angeles' first Chief Data Officer and as interim Chief Innovation Officer of Sacramento, and was SVP of Product Strategy at Euna Solutions. He now runs EthosLabs, a GovTech consultancy, and is a visiting scholar at the Rose Institute.
 
 Every link below points to a clean Markdown copy of the page; drop the `.md` for the HTML version. The full text of everything is at {{ site.url }}/llms-full.txt.
 
