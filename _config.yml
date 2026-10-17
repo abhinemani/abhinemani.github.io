@@ -86,3 +86,15 @@ sass:
   style: compressed
   quiet_deps: true
   sourcemap: never
+
+# Chart embeds and the Rose Institute one-pager are fragments, not pages:
+# keep them out of sitemap.xml.
+defaults:
+  - scope:
+      path: "embed"
+    values:
+      sitemap: false
+  - scope:
+      path: "rose/OnePage.html"
+    values:
+      sitemap: false
