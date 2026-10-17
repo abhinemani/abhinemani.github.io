@@ -34,7 +34,7 @@ img: main-social.jpg
   'event_label': 'home'});"><span>Get in Touch</span></a>	
 					<a href="/academy/" class="btn border-btn" onclick="gtag('event', 'Academy', {
   'event_category': 'button',
-  'event_label': 'home'});"><span>Lectures & Research</span></a>				 
+  'event_label': 'home'});"><span>GovTech Toolkit</span></a>				 
 				</div>
 			</div>
 		</div>
