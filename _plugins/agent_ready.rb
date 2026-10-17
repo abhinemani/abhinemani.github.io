@@ -70,6 +70,8 @@ module AgentReady
       .gsub(%r{<form\b.*?</form>}mi, '')
       .gsub(%r{</?(?:div|span|section)\b[^>]*>}i, '')
       .gsub(/^[ \t]+(?=<)/, '')
+      .then { |md| markdownify(md) }
+      .gsub(/\]\(\/(?!\/)/, "](#{site.config['url']}/")
       .gsub(/[ \t]+$/, '')
       .gsub(/\n{3,}/, "\n\n")
       .strip
@@ -82,6 +84,53 @@ module AgentReady
       .gsub(%r{<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>}mi, '[\\2](\\1)')
       .gsub(/<[^>]+>/, ''))
       .gsub(/\s+/, ' ').strip
+  end
+
+  # The inline HTML left in older, Medium-era posts becomes Markdown: links,
+  # bold, italics, images, headings, lists, paragraphs, rules, block quotes
+  # and embedded tweets. Entities are decoded last. Code spans and fences are
+  # left alone.
+  def self.markdownify(body)
+    body.split(/(```.*?```|`[^`\n]+`)/m).each_with_index.map do |part, i|
+      i.odd? ? part : decode(html_to_markdown(part)).tr(" ", ' ').gsub(/(?<=\S) {2,}(?=\S)/, ' ')
+    end.join
+  end
+
+  def self.html_to_markdown(html)
+    md = html
+         .gsub(%r{<blockquote class="twitter-tweet"[^>]*>(.*?)</blockquote>}mi) { tweet(Regexp.last_match(1)) }
+         .gsub(%r{<(strong|b)\b[^>]*>(\s*)(.*?)(\s*)</\1>}mi) { "#{$2}**#{$3}**#{$4}" }
+         .gsub(%r{<(em|i)\b[^>]*>(\s*)(.*?)(\s*)</\1>}mi) { "#{$2}*#{$3}*#{$4}" }
+         .gsub(%r{<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>}mi) do
+           href, label = Regexp.last_match.captures
+           "[#{label.gsub(/\s+/, ' ').strip}](#{href})"
+         end
+         .gsub(%r{</?a\b[^>]*>}i, '')
+         .gsub(/<img\b[^>]*>/i) { |img| "![#{img[/\balt="([^"]*)"/i, 1]}](#{img[/\bsrc="([^"]*)"/i, 1]})" }
+         .gsub(%r{<h([1-6])\b[^>]*>(.*?)</h\1>}mi) do
+           level, heading = Regexp.last_match.captures
+           "\n\n#{'#' * level.to_i} #{heading.gsub(/\s+/, ' ').strip}\n\n"
+         end
+         .gsub(%r{<li\b[^>]*>(.*?)</li>}mi) { "- #{$1.gsub(/\s+/, ' ').strip}\n" }
+         .gsub(%r{</?[uo]l\b[^>]*>}i, "\n")
+         .gsub(%r{<p\b[^>]*>(.*?)</p>}mi) { "\n\n#{$1.gsub(/^[ \t]+/, '').strip}\n\n" }
+         .gsub(%r{<br\s*/?\s*>\n?}i, "\n")
+         .gsub(%r{<hr\s*/?\s*>}i, "\n\n---\n\n")
+         .gsub(/^(- .*\n)\n+(?=- )/, '\1')
+    # Innermost block quotes first, so a nested one is prefixed twice.
+    nil while md.sub!(%r{<blockquote\b[^>]*>((?:(?!<blockquote).)*?)</blockquote>}mi) do
+      quoted = Regexp.last_match(1).gsub(/^[ \t]+/, '').gsub(/\n{3,}/, "\n\n").strip
+      "\n\n#{quoted.lines.map { |l| l.strip.empty? ? ">\n" : "> #{l}" }.join}\n\n"
+    end
+    md
+  end
+
+  # An embedded tweet becomes a block quote: its text, then the author and a
+  # link to the original.
+  def self.tweet(html)
+    body = text(html[%r{<p\b[^>]*>(.*?)</p>}mi, 1])
+    byline = text(html.sub(%r{<p\b[^>]*>.*?</p>}mi, ''))
+    "\n\n> #{body}\n>\n> #{byline}\n\n"
   end
 
   # An <iframe> (video, slide deck, PDF, interactive chart) becomes a single
