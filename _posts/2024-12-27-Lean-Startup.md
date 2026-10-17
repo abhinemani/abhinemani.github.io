@@ -14,7 +14,7 @@ author: Abhi Nemani
 img: lean.jpg
 
 ---
-[Eric Ries]()'s [Lean Startup](https://theleanstartup.com/) methodology made such an impression on me during his time on my board at [Code for America]() that I went on [to teach it to grad students](https://abhinemani.com/civictechcourse) at the [Harris School of Public Policy at the University of Chicago](). Which makes me particularly bemused watching today's**AI startups completely misinterpret its core principles**.
+[Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries)'s [Lean Startup](https://theleanstartup.com/) methodology made such an impression on me during his time on my board at [Code for America](https://codeforamerica.org) that I went on [to teach it to grad students](https://abhinemani.com/civictechcourse) at the [Harris School of Public Policy at the University of Chicago](https://abhinemani.com/civictechcourse/lectures/). Which makes me particularly bemused watching today's**AI startups completely misinterpret its core principles**.
 
 The contradiction is striking. Ries advocated for using human "concierges" as temporary solutions to validate business hypotheses before investing in expensive automation. Yet today's AI startups are doing precisely the opposite – deploying expensive, general-purpose AI as a temporary solution without a clear path to economic sustainability. It's a fundamental misunderstanding of both technological progression and business model validation.
 
