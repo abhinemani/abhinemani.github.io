@@ -5,7 +5,9 @@
 #    /blog/2026/09/21/Trust.md), following the llmstxt.org convention. Inline
 #    <style>/<script> blocks (interactive charts) and HTML comments are
 #    stripped. Each document's sidecar URL is exposed as `page.markdown_url`
-#    so head.html and llms.txt can link to it.
+#    so head.html and llms.txt can link to it. Every remaining page gets a
+#    short stub (title, description, canonical URL), so any URL ending in /
+#    has a .md sibling.
 #
 # 2. /llms-full.txt: every sidecar concatenated, newest first.
 #
@@ -69,6 +71,34 @@ module AgentReady
     out << clean(sources.fetch(doc.relative_path, ''), site) << "\n"
   end
 
+  # Every other page ending in / gets a short stub, so that "add .md to any
+  # URL" never 404s. The Cloudflare rule that serves Markdown to agents sending
+  # `Accept: text/markdown` relies on this. Redirect pages point to their target.
+  def self.write_stubs(site)
+    Dir[File.join(site.dest, '**', 'index.html')].each do |html_path|
+      rel = html_path.delete_prefix(site.dest).delete_suffix('index.html')
+      md_path = File.join(site.dest, rel == '/' ? '/index.md' : "#{rel.chomp('/')}.md")
+      next if File.exist?(md_path)
+
+      html = File.read(html_path)
+      canonical = html[/<link rel="canonical" href="([^"]+)"/, 1] || "#{site.config['url']}#{rel}"
+      if html.include?('http-equiv="refresh"')
+        target_md = File.join(site.dest, "#{canonical.delete_prefix(site.config['url']).chomp('/')}.md")
+        alt = File.exist?(target_md) ? " (Markdown: #{canonical.chomp('/')}.md)" : ''
+        write(md_path, "# Moved\n\nThis page has moved to #{canonical}#{alt}\n")
+        next
+      end
+      title = CGI.unescapeHTML(html[%r{<title>([^<]*)</title>}, 1].to_s).sub(/ \| #{Regexp.escape(site.config['title'])}\z/, '').strip
+      description = CGI.unescapeHTML(html[/<meta name="description" content="([^"]*)"/, 1].to_s).strip
+      out = +"# #{title}\n\n"
+      out << "> #{description}\n\n" unless description.empty?
+      out << "URL: #{canonical}\n\n---\n\n"
+      out << "This page has no Markdown version of its text; read it at #{canonical}. " \
+             "For an index of all of Abhi Nemani's writing in Markdown, see #{site.config['url']}/llms.txt\n"
+      write(md_path, out)
+    end
+  end
+
   def self.write(path, content)
     FileUtils.mkdir_p(File.dirname(path))
     File.write(path, content)
@@ -105,6 +135,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
   full << "> Every essay, Public Innovation Academy lesson and portfolio case study on #{site.config['url']}, as Markdown. Curated index: #{site.config['url']}/llms.txt\n\n"
   full << posts_first.map { |_, md| md }.join("\n\n---\n\n")
   AgentReady.write(File.join(site.dest, 'llms-full.txt'), full)
+  AgentReady.write_stubs(site)
 
   skills = Dir[File.join(site.source, AgentReady::SKILLS_SRC, '*', 'SKILL.md')].sort.map do |src|
     name = File.basename(File.dirname(src))
