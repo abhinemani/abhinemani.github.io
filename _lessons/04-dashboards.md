@@ -52,7 +52,7 @@ And that's putting aside the technical issues of data access, reliability, recen
 ![Data Process](/img/data8.png)
 ![Data Process](/img/data6.png)
 
-The dashboards that have found success have targeted focus on key stakeholders, and are built around a decision-making process (or person), such as the <a href="http://localhost:4000/essays/2021/02/10/Dashboards/">Mayor of Los Angeles' dashboard</a>:
+The dashboards that have found success have targeted focus on key stakeholders, and are built around a decision-making process (or person), such as the <a href="https://abhinemani.com/essays/2021/02/10/Dashboards/">Mayor of Los Angeles' dashboard</a>:
 
 <div class="container-iframe" style="padding-top: 10px;"><iframe width="100%" height="400" src="https://www.youtube.com/embed/FYnWs0jE0YI?si=UNA79vxlGS_kaCC-&amp;start=578" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
