@@ -4,7 +4,9 @@
 #    page gets a clean .md copy next to its HTML (/blog/2026/09/21/Trust/ ->
 #    /blog/2026/09/21/Trust.md), following the llmstxt.org convention. Inline
 #    <style>/<script> blocks (interactive charts) and HTML comments are
-#    stripped. Each document's sidecar URL is exposed as `page.markdown_url`
+#    stripped, and each <figure> becomes a short Markdown paragraph: its
+#    title, its data-md-summary attribute (or, failing that, its subtitle and
+#    fallback text), and its caption. Each document's sidecar URL is exposed as `page.markdown_url`
 #    so head.html and llms.txt can link to it. Every remaining page gets a
 #    short stub (title, description, canonical URL), so any URL ending in /
 #    has a .md sibling.
@@ -52,9 +54,35 @@ module AgentReady
       .gsub(/<!--.*?-->/m, '')
       .gsub(%r{<style\b.*?</style>}mi, '')
       .gsub(%r{<script\b.*?</script>}mi, '')
+      .gsub(%r{<figure\b.*?</figure>}mi) { |fig| figure(fig) }
       .gsub(/[ \t]+$/, '')
       .gsub(/\n{3,}/, "\n\n")
       .strip
+  end
+
+  # Inline HTML to plain Markdown text: links become [text](href), every
+  # other tag is dropped and entities are decoded.
+  def self.text(html)
+    CGI.unescapeHTML(html.to_s
+      .gsub(%r{<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>}mi, '[\\2](\\1)')
+      .gsub(/<[^>]+>/, ''))
+      .gsub(/\s+/, ' ').strip
+  end
+
+  def self.figure(html)
+    open_tag = html[/\A<figure\b[^>]*>/i]
+    title = text(html[%r{<p class="tg-title">(.*?)</p>}m, 1])
+    summary = CGI.unescapeHTML(open_tag[/data-md-summary="([^"]*)"/, 1].to_s).strip
+    if summary.empty?
+      summary = [html[%r{<p class="tg-sub">(.*?)</p>}m, 1], html[%r{<canvas\b[^>]*>(.*?)</canvas>}m, 1]]
+                .map { |part| text(part) }.reject(&:empty?).map { |part| part.sub(/(?<![.!?])\z/, '.') }.join(' ')
+    end
+    caption = text(html[%r{<figcaption\b[^>]*>(.*?)</figcaption>}m, 1])
+    out = +''
+    out << "**Chart: #{title.sub(/(?<![.!?])\z/, '.')}** " unless title.empty?
+    out << summary
+    out << " *#{caption}*" unless caption.empty?
+    "\n#{out.strip}\n"
   end
 
   def self.sidecar(doc, site)
