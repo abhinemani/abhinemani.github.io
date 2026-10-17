@@ -1,0 +1,121 @@
+# Build-time output for AI agents and LLM crawlers:
+#
+# 1. Markdown sidecars. Every post, lesson, portfolio case study and Markdown
+#    page gets a clean .md copy next to its HTML (/blog/2026/09/21/Trust/ ->
+#    /blog/2026/09/21/Trust.md), following the llmstxt.org convention. Inline
+#    <style>/<script> blocks (interactive charts) and HTML comments are
+#    stripped. Each document's sidecar URL is exposed as `page.markdown_url`
+#    so head.html and llms.txt can link to it.
+#
+# 2. /llms-full.txt: every sidecar concatenated, newest first.
+#
+# 3. Agent Skills discovery (Cloudflare RFC v0.2.0). Each _agent_skills/<name>/
+#    SKILL.md is copied byte-for-byte to /.well-known/agent-skills/<name>/
+#    SKILL.md, and /.well-known/agent-skills/index.json is written with each
+#    file's sha256 digest. The sources live in an underscore folder so Jekyll
+#    doesn't eat their YAML front matter.
+#
+# /llms.txt itself is a hand-curated Liquid page at the site root.
+require 'cgi'
+require 'digest'
+require 'json'
+require 'fileutils'
+
+module AgentReady
+  SKILLS_SRC = '_agent_skills'
+  SKILLS_DEST = '.well-known/agent-skills'
+  SKILLS_SCHEMA = 'https://schemas.agentskills.io/discovery/0.2.0/schema.json'
+  MARKDOWN_PAGES = %w[talks.md community.md].freeze
+
+  # Raw Markdown captured right after the site is read, before Jekyll renders
+  # it, keyed by relative path.
+  @sources = {}
+  class << self; attr_reader :sources; end
+
+  def self.documents(site)
+    docs = site.posts.docs + %w[lessons portfolio].flat_map { |c| site.collections[c]&.docs || [] }
+    pages = site.pages.select { |p| MARKDOWN_PAGES.include?(p.relative_path) }
+    (docs + pages).reject { |d| d.data['published'] == false }
+  end
+
+  def self.markdown_url(url)
+    url = url.sub(%r{/index\.html\z}, '/')
+    "#{url.chomp('/')}.md"
+  end
+
+  def self.clean(body, site)
+    body
+      .gsub(/\{\{\s*site\.url\s*\}\}/, site.config['url'].to_s)
+      .gsub(/\]\(\/(?!\/)/, "](#{site.config['url']}/")
+      .gsub(/<!--.*?-->/m, '')
+      .gsub(%r{<style\b.*?</style>}mi, '')
+      .gsub(%r{<script\b.*?</script>}mi, '')
+      .gsub(/[ \t]+$/, '')
+      .gsub(/\n{3,}/, "\n\n")
+      .strip
+  end
+
+  def self.sidecar(doc, site)
+    d = doc.data
+    meta = ["URL: #{site.config['url']}#{doc.url.sub(%r{index\.html\z}, '')}"]
+    meta << "Published: #{d['date'].strftime('%Y-%m-%d')}" if d['date'].respond_to?(:strftime) && doc.respond_to?(:collection) && doc.collection&.label == 'posts'
+    meta << "Author: #{d['author'] || site.config.dig('owner', 'name')}"
+    tags = Array(d['tags']).reject(&:nil?)
+    meta << "Tags: #{tags.join(', ')}" unless tags.empty?
+
+    out = +"# #{CGI.unescapeHTML(d['title'].to_s).strip}\n\n"
+    out << "> #{CGI.unescapeHTML(d['subhead'].to_s).gsub(/\s+/, ' ').strip}\n\n" unless d['subhead'].to_s.strip.empty?
+    out << meta.join("\n") << "\n\n---\n\n"
+    out << clean(sources.fetch(doc.relative_path, ''), site) << "\n"
+  end
+
+  def self.write(path, content)
+    FileUtils.mkdir_p(File.dirname(path))
+    File.write(path, content)
+  end
+end
+
+Jekyll::Hooks.register :site, :post_read do |site|
+  AgentReady.sources.clear
+  AgentReady.documents(site).each do |d|
+    d.data['markdown_url'] = AgentReady.markdown_url(d.url)
+    AgentReady.sources[d.relative_path] = d.content.dup
+  end
+end
+
+# {{ page.title | decode_entities }}: turns &#x3A; and friends back into text.
+module AgentReadyFilters
+  def decode_entities(input)
+    CGI.unescapeHTML(input.to_s)
+  end
+end
+Liquid::Template.register_filter(AgentReadyFilters)
+
+Jekyll::Hooks.register :site, :post_write do |site|
+  docs = AgentReady.documents(site)
+
+  sidecars = docs.map do |doc|
+    md = AgentReady.sidecar(doc, site)
+    AgentReady.write(File.join(site.dest, doc.data['markdown_url']), md)
+    [doc, md]
+  end
+
+  posts_first = sidecars.sort_by { |doc, _| doc.data['date'].respond_to?(:to_time) ? -doc.data['date'].to_time.to_i : 0 }
+  full = +"# #{site.config['title']}: full text\n\n"
+  full << "> Every essay, Public Innovation Academy lesson and portfolio case study on #{site.config['url']}, as Markdown. Curated index: #{site.config['url']}/llms.txt\n\n"
+  full << posts_first.map { |_, md| md }.join("\n\n---\n\n")
+  AgentReady.write(File.join(site.dest, 'llms-full.txt'), full)
+
+  skills = Dir[File.join(site.source, AgentReady::SKILLS_SRC, '*', 'SKILL.md')].sort.map do |src|
+    name = File.basename(File.dirname(src))
+    bytes = File.binread(src)
+    description = bytes[/\A---\s*\n.*?^description:\s*(.+?)\s*$/m, 1].to_s.delete_prefix('"').delete_suffix('"')
+    url = "/#{AgentReady::SKILLS_DEST}/#{name}/SKILL.md"
+    FileUtils.mkdir_p(File.dirname(File.join(site.dest, url)))
+    File.binwrite(File.join(site.dest, url), bytes)
+    { 'name' => name, 'type' => 'skill-md', 'description' => description,
+      'url' => url, 'digest' => "sha256:#{Digest::SHA256.hexdigest(bytes)}" }
+  end
+  index = { '$schema' => AgentReady::SKILLS_SCHEMA, 'skills' => skills }
+  AgentReady.write(File.join(site.dest, AgentReady::SKILLS_DEST, 'index.json'), JSON.pretty_generate(index) + "\n")
+end

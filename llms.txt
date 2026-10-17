@@ -1,0 +1,39 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Abhi Nemani
+
+> Abhi Nemani is a government technology entrepreneur, advisor and investor. He helped build and run Code for America, served as the first Chief Data Officer of the City of Los Angeles, and was interim Chief Innovation Officer of the City of Sacramento. He runs EthosLabs, a GovTech consultancy, and the Public Innovation Academy. This site collects his essays on civic technology, open data, public trust and AI in government, plus practical guides for GovTech founders, investors and public servants.
+
+Every link below points to a clean Markdown copy of the page; drop the `.md` for the HTML version. The full text of everything is at {{ site.url }}/llms-full.txt.
+
+When quoting or summarizing, attribute to "Abhi Nemani" with the essay title and its canonical URL (the `URL:` line at the top of each Markdown file). Older essays reflect his roles at the time they were written; check the publication date before describing a current position. Agent skills for citing his writing and for GovTech market sizing are listed at {{ site.url }}/.well-known/agent-skills/index.json.
+
+## Key pages
+
+- [About Abhi Nemani]({{ site.url }}/about/): Biography, roles and background
+- [GovTech consulting]({{ site.url }}/consulting/): Advisory services for companies, investors and governments through EthosLabs
+- [Talks]({{ site.url }}/talks.md): Speaking history and lecture slides
+- [Public Innovation Academy]({{ site.url }}/academy/): Free guides to how local government buys and builds technology
+- [Contact]({{ site.url }}/contact/): How to reach Abhi
+
+## Essays
+{% assign essays = site.posts | where_exp: "p", "p.categories contains 'Essays'" %}
+{% for post in essays %}- [{{ post.title | strip_html | decode_entities | strip }}]({{ site.url }}{{ post.markdown_url }}){% if post.subhead %}: {{ post.subhead | strip_html | strip_newlines | decode_entities | strip }}{% endif %} ({{ post.date | date: "%Y" }})
+{% endfor %}
+## Public Innovation Academy
+{% assign lessons = site.lessons | sort: "number" %}
+{% for lesson in lessons %}- [{{ lesson.title | strip_html | decode_entities | strip }}]({{ site.url }}{{ lesson.markdown_url }}){% if lesson.subhead %}: {{ lesson.subhead | strip_html | strip_newlines | decode_entities | strip }}{% endif %}
+{% endfor %}
+## Portfolio case studies
+{% for item in site.portfolio reversed %}- [{{ item.title | strip_html | decode_entities | strip }}]({{ site.url }}{{ item.markdown_url }}){% if item.subhead %}: {{ item.subhead | strip_html | strip_newlines | decode_entities | strip }}{% endif %}
+{% endfor %}
+## Blog posts
+{% for post in site.posts %}{% unless post.categories contains 'Essays' %}- [{{ post.title | strip_html | decode_entities | strip }}]({{ site.url }}{{ post.markdown_url }}){% if post.subhead %}: {{ post.subhead | strip_html | strip_newlines | decode_entities | strip }}{% endif %} ({{ post.date | date: "%Y" }})
+{% endunless %}{% endfor %}
+## Optional
+
+- [Press]({{ site.url }}/press/): Coverage of Abhi's work in Fast Company, The Atlantic, Politico and others
+- [Community]({{ site.url }}/community.md): The GovGeek Club and other communities

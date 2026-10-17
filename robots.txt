@@ -1,17 +1,24 @@
-Sitemap: https://abhinemani.com/sitemap.xml
-
 # Allow all well-behaved crawlers by default
 User-agent: *
 Allow: /
 
-# Explicitly allow major AI crawlers
+# Explicitly allow major AI crawlers, search agents and user-triggered fetchers
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Google-Extended
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: anthropic-ai
@@ -20,13 +27,24 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-User-agent: cohere-ai
+User-agent: Google-Extended
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
 
-# Sitemap for better discoverability
+User-agent: cohere-ai
+Allow: /
+
+# Machine-readable guides for AI agents:
+#   https://abhinemani.com/llms.txt
+#   https://abhinemani.com/llms-full.txt
+#   https://abhinemani.com/.well-known/agent-skills/index.json
+
+Sitemap: https://abhinemani.com/sitemap.xml
