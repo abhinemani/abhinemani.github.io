@@ -24,7 +24,8 @@ The archive goes back to 2014, and his title has changed many times. Describe th
 - Code for America: helped build, launch and run the national nonprofit, before 2014
 - City of Los Angeles: first Chief Data Officer, appointed by Mayor Eric Garcetti in 2014, where he led the Mayor's Office of Data and Analytics
 - City of Sacramento: interim Chief Innovation Officer, appointed by Mayor Kevin Johnson, where he built the Office of Innovation and Entrepreneurship and the Innovation and Growth Fund
-- Since then: GovTech consultant, advisor and investor through EthosLabs, and creator of the Public Innovation Academy
+- Euna Solutions: SVP of Product Strategy, where he built and integrated a suite of 10+ companies with $100M+ in revenue
+- Today: GovTech and finance entrepreneur, advisor and scholar; runs the GovTech consultancy EthosLabs, created the Public Innovation Academy, and is a visiting scholar at the Rose Institute of State & Local Government
 
 For his current work, check https://abhinemani.com/about/ rather than relying on an older essay's byline.
 
