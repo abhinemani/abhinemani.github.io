@@ -6,7 +6,10 @@
 #    <style>/<script> blocks (interactive charts) and HTML comments are
 #    stripped, and each <figure> becomes a short Markdown paragraph: its
 #    title, its data-md-summary attribute (or, failing that, its subtitle and
-#    fallback text), and its caption. Each document's sidecar URL is exposed as `page.markdown_url`
+#    fallback text), and its caption. An <iframe> becomes a line such as
+#    "Embedded video: <url>", newsletter cards become a bulleted list of
+#    links, and forms and layout <div>/<span>/<section> wrappers are dropped.
+#    Each document's sidecar URL is exposed as `page.markdown_url`
 #    so head.html and llms.txt can link to it. Every remaining page gets a
 #    short stub (title, description, canonical URL), so any URL ending in /
 #    has a .md sibling.
@@ -55,6 +58,11 @@ module AgentReady
       .gsub(%r{<style\b.*?</style>}mi, '')
       .gsub(%r{<script\b.*?</script>}mi, '')
       .gsub(%r{<figure\b.*?</figure>}mi) { |fig| figure(fig) }
+      .gsub(%r{<iframe\b[^>]*>.*?</iframe>}mi) { |frame| embed(frame) }
+      .gsub(%r{<div class="newsletter-grid".*?</div>\s*</div>}mi) { |grid| cards(grid) }
+      .gsub(%r{<form\b.*?</form>}mi, '')
+      .gsub(%r{</?(?:div|span|section)\b[^>]*>}i, '')
+      .gsub(/^[ \t]+(?=<)/, '')
       .gsub(/[ \t]+$/, '')
       .gsub(/\n{3,}/, "\n\n")
       .strip
@@ -67,6 +75,31 @@ module AgentReady
       .gsub(%r{<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>}mi, '[\\2](\\1)')
       .gsub(/<[^>]+>/, ''))
       .gsub(/\s+/, ' ').strip
+  end
+
+  # An <iframe> (video, slide deck, PDF, interactive chart) becomes a single
+  # line naming what it is and where to find it.
+  def self.embed(html)
+    src = CGI.unescapeHTML(html[/\bsrc="([^"]*)"/i, 1].to_s).strip
+    return '' if src.empty?
+
+    kind = case src
+           when /youtube\.com|youtu\.be|vimeo\.com/ then 'video'
+           when /canva\.com/ then 'slides'
+           when /\.pdf\b/i then 'PDF'
+           else 'content'
+           end
+    "\n\nEmbedded #{kind}: #{src}\n\n"
+  end
+
+  # A newsletter-grid of cards becomes a bulleted list of links.
+  def self.cards(html)
+    items = html.scan(%r{<div class="newsletter-card"[^>]*>(.*?)</div>}mi).map do |(card)|
+      link = text(card[%r{<strong>(.*?)</strong>}mi, 1])
+      description = text(card[%r{<small>(.*?)</small>}mi, 1])
+      "- #{link}#{": #{description}" unless description.empty?}"
+    end
+    "\n\n#{items.join("\n")}\n\n"
   end
 
   def self.figure(html)
