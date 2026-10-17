@@ -33,6 +33,9 @@ module AgentReady
   SKILLS_DEST = '.well-known/agent-skills'
   SKILLS_SCHEMA = 'https://schemas.agentskills.io/discovery/0.2.0/schema.json'
   MARKDOWN_PAGES = %w[talks.md community.md].freeze
+  # Named entities CGI.unescapeHTML leaves alone but titles and subheads use.
+  ENTITIES = { 'mdash' => '—', 'ndash' => '–', 'minus' => '−', 'colon' => ':', 'nbsp' => ' ',
+               'hellip' => '…', 'lsquo' => '‘', 'rsquo' => '’', 'ldquo' => '“', 'rdquo' => '”' }.freeze
 
   # Raw Markdown captured right after the site is read, before Jekyll renders
   # it, keyed by relative path.
@@ -43,6 +46,10 @@ module AgentReady
     docs = site.posts.docs + %w[lessons portfolio].flat_map { |c| site.collections[c]&.docs || [] }
     pages = site.pages.select { |p| MARKDOWN_PAGES.include?(p.relative_path) }
     (docs + pages).reject { |d| d.data['published'] == false }
+  end
+
+  def self.decode(str)
+    CGI.unescapeHTML(str.to_s.gsub(/&([a-z]+);/i) { ENTITIES.fetch(Regexp.last_match(1), Regexp.last_match(0)) })
   end
 
   def self.markdown_url(url)
@@ -71,7 +78,7 @@ module AgentReady
   # Inline HTML to plain Markdown text: links become [text](href), every
   # other tag is dropped and entities are decoded.
   def self.text(html)
-    CGI.unescapeHTML(html.to_s
+    decode(html.to_s
       .gsub(%r{<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>}mi, '[\\2](\\1)')
       .gsub(/<[^>]+>/, ''))
       .gsub(/\s+/, ' ').strip
@@ -80,7 +87,7 @@ module AgentReady
   # An <iframe> (video, slide deck, PDF, interactive chart) becomes a single
   # line naming what it is and where to find it.
   def self.embed(html)
-    src = CGI.unescapeHTML(html[/\bsrc="([^"]*)"/i, 1].to_s).strip
+    src = decode(html[/\bsrc="([^"]*)"/i, 1].to_s).strip
     return '' if src.empty?
 
     kind = case src
@@ -105,7 +112,7 @@ module AgentReady
   def self.figure(html)
     open_tag = html[/\A<figure\b[^>]*>/i]
     title = text(html[%r{<p class="tg-title">(.*?)</p>}m, 1])
-    summary = CGI.unescapeHTML(open_tag[/data-md-summary="([^"]*)"/, 1].to_s).strip
+    summary = decode(open_tag[/data-md-summary="([^"]*)"/, 1].to_s).strip
     if summary.empty?
       summary = [html[%r{<p class="tg-sub">(.*?)</p>}m, 1], html[%r{<canvas\b[^>]*>(.*?)</canvas>}m, 1]]
                 .map { |part| text(part) }.reject(&:empty?).map { |part| part.sub(/(?<![.!?])\z/, '.') }.join(' ')
@@ -126,8 +133,8 @@ module AgentReady
     tags = Array(d['tags']).reject(&:nil?)
     meta << "Tags: #{tags.join(', ')}" unless tags.empty?
 
-    out = +"# #{CGI.unescapeHTML(d['title'].to_s).strip}\n\n"
-    out << "> #{CGI.unescapeHTML(d['subhead'].to_s).gsub(/\s+/, ' ').strip}\n\n" unless d['subhead'].to_s.strip.empty?
+    out = +"# #{decode(d['title'].to_s).strip}\n\n"
+    out << "> #{decode(d['subhead'].to_s).gsub(/\s+/, ' ').strip}\n\n" unless d['subhead'].to_s.strip.empty?
     out << meta.join("\n") << "\n\n---\n\n"
     out << clean(sources.fetch(doc.relative_path, ''), site) << "\n"
   end
@@ -149,8 +156,8 @@ module AgentReady
         write(md_path, "# Moved\n\nThis page has moved to #{canonical}#{alt}\n")
         next
       end
-      title = CGI.unescapeHTML(html[%r{<title>([^<]*)</title>}, 1].to_s).sub(/ \| #{Regexp.escape(site.config['title'])}\z/, '').strip
-      description = CGI.unescapeHTML(html[/<meta name="description" content="([^"]*)"/, 1].to_s).strip
+      title = decode(html[%r{<title>([^<]*)</title>}, 1].to_s).sub(/ \| #{Regexp.escape(site.config['title'])}\z/, '').strip
+      description = decode(html[/<meta name="description" content="([^"]*)"/, 1].to_s).strip
       out = +"# #{title}\n\n"
       out << "> #{description}\n\n" unless description.empty?
       out << "URL: #{canonical}\n\n---\n\n"
@@ -177,7 +184,7 @@ end
 # {{ page.title | decode_entities }}: turns &#x3A; and friends back into text.
 module AgentReadyFilters
   def decode_entities(input)
-    CGI.unescapeHTML(input.to_s)
+    AgentReady.decode(input.to_s)
   end
 end
 Liquid::Template.register_filter(AgentReadyFilters)
