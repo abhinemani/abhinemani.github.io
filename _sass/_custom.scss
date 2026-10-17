@@ -15,6 +15,17 @@
 	margin-bottom: 15px;
 }
 
+/* The homepage H1 carries the name line above the tagline, styled as before. */
+.banner-section .page-title .location {
+	font-weight: 400;
+	text-shadow: none;
+	margin-bottom: 10px;
+}
+.banner-section .page-title .tagline {
+	display: block;
+	clear: both;
+}
+
 .dark .search-button:before {
   background-image: url(../img/glasses-white.png);
 }
