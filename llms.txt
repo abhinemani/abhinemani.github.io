@@ -17,6 +17,7 @@ When quoting or summarizing, attribute to "Abhi Nemani" with the essay title and
 - [GovTech consulting]({{ site.url }}/consulting/): Advisory services for companies, investors and governments through EthosLabs
 - [Talks]({{ site.url }}/talks.md): Speaking history and lecture slides
 - [Public Innovation Academy]({{ site.url }}/academy/): Free guides to how local government buys and builds technology
+- [GovTech TAM/SAM Calculator]({{ site.url }}/govtech-market/): Interactive tool that sizes the local government technology market for a product, bottom-up by agency budget, using 2022 Census of Governments finance data for every U.S. local government
 - [Contact]({{ site.url }}/contact/): How to reach Abhi
 
 ## Essays

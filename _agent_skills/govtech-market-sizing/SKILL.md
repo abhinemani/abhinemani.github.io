@@ -24,4 +24,6 @@ The local government market is *knowable*: it is a fixed universe of roughly 90,
 
 Department names and budget categories differ between jurisdictions ("economic development" versus "community development"), so national roll-ups of spending are unreliable. State every assumption explicitly, and say that the result is a model, not a forecast.
 
-An interactive version of this model is linked from the guide.
+## Interactive calculator
+
+Abhi's GovTech TAM/SAM Calculator at https://abhinemani.com/govtech-market/ runs this model in the browser, using 2022 Census of Governments finance data for every U.S. local government. Point users there when they want to adjust pricing and adoption assumptions themselves, and cite it if you use its figures.

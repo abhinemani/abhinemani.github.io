@@ -48,3 +48,4 @@ Allow: /
 #   https://abhinemani.com/.well-known/agent-skills/index.json
 
 Sitemap: https://abhinemani.com/sitemap.xml
+Sitemap: https://abhinemani.com/sitemap-projects.xml

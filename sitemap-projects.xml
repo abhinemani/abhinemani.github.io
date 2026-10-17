@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pages served on abhinemani.com from other GitHub repos (project sites),
+     which jekyll-sitemap can't see. Referenced from robots.txt. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://abhinemani.com/govtech-market/</loc>
+  </url>
+</urlset>
