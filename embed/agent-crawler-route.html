@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>How an AI agent finds its way</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; each section is an instrument the reader operates (a toggle, a request builder, a route, before/after switches, a scorecard), all fed by responses captured from the live site. */
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --sunk: #eceff4;
+  --fg: #19202c;
+  --muted: #5a6476;
+  --rule: #dde2ea;
+  --accent: #1f5fbf;
+  --accent-soft: #e3ecfa;
+  --agent: #0f7a55;
+  --agent-soft: #dff3ea;
+  --warn: #a65d00;
+  --warn-soft: #fbefdc;
+  --bad: #b3261e;
+  --code-bg: #0f1520;
+  --code-fg: #d3dbe7;
+  --code-dim: #7d8aa0;
+  --code-hi: #8cc2ff;
+  --code-ok: #5fd3a4;
+  --code-warn: #f2b765;
+  --display: "Instrument Serif", Georgia, serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 44px 80px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 72px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(38px, 6.4vw, 64px); line-height: 1.02; }
+h1 em { font-style: italic; color: var(--accent); }
+h2 { font-size: clamp(28px, 4vw, 36px); line-height: 1.1; }
+h3 { font-size: 22px; line-height: 1.2; }
+p { margin: 0; max-width: 64ch; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 18px; color: var(--muted); }
+section { display: grid; gap: 20px; min-width: 0; }
+.sec-head { display: grid; gap: 8px; }
+code { font-family: var(--mono); font-size: .86em; background: var(--sunk); padding: 1px 5px; border-radius: 4px; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Segmented control */
+.seg { display: inline-flex; background: var(--sunk); border-radius: 999px; padding: 4px; gap: 2px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 7px 16px; border-radius: 999px; font-size: 14px; font-weight: 500; color: var(--muted); transition: background .2s, color .2s; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
+.seg.agentish button[aria-pressed="true"][data-v="agent"], .seg button[aria-pressed="true"][data-v="markdown"] { color: var(--agent); }
+
+/* Hero viewer */
+.hero { display: grid; gap: 22px; }
+.viewer { border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); overflow: hidden; box-shadow: 0 10px 30px -18px rgb(20 30 50 / .35); }
+.urlbar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
+.dots { display: flex; gap: 6px; }
+.dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--rule); display: block; }
+.url { flex: 1; min-width: 180px; font-family: var(--mono); font-size: 13px; background: var(--sunk); padding: 6px 12px; border-radius: 6px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.url b { color: var(--fg); font-weight: 500; }
+.acc { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.acc b { font-weight: 500; color: var(--accent); }
+.viewer.agent .acc b { color: var(--agent); }
+.stage { position: relative; display: grid; }
+.stage > * { grid-area: 1 / 1; transition: opacity .35s ease, transform .35s ease; }
+.stage .off { opacity: 0; transform: translateY(6px); pointer-events: none; visibility: hidden; }
+.page-mock { padding: 28px clamp(18px, 4vw, 40px) 30px; display: grid; gap: 14px; }
+.mock-nav { display: flex; gap: 18px; font-size: 13px; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 10px; flex-wrap: wrap; }
+.mock-nav b { color: var(--fg); margin-right: auto; font-weight: 600; }
+.page-mock h3 { font-size: clamp(26px, 4vw, 34px); }
+.page-mock .sub { color: var(--muted); font-style: italic; font-family: var(--display); font-size: 19px; }
+.page-mock .para { font-size: 15px; max-width: 60ch; }
+.mock-chart { border: 1px solid var(--rule); border-radius: 8px; padding: 14px; display: grid; gap: 6px; max-width: 520px; }
+.mock-chart .t { font-weight: 600; font-size: 14px; }
+.mock-chart .s { font-size: 12px; color: var(--muted); }
+.mock-chart svg { width: 100%; height: auto; display: block; }
+.term { background: var(--code-bg); color: var(--code-fg); font-family: var(--mono); font-size: 12.5px; line-height: 1.6; padding: 18px clamp(14px, 3vw, 24px); overflow-x: auto; white-space: pre; max-height: 470px; overflow-y: auto; margin: 0; }
+.term .d { color: var(--code-dim); } .term .h { color: var(--code-hi); } .term .k { color: var(--code-ok); } .term .w { color: var(--code-warn); }
+.meter { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center; padding: 12px 16px; border-top: 1px solid var(--rule); font-size: 13px; }
+.meter .lbl { color: var(--muted); }
+.meter .track { height: 8px; background: var(--sunk); border-radius: 99px; overflow: hidden; }
+.meter .fill { height: 100%; border-radius: 99px; background: var(--accent); transition: width .5s cubic-bezier(.2,.8,.2,1), background .3s; }
+.viewer.agent .meter .fill { background: var(--agent); }
+.meter .num { font-family: var(--mono); font-variant-numeric: tabular-nums; min-width: 7ch; text-align: right; }
+.hero-caption { color: var(--muted); font-size: 15px; }
+.hero-caption b { color: var(--fg); font-weight: 600; }
+
+/* Stats */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.stat { padding: 18px 16px; display: grid; gap: 2px; }
+.stat + .stat { border-left: 1px solid var(--rule); }
+.stat b { font-family: var(--display); font-weight: 400; font-size: 40px; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 13px; color: var(--muted); }
+@media (max-width: 560px) { .stat + .stat { border-left: 0; border-top: 1px solid var(--rule); } }
+
+/* Playground */
+.pg { display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 760px) { .pg { grid-template-columns: minmax(0, 1fr); } }
+.picker { display: grid; gap: 18px; }
+.picker .lab { font-family: var(--mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; display: block; }
+.plist { display: grid; gap: 4px; }
+.plist button { text-align: left; border: 1px solid transparent; background: transparent; border-radius: 8px; padding: 8px 10px; display: grid; gap: 0; }
+.plist button:hover { background: var(--sunk); }
+.plist button[aria-pressed="true"] { background: var(--surface); border-color: var(--rule); box-shadow: 0 1px 2px rgb(0 0 0 / .06); }
+.plist .n { font-size: 14px; font-weight: 500; }
+.plist .p { font-family: var(--mono); font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.accl { display: grid; gap: 6px; }
+.accl button { text-align: left; border: 1px solid var(--rule); background: var(--surface); border-radius: 8px; padding: 8px 10px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.accl button[aria-pressed="true"] { border-color: var(--accent); color: var(--fg); background: var(--accent-soft); }
+.accl button[aria-pressed="true"][data-v="markdown"] { border-color: var(--agent); background: var(--agent-soft); }
+.result { border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: var(--surface); min-width: 0; }
+.statusline { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+.pill { font-family: var(--mono); font-size: 12px; padding: 3px 9px; border-radius: 99px; font-weight: 500; }
+.pill.ok { background: var(--agent-soft); color: var(--agent); }
+.pill.nf { background: var(--warn-soft); color: var(--warn); }
+.pill.md { background: var(--agent-soft); color: var(--agent); }
+.pill.html { background: var(--accent-soft); color: var(--accent); }
+.statusline .sz { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.why { padding: 12px 16px; font-size: 14px; border-bottom: 1px solid var(--rule); display: grid; gap: 4px; }
+.why .rule { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+.hdrs { font-family: var(--mono); font-size: 12px; padding: 10px 16px; border-bottom: 1px solid var(--rule); display: grid; gap: 2px; overflow-x: auto; white-space: nowrap; color: var(--muted); }
+.hdrs .on { color: var(--agent); }
+.result .term { max-height: 340px; border-radius: 0; }
+
+/* Route */
+.route { display: grid; gap: 18px; }
+.track-stops { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); position: relative; }
+.track-stops::before { content: ""; position: absolute; left: 8%; right: 8%; top: 17px; height: 2px; background: var(--rule); }
+.track-stops .prog { position: absolute; left: 8%; top: 17px; height: 2px; background: var(--agent); transition: width .45s ease; }
+.stop { border: 0; background: transparent; display: grid; justify-items: center; gap: 8px; padding: 0 2px; position: relative; z-index: 1; }
+.stop .dot { width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--rule); background: var(--surface); display: grid; place-items: center; font-family: var(--display); font-size: 18px; color: var(--muted); transition: all .25s; }
+.stop.done .dot { border-color: var(--agent); color: var(--agent); }
+.stop[aria-current="step"] .dot { background: var(--agent); border-color: var(--agent); color: var(--surface); transform: scale(1.08); }
+.stop .sl { font-size: 12px; color: var(--muted); text-align: center; line-height: 1.3; }
+.stop[aria-current="step"] .sl { color: var(--fg); font-weight: 500; }
+@media (max-width: 560px) { .stop .sl { display: none; } }
+.stopcard { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 0; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: var(--surface); }
+@media (max-width: 760px) { .stopcard { grid-template-columns: minmax(0, 1fr); } }
+.stopcard .narr { padding: 22px; display: grid; gap: 12px; align-content: start; }
+.stopcard .q { font-family: var(--mono); font-size: 12.5px; color: var(--agent); }
+.stopcard .req { font-family: var(--mono); font-size: 12px; color: var(--muted); background: var(--sunk); border-radius: 6px; padding: 8px 10px; overflow-x: auto; white-space: nowrap; }
+.stopcard .term { max-height: 380px; }
+.navrow { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.btn { border: 1px solid var(--rule); background: var(--surface); border-radius: 8px; padding: 7px 14px; font-size: 14px; font-weight: 500; }
+.btn.primary { background: var(--agent); border-color: var(--agent); color: var(--surface); }
+.btn:disabled { opacity: .4; cursor: default; }
+.navrow .count { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+/* Before / after */
+.ba-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 18px; }
+.ba { border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); overflow: hidden; display: grid; grid-template-rows: auto auto 1fr; min-width: 0; }
+.ba header { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 16px 10px; flex-wrap: wrap; }
+.ba header h3 { font-size: 20px; }
+.ba .desc { padding: 0 16px 12px; font-size: 14px; color: var(--muted); }
+.ba .stage { background: var(--code-bg); }
+.ba .term { max-height: 260px; white-space: pre-wrap; word-break: break-word; }
+.ba .seg button { padding: 5px 12px; font-size: 13px; }
+.ba .seg button[aria-pressed="true"][data-v="before"] { color: var(--warn); }
+.ba .seg button[aria-pressed="true"][data-v="after"] { color: var(--agent); }
+.ba .foot { padding: 10px 16px; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+
+/* Scorecard */
+.score-top { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; }
+.big { font-family: var(--display); font-size: clamp(56px, 9vw, 88px); line-height: .9; color: var(--agent); font-variant-numeric: tabular-nums; }
+.score-list { display: grid; border-top: 1px solid var(--rule); }
+.grp { border-bottom: 1px solid var(--rule); }
+.grp > button { width: 100%; border: 0; background: transparent; display: grid; grid-template-columns: minmax(0, 1fr) 120px 64px 20px; gap: 14px; align-items: center; padding: 14px 4px; text-align: left; }
+.grp > button:hover { background: var(--sunk); }
+.grp .gn { font-weight: 500; }
+.grp .gbar { display: flex; gap: 2px; }
+.grp .gbar i { flex: 1; height: 10px; border-radius: 2px; background: var(--agent); opacity: .85; }
+.grp .gbar i.f { background: var(--bad); }
+.grp .gc { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.grp .chev { transition: transform .2s; color: var(--muted); }
+.grp[data-open="true"] .chev { transform: rotate(90deg); }
+.grp ul { list-style: none; margin: 0; padding: 0 4px 16px 4px; display: grid; gap: 6px; font-size: 14px; }
+.grp ul[hidden] { display: none; }
+.grp li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; overflow-wrap: anywhere; }
+.grp li .tick { color: var(--agent); font-weight: 600; }
+.grp li .det { display: block; font-family: var(--mono); font-size: 11.5px; color: var(--muted); overflow-wrap: anywhere; }
+@media (max-width: 560px) { .grp > button { grid-template-columns: minmax(0, 1fr) 60px 20px; } .grp .gbar { display: none; } }
+
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 20px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+body { background: #fff; }
+.wrap { max-width: none; padding: 4px 2px 8px; gap: 14px; }
+.hero > .eyebrow, .hero > h1, .hero > .lede, .sec-head { display: none; }
+.hero { gap: 14px; }
+.cap { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+html, body { height: auto; min-height: 0; }
+@media (min-width: 600px) { .pg { grid-template-columns: minmax(0, 210px) minmax(0, 1fr); } .plist .p { display: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">Follow the crawler</div>
+      <h2>Six stops on an agent's first visit</h2>
+      <p>This is the order a well-behaved agent finds things in. Click a stop, or step through. Every file shown is the real one.</p>
+    </div>
+    <div class="route">
+      <div class="track-stops" id="stops"><div class="prog" id="prog"></div></div>
+      <div class="stopcard">
+        <div class="narr">
+          <div class="q" id="s-q"></div>
+          <h3 id="s-h"></h3>
+          <p id="s-p"></p>
+          <div class="req" id="s-req"></div>
+        </div>
+        <pre class="term" id="s-body"></pre>
+      </div>
+      <div class="navrow">
+        <button class="btn" id="prev">Back</button>
+        <button class="btn primary" id="next">Next stop</button>
+        <span class="count" id="s-count"></span>
+      </div>
+    </div>
+  </section>
+<div class="cap">Real responses captured from abhinemani.com, October 2026.</div>
+</div>
+<script type="application/json" id="data">{"files": {"/robots.txt": {"status": 200, "ctype": "text/plain; charset=utf-8", "vary": "Accept-Encoding", "link": "", "cache": "MISS", "size": 885, "text": "# Allow all well-behaved crawlers by default\nUser-agent: *\nAllow: /\n\n# Explicitly allow major AI crawlers, search agents and user-triggered fetchers\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: Claude-User\nAllow: /\n\nUser-agent: anthropic-ai\nAllow: /\n\nUser-agent: Claude-Web\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Perplexity-User\nAllow: /\n\nUser-agent: Applebot-Extended\nAllow: /\n\nUser-agent: cohere-ai\nAllow: /\n\n# Machine-readable guides for AI agents:\n#   https://abhinemani.com/llms.txt\n#   https://abhinemani.com/llms-full.txt\n#   https://abhinemani.com/.well-known/agent-skills/index.json\n\nSitemap: https://abhinemani.com/sitemap.xml\nSitemap: https://abhinemani.com/sitemap-projects.xml\n"}, "/llms.txt": {"status": 200, "ctype": "text/plain; charset=utf-8", "vary": "Accept-Encoding", "link": "", "cache": "DYNAMIC", "size": 21656, "text": "# Abhi Nemani\n\n> Abhi Nemani is a GovTech and finance entrepreneur, advisor and scholar with more than 15 years building technology and scaling innovation for the public sector. He helped build and run Code for America, served as Los Angeles' first Chief Data Officer and as interim Chief Innovation Officer of Sacramento, and was SVP of Product Strategy at Euna Solutions. He now runs EthosLabs, a GovTech consultancy, and is a visiting scholar at the Rose Institute.\n\nEvery link below points to a clean Markdown copy of the page; drop the `.md` for the HTML version. The full text of everything is at https://abhinemani.com/llms-full.txt.\n\nWhen quoting or summarizing, attribute to \"Abhi Nemani\" with the essay title and its canonical URL (the `URL:` line at the top of each Markdown file). Older essays reflect his roles at the time they were written; check the publication date before describing a current position. Agent skills for citing his writing and for GovTech market sizing are listed at https://abhinemani.com/.well-known/agent-skills/index.json.\n\n## Key pages\n\n- [About Abhi Nemani](https://abhinemani.com/about/): Biography, roles and background\n- [GovTech consulting](https://abhinemani.com/consulting/): Advisory services for companies, investors and governments through EthosLabs\n- [Talks](https://abhinemani.com/talks.md): Speaking history and lecture slides\n- [Public Innovation Academy](https://abhinemani.com/academy/): Free guides to how local government buys and builds technology\n- [GovTech TAM/SAM Calculator](https://abhinemani.com/govtech-market/): Interactive tool that sizes the local government technology market for a product, bottom-up by agency budget, using 2022 Census of Governments finance data for every U.S. local government\n- [Contact](https://abhinemani.com/contact/): How to reach Abhi\n\n## Essays\n\n- [2022 GovTech Tailwinds](https://abhinemani.com/essays/2022/01/01/2022-tailwinds.md): Why 2022 should be an even bigger year for the government technology industry: changing leaders, staff, and expectations (2022)\n- [A New Model of Collaborative Governance for Civic Data](https://abhinemani.com/essays/2021/09/01/wprdc.md): A Case Study on The Western Pennsylvania Regional Data Center (WPRDC) (2021)\n- [What I've learned: Three Different Kinds of Civic Data](https://abhinemani.com/essays/2021/02/10/Dashboards.md): Dashboards, Performance Management, and the Trouble with Different Kinds of Data (2021)\n- [Moving Beyond Open Data Portals](https://abhinemani.com/essays/2021/02/01/Let-s-Move-Beyond-Open-Data-Portals.md): What could be subtitled, biting the hand that feed me (2021)\n- [Data-Driven Policy - San Francisco just showed us how it should work.](https://abhinemani.com/essays/2020/08/28/Data-Driven-Policy-San-Francisco-just-showed-us-how-it-should-work.md): A simple, powerful, and human centered approach to data-driven decision-making (2020)\n- [Open Data, Civic Engagement, and Delivery](https://abhinemani.com/blog/essays/2020/08/28/Open-Data-Civic-Engagement-and-Delivery.md): Did We Go the Wrong Way? (2020)\n- [Ubers as Ambulances?](https://abhinemani.com/essays/2020/08/28/Ubers-as-Ambulances.md): And other ideas to make consumer apps more civic (2020)\n- [Keynote: From Social Innovation to Civic Startups](https://abhinemani.com/essays/talks/2020/07/11/Changing-the-frame-from-social-innovation-to-civic-startups.md): Notes and Video from Making a Difference (MAD) 2013 Hong Kong (2020)\n- [Keynote: Government is What *We* Make of It](https://abhinemani.com/essays/2020/07/11/Government-is-what-we-make-of-it.md): Building a civic architecture of participation (2020)\n- [City Government Technology and Innovation Models](https://abhinemani.com/essays/2020/07/06/city-government-technology-and-innovation-models-6ab040973242.md): Summary notes for discussion purposes (2020)\n- [Five trends to watch in #civictech in 2020](https://abhinemani.com/essays/2020/06/02/Five-trends-to-watch-in-civictech-in-2020.md): There’s never been a more important time to be good at what we do (2020)\n- [Push vs. Pull & the Opportunity for Automation in GovTech](https://abhinemani.com/essays/2018/08/14/Push-vs-Pull-the-Opportunity-for-Automation-in-GovTech.md): Over the last ten years, I have seen firsthand the leaps and strides governments have taken to catch up to the private sector’s pace of… (2018)\n- [21st Century Cities: A Primer](https://abhinemani.com/essays/2018/06/27/21st-century-cities-a-primer-8d88b0c481e0.md): A “101” Overview of Technology and Innovation at the Local Level (2018)\n- [311 Inquiry, Machine Learning, and Automated Citizen Support](https://abhinemani.com/essays/2018/06/15/Project-idea-311-Inquiry-Machine-Learning-and-Automated-Citizen-Support-754033246a.md) (2018)\n- [What I have learned from my many teachers](https://abhinemani.com/essays/2017/05/20/What-I-have-learned-from-my-many-teachers.md): I was recently asked to speak at my alma mater (Claremont McKenna College) about my career and how CMC helped shape and empower it... (2017)\n- [Alexa — let’s talk about open data standards](https://abhinemani.com/essays/2017/02/10/Alexa-let-s-talk-about-open-data-standards-138e86262d28.md) (2017)\n- [GovTech Sales Lessons Learned, 1/n — Pricing](https://abhinemani.com/essays/2017/01/30/GovTech-Sales-Lessons-Learned-1-n-Pricing.md) (2017)\n- [Transparency: You cannot unring the bell.](https://abhinemani.com/essays/2017/01/26/transparency-you-cannot-unring-the-bell-29ea26131bb2.md): A strange thing happened today. For a while, I have drawn a fairly bright line between my social networks: facebook was for college… (2017)\n- [TEDx: The Hack of the Century: Cities](https://abhinemani.com/essays/2017/01/14/The-Hack-of-the-Century-Cities.md): A few months ago I was asked to speak at TedXSacramentoSalon in September. Below is the video and text from the talk from September (2017)\n- [How a City Can Build a Startup Pipeline](https://abhinemani.com/essays/2016/07/13/How-a-City-Can-Build-a-Startup-Pipeline.md) (2016)\n- [Engines of Civic Entrepreneurship](https://abhinemani.com/essays/2016/02/04/Engines-of-Civic-Entrepreneurship.md): Clever ways cities are turning civic enthusiasm into meaningful civic action and entrepreneurship (2016)\n- [7 Tactics for 21st Century Cities](https://abhinemani.com/blog/essays/principles/2016/02/04/7-Tactics-for-21st-Century-Cities.md): Seven ways for modern city halls to innovate. (2016)"}, "/.well-known/agent-skills/index.json": {"status": 200, "ctype": "application/json; charset=utf-8", "vary": "Accept-Encoding", "link": "", "cache": "DYNAMIC", "size": 1166, "text": "{\n  \"$schema\": \"https://schemas.agentskills.io/discovery/0.2.0/schema.json\",\n  \"skills\": [\n    {\n      \"name\": \"cite-abhi-nemani\",\n      \"type\": \"skill-md\",\n      \"description\": \"Use when quoting, summarizing, citing or answering questions about Abhi Nemani's essays, Public Innovation Academy guides or career on abhinemani.com. Covers where to find clean full text, how to attribute, and how to describe his roles accurately by date.\",\n      \"url\": \"/.well-known/agent-skills/cite-abhi-nemani/SKILL.md\",\n      \"digest\": \"sha256:3aa443aa9ca972fafadad7836288ccca754021743bc130ceb41d3487196d40aa\"\n    },\n    {\n      \"name\": \"govtech-market-sizing\",\n      \"type\": \"skill-md\",\n      \"description\": \"Use when estimating the total or serviceable addressable market (TAM/SAM) for a product sold to U.S. local governments. Applies Abhi Nemani's bottom-up method, which sizes the market by jurisdiction tier using counts, tiered pricing and tiered adoption instead of top-down spending estimates.\",\n      \"url\": \"/.well-known/agent-skills/govtech-market-sizing/SKILL.md\",\n      \"digest\": \"sha256:a2ff6bd764d6085801103f01e9fe9d5e8e31aba71da60bc60b4703d91be49abf\"\n    }\n  ]\n}\n"}, "/.well-known/agent-skills/cite-abhi-nemani/SKILL.md": {"status": 200, "ctype": "text/markdown; charset=utf-8", "vary": "Accept-Encoding, Accept", "link": "<\/llms.txt>; rel=\"llms-txt\", <\/.well-known/agent-skills/index.json>; rel=\"agent-skills\"", "cache": "DYNAMIC", "size": 3027, "text": "---\nname: cite-abhi-nemani\ndescription: Use when quoting, summarizing, citing or answering questions about Abhi Nemani's essays, Public Innovation Academy guides or career on abhinemani.com. Covers where to find clean full text, how to attribute, and how to describe his roles accurately by date.\n---\n\n# Citing and summarizing Abhi Nemani's writing\n\nAbhi Nemani writes about government technology: civic tech, open data, public trust, procurement, AI in the public sector, and how GovTech companies grow. This skill tells you how to find his writing and represent it faithfully.\n\n## Finding the text\n\nStart with the index at https://abhinemani.com/llms.txt, which lists every essay, Academy lesson and portfolio case study with a one-line summary. Each entry links to a clean Markdown copy. To get Markdown for any page, drop the trailing slash and add `.md`, so `https://abhinemani.com/blog/2026/09/21/Trust/` becomes `https://abhinemani.com/blog/2026/09/21/Trust.md`. If you need everything at once, https://abhinemani.com/llms-full.txt has all of it in one file.\n\nEach Markdown file opens with the title, a one-line summary, and `URL:`, `Published:` and `Tags:` lines. Use the `URL:` line, not the `.md` address, when you cite.\n\n## Attributing\n\nName him as \"Abhi Nemani\" and give the piece's title and canonical URL. A good inline form is: *Abhi Nemani, \"Title,\" abhinemani.com, Year.* Quote him word for word or paraphrase clearly as paraphrase; never invent a quote. If a claim in an essay comes from someone else's data (many recent posts cite surveys and reports), credit the original source as he does, rather than attributing the finding to him.\n\n## Getting his roles right\n\nThe archive goes back to 2014, and his title has changed many times. Describe the role he held *when the piece was written*, using its publication date:\n\n- Code for America: helped build, launch and run the national nonprofit, before 2014\n- City of Los Angeles: first Chief Data Officer, appointed by Mayor Eric Garcetti in 2014, where he led the Mayor's Office of Data and Analytics\n- City of Sacramento: interim Chief Innovation Officer, appointed by Mayor Kevin Johnson, where he built the Office of Innovation and Entrepreneurship and the Innovation and Growth Fund\n- Euna Solutions: SVP of Product Strategy, where he built and integrated a suite of 10+ companies with $100M+ in revenue\n- Today: GovTech and finance entrepreneur, advisor and scholar; runs the GovTech consultancy EthosLabs, created the Public Innovation Academy, and is a visiting scholar at the Rose Institute of State & Local Government\n\nFor his current work, check https://abhinemani.com/about/ rather than relying on an older essay's byline.\n\n## Summarizing\n\nLead with his argument, not just the topic; his essays usually make one clear claim. Keep his framing of government as something worth improving rather than something to dismiss. Note the year, because his views on open data, civic tech and AI have evolved, and a 2015 position may not be his position today.\n"}, "/llms-full.txt": {"status": 200, "ctype": "text/plain; charset=utf-8", "vary": "Accept-Encoding", "link": "", "cache": "DYNAMIC", "size": 843037, "text": "# Abhi Nemani: full text\n\n> Every essay, Public Innovation Academy lesson and portfolio case study on https://abhinemani.com, as Markdown. Curated index: https://abhinemani.com/llms.txt\n\n# Data-Driven Policy Making\n\n> Myth versus Reality in two slides\n\nURL: https://abhinemani.com/academy/data-policy/\nAuthor: Abhi Nemani\nTags: government, policy, data\n\n---\n\n## An Introduction\n\nFor all the talk of \"data-driven policy\" and \"data-driven government,\" the details can get lost in the hype. In this simple breakdown, we explore the way people **\"think\"** data-driven decision-making works, and then describe in detail how it **\"really works.\"**\n\n![](https://abhinemani.com/img/policy-1.png)\n\n### The Myth: Data & Policy are Different Pieces\n\n![](https://abhinemani.com/img/policy-2.png)\n\n### How Data & Policy Actually Work: A Cycle\n\n![](https://abhinemani.com/img/policy-3.png)\n\n**Featured Essay**\n\n[**Three Kinds of Data:** Dashboards, Performance Management, and the Trouble with Different Kinds of Data](https://abhinemani.com/essays/2021/02/10/Dashboards/)\n\nIf you're interested in learning more, get in touch: [@abhinemani](https://twitter.com/@abhinemani)\n\n\n---\n\n# Working with City Hall\n\n> Guides to the politics and operations of local government\n\nURL: https://abhinemani.com/academy/city-hall/\nAuthor: Abhi Nemani\nTags: startups, government\n\n---\n\n## Guide: City Hall 101\nWhether you sell to government or not, your startup is going to be bound up in the public sector wherever you are and whatever you do. The question you have is to take advantage of it or not. That starts with an understanding of the structure of local governments, who does what, who controls what, and who you should know. Here's a primer:\n\nEmbedded slides: https://www.canva.com/design/DAEu0mNGTIE/view?embed\n\n## Guide: Government Relations Strategy\nIn the US alone, governments spend over $200B annually on technology, and that only scrapes the surface of the technology industries they affect in their jurisdictions: logistics, mobility, drones, social, communication, etc. You may not know of an angle to engage a public agency, but there is. Knowing how governments work, and what opportunities they hold, are essential for 21st century entrepreneurship. Having worked with hundreds of cities, here's how to work with local governments: for approval, revenue, or (ideally) both:\n\nEmbedded slides: https://www.canva.com/design/DAEguqvT_KM/view?embed\n\nIf you're interested in learning more, get in touch: [@abhinemani](https://twitter.com/@abhinemani)\n\n\n---\n\n# Ecosystem Map: Permitting\n\n> An example how to map the full value chain within agency workflows\n\nURL: https://abhinemani.com/academy/permitting/\nAuthor: Abhi Nemani\nTags: software, agile, procurement\n\n---\n\nGood government tech maps to (and ideally improves) the operations of government — the entire workflow, which always involves many people and typically different agendas and needs. This simple point is often overlooked when people assume there's just "}}, "matrix": {"/blog/2026/09/21/Trust/|browser": {"status": 200, "ctype": "text/html; charset=utf-8", "vary": "Accept-Encoding, Accept", "link": "<\/llms.txt>; rel=\"llms-txt\", <\/.well-known/agent-skills/index.json>; rel=\"agent-skills\"", "cache": "DYNAMIC", "size": 40077, "excerpt": "<!doctype html>\n<head>\n  <title>We don't trust local government anymore. | Abhi Nemani<\/title>\n  <link rel=\"canonical\" href=\"https://abhinemani.com/blog/2026/09/21/Trust/\">\n  <link rel=\"alternate\" type=\"text/markdown\" title=\"We don&#39;t trust local government anymore. (Markdown)\" href=\"https://abhinemani.com/blog/2026/09/21/Trust.md\">\n  <link rel=\"llms-txt\" type=\"text/plain\" href=\"https://abhinemani.com/llms.txt\">\n  <link rel=\"agent-skills\" type=\"application/json\" href=\"https://abhinemani.com/.well-known/agent-skills/index.json\">\n  … 40,077 bytes of markup, styles and scripts …\n<\/head>"}, "/blog/2026/09/21/Trust/|markdown": {"status": 200, "ctype": "text/markdown; charset=utf-8", "vary": "Accept-Encoding, Accept", "link": "<\/llms.txt>; rel=\"llms-txt\", <\/.well-known/agent-skills/index.json>; rel=\"agent-skills\"", "cache": "DYNAMIC", "size": 7403, "excerpt": "# We don't trust local government anymore.\n\n> Trust in local and state governments has dropped to an alarming rate\n\nURL: https://abhinemani.com/blog/2026/09/21/Trust/\nPublished: 2026-09-21\nAuthor: Abhi Nemani\nTags: AI, Transparency, Public Service\n\n---\n\nFor years, the most reliable line in local government was some version of *we're not Washington*. Congress could melt down and the White House could dominate every news cycle, but the city still plowed the streets, and residents gave it credit for that. New data from the Partnership for Public Service's [State of Public Trust 2026](https://ourpublicservice.org/know-the-facts/resource-library/reports/state-of-trust-2026) report suggests that line is losing its power.\n\n### \"We're not Washington\" has stopped working\n\n*Trust in local and state government has fallen 12 to 13 points in four years, and it now rises and falls with Washington. That leaves less room for the service-first story cities have always told.*\n\n**Chart: Four years, three levels of government, one direction.** From 2022 to 2026, trust in local government fell 13 points (54% to 41%), trust in state government fell 12 points (50% to 38%), and trust in the federal government fell from 35% to 27%. *Source: [Partnership for Public Service, State of Public Trust in Government 2026](https://ourpublicservice.org/know-the-facts/resource-library/reports/state-of-trust-2026).*\n\n## The numbers, without the noise\n\nThe year-to-year swings in this survey are distracting, so ignore them. Compare 2022 to 2026 instead. Trust in local government fell from 54% to 41%, and trust in state government from 50% to 38%. Put plainly, about one in four people who trusted their city four years ago have stopped.\n\n## The lockstep problem\n\nThe drop isn't even the most worrying part. It's that local trust now moves in step with federal trust. Last year, federal fell six points, local seven, state four. Cities used to be graded on their own curve. Now, when Washington's reputation sinks, city hall sinks with it, regardless of whether the buses ran on time.\n…"}, "/blog/2026/09/21/Trust/|any": {"status": 200, "ctype": "text/html; charset=utf-8", "vary": "Accept-Encoding, Accept", "link": "<\/llms.txt>; rel=\"llms-txt\", <\/.well-known/agent-skills/index.json>; rel=\"agent-skills\"", "cache": "DYNAMIC", "size": 39710, "excerpt": "<!doctype html>\n<head>\n  <title>We don't trust local government anymore. | Abhi Nemani<\/title>\n  <link rel=\"canonical\" href=\"https://abhinemani.com/blog/2026/09/21/Trust/\">\n  <link rel=\"alternate\" type=\"text/markdown\" title=\"We don&#39;t trust local government anymore. (Markdown)\" href=\"https://abhinemani.com/blog/2026/09/21/Trust.md\">\n  <link rel=\"llms-txt\" type=\"text/plain\" href=\"https://abhinemani.com/llms.txt\">\n  <link rel=\"agent-skills\" type=\"application/json\" href=\"https://abhinemani.com/.well-known/agent-skills/index.json\">\n  … 39,710 bytes of markup, styles and scripts …\n<\/head>"}}}</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const kb = n => n >= 1e6 ? (n / 1e6).toFixed(2) + ' MB' : n >= 1000 ? (n / 1000).toFixed(1) + ' KB' : n + ' B';
+
+// Light syntax colouring for Markdown / text bodies.
+function colour(text) {
+  return esc(text).split('\n').map(l => {
+    if (/^#{1,6} /.test(l)) return `<span class="h">${l}</span>`;
+    if (/^(URL|Published|Author|Tags):/.test(l)) return `<span class="k">${l}</span>`;
+    if (/^&gt; /.test(l) || /^&gt;$/.test(l)) return `<span class="d">${l}</span>`;
+    if (/^(User-agent|Allow|Sitemap):/.test(l)) return l.replace(/^([\w-]+:)/, '<span class="h">$1</span>');
+    if (/^\s*#/.test(l) || /^…/.test(l) || /^\s*… /.test(l)) return `<span class="d">${l}</span>`;
+    if (/^---$/.test(l)) return `<span class="d">${l}</span>`;
+    return l.replace(/\*\*Chart:([^*]+)\*\*/g, '<span class="k">**Chart:$1**</span>');
+  }).join('\n');
+}
+function colourHtml(text) {
+  return esc(text)
+    .replace(/(&lt;link rel="(?:alternate|llms-txt|agent-skills)"[^\n]*)/g, '<span class="k">$1</span>')
+    .replace(/(… [^\n]*…)/g, '<span class="d">$1</span>');
+}
+
+const T = '/blog/2026/09/21/Trust/';
+const human = D.matrix[T + '|browser'], agent = D.matrix[T + '|markdown'];
+// ---------- Route
+const F = D.files;
+const cut = (t, n) => { const l = t.split('\n'); return l.slice(0, n).join('\n') + (l.length > n ? '\n…' : ''); };
+const stops = [
+  { s: 'robots.txt', q: 'Am I allowed here?', h: 'robots.txt welcomes it by name', p: 'A polite crawler checks robots.txt first. It finds ClaudeBot, GPTBot, PerplexityBot and ten others explicitly allowed, nothing disallowed, two sitemaps, and a note pointing to the files written for agents.', req: 'GET /robots.txt → 200 text/plain', body: () => colour(F['/robots.txt'].text) },
+  { s: 'llms.txt', q: 'Where should I start?', h: 'A map and the house rules', p: 'llms.txt gives a one-paragraph bio, guidance on attribution and on dating Abhi\'s roles, and 111 links in six sections, each with a one-line summary pointing to a clean Markdown copy.', req: `GET /llms.txt → 200 text/plain · ${kb(F['/llms.txt'].size)}`, body: () => colour(cut(F['/llms.txt'].text, 40)) },
+  { s: 'A page', q: 'I landed on a normal page. Is there a better version?', h: 'Every page points the way', p: 'Even an agent that skips llms.txt gets signposts twice: a Link header before any HTML is parsed, and alternate links in the page head.', req: `GET ${T} (Accept: text/html) → 200 · ${kb(human.size)}`, body: () => `<span class="d">HTTP/2 200</span>\ncontent-type: ${esc(human.ctype)}\n<span class="k">vary: ${esc(human.vary)}</span>\n<span class="k">link: ${esc(human.link)}</span>\n\n` + colourHtml(human.excerpt) },
+  { s: 'Markdown', q: 'Can I just ask for Markdown?', h: 'Same address, Markdown back', p: 'Sending Accept: text/markdown to the same URL returns the essay as Markdown. The agent never has to guess at a .md address.', req: `GET ${T} (Accept: text/markdown) → 200 · ${kb(agent.size)}`, body: () => colour(agent.excerpt) },
+  { s: 'Skills', q: 'Is there anything I should know how to do here?', h: 'Two skills it can load', p: 'The skills index lists two instruction files with checksums: one for citing Abhi and describing his roles by date, one for his bottom-up GovTech market-sizing method.', req: 'GET /.well-known/agent-skills/index.json → 200 application/json', body: () => esc(F['/.well-known/agent-skills/index.json'].text) + '\n\n<span class="d">── cite-abhi-nemani/SKILL.md ──</span>\n' + colour(cut(F['/.well-known/agent-skills/cite-abhi-nemani/SKILL.md'].text, 22)) },
+  { s: 'Everything', q: 'Can I read it all at once?', h: 'The whole archive in one file', p: `llms-full.txt holds all 105 full-text pages, newest first, each keeping its own title, URL and date so citations stay accurate. ${kb(F['/llms-full.txt'].size)} in one request.`, req: `GET /llms-full.txt → 200 text/plain · ${kb(F['/llms-full.txt'].size)}`, body: () => colour(cut(F['/llms-full.txt'].text, 34)) },
+];
+let si = 0;
+const stopsEl = $('#stops');
+stops.forEach((st, i) => {
+  const b = document.createElement('button');
+  b.className = 'stop';
+  b.innerHTML = `<span class="dot">${i + 1}</span><span class="sl">${st.s}</span>`;
+  b.setAttribute('aria-label', `Stop ${i + 1}: ${st.s}`);
+  b.addEventListener('click', () => go(i));
+  stopsEl.appendChild(b);
+});
+function go(i) {
+  si = Math.max(0, Math.min(stops.length - 1, i));
+  const st = stops[si];
+  stopsEl.querySelectorAll('.stop').forEach((b, j) => { b.classList.toggle('done', j < si); if (j === si) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
+  $('#prog').style.width = (si / (stops.length - 1) * 84) + '%';
+  $('#s-q').textContent = st.q; $('#s-h').textContent = st.h; $('#s-p').textContent = st.p; $('#s-req').textContent = st.req;
+  $('#s-body').innerHTML = st.body(); $('#s-body').scrollTop = 0;
+  $('#prev').disabled = si === 0;
+  $('#next').textContent = si === stops.length - 1 ? 'Start over' : 'Next stop';
+  $('#s-count').textContent = `${si + 1} of ${stops.length}`;
+}
+$('#prev').addEventListener('click', () => go(si - 1));
+$('#next').addEventListener('click', () => go(si === stops.length - 1 ? 0 : si + 1));
+
+go(0);
+})();
+</script>
+<script>
+(() => {
+  const send = () => parent.postMessage({ type: 'resize', height: Math.ceil(document.querySelector('.wrap').getBoundingClientRect().height + 4), embed: 'agent-crawler-route' }, '*');
+  new ResizeObserver(send).observe(document.body);
+  addEventListener('load', send);
+})();
+</script>
+</body>
+</html>

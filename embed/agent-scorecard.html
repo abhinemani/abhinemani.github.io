@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Every check, against the live site</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; each section is an instrument the reader operates (a toggle, a request builder, a route, before/after switches, a scorecard), all fed by responses captured from the live site. */
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --sunk: #eceff4;
+  --fg: #19202c;
+  --muted: #5a6476;
+  --rule: #dde2ea;
+  --accent: #1f5fbf;
+  --accent-soft: #e3ecfa;
+  --agent: #0f7a55;
+  --agent-soft: #dff3ea;
+  --warn: #a65d00;
+  --warn-soft: #fbefdc;
+  --bad: #b3261e;
+  --code-bg: #0f1520;
+  --code-fg: #d3dbe7;
+  --code-dim: #7d8aa0;
+  --code-hi: #8cc2ff;
+  --code-ok: #5fd3a4;
+  --code-warn: #f2b765;
+  --display: "Instrument Serif", Georgia, serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 44px 80px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 72px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(38px, 6.4vw, 64px); line-height: 1.02; }
+h1 em { font-style: italic; color: var(--accent); }
+h2 { font-size: clamp(28px, 4vw, 36px); line-height: 1.1; }
+h3 { font-size: 22px; line-height: 1.2; }
+p { margin: 0; max-width: 64ch; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 18px; color: var(--muted); }
+section { display: grid; gap: 20px; min-width: 0; }
+.sec-head { display: grid; gap: 8px; }
+code { font-family: var(--mono); font-size: .86em; background: var(--sunk); padding: 1px 5px; border-radius: 4px; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Segmented control */
+.seg { display: inline-flex; background: var(--sunk); border-radius: 999px; padding: 4px; gap: 2px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 7px 16px; border-radius: 999px; font-size: 14px; font-weight: 500; color: var(--muted); transition: background .2s, color .2s; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
+.seg.agentish button[aria-pressed="true"][data-v="agent"], .seg button[aria-pressed="true"][data-v="markdown"] { color: var(--agent); }
+
+/* Hero viewer */
+.hero { display: grid; gap: 22px; }
+.viewer { border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); overflow: hidden; box-shadow: 0 10px 30px -18px rgb(20 30 50 / .35); }
+.urlbar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
+.dots { display: flex; gap: 6px; }
+.dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--rule); display: block; }
+.url { flex: 1; min-width: 180px; font-family: var(--mono); font-size: 13px; background: var(--sunk); padding: 6px 12px; border-radius: 6px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.url b { color: var(--fg); font-weight: 500; }
+.acc { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.acc b { font-weight: 500; color: var(--accent); }
+.viewer.agent .acc b { color: var(--agent); }
+.stage { position: relative; display: grid; }
+.stage > * { grid-area: 1 / 1; transition: opacity .35s ease, transform .35s ease; }
+.stage .off { opacity: 0; transform: translateY(6px); pointer-events: none; visibility: hidden; }
+.page-mock { padding: 28px clamp(18px, 4vw, 40px) 30px; display: grid; gap: 14px; }
+.mock-nav { display: flex; gap: 18px; font-size: 13px; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 10px; flex-wrap: wrap; }
+.mock-nav b { color: var(--fg); margin-right: auto; font-weight: 600; }
+.page-mock h3 { font-size: clamp(26px, 4vw, 34px); }
+.page-mock .sub { color: var(--muted); font-style: italic; font-family: var(--display); font-size: 19px; }
+.page-mock .para { font-size: 15px; max-width: 60ch; }
+.mock-chart { border: 1px solid var(--rule); border-radius: 8px; padding: 14px; display: grid; gap: 6px; max-width: 520px; }
+.mock-chart .t { font-weight: 600; font-size: 14px; }
+.mock-chart .s { font-size: 12px; color: var(--muted); }
+.mock-chart svg { width: 100%; height: auto; display: block; }
+.term { background: var(--code-bg); color: var(--code-fg); font-family: var(--mono); font-size: 12.5px; line-height: 1.6; padding: 18px clamp(14px, 3vw, 24px); overflow-x: auto; white-space: pre; max-height: 470px; overflow-y: auto; margin: 0; }
+.term .d { color: var(--code-dim); } .term .h { color: var(--code-hi); } .term .k { color: var(--code-ok); } .term .w { color: var(--code-warn); }
+.meter { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center; padding: 12px 16px; border-top: 1px solid var(--rule); font-size: 13px; }
+.meter .lbl { color: var(--muted); }
+.meter .track { height: 8px; background: var(--sunk); border-radius: 99px; overflow: hidden; }
+.meter .fill { height: 100%; border-radius: 99px; background: var(--accent); transition: width .5s cubic-bezier(.2,.8,.2,1), background .3s; }
+.viewer.agent .meter .fill { background: var(--agent); }
+.meter .num { font-family: var(--mono); font-variant-numeric: tabular-nums; min-width: 7ch; text-align: right; }
+.hero-caption { color: var(--muted); font-size: 15px; }
+.hero-caption b { color: var(--fg); font-weight: 600; }
+
+/* Stats */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.stat { padding: 18px 16px; display: grid; gap: 2px; }
+.stat + .stat { border-left: 1px solid var(--rule); }
+.stat b { font-family: var(--display); font-weight: 400; font-size: 40px; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 13px; color: var(--muted); }
+@media (max-width: 560px) { .stat + .stat { border-left: 0; border-top: 1px solid var(--rule); } }
+
+/* Playground */
+.pg { display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 760px) { .pg { grid-template-columns: minmax(0, 1fr); } }
+.picker { display: grid; gap: 18px; }
+.picker .lab { font-family: var(--mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; display: block; }
+.plist { display: grid; gap: 4px; }
+.plist button { text-align: left; border: 1px solid transparent; background: transparent; border-radius: 8px; padding: 8px 10px; display: grid; gap: 0; }
+.plist button:hover { background: var(--sunk); }
+.plist button[aria-pressed="true"] { background: var(--surface); border-color: var(--rule); box-shadow: 0 1px 2px rgb(0 0 0 / .06); }
+.plist .n { font-size: 14px; font-weight: 500; }
+.plist .p { font-family: var(--mono); font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.accl { display: grid; gap: 6px; }
+.accl button { text-align: left; border: 1px solid var(--rule); background: var(--surface); border-radius: 8px; padding: 8px 10px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.accl button[aria-pressed="true"] { border-color: var(--accent); color: var(--fg); background: var(--accent-soft); }
+.accl button[aria-pressed="true"][data-v="markdown"] { border-color: var(--agent); background: var(--agent-soft); }
+.result { border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: var(--surface); min-width: 0; }
+.statusline { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+.pill { font-family: var(--mono); font-size: 12px; padding: 3px 9px; border-radius: 99px; font-weight: 500; }
+.pill.ok { background: var(--agent-soft); color: var(--agent); }
+.pill.nf { background: var(--warn-soft); color: var(--warn); }
+.pill.md { background: var(--agent-soft); color: var(--agent); }
+.pill.html { background: var(--accent-soft); color: var(--accent); }
+.statusline .sz { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.why { padding: 12px 16px; font-size: 14px; border-bottom: 1px solid var(--rule); display: grid; gap: 4px; }
+.why .rule { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+.hdrs { font-family: var(--mono); font-size: 12px; padding: 10px 16px; border-bottom: 1px solid var(--rule); display: grid; gap: 2px; overflow-x: auto; white-space: nowrap; color: var(--muted); }
+.hdrs .on { color: var(--agent); }
+.result .term { max-height: 340px; border-radius: 0; }
+
+/* Route */
+.route { display: grid; gap: 18px; }
+.track-stops { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); position: relative; }
+.track-stops::before { content: ""; position: absolute; left: 8%; right: 8%; top: 17px; height: 2px; background: var(--rule); }
+.track-stops .prog { position: absolute; left: 8%; top: 17px; height: 2px; background: var(--agent); transition: width .45s ease; }
+.stop { border: 0; background: transparent; display: grid; justify-items: center; gap: 8px; padding: 0 2px; position: relative; z-index: 1; }
+.stop .dot { width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--rule); background: var(--surface); display: grid; place-items: center; font-family: var(--display); font-size: 18px; color: var(--muted); transition: all .25s; }
+.stop.done .dot { border-color: var(--agent); color: var(--agent); }
+.stop[aria-current="step"] .dot { background: var(--agent); border-color: var(--agent); color: var(--surface); transform: scale(1.08); }
+.stop .sl { font-size: 12px; color: var(--muted); text-align: center; line-height: 1.3; }
+.stop[aria-current="step"] .sl { color: var(--fg); font-weight: 500; }
+@media (max-width: 560px) { .stop .sl { display: none; } }
+.stopcard { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 0; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: var(--surface); }
+@media (max-width: 760px) { .stopcard { grid-template-columns: minmax(0, 1fr); } }
+.stopcard .narr { padding: 22px; display: grid; gap: 12px; align-content: start; }
+.stopcard .q { font-family: var(--mono); font-size: 12.5px; color: var(--agent); }
+.stopcard .req { font-family: var(--mono); font-size: 12px; color: var(--muted); background: var(--sunk); border-radius: 6px; padding: 8px 10px; overflow-x: auto; white-space: nowrap; }
+.stopcard .term { max-height: 380px; }
+.navrow { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.btn { border: 1px solid var(--rule); background: var(--surface); border-radius: 8px; padding: 7px 14px; font-size: 14px; font-weight: 500; }
+.btn.primary { background: var(--agent); border-color: var(--agent); color: var(--surface); }
+.btn:disabled { opacity: .4; cursor: default; }
+.navrow .count { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+/* Before / after */
+.ba-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 18px; }
+.ba { border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); overflow: hidden; display: grid; grid-template-rows: auto auto 1fr; min-width: 0; }
+.ba header { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 16px 10px; flex-wrap: wrap; }
+.ba header h3 { font-size: 20px; }
+.ba .desc { padding: 0 16px 12px; font-size: 14px; color: var(--muted); }
+.ba .stage { background: var(--code-bg); }
+.ba .term { max-height: 260px; white-space: pre-wrap; word-break: break-word; }
+.ba .seg button { padding: 5px 12px; font-size: 13px; }
+.ba .seg button[aria-pressed="true"][data-v="before"] { color: var(--warn); }
+.ba .seg button[aria-pressed="true"][data-v="after"] { color: var(--agent); }
+.ba .foot { padding: 10px 16px; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+
+/* Scorecard */
+.score-top { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; }
+.big { font-family: var(--display); font-size: clamp(56px, 9vw, 88px); line-height: .9; color: var(--agent); font-variant-numeric: tabular-nums; }
+.score-list { display: grid; border-top: 1px solid var(--rule); }
+.grp { border-bottom: 1px solid var(--rule); }
+.grp > button { width: 100%; border: 0; background: transparent; display: grid; grid-template-columns: minmax(0, 1fr) 120px 64px 20px; gap: 14px; align-items: center; padding: 14px 4px; text-align: left; }
+.grp > button:hover { background: var(--sunk); }
+.grp .gn { font-weight: 500; }
+.grp .gbar { display: flex; gap: 2px; }
+.grp .gbar i { flex: 1; height: 10px; border-radius: 2px; background: var(--agent); opacity: .85; }
+.grp .gbar i.f { background: var(--bad); }
+.grp .gc { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.grp .chev { transition: transform .2s; color: var(--muted); }
+.grp[data-open="true"] .chev { transform: rotate(90deg); }
+.grp ul { list-style: none; margin: 0; padding: 0 4px 16px 4px; display: grid; gap: 6px; font-size: 14px; }
+.grp ul[hidden] { display: none; }
+.grp li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; overflow-wrap: anywhere; }
+.grp li .tick { color: var(--agent); font-weight: 600; }
+.grp li .det { display: block; font-family: var(--mono); font-size: 11.5px; color: var(--muted); overflow-wrap: anywhere; }
+@media (max-width: 560px) { .grp > button { grid-template-columns: minmax(0, 1fr) 60px 20px; } .grp .gbar { display: none; } }
+
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 20px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+body { background: #fff; }
+.wrap { max-width: none; padding: 4px 2px 8px; gap: 14px; }
+.hero > .eyebrow, .hero > h1, .hero > .lede, .sec-head { display: none; }
+.hero { gap: 14px; }
+.cap { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+html, body { height: auto; min-height: 0; }
+@media (min-width: 600px) { .pg { grid-template-columns: minmax(0, 210px) minmax(0, 1fr); } .plist .p { display: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">The test suite</div>
+      <h2>Every check, against the live site</h2>
+    </div>
+    <div class="score-top"><span class="big" id="big-pass">100</span><p>checks passed, out of <span id="big-total">100</span>. The suite lives in the site's repository as <code>scripts/agent_test.py</code>. It crawls every URL in the sitemap three ways, validates every file agents are pointed to, and probes the Cloudflare rules with edge cases. Open a group to see its checks.</p></div>
+    <div class="score-list" id="score"></div>
+  </section>
+<div class="cap">Real responses captured from abhinemani.com, October 2026.</div>
+</div>
+<script type="application/json" id="data">{"report": [{"name": "llms.txt", "checks": [{"ok": true, "name": "/llms.txt returns 200 text/plain", "detail": "200 text/plain; charset=utf-8"}, {"ok": true, "name": "starts with H1 + blockquote summary (llmstxt.org shape)", "detail": ""}, {"ok": true, "name": "no unrendered Liquid", "detail": ""}, {"ok": true, "name": "has section '## Key pages'", "detail": ""}, {"ok": true, "name": "has section '## Essays'", "detail": ""}, {"ok": true, "name": "has section '## Public Innovation Academy'", "detail": ""}, {"ok": true, "name": "has section '## Portfolio case studies'", "detail": ""}, {"ok": true, "name": "has section '## Blog posts'", "detail": ""}, {"ok": true, "name": "has section '## Optional'", "detail": ""}, {"ok": true, "name": "links are absolute on abhinemani.com", "detail": "111 links"}, {"ok": true, "name": "no duplicate links", "detail": "0 dupes"}, {"ok": true, "name": "no empty link titles", "detail": "0 empty"}, {"ok": true, "name": "no leftover HTML entities in titles", "detail": ""}, {"ok": true, "name": "all 111 linked pages return 200", "detail": ""}, {"ok": true, "name": "all 105 .md links are text/markdown starting with '# '", "detail": ""}]}, {"name": "Markdown sidecars", "checks": [{"ok": true, "name": "105 linked sidecars are clean (no script/style/comments/Liquid/relative links, correct URL line)", "detail": "0 with issues"}, {"ok": true, "name": "Trust.md has title, Published date, Author", "detail": ""}, {"ok": true, "name": "Trust.md strips interactive chart code", "detail": ""}, {"ok": true, "name": "Trust.md: no leftover <figure>/<div>/<span>", "detail": ""}, {"ok": true, "name": "Trust.md: all 5 charts rendered as '**Chart:**' text", "detail": "5 found"}, {"ok": true, "name": "Trust.md: chart summary carries the data", "detail": ""}, {"ok": true, "name": "no HTML tags at all (layout, embeds, links, emphasis, lists, quotes…) in 105 sidecars", "detail": ""}, {"ok": true, "name": "no undecoded HTML entities in sidecars", "detail": ""}, {"ok": true, "name": "no localhost links in sidecars", "detail": ""}, {"ok": true, "name": "embeds converted to 'Embedded …: <url>' lines", "detail": "23 embeds"}, {"ok": true, "name": "sidecar corpus size", "detail": "830,867 chars across 105 sidecars"}]}, {"name": "llms-full.txt", "checks": [{"ok": true, "name": "/llms-full.txt returns 200", "detail": "200 text/plain; charset=utf-8 831,782 chars"}, {"ok": true, "name": "is text/plain", "detail": "text/plain; charset=utf-8"}, {"ok": true, "name": "contains every sidecar linked from llms.txt", "detail": "105 docs vs 105 sidecar links"}, {"ok": true, "name": "posts ordered newest first", "detail": "87 dated posts"}, {"ok": true, "name": "no script/style/Liquid leaked", "detail": ""}, {"ok": true, "name": "em dashes are real characters, none left as entities", "detail": "906 dashes"}]}, {"name": "Agent skills", "checks": [{"ok": true, "name": "index.json returns 200 application/json", "detail": "200 application/json; charset=utf-8"}, {"ok": true, "name": "declares discovery schema 0.2.0", "detail": "https://schemas.agentskills.io/discovery/0.2.0/schema.json"}, {"ok": true, "name": "lists both skills", "detail": "['cite-abhi-nemani', 'govtech-market-sizing']"}, {"ok": true, "name": "cite-abhi-nemani: has type/description/url/digest", "detail": ""}, {"ok": true, "name": "cite-abhi-nemani: SKILL.md sha256 matches index digest", "detail": ""}, {"ok": true, "name": "cite-abhi-nemani: front matter name matches folder", "detail": ""}, {"ok": true, "name": "cite-abhi-nemani: description in index matches front matter", "detail": ""}, {"ok": true, "name": "cite-abhi-nemani: all 5 abhinemani.com links resolve", "detail": ""}, {"ok": true, "name": "govtech-market-sizing: has type/description/url/digest", "detail": ""}, {"ok": true, "name": "govtech-market-sizing: SKILL.md sha256 matches index digest", "detail": ""}, {"ok": true, "name": "govtech-market-sizing: front matter name matches folder", "detail": ""}, {"ok": true, "name": "govtech-market-sizing: description in index matches front matter", "detail": ""}, {"ok": true, "name": "govtech-market-sizing: all 3 abhinemani.com links resolve", "detail": ""}]}, {"name": "robots.txt & sitemaps", "checks": [{"ok": true, "name": "robots.txt 200", "detail": ""}, {"ok": true, "name": "allows GPTBot", "detail": ""}, {"ok": true, "name": "allows OAI-SearchBot", "detail": ""}, {"ok": true, "name": "allows ChatGPT-User", "detail": ""}, {"ok": true, "name": "allows ClaudeBot", "detail": ""}, {"ok": true, "name": "allows Claude-SearchBot", "detail": ""}, {"ok": true, "name": "allows Claude-User", "detail": ""}, {"ok": true, "name": "allows PerplexityBot", "detail": ""}, {"ok": true, "name": "allows Perplexity-User", "detail": ""}, {"ok": true, "name": "allows Google-Extended", "detail": ""}, {"ok": true, "name": "allows Applebot-Extended", "detail": ""}, {"ok": true, "name": "no Disallow rules", "detail": ""}, {"ok": true, "name": "lists sitemap.xml and sitemap-projects.xml", "detail": "['https://abhinemani.com/sitemap.xml', 'https://abhinemani.com/sitemap-projects.xml']"}, {"ok": true, "name": "sitemap.xml is valid XML", "detail": "177 URLs"}, {"ok": true, "name": "sitemap-projects.xml is valid XML", "detail": "1 URLs"}, {"ok": true, "name": "sitemap-projects lists /govtech-market/", "detail": ""}, {"ok": true, "name": "llms.txt not in sitemap (sitemap: false)", "detail": ""}]}, {"name": "Full sitemap crawl", "checks": [{"ok": true, "name": "every one of 151 pages has a .md sibling (200, text/markdown, '# ' heading)", "detail": ""}, {"ok": true, "name": "Accept: text/markdown returns Markdown on all 152 pages (govtech-market: 200 HTML)", "detail": ""}, {"ok": true, "name": "negotiated Markdown is identical to the .md sibling", "detail": ""}, {"ok": true, "name": "browser Accept still returns HTML on all 152 pages", "detail": ""}, {"ok": true, "name": "every Jekyll page advertises llms-txt and agent-skills in <head>", "detail": ""}, {"ok": true, "name": "<link rel=alternate type=text/markdown> resolves on all 105 pages that have one", "detail": ""}, {"ok": true, "name": "Vary: Accept on every HTML and Markdown response", "detail": ""}, {"ok": true, "name": "Link header (llms-txt, agent-skills) on every HTML and Markdown response", "detail": ""}]}, {"name": "Cloudflare negotiation edge cases", "checks": [{"ok": true, "name": "Accept 'text/markdown' -> Markdown", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "Accept 'TEXT/MARKDOWN' -> Markdown", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "Accept 'text/markdown, text/html;q=0.9' -> Markdown", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "Accept 'text/html;q=0.9, text/markdown' -> Markdown", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "Accept 'text/markdown;charset=utf-8' -> Markdown", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "Accept 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -> HTML", "detail": "200 text/html; charset=utf-8"}, {"ok": true, "name": "Accept '*/*' -> HTML", "detail": "200 text/html; charset=utf-8"}, {"ok": true, "name": "Accept None -> HTML", "detail": "200 text/html; charset=utf-8"}, {"ok": true, "name": "Accept 'application/json' -> HTML", "detail": "200 text/html; charset=utf-8"}, {"ok": true, "name": "query string kept on rewrite", "detail": "200"}, {"ok": true, "name": "HEAD with Accept: text/markdown", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "no-trailing-slash URL lands on Markdown after redirect", "detail": "200 text/markdown; charset=utf-8"}, {"ok": true, "name": "direct .md request not double-rewritten", "detail": "200"}, {"ok": true, "name": "missing page still 404s (no false 200)", "detail": "404"}, {"ok": true, "name": "/govtech-market/ excluded from rewrite: 200 HTML", "detail": "200 text/html; charset=utf-8"}, {"ok": true, "name": "/feed.xml unaffected by Accept: text/markdown", "detail": "200 application/xml"}, {"ok": true, "name": "/llms.txt unaffected by Accept: text/markdown", "detail": "200 text/plain; charset=utf-8"}, {"ok": true, "name": "/.well-known/agent-skills/index.json unaffected by Accept: text/markdown", "detail": "200 application/json; charset=utf-8"}, {"ok": true, "name": "/sitemap.xml unaffected by Accept: text/markdown", "detail": "200 application/xml"}, {"ok": true, "name": "no agent Link/Vary header on non-HTML /feed.xml", "detail": "application/xml"}, {"ok": true, "name": "no agent Link/Vary header on non-HTML /.well-known/agent-skills/index.json", "detail": "application/json; charset=utf-8"}, {"ok": true, "name": "no agent Link/Vary header on non-HTML /robots.txt", "detail": "text/plain; charset=utf-8"}, {"ok": true, "name": "Link header not duplicated", "detail": "['<\/llms.txt>; rel=\"llms-txt\", <\/.well-known/agent-skills/index.json>; rel=\"agent-skills\"']"}, {"ok": true, "name": "HTML still not cached at edge (no Vary/cache mixups)", "detail": "DYNAMIC"}, {"ok": true, "name": "Markdown not cached at edge", "detail": "DYNAMIC"}]}, {"name": "AI crawler access (no bot blocking)", "checks": [{"ok": true, "name": "GPTBot: llms.txt and Markdown page both 200", "detail": "200/200"}, {"ok": true, "name": "ClaudeBot: llms.txt and Markdown page both 200", "detail": "200/200"}, {"ok": true, "name": "Claude-User: llms.txt and Markdown page both 200", "detail": "200/200"}, {"ok": true, "name": "PerplexityBot: llms.txt and Markdown page both 200", "detail": "200/200"}, {"ok": true, "name": "ChatGPT-User: llms.txt and Markdown page both 200", "detail": "200/200"}]}]}</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const kb = n => n >= 1e6 ? (n / 1e6).toFixed(2) + ' MB' : n >= 1000 ? (n / 1000).toFixed(1) + ' KB' : n + ' B';
+
+// Light syntax colouring for Markdown / text bodies.
+function colour(text) {
+  return esc(text).split('\n').map(l => {
+    if (/^#{1,6} /.test(l)) return `<span class="h">${l}</span>`;
+    if (/^(URL|Published|Author|Tags):/.test(l)) return `<span class="k">${l}</span>`;
+    if (/^&gt; /.test(l) || /^&gt;$/.test(l)) return `<span class="d">${l}</span>`;
+    if (/^(User-agent|Allow|Sitemap):/.test(l)) return l.replace(/^([\w-]+:)/, '<span class="h">$1</span>');
+    if (/^\s*#/.test(l) || /^…/.test(l) || /^\s*… /.test(l)) return `<span class="d">${l}</span>`;
+    if (/^---$/.test(l)) return `<span class="d">${l}</span>`;
+    return l.replace(/\*\*Chart:([^*]+)\*\*/g, '<span class="k">**Chart:$1**</span>');
+  }).join('\n');
+}
+function colourHtml(text) {
+  return esc(text)
+    .replace(/(&lt;link rel="(?:alternate|llms-txt|agent-skills)"[^\n]*)/g, '<span class="k">$1</span>')
+    .replace(/(… [^\n]*…)/g, '<span class="d">$1</span>');
+}
+
+// ---------- Scorecard
+const score = $('#score');
+const allChecks = D.report.flatMap(g => g.checks), passCount = allChecks.filter(c => c.ok).length;
+if ($('#stat-checks')) $('#stat-checks').textContent = `${passCount}/${allChecks.length}`;
+$('#big-pass').textContent = passCount; $('#big-total').textContent = allChecks.length;
+const plain = { 'AI crawler access (no bot blocking)': 'AI crawlers get through', 'Cloudflare negotiation edge cases': 'Cloudflare edge cases', 'Full sitemap crawl': 'Every page, three ways', 'robots.txt & sitemaps': 'robots.txt and sitemaps', 'Markdown sidecars': 'Markdown quality' };
+D.report.forEach((g, gi) => {
+  const ok = g.checks.filter(c => c.ok).length;
+  const el = document.createElement('div');
+  el.className = 'grp'; el.dataset.open = 'false';
+  const id = 'grp-' + gi;
+  el.innerHTML = `<button aria-expanded="false" aria-controls="${id}"><span class="gn">${esc(plain[g.name] || g.name)}</span><span class="gbar">${g.checks.map(c => `<i class="${c.ok ? '' : 'f'}"></i>`).join('')}</span><span class="gc">${ok}/${g.checks.length}</span><span class="chev" aria-hidden="true">›</span></button><ul id="${id}" hidden>${g.checks.map(c => `<li><span class="tick">${c.ok ? '✓' : '✗'}</span><span>${esc(c.name)}${c.detail ? `<span class="det">${esc(c.detail)}</span>` : ''}</span></li>`).join('')}</ul>`;
+  const btn = el.querySelector('button');
+  btn.addEventListener('click', () => {
+    const open = el.dataset.open !== 'true';
+    el.dataset.open = open; btn.setAttribute('aria-expanded', open); el.querySelector('ul').hidden = !open;
+  });
+  score.appendChild(el);
+});
+
+
+})();
+</script>
+<script>
+(() => {
+  const send = () => parent.postMessage({ type: 'resize', height: Math.ceil(document.querySelector('.wrap').getBoundingClientRect().height + 4), embed: 'agent-scorecard' }, '*');
+  new ResizeObserver(send).observe(document.body);
+  addEventListener('load', send);
+})();
+</script>
+</body>
+</html>
