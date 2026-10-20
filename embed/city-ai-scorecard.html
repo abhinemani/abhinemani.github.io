@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>How AI-ready are America's five largest city websites?</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --fg: #19202c; --muted: #5a6476; --rule: #dde2ea; --sunk: #f3f5f8;
+  --pass: #0f7a55; --pass-bg: #dff3ea; --part: #8a5a00; --part-bg: #fbefd6; --fail: #b3261e; --fail-bg: #fbe3e1; --unk: #5a6476; --unk-bg: #eceff4;
+  --display: "Instrument Serif", Georgia, serif; --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; }
+html, body { height: auto; }
+body { background: #fff; color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.45; }
+.wrap { padding: 4px 2px 8px; display: grid; gap: 12px; }
+.scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 12px; }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { padding: 9px 10px; border-bottom: 1px solid var(--rule); text-align: center; }
+thead th { font-family: var(--mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--sunk); position: sticky; top: 0; }
+thead th:first-child, tbody th { text-align: left; }
+tbody th { font-weight: 400; font-size: 14.5px; }
+tbody th small { display: block; color: var(--muted); font-size: 12px; }
+tr.allfail th { color: var(--fail); }
+tr.allfail th small { color: var(--muted); }
+.c { display: inline-grid; place-items: center; width: 30px; height: 26px; border-radius: 7px; font-weight: 600; font-size: 14px; }
+.p { background: var(--pass-bg); color: var(--pass); }
+.h { background: var(--part-bg); color: var(--part); }
+.f { background: var(--fail-bg); color: var(--fail); }
+.u { background: var(--unk-bg); color: var(--unk); }
+tfoot td, tfoot th { border-bottom: 0; padding-top: 12px; padding-bottom: 12px; }
+tfoot th { font-weight: 600; text-align: left; }
+.score { font-family: var(--display); font-size: 30px; line-height: 1; }
+.bar { height: 6px; background: var(--sunk); border-radius: 9px; margin: 6px auto 0; width: 56px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--fg); border-radius: 9px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend .c { width: 22px; height: 20px; font-size: 12px; }
+.cap { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="scroll">
+    <table>
+      <thead><tr><th>What an AI agent checks</th><th>NYC</th><th>LA</th><th>CHI</th><th>HOU</th><th>PHX</th></tr></thead>
+      <tbody id="rows"></tbody>
+      <tfoot><tr id="totals"><th>Score, of 12</th></tr></tfoot>
+    </table>
+  </div>
+  <div class="legend">
+    <span><i class="c p">✓</i>Pass</span><span><i class="c h">~</i>Partial</span><span><i class="c f">✗</i>Fail</span><span><i class="c u">?</i>Blocked, couldn't check</span>
+    <span style="margin-left:auto">Rows in red: every city fails.</span>
+  </div>
+  <div class="cap">Tested October 20, 2026. A one-day snapshot; checks weighted equally.</div>
+</div>
+<script>
+(() => {
+  // p = pass, h = partial, f = fail, u = unknown (blocked)
+  const ROWS = [
+    ['Has robots.txt', 'the rules file crawlers read first', 'ppffp'],
+    ['Names AI crawlers', 'a deliberate choice about AI', 'fffff'],
+    ['Lists its sitemap in robots.txt', '', 'ffufp'],
+    ['Working sitemap.xml', 'a map of every page', 'ppffp'],
+    ['Has llms.txt', 'a guide written for AI', 'fffff'],
+    ['Homepage reachable by an agent', '', 'ppfpp'],
+    ['Text readable without JavaScript', '', 'pphph'],
+    ['Meta description', '', 'ppfhf'],
+    ['Open Graph tags', 'how the page previews when shared', 'fpffp'],
+    ['Structured data (schema.org)', 'says "this is the official city government"', 'fffff'],
+    ['Open data linked from the homepage', '', 'ffupp'],
+    ['No stale or broken content', '', 'ppfff'],
+  ];
+  const SYM = { p: '✓', h: '~', f: '✗', u: '?' };
+  const VAL = { p: 1, h: 0.5, f: 0, u: 0 };
+  const LABEL = { p: 'pass', h: 'partial', f: 'fail', u: 'blocked' };
+  const cities = ['NYC', 'LA', 'CHI', 'HOU', 'PHX'];
+  const totals = [0, 0, 0, 0, 0];
+  const tb = document.getElementById('rows');
+  ROWS.forEach(([name, note, marks]) => {
+    const tr = document.createElement('tr');
+    if (marks === 'fffff') tr.className = 'allfail';
+    tr.innerHTML = `<th>${name}${note ? `<small>${note}</small>` : ''}</th>` + [...marks].map((m, i) => { totals[i] += VAL[m]; return `<td><span class="c ${m}" aria-label="${cities[i]}: ${LABEL[m]}">${SYM[m]}</span></td>`; }).join('');
+    tb.appendChild(tr);
+  });
+  document.getElementById('totals').insertAdjacentHTML('beforeend', totals.map(t => `<td><div class="score">${t % 1 ? t.toFixed(1) : t}</div><div class="bar"><i style="width:${t / 12 * 100}%"></i></div></td>`).join(''));
+})();
+</script>
+<script>
+(() => {
+  const send = () => parent.postMessage({ type: 'resize', height: Math.ceil(document.querySelector('.wrap').getBoundingClientRect().height + 4), embed: 'city-ai-scorecard' }, '*');
+  new ResizeObserver(send).observe(document.body);
+  addEventListener('load', send);
+})();
+</script>
+</body>
+</html>
