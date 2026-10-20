@@ -1,8 +1,8 @@
 ---
 published: false
 layout: single
-title: Making my site readable by AI
-subhead: My writing now has two audiences, the people who read it and the AI systems that read it on their behalf. Here's how I rebuilt my site for both, and what I learned along the way.
+title: Be bot friendly
+subhead: As an experiment, I spent some time optimizing my own site for AI. Here's how, and what I learned.
 categories:
   - Blog
 tags:
