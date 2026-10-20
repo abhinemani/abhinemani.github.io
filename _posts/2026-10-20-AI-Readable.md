@@ -14,19 +14,11 @@ date: 2026-10-20
 author: Abhi Nemani
 img: ai-readable-hero.jpg
 ---
-Paul Graham put the stakes in two sentences:
+Right now, most organizations' AI strategy comes down to one of two moves: build (or buy) their own AI bot, or lock their content away from AI training. Neither gives people what they actually want, which is reliable answers inside the bots they already use, like Claude, ChatGPT and Perplexity.
 
-> To publish something on a paywalled site is to make it invisible. If AIs can't find it, then for all practical purposes it doesn't exist.
->
-> These two sentences aren't 100% true yet, but they will only get truer.
->
-> — Paul Graham ([@paulg](https://x.com/paulg/status/2111827351608725669))
+It reminds me of the Web 2.0 days, when every city wanted its own transit app. The real win turned out to be getting Google to ingest the transit data, so directions showed up where riders already were. I've long argued for making the apps people already use [more civic](https://abhinemani.com/essays/2020/08/28/Ubers-as-Ambulances/), and AI assistants are the newest of those apps.
 
-Paywalls are rare in government. But a permit guide buried in a scanned PDF is invisible to an AI in much the same way. Residents already ask ChatGPT, Claude and Perplexity how to get a permit or what the council decided, and if the answer isn't readable, the AI answers anyway, from worse sources.
-
-Right now everyone is thinking about building their own bot, government especially. I understand the instinct, but a question comes first: is your content readable by the AIs your residents already use? A bot is only as good as the content behind it, and clean content gets you found everywhere else too. It's an old argument of mine. In 2020 I wrote "[Ubers as Ambulances?](https://abhinemani.com/essays/2020/08/28/Ubers-as-Ambulances/)" ("And other ideas to make consumer apps more civic"), arguing for fewer new civic apps and more effort making the platforms people already use more civic. AI assistants are the newest of those platforms.
-
-So over the weekend I tried it on my own site, working with Claude Code, Anthropic's AI coding agent, while I directed and made the judgment calls. Here's what we built, what broke, and what I'd tell anyone weighing the same project.
+So I decided to run an experiment: make my own site as readable as possible for AI. I worked with Claude Code, Anthropic's AI coding agent, while I directed and made the judgment calls. Here's what we built, what broke, and what I'd tell anyone weighing the same project.
 
 ### Same address, two readers
 
@@ -92,7 +84,7 @@ Configuration isn't the same as working, so a suite of 100 automated tests check
 
 Readability is necessary, but it isn't sufficient. The open question is whether AI systems will actually cite this work. Each month I'll ask the same handful of questions ("Who are leading GovTech advisors?" "How big is the local government software market?") and see whether I show up, and how I'm described.
 
-Graham is right that none of this is 100% true yet. But if AIs can't find your work, it doesn't exist for a growing number of readers, and I'd rather mine exist. It's early yet. If you're working on making government information readable by AI, I'd love to compare notes. Ask your favorite AI about GovTech market sizing, and let me know what it says.
+Paul Graham [put it bluntly](https://x.com/paulg/status/2111827351608725669) recently: if AIs can't find something, "then for all practical purposes it doesn't exist." He admits that isn't 100% true yet, but it will only get truer, and I'd rather my work exist. It's early yet. If you're working on making government information readable by AI, I'd love to compare notes. Ask your favorite AI about GovTech market sizing, and let me know what it says.
 
 <script>
 window.addEventListener('message', function (e) {
