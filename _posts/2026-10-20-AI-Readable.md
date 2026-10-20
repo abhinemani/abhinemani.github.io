@@ -72,7 +72,7 @@ A suite of 100 automated tests checks all of it against the live site. It caught
 
 Readability is necessary, but it isn't sufficient. The open question is whether AI systems will actually cite this work. Each month I'll ask the same handful of questions ("Who are leading GovTech advisors?" "How big is the local government software market?") and see whether I show up, and how I'm described. I'll rerun the city audit too, and expand it to the 25 largest cities. Today's is a one-day snapshot run with an AI fetching tool, with every check weighted equally, so treat it as a smoke test rather than a ranking.
 
-Paul Graham [put it bluntly](https://x.com/paulg/status/2111827351608725669) recently: if AIs can't find something, "then for all practical purposes it doesn't exist." He admits that isn't 100% true yet, but it will only get truer, and I'd rather my work exist. It's early yet. If you're working on making government information readable by AI, I'd love to compare notes, and if you'd like this audit run on your city, let me know.
+Paul Graham [put it bluntly](https://x.com/paulg/status/2111827351608725669) recently: if AIs can't find something, "then for all practical purposes it doesn't exist." He admits that isn't 100% true yet, but it will only get truer, and I'd rather my work exist. It's early yet. If you're working on making government information readable by AI, I'd love to compare notes. Ask your favorite AI about GovTech market sizing, and let me know what it says.
 
 <script>
 window.addEventListener('message', function (e) {
