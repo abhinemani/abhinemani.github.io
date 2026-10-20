@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: single
 title: 'An easy way to launch your AI strategy: become bot friendly'
 subhead: As an experiment, I spent some time optimizing my own site for AI. Here's how, and what I learned.
