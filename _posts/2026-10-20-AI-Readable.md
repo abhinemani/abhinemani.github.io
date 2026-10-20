@@ -12,111 +12,87 @@ tags:
 pubdate: 'October 20, 2026'
 date: 2026-10-20
 author: Abhi Nemani
-img: ai-readable-two-readers.png
+img: ai-readable-hero.jpg
 ---
-My website now has two audiences: the people who read it, and the AI systems that increasingly read it on their behalf.
+Paul Graham put the stakes in two sentences:
 
-When someone asks ChatGPT, Claude or Perplexity how cities buy technology, or how big the local government software market is, those tools go looking for sources. For over a decade I've written about exactly those questions. If an AI can't read that work cleanly, it either skips it or gets it wrong.
+> To publish something on a paywalled site is to make it invisible. If AIs can't find it, then for all practical purposes it doesn't exist.
+>
+> These two sentences aren't 100% true yet, but they will only get truer.
+>
+> — Paul Graham ([@paulg](https://x.com/paulg/status/2111827351608725669))
 
-So last week I spent an evening making abhinemani.com genuinely readable by AI. I did it with an AI coding agent working alongside me, which felt fitting. Here's what we built, what broke along the way, and what I'd tell any public-sector leader or GovTech founder thinking about the same thing.
+Paywalls are rare in government. But a permit guide buried in a scanned PDF is invisible to an AI in much the same way. Residents already ask ChatGPT, Claude and Perplexity how to get a permit or what the council decided, and if the answer isn't readable, the AI answers anyway, from worse sources.
+
+Right now everyone is thinking about building their own bot, government especially. I understand the instinct, but a question comes first: is your content readable by the AIs your residents already use? A bot is only as good as the content behind it, and clean content gets you found everywhere else too. It's an old argument of mine. In 2020 I wrote "[Ubers as Ambulances?](https://abhinemani.com/essays/2020/08/28/Ubers-as-Ambulances/)" ("And other ideas to make consumer apps more civic"), arguing for fewer new civic apps and more effort making the platforms people already use more civic. AI assistants are the newest of those platforms.
+
+So over the weekend I tried it on my own site, working with Claude Code, Anthropic's AI coding agent, while I directed and made the judgment calls. Here's what we built, what broke, and what I'd tell anyone weighing the same project.
 
 ### Same address, two readers
 
-The core idea is simple: a person and an AI agent can visit the same page and each get the version built for them. Try it below. Flip between a person and an AI agent to see what each one actually receives when they ask for my recent essay on declining trust in local government.
+The core idea is simple: a person and an AI agent can ask for the same page and each get the version built for them. Flip between them below to see what each receives for my recent essay on declining trust in local government.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-two-readers.html" title="Same address, two readers" width="100%" height="800" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
-A person gets the designed page, with navigation, typography and interactive charts. An agent doesn't need any of that. It needs clean text, a title, a date and a link it can cite. Wrapping that text in 40 KB of styling and scripts just adds noise and cost.
+People get the designed page. An agent needs clean text, a title, a date and a link it can cite, not 40 KB of styling and scripts. Every browser and AI agent announces the format it prefers, and a growing number of agents now ask for Markdown, a plain-text format language models read easily. So I set up three small rules at Cloudflare, which sits in front of my site: two serve a page's Markdown copy at the same address when asked, and one adds headers pointing agents to my site guide and skills. Browsers see no difference. Agents get pages that are, on average, **77% smaller**. The trust essay goes from about 40 KB to 7.4 KB, every word intact. (N.B. Cloudflare sells a one-click version of this on a paid plan. Three rules on the free one did the job.)
 
-Web browsers and AI agents announce what format they prefer. Agents increasingly ask for Markdown, a plain-text format that language models read easily. So I set up two small rules at Cloudflare, which sits in front of my site:
+![Same address, two readers: a person gets the designed page, an AI agent gets clean Markdown, 82% smaller](/img/ai-readable-two-readers.png)
 
-- When a request asks for Markdown, Cloudflare quietly serves the page's Markdown copy at the very same address.
-- Every response now carries a header pointing agents to my site guide and my agent skills, before they parse a single line.
-
-Browsers see no difference. Agents get a page that is, on average, **77% smaller** than the HTML. The trust essay goes from 40.1 KB to 7.4 KB, with every word intact.
-
-You can poke at the rules yourself. Pick a page and the kind of request a client sends, and you'll see the real response my site returned, along with which rule made it happen. Try the GovTech calculator or a page that doesn't exist: the rules leave both alone, so nothing ever breaks.
+Poke at it yourself. Pick a page and a request type, and you'll see the real response my site returned.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-request-playground.html" title="Send a request to abhinemani.com" width="100%" height="620" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
-### The blog and the Public Innovation Academy
+### The essays, research and tools
 
-Most of the work went into the writing itself: more than a decade of essays, plus the [Public Innovation Academy](https://abhinemani.com/academy/)'s free guides to how local government buys and builds technology.
+Most of the work went into the writing itself: more than a decade of essays, plus [my research, lectures and tools for the GovTech field](https://abhinemani.com/academy/).
 
-**A map for AI.** I added an [llms.txt](https://abhinemani.com/llms.txt) file, an emerging convention that acts as a front door for AI. It gives a short bio, guidance on how to attribute my work, and an index of 111 links: every essay, Academy lesson and portfolio case study, each with a one-line summary. It also asks AI systems to check an essay's date before describing my current role, since my title in 2014 isn't my title today.
+**A welcome mat and a map.** My robots.txt now names 13 AI crawlers outright. An [llms.txt](https://abhinemani.com/llms.txt) file, an emerging convention, acts as a front door: a short bio, how to attribute my work, and 111 links to every essay, lesson and case study, each with a one-line summary.
 
-**A clean copy of every page.** Every essay, lesson and case study now has a Markdown twin with the title, canonical URL, date and tags at the top. That's 105 full-text pages. Even the 46 pages with no article text, like press clippings, return a short summary instead of an error. For agents that want everything at once, [llms-full.txt](https://abhinemani.com/llms-full.txt) holds the whole archive in a single file.
+**A clean copy of every page.** All 105 full-text pages now have a Markdown twin, and even pages with no article text return a short summary instead of an error. For agents that want everything at once, [llms-full.txt](https://abhinemani.com/llms-full.txt) holds the whole archive in a single file.
 
-**Charts as sentences.** Several recent essays use interactive charts drawn by JavaScript, which most agents can't run. My first pass left the chart's raw code in the Markdown, more than half of the trust essay's file. Now each chart arrives as one sentence carrying its data. Flip the card to compare.
+**Charts as sentences.** Most agents can't run the JavaScript behind my interactive charts. My first pass left raw chart code in the Markdown, more than half of the trust essay's file. Now each chart arrives as one sentence carrying its data: trust in local government fell 13 points, from 54% to 41%, with the source attached. Flip the card to compare.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=charts" title="Charts as sentences: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
-**Cleaning up the archive.** My older posts came over from Medium years ago, carrying stray HTML, embedded tweets and coded punctuation. All of it is now plain text: links, quotes and all 906 em dashes. Yes, I counted. Readers on the site see no change, but an agent now gets a tweet as a clean quote instead of a block of markup.
-
-<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=tweets" title="Embedded tweets: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
-
 ### The calculator and two agent skills
 
-This is the part I'm most excited about. Being *readable* is table stakes. The next step is being *usable*: teaching an AI how to do something the way I would.
+This is the part I'm most excited about. Being *readable* is table stakes. The next step is being *usable*: teaching an AI to do something the way I would. "Agent skills" are short instruction files an AI can load when a task calls for them. I published two, each with a checksum so an agent can confirm it hasn't been altered.
 
-"Agent skills" are short instruction files an AI can load when a task calls for them. I published two at a [standard discovery address](https://abhinemani.com/.well-known/agent-skills/index.json), each with a checksum so an agent can confirm it hasn't been altered.
+[**GovTech market sizing**](https://abhinemani.com/.well-known/agent-skills/govtech-market-sizing/SKILL.md) replaces the usual top-down guess from total public spending with my bottom-up method: size the market by jurisdiction tier, using real counts of governments, tiered pricing and realistic adoption. It points to my [GovTech TAM/SAM calculator](https://abhinemani.com/govtech-market/), built on 2022 Census of Governments finance data. [**Citing my work**](https://abhinemani.com/.well-known/agent-skills/cite-abhi-nemani/SKILL.md) tells an AI how to quote me faithfully, never to invent a quote, and to describe my role as of an essay's date, so a 2015 piece is credited to LA's Chief Data Officer, not whatever my title is today.
 
-![Two agent skills: GovTech market sizing, which sizes the local government market bottom-up and links to the TAM/SAM calculator, and citing my work, which covers attribution and my roles by date](/img/ai-readable-agent-skills.png)
-
-**GovTech market sizing.** Founders and investors constantly ask how big the local government market really is for their product. Too often the answer is a top-down guess from total public spending. [This skill](https://abhinemani.com/.well-known/agent-skills/govtech-market-sizing/SKILL.md) teaches an AI my bottom-up method instead: size the market by jurisdiction tier, using real counts of governments, tiered pricing and realistic adoption rates. It points to my [GovTech TAM/SAM calculator](https://abhinemani.com/govtech-market/), which does the math for every U.S. local government using 2022 Census of Governments finance data. The calculator now also appears in my site guide and sitemap, so agents can find it.
-
-**Citing my work.** [The second skill](https://abhinemani.com/.well-known/agent-skills/cite-abhi-nemani/SKILL.md) tells an AI how to quote and summarize me faithfully: where to find the clean text, how to attribute it, and never to invent a quote. It also lists my roles by date, from Code for America to Los Angeles, Sacramento and Euna Solutions. That way a 2015 essay gets described as written by LA's Chief Data Officer, not by whatever my title is today.
-
-My hope is that the next time someone asks an AI to size a GovTech market, it reaches for a method built on real data rather than a guess.
-
-Put together, here's the path an AI agent now takes through the site, from checking whether it's welcome to reading the whole archive. Step through it to see the real file at each stop.
+Here's the path an agent now takes through the site, from checking whether it's welcome to reading the whole archive. Step through it to see the real file at each stop.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-crawler-route.html" title="How an AI agent finds its way" width="100%" height="800" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
 ### Saying clearly who I am
 
-Once the plumbing worked, I asked a different AI, ChatGPT, to review the site cold. Its verdict was "very AI-friendly." It also caught something I'd missed entirely: my site described me four different ways.
+I asked ChatGPT to review the site cold. Its verdict was "very AI-friendly," and it caught something I'd missed: my site described me four different ways. The homepage, the About page, my structured data and my CV each had their own version, and an AI stitching them together got four answers. Now one sentence leads everywhere, and my homepage, which had no main headline in its code, finally has one that starts with my name:
 
-The homepage called me "a leader in Government Technology for over a decade." The About page said "I help leaders, investors and companies build GovTech that scales." My structured data said "Founder, GovTech Consultant, Advisor & Investor." My CV said "Civic technology executive." None of those is wrong, but an AI stitching together a description of me gets four answers.
-
-Now one sentence leads everywhere a search engine or AI looks: the meta descriptions, the structured data, link previews, the site guide and the CV.
+> Abhi Nemani is a GovTech and finance entrepreneur, advisor and scholar with more than 15 years building technology and scaling innovation for the public sector.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=bio" title="One bio: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
-The review also noticed that my homepage had no main headline in its code. The big tagline was styled to look like one, but technically it wasn't. The page looks exactly the same today, but its top-level heading now starts with my name.
-
-<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=h1" title="Homepage headline: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
+ChatGPT also offered a fair caveat: files like llms.txt and agent skills are "useful experiments," and ordinary, crawlable HTML still matters most.
 
 ### Testing it like it matters
 
-Configuration isn't the same as working. So everything gets checked against the live site by a suite of 100 automated tests, now saved in the site's code so I can rerun it anytime.
-
-The tests fetch every page in my sitemap three ways: as a browser, as an AI asking for Markdown, and directly as its Markdown copy. They confirm the major AI crawlers, from OpenAI, Anthropic and Perplexity, get through without being blocked. They also try to trip up the Cloudflare rules, for example by making sure a missing page still returns an honest error instead of an invented one.
-
-Testing paid off. Looking at what an agent actually received surfaced problems no checklist would have:
-
-- Half of one essay's Markdown was leftover chart code.
-- Embedded tweets arrived as raw HTML.
-- Four links in two posts pointed nowhere.
-- One of the AI agent's own fixes briefly stripped the address from every link. The comparison caught it before it shipped.
-
-All of those are fixed. Today the site passes all 100 checks. Open any group to see what it covers.
+Configuration isn't the same as working, so a suite of 100 automated tests checks the live site the way a browser, an AI agent and a crawler would see it. Looking at what an agent actually received surfaced problems no checklist would have: four links that pointed nowhere, and one of the AI's own fixes briefly stripping the address from every link. A before-and-after comparison caught that before it shipped. Humbling, and exactly the point. Today the site passes all 100 checks.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-scorecard.html" title="Every check, against the live site" width="100%" height="670" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
 ### What I'd tell public-sector leaders and GovTech founders
 
-**Your next reader may not be a person.** Residents already ask AI tools how to get a permit, where to pay a bill or what a council decided. If a city's information is buried in PDFs and JavaScript, AI will answer anyway, from worse sources.
+**Before you build a bot, make your content readable.** A chatbot answers from what it can read, and so does every other AI your residents already use. (None of this is a knock on the clerks and webmasters working with the tools and procurement rules they were handed. It's a reason to give them better ones.)
 
-**Readable comes first.** Clean text, clear headings, dates and canonical links matter more than any AI-specific file. Most of this work is good web hygiene with a new reason to care.
+**Readable comes first, then usable.** Clean text, clear headings, dates and canonical links matter more than any AI-specific file. After that, a procurement office could publish a skill for its bidding process, or a city one for its permits. You aren't only being found, you're shaping how the work gets done.
 
-**Then make your expertise usable.** Agent skills are early, but the idea is powerful. A procurement office could publish a skill for its bidding process. A GovTech company could publish one for its integrations. You aren't only being found, you're shaping how the work gets done.
+**Say who you are, once, and verify.** Pick one description and use it everywhere. Then test what a bot actually receives, because real problems hid in pages that looked fine.
 
-**Say who you are, once.** Pick one clear description of your organization or yourself, and use it everywhere.
+### What I don't know yet
 
-**Verify, don't assume.** Test what a bot actually receives. We found real problems that looked fine on paper.
+Readability is necessary, but it isn't sufficient. The open question is whether AI systems will actually cite this work. Each month I'll ask the same handful of questions ("Who are leading GovTech advisors?" "How big is the local government software market?") and see whether I show up, and how I'm described.
 
-The open question is whether AI systems will actually cite this work. That's what I'll be watching next. In the meantime, if you're working on making government information readable by AI, I'd love to compare notes. Ask your favorite AI about GovTech market sizing, and let me know what it says.
+Graham is right that none of this is 100% true yet. But if AIs can't find your work, it doesn't exist for a growing number of readers, and I'd rather mine exist. It's early yet. If you're working on making government information readable by AI, I'd love to compare notes. Ask your favorite AI about GovTech market sizing, and let me know what it says.
 
 <script>
 window.addEventListener('message', function (e) {
