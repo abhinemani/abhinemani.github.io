@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: How cities can design for, not against, AI
+title: What Happens When AI Visits City Hall?
 subhead: Experiments in getting civic information into people's hands
 categories:
   - Blog
