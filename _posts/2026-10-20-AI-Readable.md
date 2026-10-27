@@ -48,13 +48,27 @@ To see what readable *by design* takes, I spent a weekend on my own site with Cl
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-two-readers.html" title="Same address, two readers" width="100%" height="800" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
-**A welcome mat and a map.** My robots.txt names 13 AI crawlers outright, and an [llms.txt](https://abhinemani.com/llms.txt) file acts as a front door: a short bio, how to attribute my work, and 111 links to every essay, lesson and case study. All 105 full-text pages have a clean Markdown twin, and interactive charts now arrive as sentences carrying their data.
+**A welcome mat and a map.** My robots.txt names 13 AI crawlers outright, and an [llms.txt](https://abhinemani.com/llms.txt) file acts as a front door: a short bio, how to attribute my work, and 111 links to every essay, lesson and case study. All 105 full-text pages have a clean Markdown twin, and interactive charts now arrive as sentences carrying their data. Flip the card to compare, then step through the path an agent takes, from checking whether it's welcome to reading the whole archive.
+
+<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=charts" title="Charts as sentences: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
+
+<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-crawler-route.html" title="How an AI agent finds its way" width="100%" height="800" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
 **Usable, not just readable.** I published two "agent skills," short instruction files an AI loads when a task calls for them. [One](https://abhinemani.com/.well-known/agent-skills/govtech-market-sizing/SKILL.md) teaches my bottom-up method for sizing the GovTech market and points to my [TAM/SAM calculator](https://abhinemani.com/govtech-market/), built on 2022 Census of Governments finance data. [The other](https://abhinemani.com/.well-known/agent-skills/cite-abhi-nemani/SKILL.md) tells an AI how to quote me faithfully and describe my role as of an essay's date, which is the same stale-truth problem as Chicago's 2018 page, at personal scale.
 
+![Two agent skills: GovTech market sizing, which sizes the local government market bottom-up and links to the TAM/SAM calculator, and citing my work, which covers attribution and my roles by date](/img/ai-readable-agent-skills.png)
+
 **One clear identity.** Asked to review the site cold, ChatGPT called it "very AI-friendly," but caught that my site described me four different ways. Now one sentence leads everywhere, and my homepage finally has a main headline that starts with my name.
 
-A suite of 100 automated tests checks all of it against the live site. It caught real problems, including one of the AI's own fixes briefly stripping the address from every link. If you want to dig in, you can [send requests to my site](https://abhinemani.com/embed/agent-request-playground.html), [follow an agent's path](https://abhinemani.com/embed/agent-crawler-route.html) or [see every check](https://abhinemani.com/embed/agent-scorecard.html).
+<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=bio" title="One bio: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
+
+A suite of 100 automated tests checks all of it against the live site. It caught real problems, including one of the AI's own fixes briefly stripping the address from every link. Today the site passes all 100 checks.
+
+<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-scorecard.html" title="Every check, against the live site" width="100%" height="670" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
+
+Poke at it yourself. Pick a page and a request type, and you'll see the real response my site returned.
+
+<iframe class="agent-embed" src="https://abhinemani.com/embed/agent-request-playground.html" title="Send a request to abhinemani.com" width="100%" height="620" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
 ### What I'd tell public-sector leaders and GovTech founders
 
