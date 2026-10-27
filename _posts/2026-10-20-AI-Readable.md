@@ -62,7 +62,11 @@ To see what readable *by design* takes, I spent a weekend on my own site with Cl
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-before-after.html?card=bio" title="One bio: before and after" width="100%" height="480" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
-A suite of 100 automated tests checks all of it against the live site. It caught real problems, including one of the AI's own fixes briefly stripping the address from every link. Today the site passes all 100 checks.
+**Testing it like it matters.** Configuration isn't the same as working. A rule can look right in a settings panel and still hand an agent the wrong page, and you'd never notice, because you only ever visit your own site as a person. So a suite of 100 automated tests, saved in the site's code so I can rerun it anytime, checks everything against the live site. It fetches every page in my sitemap three ways (as a browser, as an AI asking for Markdown, and directly as its Markdown copy) and confirms they agree. It knocks on the door as the major AI crawlers from OpenAI, Anthropic and Perplexity to make sure none is turned away. And it tries to trip up the Cloudflare rules, for example by making sure a missing page still returns an honest error instead of an invented one.
+
+Looking at what an agent actually received surfaced problems no checklist would have. More than half of one essay's Markdown was leftover chart code, four links pointed nowhere, and one of the AI's own fixes briefly stripped the address from every link. A before-and-after comparison caught that last one before it shipped. Humbling, and exactly the point. Today the site passes all 100 checks.
+
+This is the step most organizations skip, and it's the one that matters most for cities. Phoenix's pages look fine to a person and say "Loading…" to a machine. Chicago's block probably began as a sensible firewall rule. Nobody caught either because nobody looked at the site the way an agent does. Tests are how you look, every time something changes, instead of hearing about it from a resident whose chatbot got the answer wrong.
 
 <iframe class="agent-embed" src="https://abhinemani.com/embed/agent-scorecard.html" title="Every check, against the live site" width="100%" height="670" loading="lazy" style="border: none; display: block; margin: 20px auto;"></iframe>
 
