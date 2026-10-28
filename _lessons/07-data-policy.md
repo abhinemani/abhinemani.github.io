@@ -7,7 +7,9 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 7
-permalink: /academy/data-policy/
+permalink: /resources/data-policy/
+redirect_from:
+  - /academy/data-policy/
 tags: 
  - government
  - policy

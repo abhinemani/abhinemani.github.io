@@ -7,7 +7,9 @@ pubdate: Septmeber 2023
 img: pia-header.png
 pubdate: Updated 2021
 number: 4
-permalink: /academy/dashboards/
+permalink: /resources/dashboards/
+redirect_from:
+  - /academy/dashboards/
 tags: 
  - market
  - data

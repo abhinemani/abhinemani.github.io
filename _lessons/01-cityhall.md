@@ -7,7 +7,9 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 8
-permalink: /academy/city-hall/
+permalink: /resources/city-hall/
+redirect_from:
+  - /academy/city-hall/
 tags: 
  - startups
  - government

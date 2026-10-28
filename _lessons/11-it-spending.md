@@ -7,7 +7,9 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 3
-permalink: /academy/it-spending/
+permalink: /resources/it-spending/
+redirect_from:
+  - /academy/it-spending/
 tags: 
  - data
  - market

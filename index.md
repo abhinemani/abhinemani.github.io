@@ -32,7 +32,7 @@ img: main-social.jpg
 					<a class="btn" href="/contact/"  onclick="gtag('event', 'About', {
   'event_category': 'button',
   'event_label': 'home'});"><span>Get in Touch</span></a>	
-					<a href="/academy/" class="btn border-btn" onclick="gtag('event', 'Academy', {
+					<a href="/resources/" class="btn border-btn" onclick="gtag('event', 'Academy', {
   'event_category': 'button',
   'event_label': 'home'});"><span>GovTech Toolkit</span></a>				 
 				</div>
@@ -71,7 +71,7 @@ img: main-social.jpg
 							</span>
 						</div>
 						<div class="accordion-item-content">
-							<p>Based on the experience of 15+ years leading and teaching the government technology field, Nemani <a href="/academy/" style="font-weight: bold;">publishes best practices</a>, with guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
+							<p>Based on the experience of 15+ years leading and teaching the government technology field, Nemani <a href="/resources/" style="font-weight: bold;">publishes best practices</a>, with guides and resources for anyone, anywhere getting started or getting to scale, working in public innovation.
 							<br></p>
 						</div>
 					</div>

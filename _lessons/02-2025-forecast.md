@@ -7,7 +7,9 @@ pubdate: 2022
 img: pia-header.png
 pubdate: Updated 2023
 number: 6
-permalink: /academy/2025/
+permalink: /resources/2025/
+redirect_from:
+  - /academy/2025/
 tags: 
  - themes
  - GovTech
