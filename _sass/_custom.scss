@@ -102,6 +102,23 @@
 	.top-panel.white-color .search-button:before {
 		background-image: url(../img/glasses-white.png);
 	}
+
+	/* Run the nav across the full content width so it lines up with the body
+	   and cards: name just right of the glasses, menu text flush right. */
+	.top-panel .wrap-center {
+		max-width: none;
+		width: 100%;
+		padding-left: 60px;
+	}
+	.top-panel .menu {
+		margin-right: -20px;
+	}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1230px) {
+	.top-panel .menu {
+		margin-right: -15px;
+	}
 }
 
 .pagination a, .pagination span {
