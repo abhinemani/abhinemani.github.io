@@ -56,7 +56,7 @@ img: main-social.jpg
 					<div class="accordion-item opened">
 						<div class="accordion-item-title">
 							<span>
-								Leader: Building Products and Teams
+								Technology Leader: Building Products and Teams
 							</span>
 						</div>
 						<div class="accordion-item-content"  style="display: block;">
@@ -67,7 +67,7 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Scholar: Resources to Drive Innovation
+								Teacher: Resources to Drive Innovation
 							</span>
 						</div>
 						<div class="accordion-item-content">
@@ -78,7 +78,7 @@ img: main-social.jpg
 					<div class="accordion-item">
 						<div class="accordion-item-title">
 							<span>
-								Advisor: Supporting GovTech Growth
+								Investment Advisor: Supporting GovTech Growth
 							</span>
 						</div>
 						<div class="accordion-item-content">
