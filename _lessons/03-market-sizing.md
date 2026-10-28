@@ -7,7 +7,9 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2025
 number: 2
-permalink: /academy/market/
+permalink: /resources/market/
+redirect_from:
+  - /academy/market/
 tags: 
  - market
  - data

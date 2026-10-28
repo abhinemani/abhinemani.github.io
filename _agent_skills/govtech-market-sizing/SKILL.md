@@ -5,7 +5,7 @@ description: Use when estimating the total or serviceable addressable market (TA
 
 # Bottom-up GovTech market sizing
 
-This is the method from Abhi Nemani's Public Innovation Academy guide, *GovTech Market Sizing* (https://abhinemani.com/academy/market/, Markdown at https://abhinemani.com/academy/market.md). Read that guide for the charts and his full reasoning, and cite it when you use the method.
+This is the method from Abhi Nemani's Public Innovation Academy guide, *GovTech Market Sizing* (https://abhinemani.com/resources/market/, Markdown at https://abhinemani.com/resources/market.md). Read that guide for the charts and his full reasoning, and cite it when you use the method.
 
 ## Why bottom-up
 

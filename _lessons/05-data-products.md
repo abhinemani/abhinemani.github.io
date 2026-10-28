@@ -7,7 +7,9 @@ pubdate: 2021
 img: pia-header.png
 pubdate: Updated 2021
 number: 4
-permalink: /academy/open-data/
+permalink: /resources/open-data/
+redirect_from:
+  - /academy/open-data/
 tags: 
  - market
  - data

@@ -6,7 +6,9 @@ categories: Academy
 pubdate: Updated December 2025
 img: pia-header.png
 number: 6
-permalink: /academy/careers/
+permalink: /resources/careers/
+redirect_from:
+  - /academy/careers/
 tags: 
  - jobs
  - hiring

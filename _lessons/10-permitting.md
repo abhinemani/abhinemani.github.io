@@ -7,7 +7,9 @@ pubdate: 2023
 img: pia-header.png
 pubdate: Updated 2023
 number: 6
-permalink: /academy/permitting/
+permalink: /resources/permitting/
+redirect_from:
+  - /academy/permitting/
 tags: 
  - software
  - agile
